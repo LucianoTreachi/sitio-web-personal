@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Warstwa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 430 430" style="enable-background:new 0 0 430 430;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+</style>
+<g>
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="125.7238" y1="310.1274" x2="290.6045" y2="194.6767" gradientTransform="matrix(1 0 0 -1 0 428.5039)">
+		<stop  offset="0" style="stop-color:#cb5eee"/>
+		<stop  offset="0.1437" style="stop-color:#C564EE"/>
+		<stop  offset="0.3319" style="stop-color:#B574EE"/>
+		<stop  offset="0.5446" style="stop-color:#9B8FED"/>
+		<stop  offset="0.7737" style="stop-color:#76B5ED"/>
+		<stop  offset="1" style="stop-color:#4be1ec"/>
+	</linearGradient>
+	<path class="st0" d="M154.8,329.9c-1.5,0-3.1-0.6-4.2-1.8L53,230.8c-2.3-2.3-2.3-6.1,0-8.5c2.3-2.4,6.1-2.4,8.5,0l93.2,93.1
+		l213.7-213.5c2.3-2.3,6.1-2.3,8.5,0s2.3,6.1,0,8.5L159,328.1C157.8,329.3,156.3,329.9,154.8,329.9z"/>
+</g>
+</svg>
