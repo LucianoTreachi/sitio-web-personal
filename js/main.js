@@ -1,10 +1,10 @@
 // MENU
-const openMenu = document.querySelector(".open-menu");
+const hamburguerMenu = document.querySelector(".hamburguer-menu");
 const closeMenu = document.querySelector(".close-menu");
 const navbar = document.querySelector("nav .navbar");
 const navLinks = document.querySelectorAll(".navbar a");
 
-openMenu.addEventListener('click', () => {
+hamburguerMenu.addEventListener('click', () => {
   navbar.classList.add("active");
 });
 
@@ -50,6 +50,27 @@ const scrollToTopBtn = document.querySelector(".scrollToTop-float-btn");
 window.addEventListener("scroll", function () {
   scrollToTopBtn.classList.toggle("active", window.scrollY > 500);
 });
+
+// MODAL CURRICULUM
+const homeSecondaryBtn = document.querySelector(".home-secondary-btn");
+const modalCV = document.getElementById("modal-cv");
+const buttonDownloadCv = document.querySelectorAll(".button-download-cv");
+const closeModalCv = document.querySelector(".close-modal-cv");
+
+homeSecondaryBtn.addEventListener("click", () => {
+  modalCV.classList.add("active");
+})
+
+buttonDownloadCv.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    modalCV.classList.remove("active");
+    navbar.classList.remove("active");
+  })
+})
+
+closeModalCv.addEventListener("click", () => {
+  modalCV.classList.remove("active");
+})
 
 // FAQS
 const questions = document.querySelectorAll('.question');

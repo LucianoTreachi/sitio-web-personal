@@ -11,7 +11,11 @@ export const indexTranslations = {
     /* Home */
     homeTitle: "Desarrollo web atractivo y funcional",
     homeParagraph: "Creo sitios web que mejoran la experiencia de usuario, siguiendo las últimas tendencias del mercado.",
-    homeBTN: "Conocer Más",
+    homePrimaryBtn: "Conocer Más",
+    homeSecondaryBtn: "Mi Curriculum",
+
+    /* Modal CV */
+    modalCvTitle: "¿En qué idioma quieres ver mi Curriculum?",
 
     /* About */
     aboutTitle: "Soy Luciano Treachi",
@@ -85,7 +89,11 @@ export const indexTranslations = {
     /* Home */
     homeTitle: "Attractive and Functional Web Development",
     homeParagraph: "I create websites that enhance the user experience, following the latest market trends.",
-    homeBTN: "Learn More",
+    homePrimaryBtn: "Learn More",
+    homeSecondaryBtn: "My Resume",
+
+    /* Modal CV */
+    modalCvTitle: "In which language would you like to see my Resume?",
 
     /* About */
     aboutTitle: "I'm Luciano Treachi",
@@ -159,7 +167,11 @@ export const indexTranslations = {
     /* Home */
     homeTitle: "Desenvolvimento web atraente e funcional",
     homeParagraph: "Crio sites que melhoram a experiência do usuário, seguindo as últimas tendências do mercado.",
-    homeBTN: "Conhecer mais",
+    homePrimaryBtn: "Conhecer mais",
+    homeSecondaryBtn: "Meu Currículo",
+
+    /* Modal CV */
+    modalCvTitle: "Em que idioma você gostaria de ver meu Currículo?",
 
     /* About */
     aboutTitle: "Eu sou Luciano Treachi",

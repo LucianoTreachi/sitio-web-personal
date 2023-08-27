@@ -50,7 +50,8 @@
   --grey: #b9babc;
   --background-1: #eff3f6;
   --background-2: #ffffff;
-  --accent-color: #625eab;
+  --accent-color-1: #625eab;
+  --accent-color-2: #625ead;
   --alert: #fd4d6b;
 }
 
@@ -59,6 +60,7 @@
   --black: #fdfdfd;
   --background-1: #23272f;
   --background-2: #1c1f26;
+  --accent-color-2: #a198e2;
 }
 
 * {
@@ -176,7 +178,7 @@ button {
   height: 4.5rem;
   z-index: 1;
   font-size: 1em;
-  background-color: var(--accent-color);
+  background-color: var(--accent-color-1);
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -292,7 +294,7 @@ nav {
 }
 
 .nav-link:hover {
-  color: var(--accent-color);
+  color: var(--accent-color-1);
 }
 
 .navbar-networks {
@@ -303,7 +305,7 @@ nav {
   display: none;
 }
 
-.open-menu {
+.hamburguer-menu {
   display: none;
 }
 
@@ -341,7 +343,7 @@ nav {
   position: absolute;
   left: -30%;
   border-radius: .5rem;
-  background: var(--accent-color);
+  background: var(--accent-color-1);
   padding: 1rem 2rem;
   z-index: 1;
 }
@@ -406,13 +408,15 @@ SECTION 2: HOME
   width: 75%;
 }
 
-.container-home-btn {
+.home-container-buttons {
   margin-top: 3rem;
+  display: flex;
+  gap: 2.4rem;
 }
 
-.home-btn {
+.home-primary-btn {
   display: inline-block;
-  width: 280px;
+  width: 250px;
   white-space: nowrap;
   font-size: 1.7rem;
   font-weight: 500;
@@ -420,20 +424,41 @@ SECTION 2: HOME
   color: var(--white);
   padding: 0.7em 2.7em;
   border-radius: 0.6rem;
-  background-color: var(--accent-color);
+  background-color: var(--accent-color-1);
   transition: .4s;
 }
 
-.home-btn:hover {
+.home-primary-btn:hover {
   opacity: .85;
 }
 
-.home-btn svg {
+.home-primary-btn svg {
   display: inline-block;
   vertical-align: middle;
   width: 20px;
   width: 20px;
   fill: var(--white);
+}
+
+.home-secondary-btn {
+  width: 250px;
+  white-space: nowrap;
+  font-size: 1.7rem;
+  font-weight: 500;
+  color: var(--accent-color-2);
+  border: 2px solid var(--accent-color-1);
+  border-radius: 0.6rem;
+  padding: 0.7em 2.7em;
+  background: none;
+  cursor: pointer;
+}
+
+.home-secondary-btn svg {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  width: 20px;
+  fill: var(--accent-color-2);
 }
 
 .home .col-2 {
@@ -444,7 +469,68 @@ SECTION 2: HOME
 .home-image {
   width: 80%;
   height: auto;
-  border-radius: .7rem;
+}
+
+/* MODAL CURRICULUM */
+
+.modal-cv {
+  text-align: center;
+  width: 548px;
+  max-width: 90%;
+  max-height: 90%;
+  overflow-y: auto;
+  background: var(--background-1);
+  box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
+  border-radius: 1rem;
+  padding: 4rem;
+  animation: zoomIn 1s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
+  animation-duration: 1s;
+}
+
+.modal-cv h2 {
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.container-buttons {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.button-download-cv {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.button-download-cv .box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 1rem;
+}
+
+.button-download-cv .box img {
+  width: 25px;
+}
+
+.close-modal-cv {
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: .5rem 1.5rem;
+  border-radius: .5rem;
+  border: 0;
+  color: var(--white);
+  background: var(--accent-color-1);
+  cursor: pointer;
+  transition: .3s;
+}
+
+.close-modal-cv:hover {
+  opacity: .85;
 }
 
 /*=============================== 
@@ -520,7 +606,7 @@ SECTION 4: SERVICES
   flex-direction: column;
   gap: 2rem;
   border-radius: .5rem;
-  border: 2px solid var(--accent-color);
+  border: 2px solid var(--accent-color-1);
   padding: 2rem;
 }
 
@@ -627,7 +713,7 @@ SECTION 5: PROJECTS
   width: 100%;
   height: auto;
   border-radius: .5rem;
-  border: 2px solid var(--accent-color);
+  border: 2px solid var(--accent-color-1);
   box-shadow: 0px 10px 59px -3px rgba(0, 0, 0, .1);
   cursor: pointer;
   transition: .3s;
@@ -671,7 +757,7 @@ SECTION 6: FAQS
 }
 
 .article {
-  border-bottom: 2px solid var(--accent-color);
+  border-bottom: 2px solid var(--accent-color-1);
   transition: padding .3s;
 }
 
@@ -723,7 +809,7 @@ SECTION 7: BLOGS
 }
 
 .blog {
-  border: 2px solid var(--accent-color);
+  border: 2px solid var(--accent-color-1);
   border-radius: 1rem;
   padding: 2rem;
   display: flex;
@@ -753,7 +839,7 @@ SECTION 8: ACTION
 ================================*/
 
 .action {
-  background-color: var(--accent-color);
+  background-color: var(--accent-color-1);
   background-position: top;
   background-size: cover;
   background-attachment: fixed;
@@ -813,7 +899,7 @@ SECTION 9: CONTACT
   font-size: 1.8rem;
   opacity: .85;
   outline: none;
-  border: 2px solid var(--accent-color);
+  border: 2px solid var(--accent-color-1);
   border-radius: .5rem;
   background: transparent;
   transition: border .4s;
@@ -828,7 +914,7 @@ SECTION 9: CONTACT
   opacity: .85;
   resize: none;
   outline: none;
-  border: 2px solid var(--accent-color);
+  border: 2px solid var(--accent-color-1);
   border-radius: .5rem;
   background: transparent;
   transition: border .4s;
@@ -847,8 +933,8 @@ SECTION 9: CONTACT
 
 .input:focus,
 .textarea:focus {
-  border: 2px solid var(--accent-color);
-  box-shadow: 0 0 10px 0 var(--accent-color);
+  border: 2px solid var(--accent-color-1);
+  box-shadow: 0 0 10px 0 var(--accent-color-1);
 }
 
 .alert {
@@ -870,7 +956,7 @@ SECTION 9: CONTACT
   right: 1.5rem;
   transform: translate(-50%);
   font-size: 2rem;
-  color: var(--accent-color);
+  color: var(--accent-color-1);
   display: none;
 }
 
@@ -887,7 +973,7 @@ SECTION 9: CONTACT
   color: var(--white);
   border: 0;
   border-radius: 6px;
-  background-color: var(--accent-color);
+  background-color: var(--accent-color-1);
   cursor: pointer;
   transition: .4s;
 }
@@ -1067,7 +1153,7 @@ SECTION 9: CONTACT
   border-radius: .5rem;
   border: 0;
   color: var(--white);
-  background: #282c37;
+  background: var(--accent-color-1);
   cursor: pointer;
 }
 
@@ -1209,7 +1295,7 @@ PAGES (Blogs & Projects)
   font-weight: 600;
   color: var(--white);
   border-radius: 6px;
-  background-color: var(--accent-color);
+  background-color: var(--accent-color-1);
   cursor: pointer;
   text-align: center;
   margin-bottom: 6rem;
@@ -1232,7 +1318,7 @@ PAGES (Blogs & Projects)
   max-width: 100%;
   height: auto;
   border-radius: .5rem;
-  border: 2px solid var(--accent-color);
+  border: 2px solid var(--accent-color-1);
   box-shadow: 0px 10px 59px -3px rgba(0, 0, 0, .1);
 }
 
@@ -1242,7 +1328,11 @@ RESPONSIVE DESIGN
 
 @media screen and (max-width: 1024px) {
 
-  .open-menu {
+  header {
+    padding: 1.5rem 2rem;
+  }
+
+  .hamburguer-menu {
     display: block;
     width: 25px;
     height: 25px;
@@ -1270,14 +1360,6 @@ RESPONSIVE DESIGN
 
   .navbar.active {
     left: 0;
-  }
-
-  .nav-cta {
-    border-bottom: none;
-  }
-
-  .nav-cta:hover {
-    border-bottom: none;
   }
 
   .navbar-networks {
@@ -1320,30 +1402,6 @@ RESPONSIVE DESIGN
     margin-left: 0;
   }
 
-  .home-title {
-    font-size: 4rem;
-    width: 100%;
-  }
-
-  .home-paragraph {
-    width: 100%;
-  }
-
-  .home-image {
-    width: 100%;
-  }
-
-  .projects .row {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media screen and (max-width: 925px) {
-
-  header {
-    padding: 1.5rem 2rem;
-  }
-
   .home {
     min-height: auto;
   }
@@ -1361,14 +1419,21 @@ RESPONSIVE DESIGN
   .home-title {
     font-size: 4rem;
     text-align: center;
+    width: 100%;
   }
 
   .home-paragraph {
+    width: 100%;
     text-align: center;
   }
 
-  .container-home-btn {
-    text-align: center;
+  .home-container-buttons {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-image {
+    width: 100%;
   }
 
   .about .row-1 {
@@ -1378,6 +1443,10 @@ RESPONSIVE DESIGN
   .services .row-1 {
     grid-template-columns: 1fr;
     gap: 4rem;
+  }
+
+  .projects .row {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .page-hero .container {
@@ -1466,6 +1535,15 @@ RESPONSIVE DESIGN
     font-size: 1.6rem;
   }
 
+  .home-container-buttons {
+    flex-direction: column;
+  }
+
+  .home-primary-btn,
+  .home-secondary-btn {
+    width: 280px;
+  }
+
   .about .row-1 .col-2 h2 {
     font-size: 2.5rem;
   }
@@ -1521,7 +1599,8 @@ RESPONSIVE DESIGN
     font-size: 3rem;
   }
 
-  .home-btn {
+  .home-primary-btn,
+  .home-secondary-btn {
     width: 100%;
   }
 }
