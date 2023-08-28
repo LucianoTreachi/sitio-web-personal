@@ -19,7 +19,7 @@ export const indexTranslations = {
 
     /* About */
     aboutTitle: "Soy Luciano Treachi",
-    aboutParagraph1: "Desarrollador Frontend enfocado en la experiencia de usuario (UX) y diseño de interfaz (UI).",
+    aboutParagraph1: "Desarrollador Frontend enfocado en la experiencia de usuario y diseño de interfaz.",
     aboutParagraph2: "Mi objetivo principal es diseñar y desarrollar sitios web funcionales, eficientes y fáciles de usar.",
     aboutParagraph3: "Estoy aquí para ayudarte a llevar tu proyecto al siguiente nivel con mi creatividad y compromiso.",
     aboutPhrase: "Mi enfoque está en crear sitios web funcionales, eficientes y fáciles de usar, que ofrezcan la mejor experiencia para el usuario.",
@@ -29,7 +29,7 @@ export const indexTranslations = {
     serviceTitle1: "Diseño Web",
     serviceTitle2: "Desarrollo Web",
     serviceTitle3: "Copywriting",
-    serviceParagraph1: "Puedo diseñar tu web siguiendo los principios de experiencia de usuario (UX), y diseño de interfaz (UI), para poder reflejar tu marca y tu mensaje de manera efectiva.",
+    serviceParagraph1: "Puedo diseñar tu web siguiendo los principios de experiencia de usuario, y diseño de interfaz, para poder reflejar tu marca y tu mensaje de manera efectiva.",
     serviceParagraph2: "Puedo desarrollar tu web de manera optimizada y adaptada 100% a todos los dispositivos (pc, tablet, móvil), para maximizar tu presencia en línea.",
     serviceParagraph3: "Puedo crear textos atractivos y persuasivos que aporten valor a tu audiencia, aumenten la conversión, y hagan crecer tu negocio.",
     technologiesTitle: "Tecnologías y herramientas",
@@ -97,7 +97,7 @@ export const indexTranslations = {
 
     /* About */
     aboutTitle: "I'm Luciano Treachi",
-    aboutParagraph1: "Frontend Developer focused on User Experience (UX) and Interface Design (UI).",
+    aboutParagraph1: "Frontend Developer focused on User Experience and Interface Design.",
     aboutParagraph2: "My main goal is to design and develop functional, efficient, and user-friendly websites.",
     aboutParagraph3: "I'm here to help take your project to the next level with my creativity and dedication.",
     aboutPhrase: "My focus is on creating functional, efficient, and user-friendly websites that provide the best user experience.",
@@ -107,7 +107,7 @@ export const indexTranslations = {
     serviceTitle1: "Web Design",
     serviceTitle2: "Web Development",
     serviceTitle3: "Copywriting",
-    serviceParagraph1: "I can design your website following the principles of User Experience (UX) and User Interface (UI) design, in order to effectively reflect your brand and message.",
+    serviceParagraph1: "I can design your website following the principles of User Experience and User Interface design, in order to effectively reflect your brand and message.",
     serviceParagraph2: "I can develop your website in an optimized manner, fully responsive and tailored to all devices (PC, tablet, mobile), to maximize your online presence.",
     serviceParagraph3: "I can create compelling and persuasive texts that add value to your audience, increase conversion, and grow your business.",
     technologiesTitle: "Technologies and Tools",
@@ -175,7 +175,7 @@ export const indexTranslations = {
 
     /* About */
     aboutTitle: "Eu sou Luciano Treachi",
-    aboutParagraph1: "Desenvolvedor Frontend focado na experiência do usuário (UX) e design de interface (UI).",
+    aboutParagraph1: "Desenvolvedor Frontend focado na experiência do usuário e design de interface.",
     aboutParagraph2: "Meu objetivo principal é projetar e desenvolver sites funcionais, eficientes e fáceis de usar.",
     aboutParagraph3: "Estou aqui para ajudar a levar o seu projeto para o próximo nível com a minha criatividade e compromisso.",
     aboutPhrase: "Meu foco é criar sites funcionais, eficientes e fáceis de usar, que ofereçam a melhor experiência para o usuário.",
@@ -185,7 +185,7 @@ export const indexTranslations = {
     serviceTitle1: "Design Web",
     serviceTitle2: "Desenvolvimento Web",
     serviceTitle3: "Copywriting",
-    serviceParagraph1: "Posso projetar seu site seguindo os princípios de experiência do usuário (UX) e design de interface (UI), para poder refletir sua marca e sua mensagem de maneira eficaz.",
+    serviceParagraph1: "Posso projetar seu site seguindo os princípios de experiência do usuário e design de interface, para poder refletir sua marca e sua mensagem de maneira eficaz.",
     serviceParagraph2: "Posso desenvolver seu site de forma otimizada e adaptada 100% a todos os dispositivos (computador, tablet, celular), para maximizar sua presença online.",
     serviceParagraph3: "Posso criar textos atrativos e persuasivos que agreguem valor à sua audiência, aumentem a conversão e impulsionem o crescimento do seu negócio.",
     technologiesTitle: "Tecnologias e Ferramentas",
