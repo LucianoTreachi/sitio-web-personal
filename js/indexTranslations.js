@@ -10,7 +10,7 @@ export const indexTranslations = {
 
     /* Home */
     homeTitle: "Desarrollo web atractivo y funcional",
-    homeParagraph: "Soluciones digitales que ofrecen la mejor experiencia para el usuario, impulsando la innovación.",
+    homeParagraph: "Soluciones digitales que impulsan la innovación y ofrecen la mejor experiencia para el usuario.",
     homeBtn: "Conocer Más",
 
     /* Modal CV */
@@ -88,7 +88,7 @@ export const indexTranslations = {
 
     /* Home */
     homeTitle: "Attractive and Functional Web Development",
-    homeParagraph: "Digital solutions that provide the best user experience, driving innovation.",
+    homeParagraph: "Digital solutions that drive innovation and provide the best user experience.",
     homeBtn: "Learn More",
 
     /* Modal CV */
@@ -166,7 +166,7 @@ export const indexTranslations = {
 
     /* Home */
     homeTitle: "Desenvolvimento web atraente e funcional",
-    homeParagraph: "Soluções digitais que oferecem a melhor experiência para o usuário, impulsionando a inovação.",
+    homeParagraph: "Soluções digitais que impulsionam a inovação e oferecem a melhor experiência para o usuário.",
     homeBtn: "Conhecer mais",
 
     /* Modal CV */
