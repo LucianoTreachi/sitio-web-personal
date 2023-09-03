@@ -10,7 +10,7 @@ export const indexTranslations = {
 
     /* Home */
     homeTitle: "Desarrollo web atractivo y funcional",
-    homeParagraph: "Creo sitios web que mejoran la experiencia de usuario, siguiendo las últimas tendencias del mercado.",
+    homeParagraph: "Soluciones digitales que ofrecen la mejor experiencia para el usuario, siguiendo las últimas tendencias del mercado.",
     homePrimaryBtn: "Conocer Más",
     homeSecondaryBtn: "Mi Curriculum",
 
@@ -20,12 +20,12 @@ export const indexTranslations = {
     /* About */
     aboutTitle: "Soy Luciano Treachi",
     aboutParagraph1: "Desarrollador Frontend enfocado en la experiencia de usuario y diseño de interfaz.",
-    aboutParagraph2: "Mi objetivo principal es diseñar y desarrollar sitios web funcionales, eficientes y fáciles de usar.",
+    aboutParagraph2: "Mi objetivo principal es crear soluciones digitales funcionales, eficientes y fáciles de usar.",
     aboutParagraph3: "Estoy aquí para ayudarte a llevar tu proyecto al siguiente nivel con mi creatividad y compromiso.",
-    aboutPhrase: "Mi enfoque está en crear sitios web funcionales, eficientes y fáciles de usar, que ofrezcan la mejor experiencia para el usuario.",
+    aboutPhrase: "Mi enfoque está en crear soluciones digitales funcionales, eficientes y fáciles de usar, que ofrezcan la mejor experiencia para el usuario.",
 
     /* Services */
-    servicesTitle: "Estoy aquí para ayudarte con soluciones personalizadas",
+    servicesTitle: "Servicios personalizadas",
     serviceTitle1: "Diseño Web",
     serviceTitle2: "Desarrollo Web",
     serviceTitle3: "Copywriting",
@@ -88,7 +88,7 @@ export const indexTranslations = {
 
     /* Home */
     homeTitle: "Attractive and Functional Web Development",
-    homeParagraph: "I create websites that enhance the user experience, following the latest market trends.",
+    homeParagraph: "Digital solutions that offer the best user experience, following the latest market trends.",
     homePrimaryBtn: "Learn More",
     homeSecondaryBtn: "My Resume",
 
@@ -98,12 +98,12 @@ export const indexTranslations = {
     /* About */
     aboutTitle: "I'm Luciano Treachi",
     aboutParagraph1: "Frontend Developer focused on User Experience and Interface Design.",
-    aboutParagraph2: "My main goal is to design and develop functional, efficient, and user-friendly websites.",
+    aboutParagraph2: "My main goal is to create functional, efficient, and user-friendly digital solutions.",
     aboutParagraph3: "I'm here to help take your project to the next level with my creativity and dedication.",
-    aboutPhrase: "My focus is on creating functional, efficient, and user-friendly websites that provide the best user experience.",
+    aboutPhrase: "My focus is on creating functional, efficient, and user-friendly digital solutions that offer the best user experience.",
 
     /* Services */
-    servicesTitle: "I'm here to assist you with customized solutions",
+    servicesTitle: "Personalized services",
     serviceTitle1: "Web Design",
     serviceTitle2: "Web Development",
     serviceTitle3: "Copywriting",
@@ -166,7 +166,7 @@ export const indexTranslations = {
 
     /* Home */
     homeTitle: "Desenvolvimento web atraente e funcional",
-    homeParagraph: "Crio sites que melhoram a experiência do usuário, seguindo as últimas tendências do mercado.",
+    homeParagraph: "Soluções digitais que oferecem a melhor experiência para o usuário, seguindo as últimas tendências de mercado.",
     homePrimaryBtn: "Conhecer mais",
     homeSecondaryBtn: "Meu Currículo",
 
@@ -176,12 +176,12 @@ export const indexTranslations = {
     /* About */
     aboutTitle: "Eu sou Luciano Treachi",
     aboutParagraph1: "Desenvolvedor Frontend focado na experiência do usuário e design de interface.",
-    aboutParagraph2: "Meu objetivo principal é projetar e desenvolver sites funcionais, eficientes e fáceis de usar.",
+    aboutParagraph2: "Meu objetivo principal é criar soluções digitais funcionais, eficientes e fáceis de usar.",
     aboutParagraph3: "Estou aqui para ajudar a levar o seu projeto para o próximo nível com a minha criatividade e compromisso.",
-    aboutPhrase: "Meu foco é criar sites funcionais, eficientes e fáceis de usar, que ofereçam a melhor experiência para o usuário.",
+    aboutPhrase: "Meu foco está em criar soluções digitais funcionais, eficientes e fáceis de usar, que ofereçam a melhor experiência para o usuário.",
 
     /* Services */
-    servicesTitle: "Estou aqui para ajudar com soluções personalizadas",
+    servicesTitle: "Serviços personalizados",
     serviceTitle1: "Design Web",
     serviceTitle2: "Desenvolvimento Web",
     serviceTitle3: "Copywriting",
