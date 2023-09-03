@@ -10,9 +10,8 @@ export const indexTranslations = {
 
     /* Home */
     homeTitle: "Desarrollo web atractivo y funcional",
-    homeParagraph: "Soluciones digitales que ofrecen la mejor experiencia para el usuario, siguiendo las últimas tendencias del mercado.",
-    homePrimaryBtn: "Conocer Más",
-    homeSecondaryBtn: "Mi Curriculum",
+    homeParagraph: "Soluciones digitales que ofrecen la mejor experiencia para el usuario, impulsando la innovación.",
+    homeBtn: "Conocer Más",
 
     /* Modal CV */
     modalCvTitle: "¿En qué idioma quieres ver mi Curriculum?",
@@ -22,6 +21,7 @@ export const indexTranslations = {
     aboutParagraph1: "Desarrollador Frontend enfocado en la experiencia de usuario y diseño de interfaz.",
     aboutParagraph2: "Mi objetivo principal es crear soluciones digitales funcionales, eficientes y fáciles de usar.",
     aboutParagraph3: "Estoy aquí para ayudarte a llevar tu proyecto al siguiente nivel con mi creatividad y compromiso.",
+    curriculumBtn: "Mi Curriculum",
     aboutPhrase: "Mi enfoque está en crear soluciones digitales funcionales, eficientes y fáciles de usar, que ofrezcan la mejor experiencia para el usuario.",
 
     /* Services */
@@ -88,9 +88,8 @@ export const indexTranslations = {
 
     /* Home */
     homeTitle: "Attractive and Functional Web Development",
-    homeParagraph: "Digital solutions that offer the best user experience, following the latest market trends.",
-    homePrimaryBtn: "Learn More",
-    homeSecondaryBtn: "My Resume",
+    homeParagraph: "Digital solutions that provide the best user experience, driving innovation.",
+    homeBtn: "Learn More",
 
     /* Modal CV */
     modalCvTitle: "In which language would you like to see my Resume?",
@@ -100,6 +99,7 @@ export const indexTranslations = {
     aboutParagraph1: "Frontend Developer focused on User Experience and Interface Design.",
     aboutParagraph2: "My main goal is to create functional, efficient, and user-friendly digital solutions.",
     aboutParagraph3: "I'm here to help take your project to the next level with my creativity and dedication.",
+    curriculumBtn: "My Resume",
     aboutPhrase: "My focus is on creating functional, efficient, and user-friendly digital solutions that offer the best user experience.",
 
     /* Services */
@@ -166,9 +166,8 @@ export const indexTranslations = {
 
     /* Home */
     homeTitle: "Desenvolvimento web atraente e funcional",
-    homeParagraph: "Soluções digitais que oferecem a melhor experiência para o usuário, seguindo as últimas tendências de mercado.",
-    homePrimaryBtn: "Conhecer mais",
-    homeSecondaryBtn: "Meu Currículo",
+    homeParagraph: "Soluções digitais que oferecem a melhor experiência para o usuário, impulsionando a inovação.",
+    homeBtn: "Conhecer mais",
 
     /* Modal CV */
     modalCvTitle: "Em que idioma você gostaria de ver meu Currículo?",
@@ -178,6 +177,7 @@ export const indexTranslations = {
     aboutParagraph1: "Desenvolvedor Frontend focado na experiência do usuário e design de interface.",
     aboutParagraph2: "Meu objetivo principal é criar soluções digitais funcionais, eficientes e fáceis de usar.",
     aboutParagraph3: "Estou aqui para ajudar a levar o seu projeto para o próximo nível com a minha criatividade e compromisso.",
+    curriculumBtn: "Meu Currículo",
     aboutPhrase: "Meu foco está em criar soluções digitais funcionais, eficientes e fáceis de usar, que ofereçam a melhor experiência para o usuário.",
 
     /* Services */

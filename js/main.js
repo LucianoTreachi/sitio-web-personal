@@ -52,24 +52,24 @@ window.addEventListener("scroll", function () {
 });
 
 // MODAL CURRICULUM
-const homeSecondaryBtn = document.querySelector(".home-secondary-btn");
-const modalCV = document.getElementById("modal-cv");
-const buttonDownloadCv = document.querySelectorAll(".button-download-cv");
+const curriculumBtn = document.querySelector(".curriculum-btn");
+const modalCv = document.getElementById("modal-cv");
+const buttonsDownloadCv = document.querySelectorAll(".button-download-cv");
 const closeModalCv = document.querySelector(".close-modal-cv");
 
-homeSecondaryBtn.addEventListener("click", () => {
-  modalCV.classList.add("active");
+curriculumBtn.addEventListener("click", () => {
+  modalCv.classList.add("active");
 })
 
-buttonDownloadCv.forEach((btn) => {
+buttonsDownloadCv.forEach((btn) => {
   btn.addEventListener("click", () => {
-    modalCV.classList.remove("active");
+    modalCv.classList.remove("active");
     navbar.classList.remove("active");
   })
 })
 
 closeModalCv.addEventListener("click", () => {
-  modalCV.classList.remove("active");
+  modalCv.classList.remove("active");
 })
 
 // FAQS
