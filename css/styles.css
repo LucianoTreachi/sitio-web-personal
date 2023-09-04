@@ -1411,8 +1411,7 @@ RESPONSIVE DESIGN
 
   .home .container {
     flex-direction: column-reverse;
-    gap: 0;
-    padding: 3rem 0;
+    gap: 4rem;
   }
 
   .home .col-1 {
@@ -1435,7 +1434,7 @@ RESPONSIVE DESIGN
   }
 
   .home-image {
-    width: 100%;
+    width: 60%;
   }
 
   .about .row-1 {
@@ -1539,6 +1538,10 @@ RESPONSIVE DESIGN
 
   .home-btn {
     width: 280px;
+  }
+
+  .home-image {
+    width: 100%;
   }
 
   .about .row-1 .col-2 h2 {
