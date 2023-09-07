@@ -1,3 +1,10 @@
+// avoid modal contact reload
+window.onpageshow = function (event) {
+  if (event.persisted) {
+    window.location.reload();
+  }
+};
+
 // MENU
 const hamburguerMenu = document.querySelector(".hamburguer-menu");
 const closeMenu = document.querySelector(".close-menu");
@@ -190,12 +197,6 @@ function characterCounter() {
   textareaCharacters.innerHTML = `${count}/500`;
 }
 
-/* Function to show the success modal and update history state */
-function showModalSuccess() {
-  modalContactSuccess.style.display = "block";
-  history.pushState({ modalVisible: true }, '', window.location.href);
-}
-
 /* Submit */
 form.addEventListener("submit", (e) => {
   e.preventDefault();
@@ -237,7 +238,7 @@ form.addEventListener("submit", (e) => {
     emailjs.sendForm('service_c3wl15o', 'template_jgw4yri', '#form', 'hUS51mu8VJq2dQccV').then(() => {
       setTimeout(() => {
         modalContactLoader.style.display = "none";
-        showModalSuccess();
+        modalContactSuccess.style.display = "block";
         form.reset();
       }, 3000);
     },
@@ -257,28 +258,6 @@ form.addEventListener("submit", (e) => {
 closeModalContact.forEach((btn) => {
   btn.addEventListener("click", () => {
     btn.classList.remove("active");
-    history.pushState({ modalVisible: false }, '', window.location.href);
     location.href = "index.html"
   })
 })
-
-/* Event listener for handling the back button press */
-window.addEventListener('popstate', function (e) {
-  const state = e.state || {};
-  if (state.modalVisible) {
-    showModalSuccess();
-  } else {
-    modalContactSuccess.style.display = "none";
-  }
-});
-
-// Event handler for handling the onpageshow event (for Firefox)
-window.onpageshow = function (event) {
-  if (event.persisted) {
-    // When the page is shown, check if the modal should be displayed
-    const state = history.state || {};
-    if (state.modalVisible) {
-      showModalSuccess();
-    }
-  }
-};
