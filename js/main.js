@@ -176,12 +176,12 @@ inputEmail.addEventListener("input", () => {
   inputEmail.value = inputEmail.value.replace(/ /g, "");
 })
 
-/* Inputs focus, keyup and blur */
+/* Inputs blur */
 inputs.forEach((input) => {
   input.addEventListener('blur', validateRegularExpressions);
 });
 
-/* Textarea focus, keyup and blur */
+/* Textarea blur */
 textarea.addEventListener('blur', validateRegularExpressions);
 
 /* Textarea character counter */
