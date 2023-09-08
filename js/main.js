@@ -119,9 +119,9 @@ const modalContactError = document.getElementById("modal-contact-error");
 const closeModalContact = document.querySelectorAll(".close-modal-contact");
 
 /* Regular Expressions */
-const expName = /^[\S][\DÀ-ÿ\s]{1,30}$/;
+const expName = /^[\S][A-Za-zÀ-ÿ\s']+$/;
 const expEmail = /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{4,63}\.){1,125}(com|net|org|edu|gov|mil|biz|info|mobi|name|aero|asia|jobs|museum)\b$/i;
-const expMessage = /^[\S][0-9a-zA-ZÀ-ÿ\s\,.¡!¿?]{9,500}$/;
+const expMessage = /^[\s\S]{9,500}$/
 
 /* State */
 const state = {
@@ -178,10 +178,20 @@ function validateRegularExpressions(e) {
   }
 }
 
-/* Replace white spaces on the input email */
+/* Remove leading spaces on the name input */
+inputName.addEventListener("input", () => {
+  inputName.value = inputName.value.replace(/^\s+/g, '');
+});
+
+/* Replace all the white spaces on the email input */
 inputEmail.addEventListener("input", () => {
   inputEmail.value = inputEmail.value.replace(/ /g, "");
 })
+
+/* Remove leading spaces on the textarea */
+textarea.addEventListener("input", () => {
+  textarea.value = textarea.value.replace(/^\s+/g, '');
+});
 
 /* Inputs blur */
 inputs.forEach((input) => {

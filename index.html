@@ -668,23 +668,42 @@
           <div class="container-input">
             <label class="label-input" for="input-name" data-key="contactLabel1">Nombre</label>
             <input type="text" name="name" class="input" id="input-name">
-            <p class="alert" id="alert-name" data-key="contactAlert1">❌ Ingresa tu nombre</p>
+            <div class="alert" id="alert-name">
+              <svg class="alert-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path
+                  d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20ZM11 15H13V17H11V15ZM11 7H13V13H11V7Z">
+                </path>
+              </svg>
+              <p class="alert-paragraph" data-key="contactAlert1">Ingresa un nombre válido</p>
+            </div>
             <span class="check">✔</span>
           </div>
           <div class="container-input">
             <label class="label-input" for="input-email" data-key="contactLabel2">Correo electrónico</label>
             <input type="text" name="email" class="input" id="input-email">
-            <p class="alert" id="alert-email" data-key="contactAlert2">Ingresa un email válido</p>
+            <div class="alert" id="alert-email">
+              <svg class="alert-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path
+                  d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20ZM11 15H13V17H11V15ZM11 7H13V13H11V7Z">
+                </path>
+              </svg>
+              <p class="alert-paragraph" data-key="contactAlert2">Ingresa un email válido</p>
+            </div>
             <span class="check">✔</span>
           </div>
           <div class="container-input">
             <label class="label-input" for="textarea" data-key="contactLabel3">Mensaje</label>
             <textarea name="textarea" class="textarea" id="textarea" maxlength="500"
               oninput="characterCounter()"></textarea>
-            <div class="textarea-footer">
-              <p class="alert" id="alert-textarea" data-key="contactAlert3">Escribe como mínimo 10 caracteres</p>
-              <div class="textarea-characters" id="textarea-characters">0/500</div>
+            <div class="alert" id="alert-textarea">
+              <svg class="alert-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path
+                  d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20ZM11 15H13V17H11V15ZM11 7H13V13H11V7Z">
+                </path>
+              </svg>
+              <p class="alert-paragraph" data-key="contactAlert3">Escribe como mínimo 10 caracteres</p>
             </div>
+            <div class="textarea-characters" id="textarea-characters">0/500</div>
             <span class="check">✔</span>
           </div>
           <button type="submit" class="button-submit" data-key="contactBTN">Enviar</button>
