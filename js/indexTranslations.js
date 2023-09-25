@@ -55,6 +55,7 @@ export const indexTranslations = {
     blog1Date: "12 enero 2023",
     blog2Date: "11 enero 2023",
     blog3Date: "10 enero 2023",
+    blogButton: "Leer el artículo",
 
     /* Action */
     actionTitle: "¿Interesado en trabajar conmigo?",
@@ -133,6 +134,7 @@ export const indexTranslations = {
     blog1Date: "January 12, 2023",
     blog2Date: "January 11, 2023",
     blog3Date: "January 10, 2023",
+    blogButton: "Read the article",
 
     /* Action */
     actionTitle: "Interested in working with me?",
@@ -211,6 +213,7 @@ export const indexTranslations = {
     blog1Date: "12 de janeiro de 2023",
     blog2Date: "11 de janeiro de 2023",
     blog3Date: "10 de janeiro de 2023",
+    blogButton: "Ler o artigo",
 
     /* Action */
     actionTitle: "Interessado em trabalhar comigo?",
