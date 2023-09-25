@@ -394,7 +394,7 @@ SECTION 2: HOME
 
 .home-title {
   font-size: 5.5rem;
-  opacity: .9;
+  opacity: .85;
   line-height: 1.2em;
   text-transform: capitalize;
   text-shadow: 0 0 30px hsla(0, 0%, 100%, 0.4);
@@ -1524,17 +1524,24 @@ RESPONSIVE DESIGN
     width: initial;
   }
 
+  .home .container {
+    flex-direction: column;
+  }
+
   .home-title {
     font-size: 3.5rem;
+    text-align: initial;
   }
 
   .home-paragraph {
     width: 100%;
     font-size: 1.6rem;
+    text-align: initial;
   }
 
   .home-btn {
     width: 280px;
+    display: none;
   }
 
   .home-image {
