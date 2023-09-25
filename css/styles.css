@@ -1306,7 +1306,6 @@ PAGES (Blogs & Projects)
 .page-project-link-container {
   display: flex;
   gap: 2rem;
-  margin-bottom: 6rem;
 }
 
 .page-project-link {
@@ -1346,15 +1345,6 @@ PAGES (Blogs & Projects)
 
 .page-project-link-2 svg {
   fill: var(--accent-color-2);
-}
-
-.page-project-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  border-radius: .5rem;
-  border: 2px solid var(--accent-color-1);
-  box-shadow: 0px 10px 59px -3px rgba(0, 0, 0, .1);
 }
 
 /*=============================== 
