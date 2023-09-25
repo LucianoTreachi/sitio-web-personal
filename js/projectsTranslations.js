@@ -1,8 +1,9 @@
 export const projectsTranslations = {
   es: {
-    /* Common */
+    /* Links */
     backBtn: "Volver",
-    projectBtn: "Ver Proyecto",
+    projectBtn1: "Ver Proyecto",
+    projectBtn2: "Ver Repositorio",
 
     /* Project 1 */
     project1Title: "Curriculum Vitae Web",
@@ -46,9 +47,10 @@ export const projectsTranslations = {
   },
 
   en: {
-    /* Common */
+    /* Links */
     backBtn: "Back",
-    projectBtn: "View Project",
+    projectBtn1: "View Project",
+    projectBtn2: "View Repository",
 
     /* Project 1 */
     project1Title: "Curriculum Vitae Web",
@@ -92,9 +94,10 @@ export const projectsTranslations = {
   },
 
   pt: {
-    /* Common */
+    /* Links */
     backBtn: "Voltar",
-    projectBtn: "Ver Projeto",
+    projectBtn1: "Ver Projeto",
+    projectBtn2: "Ver Repositório",
 
     /* Project 1 */
     project1Title: "Curriculum Vitae Web",

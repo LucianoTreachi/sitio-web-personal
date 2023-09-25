@@ -1303,29 +1303,49 @@ PAGES (Blogs & Projects)
   margin-bottom: 4rem;
 }
 
-.page-project-link {
-  display: inline-block;
-  padding: 1rem 3rem;
-  font-size: 1.6rem;
-  font-weight: 600;
-  color: var(--white);
-  border-radius: 6px;
-  background-color: var(--accent-color-1);
-  cursor: pointer;
-  text-align: center;
+.page-project-link-container {
+  display: flex;
+  gap: 2rem;
   margin-bottom: 6rem;
-  transition: .4s;
 }
 
-.page-project-link:hover {
-  opacity: .85;
+.page-project-link {
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 6px;
+  text-align: center;
 }
 
 .page-project-link svg {
   width: 18px;
   height: 18px;
-  fill: var(--white);
   transform: translateY(2px);
+}
+
+.page-project-link-1 {
+  padding: 1rem 4rem;
+  color: var(--white);
+  background-color: var(--accent-color-1);
+  transition: .4s;
+}
+
+.page-project-link-1:hover {
+  opacity: .85;
+}
+
+.page-project-link-1 svg {
+  fill: var(--white);
+}
+
+.page-project-link-2 {
+  padding: 1rem 3rem;
+  color: var(--accent-color-2);
+  border: 1px solid var(--accent-color-2);
+}
+
+.page-project-link-2 svg {
+  fill: var(--accent-color-2);
 }
 
 .page-project-img {
@@ -1595,12 +1615,8 @@ RESPONSIVE DESIGN
     font-size: 3.5rem;
   }
 
-  .page-project-link {
-    font-size: 1.4rem;
-  }
-
-  .page-project-link i {
-    font-size: 1.4rem;
+  .page-project-link-container {
+    flex-direction: column;
   }
 }
 
