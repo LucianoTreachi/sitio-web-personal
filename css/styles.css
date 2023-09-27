@@ -382,7 +382,7 @@ SECTION 2: HOME
 }
 
 .home .container {
-  padding-top: 6rem;
+  padding-top: 8rem;
   display: flex;
   align-items: center;
   gap: 5%;
@@ -858,9 +858,6 @@ SECTION 8: ACTION
 
 .action {
   background-color: var(--accent-color-1);
-  background-position: top;
-  background-size: cover;
-  background-attachment: fixed;
   height: 500px;
 }
 
@@ -873,7 +870,7 @@ SECTION 8: ACTION
 
 .action .container h2 {
   font-size: 4rem;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--white);
   line-height: 1.5em;
 }
@@ -1347,6 +1344,19 @@ PAGES (Blogs & Projects)
   fill: var(--accent-color-2);
 }
 
+.page-project-image-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.mockup {
+  margin-top: 6rem;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: .5rem;
+}
+
 /*=============================== 
 RESPONSIVE DESIGN
 ================================*/
@@ -1607,6 +1617,10 @@ RESPONSIVE DESIGN
 
   .page-project-link-container {
     flex-direction: column;
+  }
+
+  .page-project-image-container {
+    grid-template-columns: 1fr;
   }
 }
 
