@@ -29,8 +29,8 @@ export const indexTranslations = {
     serviceTitle1: "Diseño Web",
     serviceTitle2: "Desarrollo Web",
     serviceTitle3: "Copywriting",
-    serviceParagraph1: "Puedo diseñar tu web siguiendo los principios de experiencia de usuario, y diseño de interfaz, para poder reflejar tu marca y tu mensaje de manera efectiva.",
-    serviceParagraph2: "Puedo desarrollar tu web de manera optimizada y adaptada 100% a todos los dispositivos (pc, tablet, móvil), para maximizar tu presencia en línea.",
+    serviceParagraph1: "Puedo diseñar sitios web siguiendo los principios de experiencia de usuario, y diseño de interfaz, para poder reflejar tu marca y tu mensaje de manera efectiva.",
+    serviceParagraph2: "Puedo desarrollar sitios web de manera optimizada y adaptada 100% a todos los dispositivos (pc, tablet, móvil), para maximizar tu presencia en línea.",
     serviceParagraph3: "Puedo crear textos atractivos y persuasivos que aporten valor a tu audiencia, aumenten la conversión, y hagan crecer tu negocio.",
     technologiesTitle: "Tecnologías y herramientas",
 
@@ -108,8 +108,8 @@ export const indexTranslations = {
     serviceTitle1: "Web Design",
     serviceTitle2: "Web Development",
     serviceTitle3: "Copywriting",
-    serviceParagraph1: "I can design your website following the principles of User Experience and User Interface design, in order to effectively reflect your brand and message.",
-    serviceParagraph2: "I can develop your website in an optimized manner, fully responsive and tailored to all devices (PC, tablet, mobile), to maximize your online presence.",
+    serviceParagraph1: "I can design websites following the principles of User Experience and User Interface design, in order to effectively reflect your brand and message.",
+    serviceParagraph2: "I can develop websites in an optimized manner, fully responsive and tailored to all devices (PC, tablet, mobile), to maximize your online presence.",
     serviceParagraph3: "I can create compelling and persuasive texts that add value to your audience, increase conversion, and grow your business.",
     technologiesTitle: "Technologies and Tools",
 
@@ -187,8 +187,8 @@ export const indexTranslations = {
     serviceTitle1: "Design Web",
     serviceTitle2: "Desenvolvimento Web",
     serviceTitle3: "Copywriting",
-    serviceParagraph1: "Posso projetar seu site seguindo os princípios de experiência do usuário e design de interface, para poder refletir sua marca e sua mensagem de maneira eficaz.",
-    serviceParagraph2: "Posso desenvolver seu site de forma otimizada e adaptada 100% a todos os dispositivos (computador, tablet, celular), para maximizar sua presença online.",
+    serviceParagraph1: "Posso projetar sites seguindo os princípios de experiência do usuário e design de interface, para poder refletir sua marca e sua mensagem de maneira eficaz.",
+    serviceParagraph2: "Posso desenvolver sites de forma otimizada e adaptada 100% a todos os dispositivos (computador, tablet, celular).",
     serviceParagraph3: "Posso criar textos atrativos e persuasivos que agreguem valor à sua audiência, aumentem a conversão e impulsionem o crescimento do seu negócio.",
     technologiesTitle: "Tecnologias e Ferramentas",
 
