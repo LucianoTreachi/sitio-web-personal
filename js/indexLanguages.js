@@ -5,7 +5,8 @@ function changeLanguage(lang) {
   const translationElements = document.querySelectorAll("[data-key]");
   translationElements.forEach(element => {
     const key = element.dataset.key;
-    element.textContent = indexTranslations[lang][key];
+    const translation = indexTranslations[lang][key];
+    element.innerHTML = translation;
   });
 
   // Update the language button value

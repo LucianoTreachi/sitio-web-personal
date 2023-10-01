@@ -102,11 +102,82 @@ button {
 
 .section {
   padding: 10rem 4rem;
+  overflow: hidden;
 }
 
 .container {
   max-width: 1400px;
   margin: auto;
+}
+
+.blurred-circle-1 {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  transform: translate(-20%, -20%);
+  background-color: aquamarine;
+  border-radius: 50%;
+  filter: blur(100px);
+  width: 200px;
+  height: 200px;
+  opacity: 0.1;
+  max-width: 100%;
+  pointer-events: none;
+}
+
+.blurred-circle-2 {
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  background-color: rgb(176, 127, 255);
+  border-radius: 50%;
+  filter: blur(100px);
+  width: 300px;
+  height: 300px;
+  opacity: 0.3;
+  max-width: 100%;
+  pointer-events: none;
+}
+
+.wave-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.wave-top svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 10px;
+}
+
+.wave-top .shape-fill {
+  fill: var(--background-2);
+}
+
+.wave-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave-bottom svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 10px;
+}
+
+.wave-bottom .shape-fill {
+  fill: var(--background-2);
 }
 
 .title-section {
@@ -379,6 +450,7 @@ SECTION 2: HOME
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .home .container {
@@ -396,9 +468,12 @@ SECTION 2: HOME
   font-size: 5.5rem;
   opacity: .85;
   line-height: 1.2em;
-  text-transform: capitalize;
   text-shadow: 0 0 30px hsla(0, 0%, 100%, 0.4);
   width: 90%;
+}
+
+.home-title span {
+  font-size: 6rem;
 }
 
 .home-paragraph {
@@ -420,8 +495,8 @@ SECTION 2: HOME
   font-weight: 500;
   text-align: center;
   color: var(--white);
-  padding: 0.7em 2.7em;
-  border-radius: 0.6rem;
+  padding: 0.8em 2.7em;
+  border-radius: 2rem;
   background-color: var(--accent-color-1);
   transition: .4s;
 }
@@ -591,6 +666,7 @@ SECTION 4: SERVICES
 
 .services {
   background-color: var(--background-1);
+  position: relative;
 }
 
 .services .container {
@@ -753,6 +829,7 @@ SECTION 6: FAQS
 
 .faqs {
   background-color: var(--background-1);
+  position: relative;
 }
 
 .faqs .container {
@@ -857,8 +934,9 @@ SECTION 8: ACTION
 ================================*/
 
 .action {
-  background-color: var(--accent-color-1);
+  background-color: #23272f;
   height: 500px;
+  position: relative;
 }
 
 .action .container {
@@ -994,7 +1072,7 @@ SECTION 9: CONTACT
   font-weight: 600;
   color: var(--white);
   border: 0;
-  border-radius: 6px;
+  border-radius: .5rem;
   background-color: var(--accent-color-1);
   cursor: pointer;
   transition: .4s;
@@ -1185,6 +1263,7 @@ SECTION 10: FOOTER
   background-color: var(--background-1);
   padding: 6rem 4rem;
   text-align: center;
+  position: relative;
 }
 
 .footer p {
@@ -1222,6 +1301,7 @@ PAGES (Blogs & Projects)
 .page-hero {
   background-color: var(--background-1);
   padding: 6rem 4rem;
+  position: relative;
 }
 
 .page-hero .container {
@@ -1456,6 +1536,10 @@ RESPONSIVE DESIGN
     width: 100%;
   }
 
+  .home-title span {
+    font-size: 4rem;
+  }
+
   .home-paragraph {
     width: 100%;
     text-align: center;
@@ -1568,6 +1652,10 @@ RESPONSIVE DESIGN
     text-align: initial;
   }
 
+  .home-title span {
+    font-size: 3.5rem;
+  }
+
   .home-paragraph {
     width: 100%;
     font-size: 1.6rem;
@@ -1635,6 +1723,10 @@ RESPONSIVE DESIGN
   }
 
   .home-title {
+    font-size: 3rem;
+  }
+
+  .home-title span {
     font-size: 3rem;
   }
 

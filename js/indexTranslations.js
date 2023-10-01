@@ -9,7 +9,7 @@ export const indexTranslations = {
     navLink6: "Contacto",
 
     /* Home */
-    homeTitle: "Desarrollo web atractivo y funcional",
+    homeTitle: "Desarrollo Web <span>Atractivo y Funcional</span>",
     homeParagraph: "Soluciones digitales que impulsan la innovación y ofrecen la mejor experiencia para el usuario.",
     homeBtn: "Conocer Más",
 
@@ -88,7 +88,7 @@ export const indexTranslations = {
     navLink6: "Contact",
 
     /* Home */
-    homeTitle: "Attractive and Functional Web Development",
+    homeTitle: "Attractive and <span>Functional Web Development</span>",
     homeParagraph: "Digital solutions that drive innovation and provide the best user experience.",
     homeBtn: "Learn More",
 
@@ -167,7 +167,7 @@ export const indexTranslations = {
     navLink6: "Contato",
 
     /* Home */
-    homeTitle: "Desenvolvimento web atraente e funcional",
+    homeTitle: "Desenvolvimento Web <span>Atraente e Funcional</span>",
     homeParagraph: "Soluções digitais que impulsionam a inovação e oferecem a melhor experiência para o usuário.",
     homeBtn: "Conhecer mais",
 
