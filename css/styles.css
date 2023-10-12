@@ -83,7 +83,7 @@ body {
 p {
   font-size: 1.7rem;
   opacity: .85;
-  line-height: 1.6em;
+  line-height: 1.8em;
 }
 
 a {
@@ -479,6 +479,7 @@ SECTION 2: HOME
 .home-paragraph {
   margin-top: 1rem;
   font-size: 2rem;
+  line-height: 1.6em;
   width: 75%;
 }
 
@@ -1604,6 +1605,10 @@ RESPONSIVE DESIGN
 
   .about .row-1 .col-2 {
     order: 1;
+  }
+
+  .curriculum-btn {
+    margin-top: 2rem;
   }
 
   .services .container-icons {
