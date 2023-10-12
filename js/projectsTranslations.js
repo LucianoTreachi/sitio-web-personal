@@ -44,6 +44,11 @@ export const projectsTranslations = {
     project8Title: "Sitio Web Para Un Entrenador Personal",
     project8Paragraph1: "<b>Descripción del proyecto:</b> Diseñé y desarrollé un sitio web para un entrenador personal que vende programas de coaching, e-books y planes de suscripción. El sitio es 100% responsivo, se adapta perfectamente a cualquier dispositivo: escritorio, tablet y móvil.",
     project8Paragraph2: "<b>Tecnologías utilizadas:</b> WIX.",
+
+    /* Project 9 */
+    project9Title: "Blog sobre estrategias UX UI",
+    project9Paragraph1: "<b>Descripción del proyecto:</b> Diseñé y desarrollé un Blog sobre consejos, técnicas y estrategias UX/UI para un diseño atractivo, intuitivo y funcional.",
+    project9Paragraph2: "<b>Tecnologías utilizadas:</b> Vite, React Js, CSS module, Cloudinary.",
   },
 
   en: {
@@ -91,6 +96,11 @@ export const projectsTranslations = {
     project8Title: "Personal Trainer Website",
     project8Paragraph1: "<b>Project Description:</b> I designed and developed a website for a personal trainer who sells coaching programs, e-books, and subscription plans. The site is 100% responsive, adapting seamlessly to any device: desktop, tablet, and mobile.",
     project8Paragraph2: "<b>Technologies Used:</b> WIX.",
+
+    /* Project 9 */
+    project9Title: "Blog about UX UI strategies",
+    project9Paragraph1: "<b>Project Description:</b> I designed and developed a blog about tips, techniques, and UX/UI strategies for an attractive, intuitive, and functional design.",
+    project9Paragraph2: "<b>Technologies Used:</b> Vite, React Js, CSS module, Cloudinary.",
   },
 
   pt: {
@@ -138,5 +148,10 @@ export const projectsTranslations = {
     project8Title: "Site Para Um Treinador Pessoal",
     project8Paragraph1: "<b>Descrição do projeto:</b> Criei e desenvolvi um site para um treinador pessoal que vende programas de coaching, e-books e planos de assinatura. O site é 100% responsivo, adaptando-se perfeitamente a qualquer dispositivo: desktop, tablet e celular.",
     project8Paragraph2: "<b>Tecnologias utilizadas:</b> WIX.",
+
+    /* Project 9 */
+    project9Title: "Blog sobre estratégias de UX UI",
+    project9Paragraph1: "<b>Descrição do projeto:</b> Criei e desenvolvi um blog sobre dicas, técnicas e estratégias de UX/UI para um design atraente, intuitivo e funcional.",
+    project9Paragraph2: "<b>Tecnologias utilizadas:</b> Vite, React Js, CSS module, Cloudinary.",
   }
 };

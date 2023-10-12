@@ -83,7 +83,7 @@ body {
 p {
   font-size: 1.7rem;
   opacity: .85;
-  line-height: 1.8em;
+  line-height: 1.6em;
 }
 
 a {
@@ -465,9 +465,9 @@ SECTION 2: HOME
 }
 
 .home-title {
-  font-size: 5.5rem;
+  font-size: 6.5rem;
   opacity: .85;
-  line-height: 1.2em;
+  line-height: 1.1em;
   text-shadow: 0 0 30px hsla(0, 0%, 100%, 0.4);
   width: 90%;
 }
@@ -478,8 +478,7 @@ SECTION 2: HOME
 
 .home-paragraph {
   margin-top: 1rem;
-  font-size: 1.8rem;
-  line-height: 1.5em;
+  font-size: 2rem;
   width: 75%;
 }
 
@@ -900,7 +899,7 @@ SECTION 7: BLOGS
 .blog-title {
   font-size: 1.8rem;
   font-weight: 600;
-  line-height: 1.5em;
+  line-height: 1.4em;
 }
 
 .blog-date {
@@ -950,7 +949,7 @@ SECTION 8: ACTION
   font-size: 4rem;
   font-weight: 700;
   color: var(--white);
-  line-height: 1.5em;
+  line-height: 1.4em;
 }
 
 /*=============================== 
@@ -1004,7 +1003,7 @@ SECTION 9: CONTACT
   min-height: 200px;
   padding: 1.5rem 3rem 1.5rem 1.5rem;
   font-size: 1.8rem;
-  line-height: 1.5em;
+  line-height: 1.4em;
   opacity: .85;
   resize: none;
   outline: none;
@@ -1232,7 +1231,6 @@ SECTION 9: CONTACT
 
 .modal-contact-success p {
   margin-top: 1rem;
-  line-height: 1.5em;
 }
 
 .close-modal-contact {
@@ -1249,10 +1247,6 @@ SECTION 9: CONTACT
 
 .modal-contact-error {
   display: none;
-}
-
-.modal-contact-error p {
-  line-height: 1.5em;
 }
 
 /*=============================== 
@@ -1440,6 +1434,16 @@ PAGES (Blogs & Projects)
 /*=============================== 
 RESPONSIVE DESIGN
 ================================*/
+
+@media screen and (max-width: 1165px) {
+  .home-title {
+    font-size: 5rem;
+  }
+
+  .home-title span {
+    font-size: 4.5rem;
+  }
+}
 
 @media screen and (max-width: 1024px) {
 
