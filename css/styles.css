@@ -341,6 +341,7 @@ header {
   right: 0;
   z-index: 3;
   padding: 1.5rem 4rem;
+  transition: box-shadow .3s ease;
 }
 
 header.active {
