@@ -50,6 +50,7 @@
   --grey: #b9babc;
   --background-1: #eff3f6;
   --background-2: #ffffff;
+  --background-3: #eff3f6;
   --accent-color-1: #625eab;
   --accent-color-2: #625ead;
   --alert: #fd4d6b;
@@ -58,8 +59,9 @@
 .dark-theme {
   --navbar: rgba(18, 18, 18, .95);
   --black: #fdfdfd;
-  --background-1: #23272f;
-  --background-2: #1c1f26;
+  --background-1: #000000;
+  --background-2: #080808;
+  --background-3: #23272f;
   --accent-color-2: #a198e2;
 }
 
@@ -458,6 +460,7 @@ SECTION 2: HOME
   display: flex;
   align-items: center;
   gap: 5%;
+  z-index: 1;
 }
 
 .home .col-1 {
@@ -466,7 +469,7 @@ SECTION 2: HOME
 
 .home-title {
   font-size: 6.5rem;
-  opacity: .85;
+  opacity: .9;
   line-height: 1.1em;
   text-shadow: 0 0 30px hsla(0, 0%, 100%, 0.4);
   width: 90%;
@@ -606,7 +609,7 @@ SECTION 3: ABOUT
   max-width: 90%;
   max-height: 90%;
   overflow-y: auto;
-  background: var(--background-1);
+  background: var(--background-3);
   box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
   border-radius: 1rem;
   padding: 4rem;
@@ -671,6 +674,8 @@ SECTION 4: SERVICES
 
 .services .container {
   max-width: 1024px;
+  position: relative;
+  z-index: 1;
 }
 
 .services .row-1 {
@@ -934,7 +939,7 @@ SECTION 8: ACTION
 ================================*/
 
 .action {
-  background-color: #23272f;
+  background-color: #000000;
   height: 500px;
   position: relative;
 }
@@ -944,6 +949,8 @@ SECTION 8: ACTION
   align-items: center;
   justify-content: center;
   height: 100%;
+  position: relative;
+  z-index: 1;
 }
 
 .action .container h2 {
@@ -1301,6 +1308,8 @@ PAGES (Blogs & Projects)
 
 .page-hero .container {
   width: 50%;
+  position: relative;
+  z-index: 1;
 }
 
 .page-back-btn {
@@ -1724,18 +1733,10 @@ RESPONSIVE DESIGN
 @media screen and (max-width: 350px) {
 
   html {
-    font-size: 55%;
+    font-size: 50%;
   }
 
   .title-section {
-    font-size: 3rem;
-  }
-
-  .home-title {
-    font-size: 3rem;
-  }
-
-  .home-title span {
     font-size: 3rem;
   }
 
