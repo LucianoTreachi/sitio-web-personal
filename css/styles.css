@@ -492,16 +492,19 @@ SECTION 2: HOME
 }
 
 .home-btn {
-  display: inline-block;
   width: 250px;
   white-space: nowrap;
   font-size: 1.7rem;
   font-weight: 500;
   text-align: center;
   color: var(--white);
-  padding: 0.8em 2.7em;
-  border-radius: 2rem;
+  padding: 1.5rem 3rem;
+  border-radius: 1rem;
   background-color: var(--accent-color-1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
   transition: .4s;
 }
 
@@ -510,8 +513,6 @@ SECTION 2: HOME
 }
 
 .home-btn svg {
-  display: inline-block;
-  vertical-align: middle;
   width: 20px;
   width: 20px;
   fill: var(--white);
@@ -1302,6 +1303,7 @@ PAGES (Blogs & Projects)
   background-color: var(--background-1);
   padding: 6rem 4rem;
   position: relative;
+  overflow: hidden;
 }
 
 .page-hero .container {
@@ -1388,21 +1390,22 @@ PAGES (Blogs & Projects)
 }
 
 .page-project-link {
-  display: inline-block;
   font-size: 1.6rem;
   font-weight: 600;
   border-radius: 6px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
 .page-project-link svg {
   width: 18px;
   height: 18px;
-  transform: translateY(2px);
 }
 
 .page-project-link-1 {
-  padding: 1rem 4rem;
+  padding: 1.5rem 4rem;
   color: var(--white);
   background-color: var(--accent-color-1);
   transition: .4s;
@@ -1417,7 +1420,7 @@ PAGES (Blogs & Projects)
 }
 
 .page-project-link-2 {
-  padding: 1rem 3rem;
+  padding: 1.5rem 3rem;
   color: var(--accent-color-2);
   border: 1px solid var(--accent-color-2);
 }
@@ -1558,7 +1561,8 @@ RESPONSIVE DESIGN
   }
 
   .home-container-btn {
-    text-align: center;
+    display: flex;
+    justify-content: center;
   }
 
   .home-image {
