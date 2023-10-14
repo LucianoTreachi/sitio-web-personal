@@ -1,40 +1,40 @@
 /* FONTS */
 
 @font-face {
-  font-family: 'Poppins';
+  font-family: 'Inter';
   src:
-    local('Poppins'),
-    url('../fonts/Poppins-Regular.woff2') format('woff2');
+    local('Inter'),
+    url('../fonts/Inter-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Poppins';
+  font-family: 'Inter';
   src:
-    local('Poppins'),
-    url('../fonts/Poppins-Medium.woff2') format('woff2');
+    local('Inter'),
+    url('../fonts/Inter-Medium.woff2') format('woff2');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Poppins';
+  font-family: 'Inter';
   src:
-    local('Poppins'),
-    url('../fonts/Poppins-SemiBold.woff2') format('woff2');
+    local('Inter'),
+    url('../fonts/Inter-SemiBold.woff2') format('woff2');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Poppins';
+  font-family: 'Inter';
   src:
-    local('Poppins'),
-    url('../fonts/Poppins-Bold.woff2') format('woff2');
+    local('Inter'),
+    url('../fonts/Inter-Bold.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -77,7 +77,7 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
   letter-spacing: 0.2px;
   color: var(--black);
 }
@@ -363,7 +363,6 @@ nav {
 .nav-link {
   margin-left: 3rem;
   font-size: 1.7rem;
-  font-weight: 500;
   transition: .3s;
 }
 
@@ -395,10 +394,11 @@ nav {
 .dropdown-container {
   position: relative;
   display: inline-block;
+  transform: translateY(1px);
 }
 
 .dropdown-button {
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   font-weight: 500;
   background: none;
   border: none;
@@ -430,7 +430,7 @@ nav {
 }
 
 .dropdown-menu a:not(:first-child) {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 /* THEME */
@@ -477,7 +477,7 @@ SECTION 2: HOME
 }
 
 .home-title span {
-  font-size: 6rem;
+  font-size: 6.5rem;
 }
 
 .home-paragraph {
@@ -569,6 +569,7 @@ SECTION 3: ABOUT
 }
 
 .curriculum-btn {
+  margin-top: 1rem;
   white-space: nowrap;
   font-size: 1.7rem;
   font-weight: 500;
@@ -600,6 +601,7 @@ SECTION 3: ABOUT
 .about .row-2 h2 {
   font-size: 3rem;
   font-weight: 500;
+  line-height: 1.6em;
 }
 
 /* MODAL CURRICULUM */
@@ -790,7 +792,6 @@ SECTION 5: PROJECTS
 .projects .row {
   margin-top: 2rem;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
   gap: 4rem;
 }
 
@@ -801,16 +802,11 @@ SECTION 5: PROJECTS
   border: 2px solid var(--accent-color-1);
   box-shadow: 0px 10px 59px -3px rgba(0, 0, 0, .1);
   cursor: pointer;
-  transition: .3s;
-}
-
-.project-img:hover {
-  transform: scale(1.05);
 }
 
 .project-button {
   display: inline-block;
-  margin-top: 1rem;
+  margin-top: 2rem;
   font-size: 1.7rem;
   font-weight: 600;
   opacity: .9;
@@ -916,6 +912,7 @@ SECTION 7: BLOGS
 }
 
 .blog-button {
+  margin-top: 2rem;
   width: max-content;
   font-size: 1.6rem;
   font-weight: 600;
@@ -1446,13 +1443,13 @@ PAGES (Blogs & Projects)
 RESPONSIVE DESIGN
 ================================*/
 
-@media screen and (max-width: 1165px) {
+@media screen and (max-width: 1185px) {
   .home-title {
     font-size: 5rem;
   }
 
   .home-title span {
-    font-size: 4.5rem;
+    font-size: 5rem;
   }
 }
 
@@ -1577,10 +1574,6 @@ RESPONSIVE DESIGN
     gap: 4rem;
   }
 
-  .projects .row {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
   .page-hero .container {
     width: 100%;
   }
@@ -1623,10 +1616,6 @@ RESPONSIVE DESIGN
 
   .services .container-icons {
     grid-template-columns: repeat(5, 1fr);
-  }
-
-  .projects .row {
-    grid-template-columns: 1fr;
   }
 
   .footer {
