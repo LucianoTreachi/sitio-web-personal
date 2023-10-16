@@ -17,7 +17,7 @@ export const indexTranslations = {
     modalCvTitle: "¿En qué idioma quieres ver mi Curriculum?",
 
     /* About */
-    aboutTitle: "Soy Luciano Treachi 🤝",
+    aboutTitle: "Soy Luciano Treachi",
     aboutParagraph1: "Desarrollador Frontend enfocado en la experiencia de usuario y diseño de interfaz.",
     aboutParagraph2: "Mi objetivo principal es crear soluciones digitales funcionales, eficientes y fáciles de usar.",
     aboutParagraph3: "Estoy aquí para ayudarte a llevar tu proyecto al siguiente nivel con mi creatividad y compromiso.",
@@ -96,7 +96,7 @@ export const indexTranslations = {
     modalCvTitle: "In which language would you like to see my Resume?",
 
     /* About */
-    aboutTitle: "I'm Luciano Treachi 🤝",
+    aboutTitle: "I'm Luciano Treachi",
     aboutParagraph1: "Frontend Developer focused on User Experience and Interface Design.",
     aboutParagraph2: "My main goal is to create functional, efficient, and user-friendly digital solutions.",
     aboutParagraph3: "I'm here to help take your project to the next level with my creativity and dedication.",
@@ -175,7 +175,7 @@ export const indexTranslations = {
     modalCvTitle: "Em que idioma você gostaria de ver meu Currículo?",
 
     /* About */
-    aboutTitle: "Eu sou Luciano Treachi 🤝",
+    aboutTitle: "Eu sou Luciano Treachi",
     aboutParagraph1: "Desenvolvedor Frontend focado na experiência do usuário e design de interface.",
     aboutParagraph2: "Meu objetivo principal é criar soluções digitais funcionais, eficientes e fáceis de usar.",
     aboutParagraph3: "Estou aqui para ajudar a levar o seu projeto para o próximo nível com a minha criatividade e compromisso.",
