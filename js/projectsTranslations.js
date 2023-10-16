@@ -46,7 +46,7 @@ export const projectsTranslations = {
     project8Paragraph2: "<b>Tecnologías utilizadas:</b> WIX.",
 
     /* Project 9 */
-    project9Title: "Blog sobre estrategias UX UI",
+    project9Title: "Blog sobre estrategias UX/UI",
     project9Paragraph1: "<b>Descripción del proyecto:</b> diseñé y desarrollé un Blog sobre consejos, técnicas y estrategias UX/UI para un diseño atractivo, intuitivo y funcional.",
     project9Paragraph2: "<b>Tecnologías utilizadas:</b> Vite, React Js, CSS modules, Cloudinary.",
   },
@@ -98,7 +98,7 @@ export const projectsTranslations = {
     project8Paragraph2: "<b>Technologies Used:</b> WIX.",
 
     /* Project 9 */
-    project9Title: "Blog about UX UI strategies",
+    project9Title: "Blog about UX/UI strategies",
     project9Paragraph1: "<b>Project Description:</b> I designed and developed a blog about tips, techniques, and UX/UI strategies for an attractive, intuitive, and functional design.",
     project9Paragraph2: "<b>Technologies Used:</b> Vite, React Js, CSS modules, Cloudinary.",
   },
@@ -150,7 +150,7 @@ export const projectsTranslations = {
     project8Paragraph2: "<b>Tecnologias utilizadas:</b> WIX.",
 
     /* Project 9 */
-    project9Title: "Blog sobre estratégias de UX UI",
+    project9Title: "Blog sobre estratégias de UX/UI",
     project9Paragraph1: "<b>Descrição do projeto:</b> criei e desenvolvi um blog sobre dicas, técnicas e estratégias de UX/UI para um design atraente, intuitivo e funcional.",
     project9Paragraph2: "<b>Tecnologias utilizadas:</b> Vite, React Js, CSS modules, Cloudinary.",
   }
