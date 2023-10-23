@@ -245,7 +245,7 @@ form.addEventListener("submit", (e) => {
 
     modalContact.classList.add("active");
 
-    emailjs.sendForm('service_c3wl15o', 'template_jgw4yri', '#form', 'hUS51mu8VJq2dQccV').then(() => {
+    emailjs.sendForm('service_c3wl15o', 'template_jgw4yri', '#form', 'hUS51mu8VJq2dQcc').then(() => {
       setTimeout(() => {
         modalContactLoader.style.display = "none";
         modalContactSuccess.style.display = "block";

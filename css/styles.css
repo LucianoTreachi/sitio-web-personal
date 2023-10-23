@@ -71,7 +71,7 @@ body {
 }
 
 p {
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   opacity: .85;
   line-height: 1.8em;
 }
@@ -382,7 +382,6 @@ nav {
 .dropdown-container {
   position: relative;
   display: inline-block;
-  transform: translateY(1px);
 }
 
 .dropdown-button {
@@ -560,7 +559,7 @@ SECTION 3: ABOUT
 .curriculum-btn {
   margin-top: 1rem;
   white-space: nowrap;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   font-weight: 500;
   color: var(--accent-color-2);
   border: 0;
@@ -624,7 +623,7 @@ SECTION 3: ABOUT
 }
 
 .button-download-cv {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 500;
 }
 
@@ -640,7 +639,7 @@ SECTION 3: ABOUT
 }
 
 .close-modal-cv {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 600;
   padding: .5rem 1.5rem;
   border-radius: .5rem;
@@ -796,7 +795,7 @@ SECTION 5: PROJECTS
 .project-button {
   display: inline-block;
   margin-top: 2rem;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   font-weight: 600;
   opacity: .9;
   cursor: pointer;
@@ -837,7 +836,7 @@ SECTION 6: FAQS
 }
 
 .question {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 500;
   line-height: 1.4em;
   opacity: .9;
@@ -848,7 +847,6 @@ SECTION 6: FAQS
 }
 
 .answer {
-  font-size: 1.6rem;
   height: 0;
   transition: height .3s;
 }
@@ -890,7 +888,7 @@ SECTION 7: BLOGS
 }
 
 .blog-title {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 600;
   line-height: 1.4em;
 }
@@ -904,7 +902,7 @@ SECTION 7: BLOGS
 .blog-button {
   margin-top: 2rem;
   width: max-content;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 600;
   color: var(--accent-color-2);
   border-bottom: 1px solid var(--accent-color-2);
@@ -1201,7 +1199,7 @@ SECTION 9: CONTACT
 }
 
 .modal-contact .loader h2 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 500;
   margin-top: 2rem;
 }
@@ -1219,19 +1217,20 @@ SECTION 9: CONTACT
 }
 
 .modal-contact-success h2 {
-  font-size: 2rem;
+  margin-top: 2rem;
+  font-size: 3rem;
   font-weight: 500;
   color: #25D366;
-  margin-top: 2rem;
 }
 
 .modal-contact-success p {
   margin-top: 1rem;
+  line-height: 1.4em;
 }
 
 .close-modal-contact {
   margin-top: 3rem;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 600;
   padding: .5rem 1.5rem;
   border-radius: .5rem;
@@ -1256,10 +1255,6 @@ SECTION 10: FOOTER
   position: relative;
 }
 
-.footer p {
-  font-size: 1.6rem;
-}
-
 .socials {
   margin-top: 2rem;
   display: flex;
@@ -1279,8 +1274,8 @@ SECTION 10: FOOTER
 }
 
 .socials svg {
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
   fill: var(--black);
 }
 
@@ -1379,7 +1374,7 @@ PAGES (Blogs & Projects)
 }
 
 .page-project-link {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 600;
   border-radius: 6px;
   display: flex;
@@ -1488,8 +1483,8 @@ RESPONSIVE DESIGN
   }
 
   .navbar-networks svg {
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     fill: var(--grey);
   }
 
@@ -1506,7 +1501,7 @@ RESPONSIVE DESIGN
 
   .nav-link {
     margin-left: 0;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
 
   nav {
@@ -1623,10 +1618,6 @@ RESPONSIVE DESIGN
 
 @media screen and (max-width: 600px) {
 
-  p {
-    font-size: 1.6rem;
-  }
-
   .title-section {
     font-size: 3rem;
     width: 100%;
@@ -1649,17 +1640,17 @@ RESPONSIVE DESIGN
   }
 
   .home-title {
-    font-size: 3.5rem;
+    font-size: 3.8rem;
     text-align: initial;
   }
 
   .home-title span {
-    font-size: 3.5rem;
+    font-size: 3.8rem;
   }
 
   .home-paragraph {
-    width: 100%;
-    font-size: 1.6rem;
+    width: 95%;
+    font-size: 1.8rem;
     text-align: initial;
   }
 
@@ -1673,7 +1664,7 @@ RESPONSIVE DESIGN
   }
 
   .about .row-1 .col-2 h2 {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
   }
 
   .about .row-2 {
@@ -1694,6 +1685,10 @@ RESPONSIVE DESIGN
 
   .services .icon span {
     font-size: 1.2rem;
+  }
+
+  .question {
+    font-size: 1.8rem;
   }
 
   .action .container {
