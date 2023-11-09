@@ -1469,7 +1469,7 @@ RESPONSIVE DESIGN
     align-items: center;
     gap: 3rem;
     padding: 8rem 0;
-    transition: .4s;
+    transition: .5s ease 0s;
   }
 
   .navbar.active {
