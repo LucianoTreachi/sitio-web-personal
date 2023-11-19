@@ -1061,8 +1061,7 @@ SECTION 9: CONTACT
 }
 
 .button-submit {
-  width: 100%;
-  padding: 1.5rem 3.5rem;
+  padding: 1.5rem 8rem;
   font-size: 1.7rem;
   font-weight: 600;
   color: var(--white);
@@ -1687,6 +1686,10 @@ RESPONSIVE DESIGN
 
   .action .container h2 {
     font-size: 3.5rem;
+  }
+
+  .button-submit {
+    padding: 1.5rem 6rem;
   }
 
   .page-project-link-container {
