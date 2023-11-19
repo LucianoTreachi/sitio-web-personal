@@ -355,11 +355,11 @@ nav {
 .nav-link {
   margin-left: 3rem;
   font-size: 1.7rem;
-  transition: .3s;
+  padding-bottom: .5rem;
 }
 
 .nav-link:hover {
-  color: var(--accent-color-1);
+  border-bottom: 2px solid var(--accent-color-1);
 }
 
 .navbar-networks {
