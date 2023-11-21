@@ -200,64 +200,36 @@ button {
   align-items: center;
 }
 
-/* FLOAT BUTTONS */
+/* WHATSAPP FLOAT BUTTON */
 
 .whatsapp-float-btn {
   position: fixed;
   right: 1rem;
-  bottom: 8.5rem;
-  width: 4.5rem;
-  height: 4.5rem;
+  bottom: 3rem;
+  width: 6rem;
+  height: 6rem;
   z-index: 2;
-  font-size: 1em;
+  font-size: 1rem;
   background-color: #25D366;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  display: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: .4s;
 }
 
 .whatsapp-float-btn svg {
-  width: 25px;
-  height: 25px;
-  fill: var(--white);
-}
-
-.whatsapp-float-btn.active {
-  animation: fadeIn .3s linear;
-  display: flex;
-  pointer-events: all;
-}
-
-.scrollToTop-float-btn {
-  position: fixed;
-  right: 1rem;
-  bottom: 3rem;
-  width: 4.5rem;
-  height: 4.5rem;
-  z-index: 2;
-  font-size: 1em;
-  background-color: var(--accent-color-1);
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  display: none;
-}
-
-.scrollToTop-float-btn svg {
   width: 35px;
   height: 35px;
   fill: var(--white);
 }
 
-.scrollToTop-float-btn.active {
-  animation: fadeIn .3s backwards .1s;
-  display: flex;
-  pointer-events: all;
+.whatsapp-float-btn.active {
+  opacity: 1;
+  visibility: visible;
 }
 
 /* ANIMATIONS */
@@ -445,6 +417,7 @@ SECTION 2: HOME
   justify-content: center;
   align-items: center;
   position: relative;
+  animation: fadeIn .4s linear;
 }
 
 .home .container {
@@ -1289,6 +1262,7 @@ PAGES (Blogs & Projects)
   padding: 6rem 4rem;
   position: relative;
   overflow: hidden;
+  animation: fadeIn .4s linear;
 }
 
 .page-hero .container {
@@ -1354,6 +1328,7 @@ PAGES (Blogs & Projects)
 .page-content {
   background-color: var(--background-2);
   padding: 6rem 4rem;
+  animation: fadeIn .4s linear;
 }
 
 .page-content .container {

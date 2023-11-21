@@ -27,16 +27,10 @@ window.addEventListener("scroll", () => {
   header.classList.toggle("active", window.scrollY > 0)
 })
 
-// FLOAT WHATSAPP BUTTON
+// WHATSAPP FLOAT BUTTON
 window.addEventListener("scroll", () => {
   const whatsappBtn = document.querySelector(".whatsapp-float-btn");
   whatsappBtn.classList.toggle("active", window.scrollY > 500);
-});
-
-// FLOAT SCROLL TO TOP BUTTON
-window.addEventListener("scroll", () => {
-  const scrollToTopBtn = document.querySelector(".scrollToTop-float-btn");
-  scrollToTopBtn.classList.toggle("active", window.scrollY > 500);
 });
 
 // MODAL CURRICULUM
