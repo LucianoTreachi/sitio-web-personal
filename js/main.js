@@ -8,53 +8,34 @@ window.onpageshow = function (event) {
 // MENU
 const hamburguerMenu = document.querySelector(".hamburguer-menu");
 const closeMenu = document.querySelector(".close-menu");
-const navbar = document.querySelector("nav .navbar");
-const navLinks = document.querySelectorAll(".navbar a");
+const navbar = document.querySelector(".navbar");
+const navLinks = document.querySelectorAll(".nav-link");
 
-hamburguerMenu.addEventListener('click', () => {
-  navbar.classList.add("active");
-});
+const toggleNavbar = () => {
+  navbar.classList.toggle("active");
+};
 
-closeMenu.addEventListener('click', () => {
-  navbar.classList.remove("active");
-});
-
-navLinks.forEach((e) => {
-  e.addEventListener('click', () => {
-    navbar.classList.remove("active");
-  })
-});
+hamburguerMenu.addEventListener('click', toggleNavbar);
+closeMenu.addEventListener('click', toggleNavbar);
+navLinks.forEach((link) => link.addEventListener('click', toggleNavbar));
 
 // HEADER ACTIVE
-window.onscroll = () => {
+window.addEventListener("scroll", () => {
   navbar.classList.remove('active');
 
-  if (window.scrollY > 0) {
-    document.querySelector('header').classList.add('active');
-  } else {
-    document.querySelector('header').classList.remove('active');
-  }
-};
+  const header = document.querySelector("header");
+  header.classList.toggle("active", window.scrollY > 0)
+})
 
-window.onload = () => {
-  if (window.scrollY > 0) {
-    document.querySelector('header').classList.add('active');
-  } else {
-    document.querySelector('header').classList.remove('active');
-  }
-};
-
-// SCROLL TO TOP FLOAT WHATSAPP
-const whatsappBtn = document.querySelector(".whatsapp-float-btn");
-
-window.addEventListener("scroll", function () {
+// FLOAT WHATSAPP BUTTON
+window.addEventListener("scroll", () => {
+  const whatsappBtn = document.querySelector(".whatsapp-float-btn");
   whatsappBtn.classList.toggle("active", window.scrollY > 500);
 });
 
-// SCROLL TO TOP FLOAT BUTTON
-const scrollToTopBtn = document.querySelector(".scrollToTop-float-btn");
-
-window.addEventListener("scroll", function () {
+// FLOAT SCROLL TO TOP BUTTON
+window.addEventListener("scroll", () => {
+  const scrollToTopBtn = document.querySelector(".scrollToTop-float-btn");
   scrollToTopBtn.classList.toggle("active", window.scrollY > 500);
 });
 
