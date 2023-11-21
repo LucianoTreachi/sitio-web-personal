@@ -191,13 +191,17 @@ button {
   height: 100vh;
   background-color: rgba(0, 0, 0, .8);
   backdrop-filter: blur(5px);
-  display: none;
-}
-
-.modal-background.active {
   display: flex;
   justify-content: center;
   align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: .4s;
+}
+
+.modal-background.active {
+  opacity: 1;
+  visibility: visible;
 }
 
 /* WHATSAPP FLOAT BUTTON */
@@ -578,8 +582,6 @@ SECTION 3: ABOUT
   box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
   border-radius: 1rem;
   padding: 4rem;
-  animation: zoomIn 1s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
-  animation-duration: 1s;
 }
 
 .modal-cv h2 {
@@ -615,7 +617,7 @@ SECTION 3: ABOUT
 .close-modal-cv {
   font-size: 1.8rem;
   font-weight: 600;
-  padding: .5rem 1.5rem;
+  padding: 1rem 3rem;
   border-radius: .5rem;
   border: 0;
   color: var(--white);
@@ -1061,7 +1063,6 @@ SECTION 9: CONTACT
   box-shadow: -1px -1px 15px -5px rgba(0, 0, 0, 1);
   border-radius: 1rem;
   padding: 4rem;
-  animation: zoomIn 1s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
 }
 
 .modal-contact .loader {
