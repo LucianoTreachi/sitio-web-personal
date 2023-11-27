@@ -54,6 +54,10 @@ closeModalCv.addEventListener("click", () => {
   modalCv.classList.remove("active");
 })
 
+modalCv.addEventListener("click", () => {
+  modalCv.classList.remove("active");
+})
+
 // FAQS
 const questions = document.querySelectorAll('.question');
 
