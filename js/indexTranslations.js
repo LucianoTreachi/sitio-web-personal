@@ -14,7 +14,7 @@ export const indexTranslations = {
     homeBtn: "Conocer Más",
 
     /* Modal CV */
-    modalCvTitle: "¿En qué idioma quieres ver mi Curriculum?",
+    modalCvTitle: "¿En qué idioma te gustaría ver mi Curriculum?",
 
     /* About */
     aboutTitle: "Soy Luciano Treachi",
