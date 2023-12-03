@@ -34,20 +34,13 @@ window.addEventListener("scroll", () => {
 });
 
 // MODAL CURRICULUM
-const curriculumBtn = document.querySelector(".curriculum-btn");
+const openModalCv = document.querySelector(".curriculum-btn");
+const closeModalCv = document.querySelector(".close-modal-cv");
 const modalCv = document.getElementById("modal-cv");
 const buttonsDownloadCv = document.querySelectorAll(".button-download-cv");
-const closeModalCv = document.querySelector(".close-modal-cv");
 
-curriculumBtn.addEventListener("click", () => {
+openModalCv.addEventListener("click", () => {
   modalCv.classList.add("active");
-})
-
-buttonsDownloadCv.forEach((btn) => {
-  btn.addEventListener("click", () => {
-    modalCv.classList.remove("active");
-    navbar.classList.remove("active");
-  })
 })
 
 closeModalCv.addEventListener("click", () => {
@@ -56,6 +49,12 @@ closeModalCv.addEventListener("click", () => {
 
 modalCv.addEventListener("click", () => {
   modalCv.classList.remove("active");
+})
+
+buttonsDownloadCv.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    modalCv.classList.remove("active");
+  })
 })
 
 // FAQS
