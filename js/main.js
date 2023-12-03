@@ -184,6 +184,7 @@ function characterCounter() {
   const count = textarea.value.length;
   textareaCharacters.innerHTML = `${count}/500`;
 }
+textarea.addEventListener('input', characterCounter);
 
 /* Submit */
 form.addEventListener("submit", (e) => {
