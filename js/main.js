@@ -8,20 +8,28 @@ window.onpageshow = function (event) {
 // MENU
 const hamburguerMenu = document.querySelector(".hamburguer-menu");
 const closeMenu = document.querySelector(".close-menu");
-const navbar = document.querySelector(".navbar");
+const navbarOverlay = document.querySelector(".navbar-overlay");
 const navLinks = document.querySelectorAll(".nav-link");
 
-const toggleNavbar = () => {
-  navbar.classList.toggle("active");
-};
+hamburguerMenu.addEventListener('click', () => {
+  navbarOverlay.classList.add("active")
+});
 
-hamburguerMenu.addEventListener('click', toggleNavbar);
-closeMenu.addEventListener('click', toggleNavbar);
-navLinks.forEach((link) => link.addEventListener('click', toggleNavbar));
+closeMenu.addEventListener('click', () => {
+  navbarOverlay.classList.remove("active")
+});
+
+navbarOverlay.addEventListener('click', () => {
+  navbarOverlay.classList.remove("active")
+});
+
+navLinks.forEach((link) => link.addEventListener('click', () => {
+  navbarOverlay.classList.remove("active")
+}));
 
 // HEADER ACTIVE
 window.addEventListener("scroll", () => {
-  navbar.classList.remove('active');
+  navbarOverlay.classList.remove('active');
 
   const header = document.querySelector("header");
   header.classList.toggle("active", window.scrollY > 0)
