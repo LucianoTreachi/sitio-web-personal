@@ -32,7 +32,7 @@
 
 :root {
   scroll-behavior: smooth;
-  --navbar: rgba(245, 245, 245, .85);
+  --navbar: rgb(245, 245, 245);
   --black: #1d1d1d;
   --white: #f8f5f8;
   --grey: #b9babc;
@@ -45,7 +45,7 @@
 }
 
 .dark-theme {
-  --navbar: rgba(18, 18, 18, .95);
+  --navbar: rgb(18, 18, 18);
   --black: #fdfdfd;
   --background-1: #000000;
   --background-2: #080808;
@@ -102,8 +102,8 @@ button {
 
 .blurred-circle-1 {
   position: absolute;
-  top: 0%;
-  left: 0%;
+  top: 0;
+  left: 0;
   transform: translate(-20%, -20%);
   background-color: aquamarine;
   border-radius: 50%;
@@ -117,13 +117,13 @@ button {
 
 .blurred-circle-2 {
   position: absolute;
-  bottom: 0%;
-  right: 0%;
+  bottom: 0;
+  right: 0;
   background-color: rgb(176, 127, 255);
   border-radius: 50%;
   filter: blur(100px);
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   opacity: 0.5;
   max-width: 100%;
   pointer-events: none;
@@ -171,10 +171,10 @@ button {
 }
 
 .title-section {
-  font-size: 4rem;
+  font-size: 6rem;
   opacity: .9;
   text-transform: capitalize;
-  line-height: 1.4em;
+  line-height: 1.2em;
   text-shadow: 0 0 30px hsla(0, 0%, 100%, 0.3);
   width: 80%;
 }
@@ -226,9 +226,13 @@ button {
 }
 
 .whatsapp-float-btn svg {
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
   fill: var(--white);
+}
+
+.whatsapp-float-btn:hover {
+  transform: scale(1.1);
 }
 
 .whatsapp-float-btn.active {
@@ -248,6 +252,18 @@ button {
   from {
     opacity: 0;
     transform: translateX(-30px);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    -webkit-transform: translate3d(0, 10%, 0);
+    transform: translate3d(0, 10%, 0);
+  }
+
+  to {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
   }
 }
 
@@ -295,7 +311,7 @@ header.active {
 }
 
 header .container {
-  max-width: 1200px;
+  max-width: 1400px;
 }
 
 nav {
@@ -413,72 +429,32 @@ SECTION 2: HOME
 }
 
 .home .container {
-  max-width: 1200px;
+  max-width: 1000px;
   padding-top: 8rem;
-  display: flex;
-  align-items: center;
-  gap: 5%;
   z-index: 1;
 }
 
-.home .col-1 {
-  flex-basis: 50%;
+.home-title {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 9rem;
+  line-height: 1.1em;
+  opacity: .85;
+  animation: fadeIn 1.2s ease-in-out;
 }
 
-.home-title {
-  font-size: 6rem;
-  opacity: .9;
-  line-height: 1.1em;
-  text-shadow: 0 0 30px hsla(0, 0%, 100%, 0.4);
-  width: 90%;
+.home-container-image {
+  display: none;
 }
 
 .home-paragraph {
-  margin-top: 1rem;
-  font-size: 2rem;
+  font-size: 2.6rem;
   line-height: 1.4em;
   width: 80%;
-}
-
-.home-container-btn {
-  margin-top: 3rem;
-}
-
-.home-btn {
-  width: 250px;
-  white-space: nowrap;
-  font-size: 1.7rem;
-  font-weight: 500;
+  margin: 1rem auto 0;
   text-align: center;
-  color: var(--white);
-  padding: 1.5rem 3rem;
-  border-radius: 1rem;
-  background-color: var(--accent-color-1);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-  transition: .4s;
-}
-
-.home-btn:hover {
-  opacity: .85;
-}
-
-.home-btn svg {
-  width: 20px;
-  width: 20px;
-  fill: var(--white);
-}
-
-.home .col-2 {
-  flex-basis: 45%;
-  text-align: center;
-}
-
-.home-image {
-  width: 100%;
-  height: auto;
+  text-wrap: balance;
+  animation: fadeInUp 1.5s backwards;
 }
 
 /*=============================== 
@@ -490,7 +466,7 @@ SECTION 3: ABOUT
 }
 
 .about .container {
-  max-width: 1024px;
+  max-width: 1200px;
 }
 
 .about .row-1 {
@@ -562,7 +538,6 @@ SECTION 3: ABOUT
 
 .modal-cv {
   text-align: center;
-  /* width: 548px; */
   max-width: 90%;
   max-height: 90%;
   overflow-y: auto;
@@ -570,6 +545,14 @@ SECTION 3: ABOUT
   box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
   border-radius: 1rem;
   padding: 4rem;
+  transform: translateY(10px);
+  pointer-events: none;
+  transition: .6s;
+}
+
+.modal-background.active .modal-cv {
+  transform: translateY(0);
+  pointer-events: all;
 }
 
 .modal-cv h2 {
@@ -577,7 +560,7 @@ SECTION 3: ABOUT
   font-weight: 500;
 }
 
-.container-buttons {
+.container-cv-buttons {
   margin-top: 3rem;
   display: flex;
   align-items: center;
@@ -628,7 +611,7 @@ SECTION 4: SERVICES
 }
 
 .services .container {
-  max-width: 1024px;
+  max-width: 1200px;
   position: relative;
   z-index: 1;
 }
@@ -681,7 +664,7 @@ SECTION 4: SERVICES
   margin-top: 6rem;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  row-gap: 2rem;
+  row-gap: 4rem;
 }
 
 .services .icon img {
@@ -739,12 +722,13 @@ SECTION 5: PROJECTS
 }
 
 .projects .container {
-  max-width: 1024px;
+  max-width: 1200px;
 }
 
 .projects .row {
   margin-top: 2rem;
   display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 4rem;
 }
 
@@ -776,6 +760,11 @@ SECTION 5: PROJECTS
   height: 20px;
   fill: var(--black);
   vertical-align: middle;
+  transition: .4s;
+}
+
+.project-button:hover svg {
+  transform: translateX(5px);
 }
 
 /*=============================== 
@@ -788,7 +777,7 @@ SECTION 6: FAQS
 }
 
 .faqs .container {
-  max-width: 1024px;
+  max-width: 1200px;
 }
 
 .article {
@@ -834,7 +823,7 @@ SECTION 7: BLOGS
 }
 
 .blogs .container {
-  max-width: 1024px;
+  max-width: 1200px;
 }
 
 .blogs .row {
@@ -896,18 +885,18 @@ SECTION 8: ACTION
 }
 
 .action .container {
+  max-width: 1200px;
   display: flex;
   align-items: center;
-  justify-content: center;
   height: 100%;
   position: relative;
   z-index: 1;
 }
 
 .action .container h2 {
-  font-size: 4rem;
+  font-size: 6rem;
   font-weight: 700;
-  color: var(--white);
+  color: #f0f0f0;
   line-height: 1.4em;
 }
 
@@ -920,16 +909,21 @@ SECTION 9: CONTACT
 }
 
 .contact .container {
-  max-width: 700px;
+  max-width: 1200px;
+}
+
+.contact .title-section {
+  width: 100%;
 }
 
 .contact-paragraph {
   margin: 1rem 0 2rem 0;
+  width: 60%;
 }
 
 .form {
   margin-top: 3rem;
-  width: 100%;
+  width: 60%;
 }
 
 .container-input {
@@ -1023,8 +1017,12 @@ SECTION 9: CONTACT
   animation: zoomIn 1s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
 }
 
+.container-button-submit {
+  text-align: left;
+}
+
 .button-submit {
-  padding: 1.5rem 8rem;
+  padding: 1.5rem 10rem;
   font-size: 1.7rem;
   font-weight: 600;
   color: var(--white);
@@ -1234,6 +1232,7 @@ SECTION 10: FOOTER
 
 .socials a:hover {
   opacity: 1;
+  transform: scale(1.2);
 }
 
 .socials svg {
@@ -1395,12 +1394,6 @@ PAGES (Blogs & Projects)
 RESPONSIVE DESIGN
 ================================*/
 
-@media screen and (max-width: 1185px) {
-  .home-title {
-    font-size: 5rem;
-  }
-}
-
 @media screen and (max-width: 1024px) {
 
   header {
@@ -1505,37 +1498,8 @@ RESPONSIVE DESIGN
     animation: fadeInTranslate 1s backwards .2s;
   }
 
-  .home {
-    min-height: auto;
-  }
-
-  .home .container {
-    flex-direction: column-reverse;
-    gap: 4rem;
-  }
-
-  .home .col-1 {
-    width: 60%;
-  }
-
   .home-title {
-    font-size: 4rem;
-    text-align: center;
-    width: 100%;
-  }
-
-  .home-paragraph {
-    width: 100%;
-    text-align: center;
-  }
-
-  .home-container-btn {
-    display: flex;
-    justify-content: center;
-  }
-
-  .home-image {
-    width: 60%;
+    font-size: 8rem;
   }
 
   .about .row-1 {
@@ -1556,6 +1520,35 @@ RESPONSIVE DESIGN
   }
 }
 
+@media screen and (max-width: 820px) {
+
+  .home {
+    min-height: auto;
+  }
+
+  .home .container {
+    padding: 14rem 0 10rem;
+  }
+
+  .home-title {
+    font-size: 6rem;
+    text-align: initial;
+  }
+
+  .home-paragraph {
+    text-align: initial;
+    width: 100%;
+  }
+
+  .contact-paragraph {
+    width: 100%;
+  }
+
+  .form {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 746px) {
 
   html {
@@ -1564,10 +1557,6 @@ RESPONSIVE DESIGN
 
   .section {
     padding: 6rem 2rem;
-  }
-
-  .home .col-1 {
-    width: 80%;
   }
 
   .about .row-1 {
@@ -1616,32 +1605,28 @@ RESPONSIVE DESIGN
     gap: 1rem;
   }
 
-  .home .col-1 {
-    width: initial;
-  }
-
   .home .container {
-    flex-direction: column;
+    padding: 10rem 0 6rem;
   }
 
   .home-title {
     font-size: 3.8rem;
-    text-align: initial;
+    text-transform: none;
   }
 
-  .home-paragraph {
-    width: 95%;
-    font-size: 1.8rem;
-    text-align: initial;
-  }
-
-  .home-btn {
-    width: 280px;
-    display: none;
+  .home-container-image {
+    margin-top: 8rem;
+    display: block;
   }
 
   .home-image {
     width: 100%;
+  }
+
+  .home-paragraph {
+    width: 95%;
+    margin: 1rem 0 0;
+    font-size: 1.8rem;
   }
 
   .about .row-1 .col-2 h2 {
@@ -1666,6 +1651,10 @@ RESPONSIVE DESIGN
 
   .services .icon span {
     font-size: 1.2rem;
+  }
+
+  .projects .row {
+    grid-template-columns: 1fr;
   }
 
   .question {

@@ -151,22 +151,10 @@
     <!--===== HOME =====-->
     <section class="home section" id="home">
       <div class="container">
-        <div class="col-1">
-          <h1 class="home-title" data-key="homeTitle">Desarrollo web atractivo y funcional</h1>
-          <p class="home-paragraph" data-key="homeParagraph">Soluciones digitales que impulsan la innovación y ofrecen
-            la mejor experiencia para el usuario.</p>
-          <div class="home-container-btn">
-            <a href="#about" class="home-btn">
-              <span data-key="homeBtn">Conocer Más</span>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                <path
-                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
-                </path>
-              </svg>
-            </a>
-          </div>
-        </div>
-        <div class="col-2">
+        <h1 class="home-title" data-key="homeTitle">Desarrollo web atractivo y funcional</h1>
+        <p class="home-paragraph" data-key="homeParagraph">Soluciones digitales que ofrecen la mejor experiencia para el
+          usuario.</p>
+        <div class="home-container-image">
           <picture>
             <source media="(max-width: 600px)"
               srcset="https://res.cloudinary.com/dwqk2mkgh/image/upload/f_auto,q_auto/w_500/Portfolio-Personal/home_equip3.png">
@@ -237,7 +225,7 @@
     <div class="modal-background" id="modal-cv">
       <div class="modal-cv">
         <h2 data-key="modalCvTitle">¿En qué idioma te gustaría ver mi Curriculum?</h2>
-        <div class="container-buttons">
+        <div class="container-cv-buttons">
           <a class="button-download-cv" href="./curriculum/LucianoTreachi_Curriculum_ES.pdf" download>
             <div class="box">
               <img src="./assets/svg/es.svg" alt="Bandera de España">
@@ -755,7 +743,9 @@
             <div class="textarea-characters" id="textarea-characters">0/500</div>
             <span class="check">✔</span>
           </div>
-          <button type="submit" class="button-submit" data-key="contactBTN">Enviar</button>
+          <div class="container-button-submit">
+            <button type="submit" class="button-submit" data-key="contactBTN">Enviar</button>
+          </div>
         </form>
       </div>
     </section>
