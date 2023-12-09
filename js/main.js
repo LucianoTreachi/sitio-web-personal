@@ -6,15 +6,20 @@ window.onpageshow = function (event) {
 };
 
 // NAVBAR
-const navbarOverlay = document.querySelector(".navbar-overlay");
+const hamburguerMenu = document.querySelector(".hamburguer-menu");
 const closeMenu = document.querySelector(".close-menu");
+const navbarOverlay = document.querySelector(".navbar-overlay");
 const navLinks = document.querySelectorAll(".nav-link");
 
-navbarOverlay.addEventListener('click', () => {
-  navbarOverlay.classList.remove("active")
+hamburguerMenu.addEventListener('click', () => {
+  navbarOverlay.classList.add("active")
 });
 
 closeMenu.addEventListener('click', () => {
+  navbarOverlay.classList.remove("active")
+});
+
+navbarOverlay.addEventListener('click', () => {
   navbarOverlay.classList.remove("active")
 });
 
@@ -26,15 +31,11 @@ window.addEventListener("scroll", () => {
   navbarOverlay.classList.remove('active');
 })
 
-// HAMBURGUER MENU FLOAT BUTTON
+// HEADER ACTIVE
 window.addEventListener("scroll", () => {
-  const hamburguerMenuFloatButton = document.querySelector(".hamburguer-menu-float-button");
-  hamburguerMenuFloatButton.classList.toggle("active", window.scrollY > 200);
-
-  hamburguerMenuFloatButton.addEventListener('click', () => {
-    navbarOverlay.classList.add("active")
-  });
-});
+  const header = document.querySelector("header");
+  header.classList.toggle("active", window.scrollY > 0)
+})
 
 // WHATSAPP FLOAT BUTTON
 window.addEventListener("scroll", () => {
