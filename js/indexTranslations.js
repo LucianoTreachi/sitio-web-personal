@@ -1,12 +1,13 @@
 export const indexTranslations = {
   es: {
     /* Nav */
-    navLink1: "Sobre Mí",
-    navLink2: "Servicios",
-    navLink3: "Proyectos",
-    navLink4: "FAQs",
-    navLink5: "Blogs",
-    navLink6: "Contacto",
+    navLink1: "Inicio",
+    navLink2: "Sobre Mí",
+    navLink3: "Servicios",
+    navLink4: "Proyectos",
+    navLink5: "FAQs",
+    navLink6: "Blogs",
+    navLink7: "Contacto",
 
     /* Home */
     homeTitle: "Desarrollo Web Atractivo y Funcional",
@@ -80,12 +81,13 @@ export const indexTranslations = {
 
   en: {
     /* Nav */
-    navLink1: "About Me",
-    navLink2: "Services",
-    navLink3: "Projects",
-    navLink4: "FAQs",
-    navLink5: "Blogs",
-    navLink6: "Contact",
+    navLink1: "Home",
+    navLink2: "About Me",
+    navLink3: "Services",
+    navLink4: "Projects",
+    navLink5: "FAQs",
+    navLink6: "Blogs",
+    navLink7: "Contact",
 
     /* Home */
     homeTitle: "Attractive and Functional Web Development",
@@ -159,12 +161,13 @@ export const indexTranslations = {
 
   pt: {
     /* Nav */
-    navLink1: "Sobre Mim",
-    navLink2: "Serviços",
-    navLink3: "Projetos",
-    navLink4: "FAQs",
-    navLink5: "Blogs",
-    navLink6: "Contato",
+    navLink1: "Início",
+    navLink2: "Sobre Mim",
+    navLink3: "Serviços",
+    navLink4: "Projetos",
+    navLink5: "FAQs",
+    navLink6: "Blogs",
+    navLink7: "Contato",
 
     /* Home */
     homeTitle: "Desenvolvimento Web Atraente e Funcional",

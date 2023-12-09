@@ -47,8 +47,8 @@
 .dark-theme {
   --navbar: rgb(18, 18, 18);
   --black: #fdfdfd;
-  --background-1: #000000;
-  --background-2: #080808;
+  --background-1: #121212;
+  --background-2: #202020;
   --background-3: #23272f;
   --accent-color-2: #a198e2;
 }
@@ -61,7 +61,6 @@
 
 html {
   font-size: 62.5%;
-  scroll-padding-top: 4rem;
 }
 
 body {
@@ -175,7 +174,6 @@ button {
   opacity: .9;
   text-transform: capitalize;
   line-height: 1.2em;
-  text-shadow: 0 0 30px hsla(0, 0%, 100%, 0.3);
   width: 80%;
 }
 
@@ -204,17 +202,19 @@ button {
   visibility: visible;
 }
 
-/* WHATSAPP FLOAT BUTTON */
+/* HAMBURGUER MENU FLOAT BUTTON */
 
-.whatsapp-float-btn {
+.hamburguer-menu-float-button {
   position: fixed;
+  top: 2rem;
   right: 1rem;
-  bottom: 3rem;
   width: 6rem;
   height: 6rem;
   z-index: 2;
   font-size: 1rem;
-  background-color: #25D366;
+  background-color: #181818;
+  box-shadow: 0px 10px 59px -3px rgba(0, 0, 0, .1);
+  border: none;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -222,22 +222,49 @@ button {
   cursor: pointer;
   opacity: 0;
   visibility: hidden;
+  transform: scale(.1);
+  transition: .4s;
+}
+
+.hamburguer-menu-float-button svg {
+  width: 35px;
+  height: 35px;
+  fill: var(--white);
+}
+
+/* WHATSAPP FLOAT BUTTON */
+
+.whatsapp-float-btn {
+  position: fixed;
+  bottom: 2rem;
+  right: 1rem;
+  width: 6rem;
+  height: 6rem;
+  z-index: 2;
+  font-size: 1rem;
+  background-color: #25D366;
+  box-shadow: 0px 10px 59px -3px rgba(0, 0, 0, .1);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(.1);
   transition: .4s;
 }
 
 .whatsapp-float-btn svg {
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   fill: var(--white);
-}
-
-.whatsapp-float-btn:hover {
-  transform: scale(1.1);
 }
 
 .whatsapp-float-btn.active {
   opacity: 1;
   visibility: visible;
+  transform: scale(1);
 }
 
 /* ANIMATIONS */
@@ -262,6 +289,20 @@ button {
   }
 
   to {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: .85;
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
   }
@@ -296,18 +337,13 @@ SECTION 1: HEADER & NAV
 ================================*/
 
 header {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
   z-index: 3;
   padding: 1.5rem 4rem;
-  transition: .3s ease;
-}
-
-header.active {
-  background-color: var(--background-1);
-  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s backwards .4s;
 }
 
 header .container {
@@ -343,10 +379,6 @@ nav {
   display: none;
 }
 
-.hamburguer-menu {
-  display: none;
-}
-
 .menu-icons {
   margin-left: 3rem;
   display: flex;
@@ -367,6 +399,7 @@ nav {
   background: none;
   border: none;
   cursor: pointer;
+  transform: translateY(1px);
 }
 
 .chevron-down {
@@ -440,7 +473,7 @@ SECTION 2: HOME
   font-size: 9rem;
   line-height: 1.1em;
   opacity: .85;
-  animation: fadeIn 1.2s ease-in-out;
+  animation: fadeInDown 1s backwards .2s;
 }
 
 .home-container-image {
@@ -454,7 +487,7 @@ SECTION 2: HOME
   margin: 1rem auto 0;
   text-align: center;
   text-wrap: balance;
-  animation: fadeInUp 1.5s backwards;
+  animation: fadeInDown 1s backwards .4s;
 }
 
 /*=============================== 
@@ -545,7 +578,7 @@ SECTION 3: ABOUT
   box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
   border-radius: 1rem;
   padding: 4rem;
-  transform: translateY(10px);
+  transform: translateY(40px);
   pointer-events: none;
   transition: .6s;
 }
@@ -739,6 +772,11 @@ SECTION 5: PROJECTS
   border: 2px solid var(--accent-color-1);
   box-shadow: 0px 10px 59px -3px rgba(0, 0, 0, .1);
   cursor: pointer;
+  transition: .4s;
+}
+
+.project-img:hover {
+  filter: contrast(80%);
 }
 
 .project-button {
@@ -1394,7 +1432,13 @@ PAGES (Blogs & Projects)
 RESPONSIVE DESIGN
 ================================*/
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1080px) {
+
+  .hamburguer-menu-float-button.active {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+  }
 
   header {
     padding: 1.5rem 2rem;
@@ -1410,14 +1454,6 @@ RESPONSIVE DESIGN
 
   .menu-icons {
     margin-left: 0;
-  }
-
-  .hamburguer-menu {
-    display: block;
-    width: 25px;
-    height: 25px;
-    fill: var(--black);
-    cursor: pointer;
   }
 
   .navbar-overlay {
@@ -1451,7 +1487,7 @@ RESPONSIVE DESIGN
   .close-menu {
     display: block;
     position: absolute;
-    top: .9rem;
+    top: 2.2rem;
     right: 2rem;
     width: 35px;
     height: 35px;
@@ -1551,10 +1587,6 @@ RESPONSIVE DESIGN
 
 @media screen and (max-width: 746px) {
 
-  html {
-    scroll-padding-top: 4rem;
-  }
-
   .section {
     padding: 6rem 2rem;
   }
@@ -1621,6 +1653,7 @@ RESPONSIVE DESIGN
 
   .home-image {
     width: 100%;
+    animation: fadeIn 1s backwards .6s;
   }
 
   .home-paragraph {

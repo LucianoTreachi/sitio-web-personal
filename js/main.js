@@ -5,21 +5,16 @@ window.onpageshow = function (event) {
   }
 };
 
-// MENU
-const hamburguerMenu = document.querySelector(".hamburguer-menu");
-const closeMenu = document.querySelector(".close-menu");
+// NAVBAR
 const navbarOverlay = document.querySelector(".navbar-overlay");
+const closeMenu = document.querySelector(".close-menu");
 const navLinks = document.querySelectorAll(".nav-link");
 
-hamburguerMenu.addEventListener('click', () => {
-  navbarOverlay.classList.add("active")
-});
-
-closeMenu.addEventListener('click', () => {
+navbarOverlay.addEventListener('click', () => {
   navbarOverlay.classList.remove("active")
 });
 
-navbarOverlay.addEventListener('click', () => {
+closeMenu.addEventListener('click', () => {
   navbarOverlay.classList.remove("active")
 });
 
@@ -27,18 +22,24 @@ navLinks.forEach((link) => link.addEventListener('click', () => {
   navbarOverlay.classList.remove("active")
 }));
 
-// HEADER ACTIVE
 window.addEventListener("scroll", () => {
   navbarOverlay.classList.remove('active');
-
-  const header = document.querySelector("header");
-  header.classList.toggle("active", window.scrollY > 0)
 })
+
+// HAMBURGUER MENU FLOAT BUTTON
+window.addEventListener("scroll", () => {
+  const hamburguerMenuFloatButton = document.querySelector(".hamburguer-menu-float-button");
+  hamburguerMenuFloatButton.classList.toggle("active", window.scrollY > 200);
+
+  hamburguerMenuFloatButton.addEventListener('click', () => {
+    navbarOverlay.classList.add("active")
+  });
+});
 
 // WHATSAPP FLOAT BUTTON
 window.addEventListener("scroll", () => {
   const whatsappBtn = document.querySelector(".whatsapp-float-btn");
-  whatsappBtn.classList.toggle("active", window.scrollY > 500);
+  whatsappBtn.classList.toggle("active", window.scrollY > 200);
 });
 
 // MODAL CURRICULUM
