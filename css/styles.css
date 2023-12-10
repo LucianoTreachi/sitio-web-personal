@@ -1508,7 +1508,8 @@ RESPONSIVE DESIGN
   .navbar-networks svg {
     width: 30px;
     height: 30px;
-    fill: var(--grey);
+    fill: var(--black);
+    opacity: .75;
   }
 
   .navbar-overlay.active .navbar-networks {
