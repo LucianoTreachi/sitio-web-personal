@@ -64,7 +64,7 @@ export const indexTranslations = {
     /* Contact */
     contactTitle: "¡Trabajemos Juntos!",
     contactParagraph1: "Sería muy interesante hablar sobre cómo podríamos desarrollar un próximo proyecto juntos. Puedes contactarme por este medio, WhatsApp, Email o LinkedIn.",
-    contactParagraph2: "Te responderé lo antes posible!",
+    contactParagraph2: "¡Te responderé lo antes posible!",
     contactLabel1: "Nombre",
     contactLabel2: "Correo electrónico",
     contactLabel3: "Mensaje",
