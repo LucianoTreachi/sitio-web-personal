@@ -26,7 +26,7 @@ export const indexTranslations = {
     aboutPhrase: "Mi enfoque está en crear soluciones digitales funcionales, eficientes y fáciles de usar, que ofrezcan la mejor experiencia para el usuario.",
 
     /* Services */
-    servicesTitle: "Servicios personalizadas",
+    servicesTitle: "Servicios personalizados",
     serviceTitle1: "Diseño Web",
     serviceTitle2: "Desarrollo Web",
     serviceTitle3: "Copywriting",
@@ -45,7 +45,7 @@ export const indexTranslations = {
     question2: "¿Puedo solicitar actualizaciones luego de haberse completado un proyecto?",
     question3: "¿Cuáles son los costos para realizar un proyecto?",
     answer1: "Trato de proporcionar plazos realistas. Trabajo para completar los proyectos en el menor tiempo posible sin comprometer la calidad. Estableceré un plazo específico al inicio del proyecto y comunicaré las actualizaciones del progreso durante todo el proceso.",
-    answer2: "Sí! una vez que el proyecto ha sido entregado, aún puedes solicitar actualizaciones y mejoras adicionales.",
+    answer2: "¡Sí! Una vez que el proyecto ha sido entregado, aún puedes solicitar actualizaciones y mejoras adicionales.",
     answer3: "Los costos varían según el tipo y la complejidad del proyecto. Si estás interesado en mis servicios, por favor ponte en contacto conmigo para hablar sobre tus necesidades y obtener un presupuesto detallado.",
 
     /* Blogs */
@@ -62,7 +62,7 @@ export const indexTranslations = {
     actionTitle: "¿Interesado en trabajar conmigo?",
 
     /* Contact */
-    contactTitle: "Trabajemos Juntos!",
+    contactTitle: "¡Trabajemos Juntos!",
     contactParagraph1: "Sería muy interesante hablar sobre cómo podríamos desarrollar un próximo proyecto juntos. Puedes contactarme por este medio, WhatsApp, Email o LinkedIn.",
     contactParagraph2: "Te responderé lo antes posible!",
     contactLabel1: "Nombre",
@@ -206,7 +206,7 @@ export const indexTranslations = {
     question3: "Quais são os custos para realizar um projeto?",
     answer1: "Tento fornecer prazos realistas. Trabalho para completar os projetos no menor tempo possível sem comprometer a qualidade. Vou estabelecer um prazo específico no início do projeto e comunicar as atualizações do progresso durante todo o processo.",
     answer2: "Sim! Uma vez que o projeto tenha sido entregue, ainda é possível solicitar atualizações e melhorias adicionais.",
-    answer3: "Os custos variam de acordo com o tipo e a complexidade do projeto. Se você estiver interessado nos meus serviços, por favor, entre em contato comigo para discutir suas necessidades e obter um orçamento detalhado.",
+    answer3: "Os custos variam conforme o tipo e a complexidade do projeto. Se você estiver interessado nos meus serviços, por favor, entre em contato comigo para discutir suas necessidades e obter um orçamento detalhado.",
 
     /* Blogs */
     blogsTitle: "Artigos Valiosos Sobre o Fascinante Mundo do Desenvolvimento Web",
