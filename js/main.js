@@ -37,6 +37,37 @@ window.addEventListener("scroll", () => {
   header.classList.toggle("active", window.scrollY > 0)
 })
 
+// ACTIVE LINK
+const sections = document.querySelectorAll('section')
+
+function setActiveLinks() {
+  let len = sections.length;
+
+  while (--len && window.scrollY + 97 < sections[len].offsetTop) { }
+  navLinks.forEach(link => link.classList.remove("active"));
+  navLinks[len].classList.add("active");
+}
+
+setActiveLinks();
+window.addEventListener("scroll", setActiveLinks);
+
+// SCROLL TO SECTION
+navLinks.forEach(link => {
+  link.addEventListener('click', (event) => {
+    event.preventDefault();
+
+    const sectionId = link.getAttribute('href').substring(1);
+    const targetSection = document.getElementById(sectionId);
+
+    if (targetSection) {
+      targetSection.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
+  });
+});
+
 // WHATSAPP FLOAT BUTTON
 window.addEventListener("scroll", () => {
   const whatsappBtn = document.querySelector(".whatsapp-float-btn");
@@ -166,14 +197,14 @@ function validateRegularExpressions(e) {
   }
 }
 
-/* Remove leading spaces on the name input */
+/* Remove leading spaces and allow one space between each word on the name input  */
 inputName.addEventListener("input", () => {
-  inputName.value = inputName.value.replace(/^\s+/g, '');
+  inputName.value = inputName.value.replace(/^\s+/g, '').replace(/\s+/g, ' ');
 });
 
-/* Replace all the white spaces on the email input */
+/* Remove all the white spaces on the email input */
 inputEmail.addEventListener("input", () => {
-  inputEmail.value = inputEmail.value.replace(/ /g, "");
+  inputEmail.value = inputEmail.value.trim();
 })
 
 /* Remove leading spaces on the textarea */

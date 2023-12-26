@@ -31,7 +31,7 @@
 /* GLOBAL STYLES */
 
 :root {
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
   --navbar: rgb(245, 245, 245);
   --black: #1d1d1d;
   --white: #f8f5f8;
@@ -199,7 +199,7 @@ button {
   align-items: center;
   opacity: 0;
   visibility: hidden;
-  transition: .4s;
+  transition: all .4s ease;
 }
 
 .modal-background.active {
@@ -226,7 +226,7 @@ button {
   opacity: 0;
   visibility: hidden;
   transform: scale(.1);
-  transition: .4s;
+  transition: all .4s ease;
 }
 
 .whatsapp-float-btn svg {
@@ -317,7 +317,7 @@ header {
   right: 0;
   z-index: 3;
   padding: 1.5rem 4rem;
-  transition: .3s ease;
+  transition: all .3s ease;
   animation: fadeIn 1s backwards .4s;
 }
 
@@ -344,11 +344,16 @@ nav {
 .nav-link {
   margin-left: 3rem;
   font-size: 1.7rem;
-  padding-bottom: .5rem;
+  font-weight: 600;
+  transition: all .3s ease;
 }
 
 .nav-link:hover {
-  border-bottom: 2px solid var(--accent-color-1);
+  color: var(--accent-color-2);
+}
+
+.nav-link.active {
+  color: var(--accent-color-2);
 }
 
 .navbar-networks {
@@ -401,7 +406,7 @@ nav {
   z-index: 1;
   opacity: 0;
   visibility: hidden;
-  transition: .3s;
+  transition: all .3s ease;
 }
 
 .dropdown-menu.active {
@@ -532,7 +537,7 @@ SECTION 3: ABOUT
   width: 20px;
   width: 20px;
   fill: var(--accent-color-2);
-  transition: .3s;
+  transition: transform .3s ease;
 }
 
 .curriculum-btn:hover svg {
@@ -562,7 +567,7 @@ SECTION 3: ABOUT
   padding: 4rem;
   transform: translateY(40px);
   pointer-events: none;
-  transition: .6s;
+  transition: all .6s ease;
 }
 
 .modal-background.active .modal-cv {
@@ -608,7 +613,7 @@ SECTION 3: ABOUT
   border: 0;
   color: var(--white);
   background: var(--accent-color-1);
-  transition: .3s;
+  transition: opacity .3s;
 }
 
 .close-modal-cv:hover {
@@ -753,7 +758,7 @@ SECTION 5: PROJECTS
   border: 2px solid var(--accent-color-1);
   box-shadow: 0px 10px 59px -3px rgba(0, 0, 0, .1);
   cursor: pointer;
-  transition: .4s;
+  transition: filter .4s ease;
 }
 
 .project-img:hover {
@@ -766,7 +771,7 @@ SECTION 5: PROJECTS
   font-size: 1.8rem;
   font-weight: 600;
   opacity: .9;
-  transition: .4s;
+  transition: opacity .4s ease;
 }
 
 .project-button:hover {
@@ -778,7 +783,7 @@ SECTION 5: PROJECTS
   height: 20px;
   fill: var(--black);
   vertical-align: middle;
-  transition: .4s;
+  transition: transform .4s ease;
 }
 
 .project-button:hover svg {
@@ -885,7 +890,7 @@ SECTION 7: BLOGS
   height: 20px;
   fill: var(--accent-color-2);
   vertical-align: middle;
-  transition: .3s;
+  transition: transform .3s;
 }
 
 .blog-button:hover svg {
@@ -1047,7 +1052,7 @@ SECTION 9: CONTACT
   border: 0;
   border-radius: .5rem;
   background-color: var(--accent-color-1);
-  transition: .4s;
+  transition: opacity .4s;
 }
 
 .button-submit:hover {
@@ -1243,7 +1248,7 @@ SECTION 10: FOOTER
 .socials a {
   font-size: 2.5rem;
   opacity: .75;
-  transition: .4s;
+  transition: all .4s;
 }
 
 .socials a:hover {
@@ -1280,7 +1285,7 @@ PAGES (Blogs & Projects)
   font-size: 1.4rem;
   font-weight: 500;
   margin-bottom: 2rem;
-  transition: .3s;
+  transition: opacity .3s;
 }
 
 .page-back-btn:hover {
@@ -1292,7 +1297,7 @@ PAGES (Blogs & Projects)
   height: 18px;
   fill: var(--black);
   vertical-align: middle;
-  transition: .4s;
+  transition: transform .4s;
 }
 
 .page-back-btn:hover svg {
@@ -1480,10 +1485,6 @@ RESPONSIVE DESIGN
   .nav-link {
     margin-left: 0;
     font-size: 1.8rem;
-  }
-
-  .nav-link:hover {
-    border-bottom: 0;
   }
 
   .navbar-overlay.active {
