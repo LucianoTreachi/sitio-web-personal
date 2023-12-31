@@ -393,9 +393,26 @@
       <div class="container">
         <h2 class="title-section" data-key="projectsTitle">Explora alguno de mis proyectos</h2>
         <img src="./assets/svg/marker.svg" alt="Subrayado título" class="marker">
+
+        <div class="container-select">
+          <select class="select" id="select" aria-label="State">
+            <option class="option" value="all" selected data-key="projectOption1" data-category="all">Todos</option>
+            <option class="option" value="website" data-key="projectOption2" data-category="website">Sitios Web</option>
+            <option class="option" value="blog" data-key="projectOption3" data-category="blog">Blogs</option>
+            <option class="option" value="ecommerce" data-key="projectOption4" data-category="ecommerce">E-commerce
+            </option>
+            <option class="option" value="tools" data-key="projectOption5" data-category="tools">Herramientas</option>
+          </select>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path
+              d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z">
+            </path>
+          </svg>
+        </div>
+
         <div class="row">
           <!-- Project 8 -->
-          <div class="project">
+          <div class="project" data-category="blog">
             <a href="./projects/project-8.html">
               <picture>
                 <source media="(max-width: 600px)"
@@ -415,7 +432,7 @@
             </a>
           </div>
           <!-- Project 7 -->
-          <div class="project">
+          <div class="project" data-category="ecommerce">
             <a href="./projects/project-7.html">
               <picture>
                 <source media="(max-width: 600px)"
@@ -435,7 +452,7 @@
             </a>
           </div>
           <!-- Project 6 -->
-          <div class="project">
+          <div class="project" data-category="ecommerce">
             <a href="./projects/project-6.html">
               <picture>
                 <source media="(max-width: 600px)"
@@ -455,7 +472,7 @@
             </a>
           </div>
           <!-- Project 5 -->
-          <div class="project">
+          <div class="project" data-category="website">
             <a href="./projects/project-5.html">
               <picture>
                 <source media="(max-width: 600px)"
@@ -475,7 +492,7 @@
             </a>
           </div>
           <!-- Project 4 -->
-          <div class="project">
+          <div class="project" data-category="website">
             <a href="./projects/project-4.html">
               <picture>
                 <source media="(max-width: 600px)"
@@ -495,7 +512,7 @@
             </a>
           </div>
           <!-- Project 3 -->
-          <div class="project">
+          <div class="project" data-category="website">
             <a href="./projects/project-3.html">
               <picture>
                 <source media="(max-width: 600px)"
@@ -515,7 +532,7 @@
             </a>
           </div>
           <!-- Project 2 -->
-          <div class="project">
+          <div class="project" data-category="website">
             <a href="./projects/project-2.html">
               <picture>
                 <source media="(max-width: 600px)"
@@ -535,7 +552,7 @@
             </a>
           </div>
           <!-- Project 1 -->
-          <div class="project">
+          <div class="project" data-category="tools">
             <a href="./projects/project-1.html">
               <picture>
                 <source media="(max-width: 600px)"

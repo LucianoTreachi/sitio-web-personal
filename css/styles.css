@@ -82,6 +82,7 @@ a {
 }
 
 input,
+select,
 textarea,
 button {
   font-family: inherit;
@@ -744,11 +745,55 @@ SECTION 5: PROJECTS
   max-width: 1200px;
 }
 
+.container-select {
+  margin-bottom: 3rem;
+  width: 200px;
+  position: relative;
+  overflow: hidden;
+}
+
+.container-select svg {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: .5rem;
+  width: 30px;
+  height: 30px;
+  fill: var(--accent-color-2);
+  pointer-events: none;
+}
+
+.select {
+  outline: none;
+  background-color: var(--background-2);
+  border: 2px solid var(--accent-color-1);
+  border-radius: 10px;
+  padding: 1rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: var(--accent-color-2);
+  cursor: pointer;
+  width: 100%;
+  transition: 0.4s;
+
+  /* All */
+  appearance: none;
+  /* Chrome y Safari */
+  -webkit-appearance: none;
+  /* Firefox */
+  -moz-appearance: none;
+}
+
 .projects .row {
   margin-top: 2rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 4rem;
+}
+
+/* Add "hide" class with JavaScript */
+.project.hide {
+  display: none;
 }
 
 .project-img {

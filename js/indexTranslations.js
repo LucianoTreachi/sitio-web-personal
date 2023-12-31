@@ -37,6 +37,11 @@ export const indexTranslations = {
 
     /* Projects */
     projectsTitle: "Explora alguno de mis proyectos",
+    projectOption1: "Todos",
+    projectOption2: "Sitios Web",
+    projectOption3: "Blogs",
+    projectOption4: "E-commerce",
+    projectOption5: "Herramientas",
     projectBTN: "Ver Proyecto",
 
     /* FAQs */
@@ -117,6 +122,11 @@ export const indexTranslations = {
 
     /* Projects */
     projectsTitle: "Discover Some of My Projects",
+    projectOption1: "All",
+    projectOption2: "Websites",
+    projectOption3: "Blogs",
+    projectOption4: "E-commerce",
+    projectOption5: "Tools",
     projectBTN: "View Project",
 
     /* FAQs */
@@ -197,6 +207,11 @@ export const indexTranslations = {
 
     /* Projects */
     projectsTitle: "Explora algum dos meus projetos",
+    projectOption1: "Todos",
+    projectOption2: "Websites",
+    projectOption3: "Blogs",
+    projectOption4: "E-commerce",
+    projectOption5: "Ferramentas",
     projectBTN: "Ver Projeto",
 
     /* FAQs */
