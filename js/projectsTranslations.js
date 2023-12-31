@@ -6,9 +6,9 @@ export const projectsTranslations = {
     projectBtn2: "Ver Repositorio",
 
     /* Project 1 */
-    project1Title: "Sitio Web Para Un Entrenador Personal",
-    project1Paragraph1: "<b>Descripción del proyecto:</b> diseñé y desarrollé un sitio web para un entrenador personal que vende programas de coaching, e-books y planes de suscripción. El sitio es 100% responsivo, se adapta perfectamente a cualquier dispositivo: escritorio, tablet y móvil.",
-    project1Paragraph2: "<b>Tecnologías utilizadas:</b> WIX.",
+    project1Title: "Contador de Texto",
+    project1Paragraph1: "<b>Descripción del proyecto:</b> diseñé y desarrollé una herramienta online que permite obtener rápidamente el número de caracteres, palabras, oraciones y párrafos de un texto.",
+    project1Paragraph2: "<b>Tecnologías utilizadas:</b> HTML5, CSS3, JavaScript.",
 
     /* Project 2 */
     project2Title: "Academia Online",
@@ -53,9 +53,9 @@ export const projectsTranslations = {
     projectBtn2: "View Repository",
 
     /* Project 1 */
-    project1Title: "Personal Trainer Website",
-    project1Paragraph1: "<b>Project Description:</b> I designed and developed a website for a personal trainer who sells coaching programs, e-books, and subscription plans. The site is 100% responsive, adapting seamlessly to any device: desktop, tablet, and mobile.",
-    project1Paragraph2: "<b>Technologies Used:</b> WIX.",
+    project1Title: "Text Counter",
+    project1Paragraph1: "<b>Project Description:</b> I designed and developed an online tool that allows quickly obtaining the number of characters, words, sentences, and paragraphs in a text.",
+    project1Paragraph2: "<b>Technologies Used:</b> HTML5, CSS3, JavaScript.",
 
     /* Project 2 */
     project2Title: "Online Academy",
@@ -100,9 +100,9 @@ export const projectsTranslations = {
     projectBtn2: "Ver Repositório",
 
     /* Project 1 */
-    project1Title: "Site Para Um Treinador Pessoal",
-    project1Paragraph1: "<b>Descrição do projeto:</b> criei e desenvolvi um site para um treinador pessoal que vende programas de coaching, e-books e planos de assinatura. O site é 100% responsivo, adaptando-se perfeitamente a qualquer dispositivo: desktop, tablet e celular.",
-    project1Paragraph2: "<b>Tecnologias utilizadas:</b> WIX.",
+    project1Title: "Contador de Texto",
+    project1Paragraph1: "<b>Descrição do projeto:</b> criei e desenvolvi uma ferramenta online que permite obter rapidamente o número de caracteres, palavras, frases e parágrafos de um texto.",
+    project1Paragraph2: "<b>Tecnologias utilizadas:</b> HTML5, CSS3, JavaScript.",
 
     /* Project 2 */
     project2Title: "Academia Online",
