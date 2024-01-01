@@ -1104,6 +1104,11 @@ SECTION 9: CONTACT
   opacity: .85;
 }
 
+.container-button-submit p {
+  margin-top: 2rem;
+  font-size: 1.4rem;
+}
+
 /* MODAL CONTACT */
 
 .modal-contact {
