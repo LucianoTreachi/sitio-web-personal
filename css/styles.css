@@ -31,7 +31,6 @@
 /* GLOBAL STYLES */
 
 :root {
-  /* scroll-behavior: smooth; */
   --navbar: rgb(245, 245, 245);
   --black: #1d1d1d;
   --white: #f8f5f8;
@@ -105,12 +104,8 @@ button {
   margin: auto;
 }
 
-.blurred-circle-1 {
+.blurred-circle {
   position: absolute;
-  top: 0;
-  left: 0;
-  transform: translate(-20%, -20%);
-  background-color: aquamarine;
   border-radius: 50%;
   filter: blur(100px);
   width: 200px;
@@ -120,18 +115,28 @@ button {
   pointer-events: none;
 }
 
+.blurred-circle-1 {
+  top: 0;
+  left: -50px;
+  background-color: aquamarine;
+}
+
 .blurred-circle-2 {
-  position: absolute;
+  top: 0;
+  right: -50px;
+  background-color: rgb(246, 255, 127);
+}
+
+.blurred-circle-3 {
   bottom: 0;
-  right: 0;
+  left: -50px;
+  background-color: rgb(127, 146, 255);
+}
+
+.blurred-circle-4 {
+  bottom: 0;
+  right: -50px;
   background-color: rgb(176, 127, 255);
-  border-radius: 50%;
-  filter: blur(100px);
-  width: 200px;
-  height: 200px;
-  opacity: 0.5;
-  max-width: 100%;
-  pointer-events: none;
 }
 
 .wave-top {
@@ -792,7 +797,7 @@ SECTION 5: PROJECTS
   gap: 4rem;
 }
 
-/* Add "hide" class with JavaScript */
+/* Add "hide" class with JavaScript for the project filter functionality */
 .project.hide {
   display: none;
 }
@@ -1661,6 +1666,11 @@ RESPONSIVE DESIGN
   .title-section {
     font-size: 3rem;
     width: 100%;
+  }
+
+  .blurred-circle-2 {
+    top: 270px;
+    right: -100px;
   }
 
   .nav-logo {
