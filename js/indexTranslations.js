@@ -55,7 +55,7 @@ export const indexTranslations = {
 
     /* Blogs */
     blogsTitle: "Artículos Valiosos Sobre El Fascinante Mundo Del Desarrollo Web",
-    blog1: "¿Cuáles son las mejores prácticas para el desarrollo web?",
+    blog1: "¿Cuáles son las mejores prácticas para el Desarrollo Web?",
     blog2: "¿Cómo garantizar la Accesibilidad Web?",
     blog3: "¿Cómo optimizar un sitio web?",
     blog1Date: "12 enero 2023",
@@ -140,7 +140,7 @@ export const indexTranslations = {
 
     /* Blogs */
     blogsTitle: "Valuable Articles About the Fascinating World of Web Development",
-    blog1: "What are the best practices for web development?",
+    blog1: "What are the best practices for Web Development?",
     blog2: "How to Ensure Web Accessibility?",
     blog3: "How to Optimize a Website?",
     blog1Date: "January 12, 2023",
@@ -225,7 +225,7 @@ export const indexTranslations = {
 
     /* Blogs */
     blogsTitle: "Artigos Valiosos Sobre o Fascinante Mundo do Desenvolvimento Web",
-    blog1: "Quais são as melhores práticas para o desenvolvimento web?",
+    blog1: "Quais são as melhores práticas para o Desenvolvimento Web?",
     blog2: "Como garantir a Acessibilidade Web?",
     blog3: "Como otimizar um site?",
     blog1Date: "12 de janeiro de 2023",

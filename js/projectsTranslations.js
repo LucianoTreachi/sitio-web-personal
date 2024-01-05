@@ -46,7 +46,7 @@ export const projectsTranslations = {
     project8Paragraph2: "<b>Tecnologías utilizadas:</b> Vite, React Js, CSS modules, Cloudinary.",
 
     /* Project 9 */
-    project9Title: "Conversor de letras",
+    project9Title: "Conversor de Letras",
     project9Paragraph1: "<b>Descripción del proyecto:</b> diseñé y desarrollé un conversor de letras que transforma texto plano en caracteres UNICODE en tiempo real, permitiendo a los usuarios copiar y pegar el texto convertido en diversas redes sociales.",
     project9Paragraph2: "<b>Tecnologías utilizadas:</b> HTML5, CSS3, JavaScript.",
   },
@@ -150,7 +150,7 @@ export const projectsTranslations = {
     project8Paragraph2: "<b>Tecnologias utilizadas:</b> Vite, React Js, CSS modules, Cloudinary.",
 
     /* Project 9 */
-    project9Title: "Conversor de letras",
+    project9Title: "Conversor de Letras",
     project9Paragraph1: "<b>Descrição do projeto:</b> criei e desenvolvi um conversor de letras que transforma texto simples em caracteres UNICODE em tempo real, permitindo que os usuários copiem e colem o texto convertido em diversas redes sociais.",
     project9Paragraph2: "<b>Tecnologias utilizadas:</b> HTML5, CSS3, JavaScript.",
   }
