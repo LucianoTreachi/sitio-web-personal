@@ -793,7 +793,7 @@ SECTION 5: PROJECTS
 .projects .row {
   margin-top: 2rem;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 4rem;
 }
 
@@ -1613,6 +1613,10 @@ RESPONSIVE DESIGN
   .home-paragraph {
     text-align: initial;
     width: 100%;
+  }
+
+  .projects .row {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .contact-paragraph {

@@ -44,6 +44,11 @@ export const projectsTranslations = {
     project8Title: "Blog sobre estrategias UX/UI",
     project8Paragraph1: "<b>Descripción del proyecto:</b> diseñé y desarrollé un Blog sobre consejos, técnicas y estrategias UX/UI para un diseño atractivo, intuitivo y funcional.",
     project8Paragraph2: "<b>Tecnologías utilizadas:</b> Vite, React Js, CSS modules, Cloudinary.",
+
+    /* Project 9 */
+    project9Title: "Conversor de letras",
+    project9Paragraph1: "<b>Descripción del proyecto:</b> diseñé y desarrollé un conversor de letras que transforma texto plano en caracteres UNICODE en tiempo real, permitiendo a los usuarios copiar y pegar el texto convertido en diversas redes sociales.",
+    project9Paragraph2: "<b>Tecnologías utilizadas:</b> HTML5, CSS3, JavaScript.",
   },
 
   en: {
@@ -91,6 +96,11 @@ export const projectsTranslations = {
     project8Title: "Blog about UX/UI strategies",
     project8Paragraph1: "<b>Project Description:</b> I designed and developed a blog about tips, techniques, and UX/UI strategies for an attractive, intuitive, and functional design.",
     project8Paragraph2: "<b>Technologies Used:</b> Vite, React Js, CSS modules, Cloudinary.",
+
+    /* Project 9 */
+    project9Title: "Letter Converter",
+    project9Paragraph1: "<b>Project Description:</b> I designed and developed a letter converter that transforms plain text into UNICODE characters in real-time, allowing users to copy and paste the converted text on various social media platforms.",
+    project9Paragraph2: "<b>Technologies Used:</b> HTML5, CSS3, JavaScript.",
   },
 
   pt: {
@@ -138,5 +148,10 @@ export const projectsTranslations = {
     project8Title: "Blog sobre estratégias de UX/UI",
     project8Paragraph1: "<b>Descrição do projeto:</b> criei e desenvolvi um blog sobre dicas, técnicas e estratégias de UX/UI para um design atraente, intuitivo e funcional.",
     project8Paragraph2: "<b>Tecnologias utilizadas:</b> Vite, React Js, CSS modules, Cloudinary.",
+
+    /* Project 9 */
+    project9Title: "Conversor de letras",
+    project9Paragraph1: "<b>Descrição do projeto:</b> criei e desenvolvi um conversor de letras que transforma texto simples em caracteres UNICODE em tempo real, permitindo que os usuários copiem e colem o texto convertido em diversas redes sociais.",
+    project9Paragraph2: "<b>Tecnologias utilizadas:</b> HTML5, CSS3, JavaScript.",
   }
 };
