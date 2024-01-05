@@ -913,18 +913,47 @@ SECTION 7: BLOGS
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.blog::before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  left: -50px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  filter: blur(70px);
+  opacity: .8;
+  pointer-events: none;
+}
+
+.blog-1::before {
+  background-color: aquamarine;
+}
+
+.blog-2::before {
+  background-color: rgb(127, 146, 255);
+}
+
+.blog-3::before {
+  background-color: rgb(176, 127, 255);
 }
 
 .blog-title {
   font-size: 2rem;
   font-weight: 600;
   line-height: 1.4em;
+  z-index: 1;
 }
 
 .blog-date {
   font-size: 1.4rem;
   font-weight: 400;
   opacity: .85;
+  z-index: 1;
 }
 
 .blog-button {
@@ -934,6 +963,7 @@ SECTION 7: BLOGS
   font-weight: 600;
   color: var(--accent-color-2);
   border-bottom: 1px solid var(--accent-color-2);
+  z-index: 1;
 }
 
 .blog-button svg {
@@ -942,6 +972,7 @@ SECTION 7: BLOGS
   fill: var(--accent-color-2);
   vertical-align: middle;
   transition: transform .3s;
+  z-index: 1;
 }
 
 .blog-button:hover svg {
