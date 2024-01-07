@@ -41,6 +41,10 @@
   --accent-color-1: #625eab;
   --accent-color-2: #625ead;
   --alert: #fd4d6b;
+  --blurred-circle-1: #7fffd4;
+  --blurred-circle-2: #f6ff7f;
+  --blurred-circle-3: #7f92ff;
+  --blurred-circle-4: #b07fff;
 }
 
 .dark-theme {
@@ -118,25 +122,25 @@ button {
 .blurred-circle-1 {
   top: 0;
   left: -50px;
-  background-color: aquamarine;
+  background-color: var(--blurred-circle-1);
 }
 
 .blurred-circle-2 {
   top: 0;
   right: -50px;
-  background-color: rgb(246, 255, 127);
+  background-color: var(--blurred-circle-2);
 }
 
 .blurred-circle-3 {
   bottom: 0;
   left: -50px;
-  background-color: rgb(127, 146, 255);
+  background-color: var(--blurred-circle-3);
 }
 
 .blurred-circle-4 {
   bottom: 0;
   right: -50px;
-  background-color: rgb(176, 127, 255);
+  background-color: var(--blurred-circle-4);
 }
 
 .wave-top {
@@ -931,15 +935,15 @@ SECTION 7: BLOGS
 }
 
 .blog-1::before {
-  background-color: aquamarine;
+  background-color: var(--blurred-circle-1);
 }
 
 .blog-2::before {
-  background-color: rgb(127, 146, 255);
+  background-color: var(--blurred-circle-3);
 }
 
 .blog-3::before {
-  background-color: rgb(176, 127, 255);
+  background-color: var(--blurred-circle-4);
 }
 
 .blog-title {
