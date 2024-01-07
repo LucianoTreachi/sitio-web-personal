@@ -266,32 +266,6 @@ button {
   }
 }
 
-@keyframes fadeInUp {
-  0% {
-    -webkit-transform: translate3d(0, 10%, 0);
-    transform: translate3d(0, 10%, 0);
-  }
-
-  to {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-  }
-}
-
-@keyframes fadeInDown {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-  }
-
-  to {
-    opacity: .85;
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-  }
-}
-
 @keyframes scale {
   0% {
     transform: scale(0.5);
@@ -471,7 +445,7 @@ SECTION 2: HOME
   font-size: 9rem;
   line-height: 1.1em;
   opacity: .85;
-  animation: fadeInDown 1s backwards .2s;
+  animation: fadeIn 1s backwards .4s;
 }
 
 .home-container-image {
@@ -485,7 +459,7 @@ SECTION 2: HOME
   margin: 1rem auto 0;
   text-align: center;
   text-wrap: balance;
-  animation: fadeInDown 1s backwards .4s;
+  animation: fadeIn 1s backwards .4s;
 }
 
 /*=============================== 
