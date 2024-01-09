@@ -667,7 +667,7 @@ SECTION 4: SERVICES
 .services .container-icons {
   margin-top: 6rem;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(9, 1fr);
   row-gap: 4rem;
 }
 
@@ -698,23 +698,11 @@ SECTION 4: SERVICES
 }
 
 .services .icon:nth-child(7) span {
-  transform: translateX(14px);
+  transform: translateX(20px);
 }
 
 .services .icon:nth-child(8) span {
-  transform: translateX(14px);
-}
-
-.services .icon:nth-child(9) span {
-  transform: translateX(4px);
-}
-
-.services .icon:nth-child(11) span {
-  transform: translateX(-6px);
-}
-
-.services .icon:nth-child(12) span {
-  transform: translateX(5px);
+  transform: translateX(10px);
 }
 
 /*=============================== 
@@ -1624,6 +1612,10 @@ RESPONSIVE DESIGN
     width: 100%;
   }
 
+  .services .container-icons {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
   .projects .row {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1658,10 +1650,6 @@ RESPONSIVE DESIGN
 
   .curriculum-btn {
     margin-top: 2rem;
-  }
-
-  .services .container-icons {
-    grid-template-columns: repeat(5, 1fr);
   }
 
   .footer {
@@ -1743,6 +1731,34 @@ RESPONSIVE DESIGN
     font-size: 1.2rem;
   }
 
+  .services .icon:nth-child(1) span {
+    transform: translateX(5px);
+  }
+
+  .services .icon:nth-child(2) span {
+    transform: translateX(6px);
+  }
+
+  .services .icon:nth-child(3) span {
+    transform: translateX(-5px);
+  }
+
+  .services .icon:nth-child(6) span {
+    transform: translateX(10px);
+  }
+
+  .services .icon:nth-child(7) span {
+    transform: translateX(15px);
+  }
+
+  .services .icon:nth-child(8) span {
+    transform: translateX(5px);
+  }
+
+  .services .icon:nth-child(9) span {
+    transform: translateX(-5px);
+  }
+
   .projects .row {
     grid-template-columns: 1fr;
   }
@@ -1784,5 +1800,9 @@ RESPONSIVE DESIGN
 
   .home-btn {
     width: 100%;
+  }
+
+  .services .icon:nth-child(9) span {
+    transform: translateX(0);
   }
 }
