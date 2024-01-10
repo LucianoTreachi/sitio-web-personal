@@ -678,6 +678,7 @@ SECTION 4: SERVICES
 
 .services .icon span {
   display: block;
+  margin-top: 1rem;
   font-size: 1.2rem;
 }
 
@@ -1643,10 +1644,6 @@ RESPONSIVE DESIGN
     order: 1;
   }
 
-  .curriculum-btn {
-    margin-top: 2rem;
-  }
-
   .footer {
     padding: 6rem 2rem;
   }
@@ -1706,7 +1703,7 @@ RESPONSIVE DESIGN
   }
 
   .about .row-2 {
-    margin-top: 5rem;
+    margin-top: 4rem;
   }
 
   .about .row-2 h2 {
