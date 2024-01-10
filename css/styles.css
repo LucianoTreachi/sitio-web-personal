@@ -442,7 +442,7 @@ SECTION 2: HOME
 .home-title {
   text-transform: uppercase;
   text-align: center;
-  font-size: 9rem;
+  font-size: clamp(3.8rem, 9cqi, 9rem);
   line-height: 1.1em;
   opacity: .85;
   animation: fadeIn 1s backwards .4s;
@@ -1570,10 +1570,6 @@ RESPONSIVE DESIGN
     animation: fadeInTranslate 1s backwards .2s;
   }
 
-  .home-title {
-    font-size: 8rem;
-  }
-
   .about .row-1 {
     gap: 4rem;
   }
@@ -1603,7 +1599,6 @@ RESPONSIVE DESIGN
   }
 
   .home-title {
-    font-size: 6rem;
     text-align: initial;
   }
 
@@ -1687,7 +1682,6 @@ RESPONSIVE DESIGN
   }
 
   .home-title {
-    font-size: 3.8rem;
     text-transform: none;
   }
 
