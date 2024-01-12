@@ -217,7 +217,7 @@ button {
   visibility: visible;
 }
 
-/* HAMBURGUER MENU FLOAT BUTTON */
+/* HAMBURGER MENU FLOAT BUTTON */
 
 .whatsapp-float-btn {
   position: fixed;
@@ -348,7 +348,7 @@ nav {
   display: none;
 }
 
-.hamburguer-menu {
+.hamburger-menu {
   display: none;
 }
 
@@ -1487,7 +1487,7 @@ RESPONSIVE DESIGN
     margin-left: 0;
   }
 
-  .hamburguer-menu {
+  .hamburger-menu {
     display: block;
     margin-left: 1rem;
     width: 32px;

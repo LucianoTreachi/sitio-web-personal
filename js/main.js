@@ -6,12 +6,12 @@ window.onpageshow = function (event) {
 };
 
 // NAVBAR
-const hamburguerMenu = document.querySelector(".hamburguer-menu");
+const hamburgerMenu = document.querySelector(".hamburger-menu");
 const closeMenu = document.querySelector(".close-menu");
 const navbarOverlay = document.querySelector(".navbar-overlay");
 const navLinks = document.querySelectorAll(".nav-link");
 
-hamburguerMenu.addEventListener('click', () => {
+hamburgerMenu.addEventListener('click', () => {
   navbarOverlay.classList.add("active")
 });
 
@@ -116,7 +116,7 @@ select.addEventListener("change", (e) => {
       project.classList.remove("hide")
     });
   }
-  // Show the slected category
+  // Show the selected category
   else {
     const selectedProjects = document.querySelectorAll(`.project[data-category="${selectedCategory}"]`);
     selectedProjects.forEach((project) => {
