@@ -157,7 +157,7 @@ button {
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
-  height: 10px;
+  height: 15px;
 }
 
 .wave-top .shape-fill {
@@ -177,7 +177,7 @@ button {
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
-  height: 10px;
+  height: 15px;
 }
 
 .wave-bottom .shape-fill {
@@ -628,6 +628,8 @@ SECTION 4: SERVICES
 }
 
 .service {
+  position: relative;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -635,6 +637,21 @@ SECTION 4: SERVICES
   border: 2px solid var(--accent-color-1);
   padding: 2rem;
   box-shadow: 0px 10px 59px -3px rgba(0, 0, 0, .1);
+}
+
+.service::before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  left: -50px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  filter: blur(70px);
+  opacity: .5;
+  pointer-events: none;
+  z-index: 999;
+  background-color: var(--blurred-circle-3);
 }
 
 .service svg {
@@ -843,7 +860,7 @@ SECTION 6: FAQS
 
 .answer {
   height: 0;
-  transition: height .3s;
+  transition: .3s;
 }
 
 /* Javascript  */
@@ -893,7 +910,7 @@ SECTION 7: BLOGS
   height: 100px;
   border-radius: 50%;
   filter: blur(70px);
-  opacity: .8;
+  opacity: .5;
   pointer-events: none;
 }
 
