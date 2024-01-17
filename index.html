@@ -6,12 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="author" type="text/plain" href="author.txt">
   <meta name="canonical" content="https://www.lucianotreachi.com/">
-  <title>Luciano Treachi | Desarrollo Web Atractivo y Funcional</title>
+  <title>Luciano Treachi | Desarrollador Frontend</title>
   <meta name="description"
     content="Creo sitios web que mejoran la experiencia de usuario, siguiendo las últimas tendencias del mercado">
 
   <!-- Facebook -->
-  <meta property="og:title" content="Luciano Treachi | Desarrollo Web Atractivo y Funcional">
+  <meta property="og:title" content="Luciano Treachi | Desarrollador Frontend">
   <meta property="og:description"
     content="Creo sitios web que mejoran la experiencia de usuario, siguiendo las últimas tendencias del mercado">
   <meta property="og:url" content="https://lucianotreachi-portfolio.netlify.app/">
@@ -25,7 +25,7 @@
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:creator" content="@LucianoTreachi">
-  <meta name="twitter:title" content="Luciano Treachi | Desarrollo Web Atractivo y Funcional">
+  <meta name="twitter:title" content="Luciano Treachi | Desarrollador Frontend">
   <meta name="twitter:description"
     content="Creo sitios web que mejoran la experiencia de usuario, siguiendo las últimas tendencias del mercado">
   <meta name="twitter:image"
@@ -35,8 +35,8 @@
   <link rel="icon" type="image/png" href="./assets/favicon/favicon.png">
 
   <!-- Styles -->
-  <link rel="preload" as="style" href="./css/styles.css">
-  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="preload" as="style" href="./css/styles.min.css">
+  <link rel="stylesheet" href="./css/styles.min.css">
 </head>
 
 <body>
@@ -149,9 +149,9 @@
     <!--===== HOME =====-->
     <section class="home section" id="home">
       <div class="container">
-        <h1 class="home-title" data-key="homeTitle">Desarrollo web atractivo y funcional</h1>
-        <p class="home-paragraph" data-key="homeParagraph">Soluciones digitales que ofrecen la mejor experiencia para el
-          usuario.</p>
+        <h1 class="home-title" data-key="homeTitle">Desarrollador Frontend</h1>
+        <p class="home-paragraph" data-key="homeParagraph">Quiero crear soluciones digitales que ofrezcan la mejor
+          experiencia para el usuario.</p>
         <div class="home-container-image">
           <picture>
             <source media="(max-width: 600px)"
@@ -378,212 +378,45 @@
         <h2 class="title-section" data-key="projectsTitle">Explora alguno de mis proyectos</h2>
         <img src="./assets/svg/marker.svg" alt="Subrayado título" class="marker">
 
-        <div class="container-select">
-          <select class="select" id="select" aria-label="State">
-            <option class="option" value="all" selected data-key="projectOption1" data-category="all">Todos</option>
-            <option class="option" value="website" data-key="projectOption2" data-category="website">Sitios Web</option>
-            <option class="option" value="blog" data-key="projectOption3" data-category="blog">Blogs</option>
-            <option class="option" value="ecommerce" data-key="projectOption4" data-category="ecommerce">E-commerce
-            </option>
-            <option class="option" value="tools" data-key="projectOption5" data-category="tools">Herramientas</option>
-          </select>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path
-              d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z">
-            </path>
-          </svg>
-        </div>
-
         <div class="row">
-          <!-- Project Conversor de letras -->
-          <div class="project" data-category="tools">
-            <a href="./projects/conversor-de-letras.html">
-              <picture>
-                <source media="(max-width: 600px)"
-                  srcset="https://res.cloudinary.com/dwqk2mkgh/image/upload/f_auto,q_auto/w_800/v1704465497/Portfolio-Personal/project-conversor-de-letras_nw52kw.jpg">
-                <img
-                  src="https://res.cloudinary.com/dwqk2mkgh/image/upload/f_auto,q_auto/v1704465497/Portfolio-Personal/project-conversor-de-letras_nw52kw.jpg"
-                  alt="Imagen de Proyecto Conversor de letras" class="project-img">
-              </picture>
-            </a>
-            <a href="./projects/conversor-de-letras.html" class="project-button"
-              aria-label="Ver proyecto Conversor de letras">
-              <span data-key="projectBTN">Ver Proyecto</span>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                <path
-                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
-                </path>
-              </svg>
-            </a>
-          </div>
           <!-- Project Blog -->
           <div class="project" data-category="blog">
-            <a href="./projects/blog-ux-ui.html">
-              <picture>
-                <source media="(max-width: 600px)"
-                  srcset="https://res.cloudinary.com/dwqk2mkgh/image/upload/f_auto,q_auto/w_800/Portfolio-Personal/project8_ldn96v.jpg">
-                <img
-                  src="https://res.cloudinary.com/dwqk2mkgh/image/upload/f_auto,q_auto/v1699803712/Portfolio-Personal/project8_ldn96v.jpg"
-                  alt="Imagen de Proyecto Blog" class="project-img">
-              </picture>
+            <a href="../projects/blog-ux-ui.html">
+              <img class="project-img"
+                src="https://res.cloudinary.com/dwqk2mkgh/image/upload/f_auto,q_auto/v1703991013/Portfolio-Personal/project8_lzr1s2.png"
+                alt="Imagen de Proyecto Blog">
             </a>
-            <a href="./projects/blog-ux-ui.html" class="project-button" aria-label="Ver proyecto Blog">
-              <span data-key="projectBTN">Ver Proyecto</span>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                <path
-                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
-                </path>
-              </svg>
+          </div>
+          <!-- Project Conversor de letras -->
+          <div class="project" data-category="tools">
+            <a href="../projects/conversor-de-letras.html">
+              <img class="project-img"
+                src="https://res.cloudinary.com/dwqk2mkgh/image/upload/f_auto,q_auto/v1704465497/Portfolio-Personal/project-conversor-de-letras-mockup_kc39j1.png"
+                alt="Imagen de Proyecto Ecommerce Libros">
             </a>
           </div>
           <!-- Project Ecommerce Libros-->
           <div class="project" data-category="ecommerce">
-            <a href="./projects/ecommerce-libros.html">
-              <picture>
-                <source media="(max-width: 600px)"
-                  srcset="https://res.cloudinary.com/dwqk2mkgh/image/upload/f_auto,q_auto/w_800/Portfolio-Personal/project7_orhutr.jpg">
-                <img
-                  src="https://res.cloudinary.com/dwqk2mkgh/image/upload/f_auto,q_auto/v1692802640/Portfolio-Personal/project7_orhutr.jpg"
-                  alt="Imagen de Proyecto Ecommerce Libros" class="project-img">
-              </picture>
-            </a>
-            <a href="./projects/ecommerce-libros.html" class="project-button"
-              aria-label="Ver proyecto Ecommerce Libros">
-              <span data-key="projectBTN">Ver Proyecto</span>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                <path
-                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
-                </path>
-              </svg>
-            </a>
-          </div>
-          <!-- Project Ecommerce Guitarras -->
-          <div class="project" data-category="ecommerce">
-            <a href="./projects/ecommerce-guitarras.html">
-              <picture>
-                <source media="(max-width: 600px)"
-                  srcset="https://res.cloudinary.com/dwqk2mkgh/image/upload/f_auto,q_auto/w_800/v1692802639/Portfolio-Personal/project6_ylybwe.jpg">
-                <img
-                  src="https://res.cloudinary.com/dwqk2mkgh/image/upload/f_auto,q_auto/v1692802639/Portfolio-Personal/project6_ylybwe.jpg"
-                  alt="Imagen de Proyecto Ecommerce Guitarras" class="project-img">
-              </picture>
-            </a>
-            <a href="./projects/ecommerce-guitarras.html" class="project-button"
-              aria-label="Ver proyecto Ecommerce Guitarras">
-              <span data-key="projectBTN">Ver Proyecto</span>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                <path
-                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
-                </path>
-              </svg>
-            </a>
-          </div>
-          <!-- Project Conociendo Córdoba -->
-          <div class="project" data-category="website">
-            <a href="./projects/conociendo-cordoba.html">
-              <picture>
-                <source media="(max-width: 600px)"
-                  srcset="https://res.cloudinary.com/dwqk2mkgh/image/upload/f_auto,q_auto/w_800/v1692802639/Portfolio-Personal/project5_k08zv2.jpg">
-                <img
-                  src="https://res.cloudinary.com/dwqk2mkgh/image/upload/f_auto,q_auto/v1692802639/Portfolio-Personal/project5_k08zv2.jpg"
-                  alt="Imagen de Proyecto Conociendo Córdoba" class="project-img">
-              </picture>
-            </a>
-            <a href="./projects/conociendo-cordoba.html" class="project-button"
-              aria-label="Ver proyecto Conociendo Córdoba">
-              <span data-key="projectBTN">Ver Proyecto</span>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                <path
-                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
-                </path>
-              </svg>
-            </a>
-          </div>
-          <!-- Project Luciano Guitar Beats -->
-          <div class="project" data-category="website">
-            <a href="./projects/luciano-guitar-beats.html">
-              <picture>
-                <source media="(max-width: 600px)"
-                  srcset="https://res.cloudinary.com/dwqk2mkgh/image/upload/f_auto,q_auto/w_800/v1692802639/Portfolio-Personal/project4_eutxds.jpg">
-                <img
-                  src="https://res.cloudinary.com/dwqk2mkgh/image/upload/f_auto,q_auto/v1692802639/Portfolio-Personal/project4_eutxds.jpg"
-                  alt="Imagen de Proyecto Luciano Guitar Beats" class="project-img">
-              </picture>
-            </a>
-            <a href="./projects/luciano-guitar-beats.html" class="project-button"
-              aria-label="Ver proyecto Luciano Guitar Beats">
-              <span data-key="projectBTN">Ver Proyecto</span>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                <path
-                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
-                </path>
-              </svg>
-            </a>
-          </div>
-          <!-- Project Academia Online v2 -->
-          <div class="project" data-category="website">
-            <a href="./projects/academia-online-v2.html">
-              <picture>
-                <source media="(max-width: 600px)"
-                  srcset="https://res.cloudinary.com/dwqk2mkgh/image/upload/f_auto,q_auto/w_800/v1692802639/Portfolio-Personal/project3_nq3spj.jpg">
-                <img
-                  src="https://res.cloudinary.com/dwqk2mkgh/image/upload/f_auto,q_auto/v1692802639/Portfolio-Personal/project3_nq3spj.jpg"
-                  alt="Imagen de Proyecto Academia Online versión 2" class="project-img">
-              </picture>
-            </a>
-            <a href="./projects/academia-online-v2.html" class="project-button"
-              aria-label="Ver proyecto Academia Online versión 2">
-              <span data-key="projectBTN">Ver Proyecto</span>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                <path
-                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
-                </path>
-              </svg>
-            </a>
-          </div>
-          <!-- Project Academia Online v1 -->
-          <div class="project" data-category="website">
-            <a href="./projects/academia-online-v1.html">
-              <picture>
-                <source media="(max-width: 600px)"
-                  srcset="https://res.cloudinary.com/dwqk2mkgh/image/upload/f_auto,q_auto/w_800/v1692802639/Portfolio-Personal/project2_cuu96j.jpg">
-                <img
-                  src="https://res.cloudinary.com/dwqk2mkgh/image/upload/f_auto,q_auto/v1692802639/Portfolio-Personal/project2_cuu96j.jpg"
-                  alt="Imagen de Proyecto Academia Online versión 1" class="project-img">
-              </picture>
-            </a>
-            <a href="./projects/academia-online-v1.html" class="project-button"
-              aria-label="Ver proyecto Academia Online versión 1">
-              <span data-key="projectBTN">Ver Proyecto</span>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                <path
-                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
-                </path>
-              </svg>
-            </a>
-          </div>
-          <!-- Project Contador de Texto -->
-          <div class="project" data-category="tools">
-            <a href="./projects/contador-de-texto.html">
-              <picture>
-                <source media="(max-width: 600px)"
-                  srcset="https://res.cloudinary.com/dwqk2mkgh/image/upload/f_auto,q_auto/w_800/v1704398862/Portfolio-Personal/project1_gfzkpp.jpg">
-                <img
-                  src="https://res.cloudinary.com/dwqk2mkgh/image/upload/f_auto,q_auto/v1704398862/Portfolio-Personal/project1_gfzkpp.jpg"
-                  alt="Imagen de Proyecto Contador de Texto" class="project-img">
-              </picture>
-            </a>
-            <a href="./projects/contador-de-texto.html" class="project-button"
-              aria-label="Ver proyecto Contador de Texto">
-              <span data-key="projectBTN">Ver Proyecto</span>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                <path
-                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
-                </path>
-              </svg>
+            <a href="../projects/ecommerce-libros.html">
+              <img class="project-img"
+                src="https://res.cloudinary.com/dwqk2mkgh/image/upload/f_auto,q_auto/v1695777294/Portfolio-Personal/project7_noxhcq.png"
+                alt="Imagen de Proyecto Conversor de letras">
             </a>
           </div>
         </div>
+
+        <!-- More Projects -->
+        <a class="more-projects-button" href="./projects/proyectos.html">
+          <span data-key="moreProjectsBtn">
+            Ver más proyectos
+          </span>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path
+              d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
+            </path>
+          </svg>
+        </a>
+
       </div>
     </section>
 

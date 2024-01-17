@@ -77,6 +77,7 @@ p {
   font-size: 1.8rem;
   opacity: .85;
   line-height: 1.6em;
+  text-wrap: pretty;
 }
 
 a {
@@ -215,6 +216,34 @@ button {
 .modal-background.active {
   opacity: 1;
   visibility: visible;
+}
+
+.page-back-btn {
+  display: inline-block;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  transition: opacity .3s;
+}
+
+.page-back-btn:hover {
+  opacity: .85;
+}
+
+.page-back-btn svg {
+  width: 18px;
+  height: 18px;
+  fill: var(--black);
+  vertical-align: middle;
+  transition: transform .4s;
+}
+
+.page-back-btn:hover svg {
+  transform: translateX(-4px);
+}
+
+.page-title {
+  font-size: 3rem;
 }
 
 /* HAMBURGER MENU FLOAT BUTTON */
@@ -442,7 +471,7 @@ SECTION 2: HOME
 .home-title {
   text-transform: uppercase;
   text-align: center;
-  font-size: clamp(3.8rem, 9cqi, 9rem);
+  font-size: clamp(4rem, 10cqi, 10rem);
   line-height: 1.1em;
   opacity: .85;
   animation: fadeIn 1s backwards .4s;
@@ -458,7 +487,6 @@ SECTION 2: HOME
   width: 80%;
   margin: 1rem auto 0;
   text-align: center;
-  text-wrap: balance;
   animation: fadeIn 1s backwards .4s;
 }
 
@@ -735,63 +763,9 @@ SECTION 5: PROJECTS
   max-width: 1200px;
 }
 
-.container-select {
-  margin-bottom: 3rem;
-  width: 200px;
-  position: relative;
-  overflow: hidden;
-}
-
-.container-select svg {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  right: .5rem;
-  width: 30px;
-  height: 30px;
-  fill: var(--accent-color-2);
-  pointer-events: none;
-}
-
-.select {
-  outline: none;
-  background-color: var(--background-2);
-  border: 2px solid var(--accent-color-1);
-  border-radius: 10px;
-  padding: 1rem;
-  font-size: 1.8rem;
-  font-weight: 500;
-  color: var(--accent-color-2);
-  cursor: pointer;
-  width: 100%;
-  transition: 0.4s;
-
-  /* All */
-  appearance: none;
-  /* Chrome y Safari */
-  -webkit-appearance: none;
-  /* Firefox */
-  -moz-appearance: none;
-}
-
-.projects .row {
-  margin-top: 2rem;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 4rem;
-}
-
-/* Add "hide" class with JavaScript for the project filter functionality */
-.project.hide {
-  display: none;
-}
-
 .project-img {
   width: 100%;
   height: auto;
-  border-radius: .5rem;
-  border: 2px solid var(--accent-color-1);
-  box-shadow: 0px 10px 59px -3px rgba(0, 0, 0, .1);
   cursor: pointer;
   transition: filter .4s ease;
 }
@@ -800,29 +774,30 @@ SECTION 5: PROJECTS
   filter: contrast(80%);
 }
 
-.project-button {
+.more-projects-button {
   display: inline-block;
-  margin-top: 2rem;
-  font-size: 1.8rem;
-  font-weight: 600;
-  opacity: .9;
-  transition: opacity .4s ease;
+  margin-top: 6rem;
+  white-space: nowrap;
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--accent-color-2);
+  border: 0;
+  background: none;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--accent-color-2);
 }
 
-.project-button:hover {
-  opacity: .7;
-}
-
-.project-button svg {
-  width: 20px;
-  height: 20px;
-  fill: var(--black);
+.more-projects-button svg {
+  display: inline-block;
   vertical-align: middle;
-  transition: transform .4s ease;
+  width: 20px;
+  width: 20px;
+  fill: var(--accent-color-2);
+  transition: transform .3s ease;
 }
 
-.project-button:hover svg {
-  transform: translateX(5px);
+.more-projects-button:hover svg {
+  transform: translateX(8px);
 }
 
 /*=============================== 
@@ -1334,10 +1309,10 @@ SECTION 10: FOOTER
 }
 
 /*=============================== 
-PAGES (Blogs & Projects)
+PAGE PROJECTS
 ================================*/
 
-.page-hero {
+.page-hero-projects {
   background-color: var(--background-1);
   padding: 6rem 4rem;
   position: relative;
@@ -1345,38 +1320,189 @@ PAGES (Blogs & Projects)
   animation: fadeIn .4s linear;
 }
 
-.page-hero .container {
+.page-hero-projects .container {
   width: 50%;
   position: relative;
   z-index: 1;
 }
 
-.page-back-btn {
-  display: inline-block;
-  font-size: 1.4rem;
-  font-weight: 500;
-  margin-bottom: 2rem;
-  transition: opacity .3s;
+.page-content-projects {
+  background-color: var(--background-2);
+  padding: 6rem 4rem;
+  animation: fadeIn .4s linear;
 }
 
-.page-back-btn:hover {
+.page-content-projects .container {
+  width: 50%;
+}
+
+.container-select {
+  margin-bottom: 3rem;
+  width: 200px;
+  position: relative;
+  overflow: hidden;
+}
+
+.container-select svg {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: .5rem;
+  width: 30px;
+  height: 30px;
+  fill: var(--accent-color-2);
+  pointer-events: none;
+}
+
+.select {
+  outline: none;
+  background-color: var(--background-2);
+  border: 2px solid var(--accent-color-1);
+  border-radius: 10px;
+  padding: 1rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: var(--accent-color-2);
+  cursor: pointer;
+  width: 100%;
+  transition: 0.4s;
+
+  /* All */
+  appearance: none;
+  /* Chrome y Safari */
+  -webkit-appearance: none;
+  /* Firefox */
+  -moz-appearance: none;
+}
+
+.projects .row {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
+}
+
+/* Add "hide" class with JavaScript for the project filter functionality */
+.project.hide {
+  display: none;
+}
+
+.gallery {
+  margin-top: 6rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
+}
+
+.gallery img {
+  width: 100%;
+}
+
+/*=============================== 
+PAGE INDIVIDUAL PROJECT
+================================*/
+
+.page-hero-project {
+  background-color: var(--background-1);
+  padding: 6rem 4rem;
+  position: relative;
+  overflow: hidden;
+  animation: fadeIn .4s linear;
+}
+
+.page-hero-project .container {
+  width: 50%;
+  position: relative;
+  z-index: 1;
+}
+
+.page-content-project {
+  background-color: var(--background-2);
+  padding: 6rem 4rem;
+  animation: fadeIn .4s linear;
+}
+
+.page-content-project .container {
+  width: 50%;
+}
+
+.page-content-project strong,
+.page-content-project b {
+  font-weight: 600;
+}
+
+.page-content-project p:not(:last-child) {
+  margin-bottom: 4rem;
+}
+
+.links {
+  display: flex;
+  gap: 2rem;
+}
+
+.link {
+  font-size: 1.8rem;
+  font-weight: 600;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.link svg {
+  width: 18px;
+  height: 18px;
+}
+
+.link-1 {
+  padding: 1.5rem 4rem;
+  color: var(--white);
+  background-color: var(--accent-color-1);
+  transition: .4s;
+}
+
+.link-1:hover {
   opacity: .85;
 }
 
-.page-back-btn svg {
-  width: 18px;
-  height: 18px;
-  fill: var(--black);
-  vertical-align: middle;
-  transition: transform .4s;
+.link-1 svg {
+  fill: var(--white);
 }
 
-.page-back-btn:hover svg {
-  transform: translateX(-4px);
+.link-2 {
+  padding: 1.5rem 3rem;
+  color: var(--accent-color-2);
+  border: 1px solid var(--accent-color-2);
 }
 
-.page-title {
-  font-size: 3rem;
+.link-2 svg {
+  fill: var(--accent-color-2);
+}
+
+.mockup {
+  margin-top: 6rem;
+  display: block;
+  max-width: 50%;
+  height: auto;
+}
+
+/*=============================== 
+PAGE INDIVIDUAL BLOG
+================================*/
+
+.page-hero-blog {
+  background-color: var(--background-1);
+  padding: 6rem 4rem;
+  position: relative;
+  overflow: hidden;
+  animation: fadeIn .4s linear;
+}
+
+.page-hero-blog .container {
+  width: 50%;
+  position: relative;
+  z-index: 1;
 }
 
 .author {
@@ -1405,81 +1531,23 @@ PAGES (Blogs & Projects)
   opacity: .85;
 }
 
-.page-content {
+.page-content-blog {
   background-color: var(--background-2);
   padding: 6rem 4rem;
   animation: fadeIn .4s linear;
 }
 
-.page-content .container {
+.page-content-blog .container {
   width: 50%;
 }
 
-.page-content strong,
-.page-content b {
+.page-content-blog strong,
+.page-content-blog b {
   font-weight: 600;
 }
 
-.page-content p:not(:last-child) {
+.page-content-blog p:not(:last-child) {
   margin-bottom: 4rem;
-}
-
-.page-project-link-container {
-  display: flex;
-  gap: 2rem;
-}
-
-.page-project-link {
-  font-size: 1.8rem;
-  font-weight: 600;
-  border-radius: 6px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-}
-
-.page-project-link svg {
-  width: 18px;
-  height: 18px;
-}
-
-.page-project-link-1 {
-  padding: 1.5rem 4rem;
-  color: var(--white);
-  background-color: var(--accent-color-1);
-  transition: .4s;
-}
-
-.page-project-link-1:hover {
-  opacity: .85;
-}
-
-.page-project-link-1 svg {
-  fill: var(--white);
-}
-
-.page-project-link-2 {
-  padding: 1.5rem 3rem;
-  color: var(--accent-color-2);
-  border: 1px solid var(--accent-color-2);
-}
-
-.page-project-link-2 svg {
-  fill: var(--accent-color-2);
-}
-
-.page-project-image-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.mockup {
-  margin-top: 6rem;
-  display: block;
-  max-width: 100%;
-  height: auto;
-  border-radius: .5rem;
 }
 
 /*=============================== 
@@ -1597,11 +1665,15 @@ RESPONSIVE DESIGN
     gap: 4rem;
   }
 
-  .page-hero .container {
+  .page-hero-projects .container,
+  .page-hero-project .container,
+  .page-hero-blog .container {
     width: 100%;
   }
 
-  .page-content .container {
+  .page-content-projects .container,
+  .page-content-project .container,
+  .page-content-blog .container {
     width: 100%;
   }
 }
@@ -1665,8 +1737,12 @@ RESPONSIVE DESIGN
     padding: 6rem 2rem;
   }
 
-  .page-hero,
-  .page-content {
+  .page-hero-projects,
+  .page-content-projects,
+  .page-hero-project,
+  .page-content-project,
+  .page-hero-blog,
+  .page-content-blog {
     padding: 6rem 2rem;
   }
 }
@@ -1771,6 +1847,10 @@ RESPONSIVE DESIGN
     grid-template-columns: 1fr;
   }
 
+  .more-projects-button {
+    margin-top: 4.2rem;
+  }
+
   .question {
     font-size: 1.8rem;
   }
@@ -1787,12 +1867,16 @@ RESPONSIVE DESIGN
     padding: 1.5rem 6rem;
   }
 
-  .page-project-link-container {
+  .links {
     flex-direction: column;
   }
 
-  .page-project-image-container {
-    grid-template-columns: 1fr;
+  .mockup {
+    max-width: 100%;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr 1fr;
   }
 }
 

@@ -5,6 +5,16 @@ export const projectsTranslations = {
     projectBtn1: "Ver Proyecto",
     projectBtn2: "Ver Repositorio",
 
+    /* Main Title */
+    projectTitle: "Proyectos",
+
+    /* Project Filter Options */
+    projectOption1: "Todos",
+    projectOption2: "Sitios Web",
+    projectOption3: "Blogs",
+    projectOption4: "E-commerce",
+    projectOption5: "Herramientas",
+
     /* Project 1 */
     project1Title: "Contador de Texto",
     project1Paragraph1: "<b>Descripción del proyecto:</b> diseñé y desarrollé una herramienta online que permite obtener rápidamente el número de caracteres, palabras, oraciones y párrafos de un texto.",
@@ -57,6 +67,16 @@ export const projectsTranslations = {
     projectBtn1: "View Project",
     projectBtn2: "View Repository",
 
+    /* Main Title */
+    projectTitle: "Projects",
+
+    /* Project Filter Options */
+    projectOption1: "All",
+    projectOption2: "Websites",
+    projectOption3: "Blogs",
+    projectOption4: "E-commerce",
+    projectOption5: "Tools",
+
     /* Project 1 */
     project1Title: "Text Counter",
     project1Paragraph1: "<b>Project Description:</b> I designed and developed an online tool that allows quickly obtaining the number of characters, words, sentences, and paragraphs in a text.",
@@ -108,6 +128,16 @@ export const projectsTranslations = {
     backBtn: "Voltar",
     projectBtn1: "Ver Projeto",
     projectBtn2: "Ver Repositório",
+
+    /* Main Title */
+    projectTitle: "Projetos",
+
+    /* Project Filter Options */
+    projectOption1: "Todos",
+    projectOption2: "Websites",
+    projectOption3: "Blogs",
+    projectOption4: "E-commerce",
+    projectOption5: "Ferramentas",
 
     /* Project 1 */
     project1Title: "Contador de Texto",

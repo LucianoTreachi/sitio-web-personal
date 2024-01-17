@@ -10,9 +10,8 @@ export const indexTranslations = {
     navLink7: "Contacto",
 
     /* Home */
-    homeTitle: "Desarrollo Web Atractivo y Funcional",
-    homeParagraph: "Soluciones digitales que ofrecen la mejor experiencia para el usuario.",
-    homeBtn: "Conocer Más",
+    homeTitle: "Desarrollador Frontend",
+    homeParagraph: "Quiero crear soluciones digitales que ofrezcan la mejor experiencia para el usuario.",
 
     /* Modal CV */
     modalCvTitle: "¿En qué idioma te gustaría ver mi Curriculum?",
@@ -37,12 +36,7 @@ export const indexTranslations = {
 
     /* Projects */
     projectsTitle: "Explora alguno de mis proyectos",
-    projectOption1: "Todos",
-    projectOption2: "Sitios Web",
-    projectOption3: "Blogs",
-    projectOption4: "E-commerce",
-    projectOption5: "Herramientas",
-    projectBTN: "Ver Proyecto",
+    moreProjectsBtn: "Ver más proyectos",
 
     /* FAQs */
     faqsTitle: "Preguntas Frecuentes",
@@ -96,9 +90,8 @@ export const indexTranslations = {
     navLink7: "Contact",
 
     /* Home */
-    homeTitle: "Attractive and Functional Web Development",
-    homeParagraph: "Digital solutions that provide the best user experience.",
-    homeBtn: "Learn More",
+    homeTitle: "Frontend Developer",
+    homeParagraph: "I want to create digital solutions that provide the best user experience.",
 
     /* Modal CV */
     modalCvTitle: "In which language would you like to see my Resume?",
@@ -123,12 +116,7 @@ export const indexTranslations = {
 
     /* Projects */
     projectsTitle: "Discover Some of My Projects",
-    projectOption1: "All",
-    projectOption2: "Websites",
-    projectOption3: "Blogs",
-    projectOption4: "E-commerce",
-    projectOption5: "Tools",
-    projectBTN: "View Project",
+    moreProjectsBtn: "View more projects",
 
     /* FAQs */
     faqsTitle: "Frequently Asked Questions",
@@ -182,9 +170,8 @@ export const indexTranslations = {
     navLink7: "Contato",
 
     /* Home */
-    homeTitle: "Desenvolvimento Web Atraente e Funcional",
-    homeParagraph: "Soluções digitais que oferecem a melhor experiência para o usuário.",
-    homeBtn: "Conhecer mais",
+    homeTitle: "Desenvolvedor Frontend",
+    homeParagraph: "Quero criar soluções digitais que ofereçam a melhor experiência para o usuário.",
 
     /* Modal CV */
     modalCvTitle: "Em que idioma você gostaria de ver meu Currículo?",
@@ -209,12 +196,7 @@ export const indexTranslations = {
 
     /* Projects */
     projectsTitle: "Explora algum dos meus projetos",
-    projectOption1: "Todos",
-    projectOption2: "Websites",
-    projectOption3: "Blogs",
-    projectOption4: "E-commerce",
-    projectOption5: "Ferramentas",
-    projectBTN: "Ver Projeto",
+    moreProjectsBtn: "Ver mais projetos",
 
     /* FAQs */
     faqsTitle: "Perguntas Frequentes",
