@@ -615,6 +615,7 @@ SECTION 3: ABOUT
 
 .button-download-cv .box img {
   width: 25px;
+  height: auto;
 }
 
 .close-modal-cv {
@@ -1782,6 +1783,7 @@ RESPONSIVE DESIGN
 
   .home-image {
     width: 100%;
+    height: auto;
     animation: fadeIn 1s backwards .6s;
   }
 
