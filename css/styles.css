@@ -736,6 +736,13 @@ SECTION 5: PROJECTS
   max-width: 1200px;
 }
 
+.projects .row {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
+}
+
 .project-img {
   width: 100%;
   height: auto;
