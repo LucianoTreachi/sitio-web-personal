@@ -1,0 +1,351 @@
+/* FONTS */
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 400;
+  src: url('../fonts/Inter-Regular.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 500;
+  src: url('../fonts/Inter-Medium.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 600;
+  src: url('../fonts/Inter-SemiBold.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 700;
+  src: url('../fonts/Inter-Bold.woff2') format('woff2');
+  font-display: swap;
+}
+
+/* GLOBAL STYLES */
+
+:root {
+  --navbar: rgb(245, 245, 245);
+  --black: #1d1d1d;
+  --white: #f8f5f8;
+  --grey: #b9babc;
+  --background-1: #eff3f6;
+  --background-2: #ffffff;
+  --background-3: #eff3f6;
+  --accent-color-1: #625eab;
+  --accent-color-2: #625ead;
+  --alert: #fd4d6b;
+  --blurred-circle-1: #7fffd4;
+  --blurred-circle-2: #f6ff7f;
+  --blurred-circle-3: #7f92ff;
+  --blurred-circle-4: #b07fff;
+}
+
+.dark-theme {
+  --navbar: rgb(18, 18, 18);
+  --black: #fdfdfd;
+  --background-1: #121212;
+  --background-2: #202020;
+  --background-3: #23272f;
+  --accent-color-2: #a198e2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-padding-top: 4rem;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 0.2px;
+  color: var(--black);
+}
+
+p {
+  font-size: 1.8rem;
+  opacity: .85;
+  line-height: 1.6em;
+  text-wrap: pretty;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+select {
+  font-family: inherit;
+  color: inherit;
+}
+
+.container {
+  max-width: 1400px;
+  margin: auto;
+}
+
+/*=============================== 
+PROJECTS
+================================*/
+
+.page-hero-projects {
+  background-color: var(--background-1);
+  padding: 6rem 4rem;
+  position: relative;
+  overflow: hidden;
+  animation: fadeIn .4s linear;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+}
+
+.page-hero-projects .container {
+  width: 50%;
+  position: relative;
+  z-index: 1;
+}
+
+.page-back-btn {
+  display: inline-block;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  transition: opacity .3s;
+}
+
+.page-back-btn:hover {
+  opacity: .85;
+}
+
+.page-back-btn svg {
+  width: 18px;
+  height: 18px;
+  fill: var(--black);
+  vertical-align: middle;
+  transition: transform .4s;
+}
+
+.page-back-btn:hover svg {
+  transform: translateX(-4px);
+}
+
+.page-title {
+  font-size: 3rem;
+}
+
+.blurred-circle {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(100px);
+  width: 200px;
+  height: 200px;
+  opacity: 0.5;
+  max-width: 100%;
+  pointer-events: none;
+}
+
+.blurred-circle-1 {
+  top: 0;
+  left: -50px;
+  background-color: var(--blurred-circle-1);
+}
+
+.blurred-circle-4 {
+  bottom: 0;
+  right: -50px;
+  background-color: var(--blurred-circle-4);
+}
+
+.wave-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.wave-top svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 15px;
+}
+
+.wave-top .shape-fill {
+  fill: var(--background-2);
+}
+
+.wave-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave-bottom svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 15px;
+}
+
+.wave-bottom .shape-fill {
+  fill: var(--background-2);
+}
+
+.page-content-projects {
+  background-color: var(--background-2);
+  padding: 6rem 4rem;
+  animation: fadeIn .4s linear;
+}
+
+.page-content-projects .container {
+  width: 50%;
+}
+
+.container-select {
+  margin-bottom: 3rem;
+  width: 200px;
+  position: relative;
+  overflow: hidden;
+}
+
+.container-select svg {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: .5rem;
+  width: 30px;
+  height: 30px;
+  fill: var(--accent-color-2);
+  pointer-events: none;
+}
+
+.select {
+  outline: none;
+  background-color: var(--background-2);
+  border: 2px solid var(--accent-color-1);
+  border-radius: 10px;
+  padding: 1rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: var(--accent-color-2);
+  cursor: pointer;
+  width: 100%;
+  transition: 0.4s;
+
+  /* All */
+  appearance: none;
+  /* Chrome y Safari */
+  -webkit-appearance: none;
+  /* Firefox */
+  -moz-appearance: none;
+}
+
+/* Add "hide" class with JavaScript for the project filter functionality */
+.project.hide {
+  display: none;
+}
+
+.gallery {
+  margin-top: 6rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+/*=============================== 
+FOOTER
+================================*/
+
+.footer {
+  background-color: var(--background-1);
+  padding: 6rem 4rem;
+  text-align: center;
+  position: relative;
+}
+
+.socials {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.socials a {
+  font-size: 2.5rem;
+  opacity: .75;
+  transition: all .4s;
+}
+
+.socials a:hover {
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+.socials svg {
+  width: 30px;
+  height: 30px;
+  fill: var(--black);
+}
+
+/*=============================== 
+RESPONSIVE DESIGN
+================================*/
+
+@media screen and (max-width: 1080px) {
+  .page-hero-projects .container {
+    width: 100%;
+  }
+
+  .page-content-projects .container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 746px) {
+  .footer {
+    padding: 6rem 2rem;
+  }
+
+  .page-hero-projects,
+  .page-content-projects {
+    padding: 6rem 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  html {
+    font-size: 50%;
+  }
+}
