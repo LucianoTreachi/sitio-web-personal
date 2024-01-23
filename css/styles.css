@@ -668,62 +668,6 @@ SECTION 4: SERVICES
   opacity: .85;
 }
 
-.services .row-2 {
-  margin-top: 6rem;
-}
-
-.services .row-2 h3 {
-  font-size: 2.4rem;
-  font-weight: 600;
-  opacity: .9;
-  text-transform: capitalize;
-  line-height: 1.4em;
-  text-shadow: 0 0 30px hsla(0, 0%, 100%, 0.3);
-  width: 80%;
-}
-
-.services .container-icons {
-  margin-top: 6rem;
-  display: grid;
-  grid-template-columns: repeat(9, 1fr);
-  row-gap: 4rem;
-}
-
-.services .icon img {
-  width: 60px;
-  height: auto;
-}
-
-.services .icon span {
-  display: block;
-  margin-top: 1rem;
-  font-size: 1.2rem;
-}
-
-.services .icon:nth-child(1) span {
-  transform: translateX(8px);
-}
-
-.services .icon:nth-child(2) span {
-  transform: translateX(12px);
-}
-
-.services .icon:nth-child(3) span {
-  transform: translateX(-5px);
-}
-
-.services .icon:nth-child(6) span {
-  transform: translateX(10px);
-}
-
-.services .icon:nth-child(7) span {
-  transform: translateX(20px);
-}
-
-.services .icon:nth-child(8) span {
-  transform: translateX(10px);
-}
-
 /*=============================== 
 SECTION 5: PROJECTS
 ================================*/
@@ -1423,10 +1367,6 @@ RESPONSIVE DESIGN
     width: 100%;
   }
 
-  .services .container-icons {
-    grid-template-columns: repeat(5, 1fr);
-  }
-
   .projects .row {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1521,46 +1461,6 @@ RESPONSIVE DESIGN
     font-size: 2.5rem;
   }
 
-  .services .container-icons {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .services .icon img {
-    width: 50px;
-  }
-
-  .services .icon span {
-    font-size: 1.2rem;
-  }
-
-  .services .icon:nth-child(1) span {
-    transform: translateX(5px);
-  }
-
-  .services .icon:nth-child(2) span {
-    transform: translateX(6px);
-  }
-
-  .services .icon:nth-child(3) span {
-    transform: translateX(-5px);
-  }
-
-  .services .icon:nth-child(6) span {
-    transform: translateX(10px);
-  }
-
-  .services .icon:nth-child(7) span {
-    transform: translateX(15px);
-  }
-
-  .services .icon:nth-child(8) span {
-    transform: translateX(5px);
-  }
-
-  .services .icon:nth-child(9) span {
-    transform: translateX(-5px);
-  }
-
   .projects .row {
     grid-template-columns: 1fr;
   }
@@ -1598,9 +1498,5 @@ RESPONSIVE DESIGN
 
   .home-btn {
     width: 100%;
-  }
-
-  .services .icon:nth-child(9) span {
-    transform: translateX(0);
   }
 }
