@@ -1,4 +1,4 @@
-export const projectsTranslations = {
+const projectsTranslations = {
   es: {
     /* Links */
     backBtn: "Volver",
@@ -88,7 +88,7 @@ export const projectsTranslations = {
     project2Paragraph2: "<b>Technologies Used:</b> HTML5, CSS3, Sass, Bootstrap, JavaScript, Particles Js, WOW Js, Swiper Js.",
 
     /* Project 3 */
-    project3Title: "Academia Online",
+    project3Title: "Online Academy",
     project3Paragraph1: "<b>Project Description:</b> I designed and developed a website for an online academy that offers courses. The site features 4 internal pages. It's 100% responsive, adapting seamlessly to any device: desktop, tablet, and mobile.",
     project3Paragraph2: "<b>Technologies Used:</b> HTML5, CSS3, JavaScript, Particles Js, WOW Js, Swiper Js.",
 
@@ -185,3 +185,23 @@ export const projectsTranslations = {
     project9Paragraph2: "<b>Tecnologias utilizadas:</b> HTML5, CSS3, JavaScript.",
   }
 };
+
+// Function to change the language on blog and projects pages
+function changeLanguagePages(lang) {
+  const translationElements = document.querySelectorAll("[data-key]");
+  translationElements.forEach(element => {
+    const key = element.dataset.key;
+    const translation = projectsTranslations[lang][key];
+    element.innerHTML = translation;
+  });
+
+  // Store the selected language in LocalStorage
+  localStorage.setItem("selectedLanguage", lang);
+}
+
+// Get the language stored in LocalStorage (if it exists)
+const storedLanguage = localStorage.getItem("selectedLanguage");
+
+// If there's no language stored in LocalStorage, use a default language
+const initialLanguage = storedLanguage || "es";
+changeLanguagePages(initialLanguage); // Change the language when the page loads
