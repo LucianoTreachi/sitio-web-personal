@@ -9,14 +9,14 @@
     content="Creo sitios web que mejoran la experiencia de usuario, siguiendo las últimas tendencias del mercado">
   <link rel="author" type="text/plain" href="author.txt">
   <meta name="canonical" content="https://www.lucianotreachi.com/">
-  <!-- Preload & Preconnect -->
-  <link rel="preload" as="style" href="./css/styles.min.css">
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preload" as="style"
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
   <!-- Styles -->
+  <link rel="preload" as="style" href="./css/styles.min.css">
   <link rel="stylesheet" href="./css/styles.min.css">
   <!-- Scripts -->
   <script src="./js/min/indexLanguages.min.js" defer></script>
@@ -576,7 +576,8 @@
         </div>
         <div class="modal-contact-success" id="modal-contact-success">
           <div>
-            <img src="./assets/svg/ok.svg" alt="Un ícono de check, indicando confirmación o éxito" class="svg-ok">
+            <img src="./assets/svg/ok.svg" alt="Un ícono de check, indicando confirmación o éxito" class="svg-ok"
+              loading="lazy">
           </div>
           <h2 data-key="modalContactTitle2">¡Mensaje enviado!</h2>
           <p data-key="modalContactParagraph">Te responderé a la brevedad</p>
