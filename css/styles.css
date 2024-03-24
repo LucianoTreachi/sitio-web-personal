@@ -1,7 +1,7 @@
 /* GLOBAL STYLES */
 
 :root {
-  --header: rgba(239, 243, 246, 0.97);
+  --header: rgb(239, 243, 246);
   --navbar: rgb(245, 245, 245);
   --black: #1d1d1d;
   --white: #f8f5f8;
@@ -19,7 +19,7 @@
 }
 
 .dark-theme {
-  --header: rgba(18, 18, 18, 0.97);
+  --header: rgb(18, 18, 18);
   --navbar: rgb(18, 18, 18);
   --black: #fdfdfd;
   --background-1: #121212;
@@ -35,7 +35,7 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 10px;
   scroll-padding-top: 4rem;
 }
 
@@ -290,6 +290,7 @@ header .container {
 nav {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .nav-logo {
@@ -298,9 +299,58 @@ nav {
   margin-right: auto;
 }
 
+.navbar-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  backdrop-filter: blur(8px);
+  z-index: 3;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s ease;
+}
+
+.navbar-content {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  width: 100%;
+  height: 100vh;
+  padding: 8rem 4rem;
+  background-color: var(--navbar);
+  overflow-y: auto;
+  transition: 0.5s ease-in-out;
+}
+
+.hamburger-menu {
+  display: block;
+  margin-left: 1rem;
+  width: 32px;
+  height: 32px;
+  fill: var(--black);
+  cursor: pointer;
+}
+
+.close-menu {
+  display: block;
+  position: absolute;
+  top: 0.9rem;
+  right: 2rem;
+  width: 55px;
+  height: 55px;
+  opacity: 0.85;
+  fill: var(--black);
+  cursor: pointer;
+}
+
 .nav-link {
-  margin-left: 3rem;
-  font-size: 1.7rem;
+  font-size: 2rem;
   font-weight: 600;
   opacity: 0.7;
   transition: opacity 0.3s ease;
@@ -315,20 +365,37 @@ nav {
   color: var(--accent-color-2);
 }
 
+.navbar-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.navbar-overlay.active .navbar-content {
+  left: 0;
+}
+
+.navbar-overlay.active .nav-link {
+  animation: fadeInTranslate 1s backwards 0.2s;
+}
+
 .navbar-networks {
-  display: none;
+  margin-top: 2rem;
+  display: flex;
+  gap: 2rem;
 }
 
-.close-menu {
-  display: none;
+.navbar-networks svg {
+  width: 30px;
+  height: 30px;
+  fill: var(--black);
+  opacity: 0.75;
 }
 
-.hamburger-menu {
-  display: none;
+.navbar-overlay.active .navbar-networks {
+  animation: fadeInTranslate 1s backwards 0.2s;
 }
 
 .menu-icons {
-  margin-left: 3rem;
   display: flex;
   align-items: center;
   gap: 1.6rem;
@@ -657,7 +724,7 @@ SECTION 5: PROJECTS
 .projects .row {
   margin-top: 2rem;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 4rem;
 }
 
@@ -1112,6 +1179,7 @@ SECTION 9: CONTACT
 }
 
 @keyframes pulse0112 {
+
   0%,
   100% {
     transform: scale(0);
@@ -1214,102 +1282,6 @@ RESPONSIVE DESIGN
     padding: 1.5rem 2rem;
   }
 
-  nav {
-    justify-content: space-between;
-  }
-
-  .nav-logo {
-    margin-right: 0;
-  }
-
-  .menu-icons {
-    margin-left: 0;
-  }
-
-  .hamburger-menu {
-    display: block;
-    margin-left: 1rem;
-    width: 32px;
-    height: 32px;
-    fill: var(--black);
-    cursor: pointer;
-  }
-
-  .navbar-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    backdrop-filter: blur(8px);
-    z-index: 3;
-    opacity: 0;
-    visibility: hidden;
-    transition: 0.5s ease;
-  }
-
-  .navbar-content {
-    position: fixed;
-    top: 0;
-    left: -100%;
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
-    width: 85%;
-    height: 100vh;
-    padding: 8rem 4rem;
-    background-color: var(--navbar);
-    overflow-y: auto;
-    transition: 0.5s ease-in-out;
-  }
-
-  .close-menu {
-    display: block;
-    position: absolute;
-    top: 0.9rem;
-    right: 2rem;
-    width: 35px;
-    height: 35px;
-    opacity: 0.85;
-    fill: var(--black);
-    cursor: pointer;
-  }
-
-  .nav-link {
-    margin-left: 0;
-    font-size: 1.8rem;
-  }
-
-  .navbar-overlay.active {
-    opacity: 1;
-    visibility: visible;
-  }
-
-  .navbar-overlay.active .navbar-content {
-    left: 0;
-  }
-
-  .navbar-overlay.active .nav-link {
-    animation: fadeInTranslate 1s backwards 0.2s;
-  }
-
-  .navbar-networks {
-    margin-top: 2rem;
-    display: flex;
-    gap: 2rem;
-  }
-
-  .navbar-networks svg {
-    width: 30px;
-    height: 30px;
-    fill: var(--black);
-    opacity: 0.75;
-  }
-
-  .navbar-overlay.active .navbar-networks {
-    animation: fadeInTranslate 1s backwards 0.2s;
-  }
-
   .about .row-1 {
     gap: 4rem;
   }
@@ -1389,6 +1361,16 @@ RESPONSIVE DESIGN
     font-size: 1.8rem;
   }
 
+  .navbar-content {
+    align-items: initial;
+    width: 85%;
+  }
+
+  .close-menu {
+    width: 35px;
+    height: 35px;
+  }
+
   .menu-icons {
     gap: 1rem;
   }
@@ -1430,9 +1412,9 @@ RESPONSIVE DESIGN
     font-size: 2.5rem;
   }
 
-  .projects .row {
+  /* .projects .row {
     grid-template-columns: 1fr;
-  }
+  } */
 
   .more-projects-button {
     margin-top: 4.2rem;
