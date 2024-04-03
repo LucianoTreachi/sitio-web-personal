@@ -74,6 +74,11 @@ const projectsTranslations = {
     project12Title: "Cursos Online de Programación",
     project12Paragraph1: "<b>Descripción del proyecto:</b> diseñé y desarrollé un sitio web que reúne los mejores cursos online de programación, clasificados por Frontend, Backend y Aplicaciones Móviles.",
     project12Paragraph2: "<b>Tecnologías utilizadas:</b> Next.js 14, CSS Modules, Cloudinary",
+
+    /* Project 13 */
+    project13Title: "Optimización Web",
+    project13Paragraph1: "<b>Descripción del proyecto:</b> diseñé y desarrollé un sitio web que ofrece una lista de verificaciones para optimizar el Desarrollo Web y lograr una presencia en línea impecable.",
+    project13Paragraph2: "<b>Tecnologías utilizadas:</b> HTML, CSS, JavaScript",
   },
 
   en: {
@@ -151,6 +156,11 @@ const projectsTranslations = {
     project12Title: "Online Programming Courses",
     project12Paragraph1: "<b>Project Description:</b> I designed and developed a website that brings together the best online programming courses, classified by Frontend, Backend, and Mobile Applications.",
     project12Paragraph2: "<b>Technologies Used:</b> Next.js 14, CSS Modules, Cloudinary",
+
+    /* Project 13 */
+    project13Title: "Web Optimization",
+    project13Paragraph1: "<b>Project Description:</b> I designed and developed a website that offers a checklist to optimize Web Development and achieve impeccable online presence. ",
+    project13Paragraph2: "<b>Technologies Used:</b> HTML, CSS, JavaScript",
   },
 
   pt: {
@@ -228,6 +238,11 @@ const projectsTranslations = {
     project12Title: "Cursos Online de Programação",
     project12Paragraph1: "<b>Descrição do projeto:</b> criei e desenvolvi um site que reúne os melhores cursos online de programação, classificados por Frontend, Backend e Aplicações Móveis.",
     project12Paragraph2: "<b>Tecnologias utilizadas:</b> Next.js 14, CSS Modules, Cloudinary",
+
+    /* Project 13 */
+    project13Title: "Otimização Web",
+    project13Paragraph1: "<b>Descrição do projeto:</b> criei e desenvolvi um site que oferece uma lista de verificação para otimizar o Desenvolvimento Web e alcançar uma presença online impecável.",
+    project13Paragraph2: "<b>Tecnologias utilizadas:</b> HTML, CSS, JavaScript",
   }
 };
 
