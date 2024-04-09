@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/LucianoTreachi/Portfolio-Personal/main/assets/readme/banner.jpg" width="100%" alt="Banner"/>
+  <img src="https://res.cloudinary.com/dwqk2mkgh/image/upload/v1712505262/Portfolio-Personal/banner_vihx0v.jpg" width="100%" alt="Banner"/>
 </div>
 
 ## Descripción
