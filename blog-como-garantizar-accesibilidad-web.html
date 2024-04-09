@@ -4,11 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Luciano Treachi | Optimización Web</title>
+  <title>Luciano Treachi | Blog ¿Cómo garantizar la Accesibilidad Web?</title>
   <meta name="description"
-    content="Diseñé y Desarrollé un sitio web que ofrece una lista de verificaciones para optimizar el Desarrollo Web y lograr una presencia en línea impecable.">
+    content="Descubre cómo implementar las mejores prácticas para que tu sitio sea inclusivo y accesible para todos los usuarios.">
   <link rel="author" type="text/plain" href="author.txt">
-  <meta name="canonical" content="https://www.lucianotreachi.com/">
+  <meta name="canonical" content="https://www.lucianotreachi.com/blog-como-garantizar-accesibilidad-web.html">
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,39 +16,37 @@
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
   <!-- Styles -->
-  <link rel="preload" as="style" href="../css/project.css">
-  <link rel="stylesheet" href="../css/project.css">
+  <link rel="preload" as="style" href="./css/blog.css">
+  <link rel="stylesheet" href="./css/blog.css">
   <!-- Scripts -->
-  <script src="../js/min/projectsLanguages.min.js" defer></script>
-  <script src="../js/min/theme.min.js" defer></script>
+  <script src="./js/min/blogsLanguages.min.js" defer></script>
+  <script src="./js/min/theme.min.js" defer></script>
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="../assets/favicon/favicon.png">
+  <link rel="icon" type="image/png" href="./assets/favicon/favicon.png">
   <!-- Facebook -->
-  <meta property="og:title" content="Luciano Treachi | Optimización Web">
-  <meta property="og:description"
-    content="Diseñé y Desarrollé un sitio web que ofrece una lista de verificaciones para optimizar el Desarrollo Web y lograr una presencia en línea impecable.">
-  <meta property="og:url" content="https://lucianotreachi-portfolio.netlify.app/pages/blog-1.html">
+  <meta property="og:url" content="https://www.lucianotreachi.com/blog-como-garantizar-accesibilidad-web.html">
   <meta property="og:type" content="website">
+  <meta property="og:title" content="Luciano Treachi | Blog ¿Cómo garantizar la Accesibilidad Web?">
+  <meta property="og:description"
+    content="Descubre cómo implementar las mejores prácticas para que tu sitio sea inclusivo y accesible para todos los usuarios.">
   <meta property="og:image"
-    content="https://raw.githubusercontent.com/LucianoTreachi/Portfolio-Personal/main/assets/readme/banner.jpg">
-  <meta property="og:image:alt" content="Banner">
-  <meta property="og:image:width" content="1880">
-  <meta property="og:image:height" content="939">
+    content="https://res.cloudinary.com/dwqk2mkgh/image/upload/v1712577547/Portfolio-Personal/banner-blog_cwydgq.jpg">
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:creator" content="@LucianoTreachi">
-  <meta name="twitter:title" content="Luciano Treachi | Optimización Web">
+  <meta property="twitter:url" content="https://www.lucianotreachi.com/blog-como-garantizar-accesibilidad-web.html">
+  <meta name="twitter:title" content="Luciano Treachi | Blog ¿Cómo garantizar la Accesibilidad Web?">
   <meta name="twitter:description"
-    content="Diseñé y Desarrollé un sitio web que ofrece una lista de verificaciones para optimizar el Desarrollo Web y lograr una presencia en línea impecable.">
+    content="Descubre cómo implementar las mejores prácticas para que tu sitio sea inclusivo y accesible para todos los usuarios.">
   <meta name="twitter:image"
-    content="https://raw.githubusercontent.com/LucianoTreachi/Portfolio-Personal/main/assets/readme/banner.jpg">
+    content="https://res.cloudinary.com/dwqk2mkgh/image/upload/v1712577547/Portfolio-Personal/banner-blog_cwydgq.jpg">
 </head>
 
 <body>
 
   <main>
+
     <!--===== HERO =====-->
-    <section class="page-hero-project">
+    <section class="page-hero-blog">
 
       <div class="container">
         <a href="javascript:window.history.back()" class="page-back-btn">
@@ -59,7 +57,18 @@
           </svg>
           <span data-key="backBtn">Volver</span>
         </a>
-        <h1 class="page-title" data-key="project13Title">Optimización Web</h1>
+        <h1 class="page-title" data-key="blog2Title">
+          ¿Cómo garantizar la Accesibilidad Web?
+        </h1>
+        <div class="author">
+          <img
+            src="https://res.cloudinary.com/dwqk2mkgh/image/upload/f_auto,q_auto/v1705925471/Portfolio-Personal/luciano-treachi_f2b6vw.png"
+            alt="Una foto de Luciano Treachi, autor de blog, mirando al frente">
+          <div class="date">
+            <h2>Luciano Treachi</h2>
+            <h3>11/03/2023</h3>
+          </div>
+        </div>
       </div>
 
       <div class="blurred-circle blurred-circle-1"></div>
@@ -75,45 +84,59 @@
     </section>
 
     <!--===== CONTENT =====-->
-    <section class="page-content-project">
+    <section class="page-content-blog">
 
       <div class="container">
-        <p data-key="project13Paragraph1">
-          <b>Descripción del proyecto:</b> diseñé y desarrollé un sitio web que ofrece una lista de verificaciones para
-          optimizar el Desarrollo Web y lograr una presencia en línea impecable.
+        <p data-key="blog2Intro">
+          Te compartiré algunas de las mejores prácticas para garantizar la Accesibilidad Web:
         </p>
 
-        <p data-key="project13Paragraph2">
-          <b>Tecnologías utilizadas:</b> HTML, CSS, javaScript.
+        <p data-key="blog2Paragraph1">
+          <strong>1. Utiliza etiquetas alt en las imágenes.</strong> Las etiquetas alt describen imágenes y gráficos
+          para aquellas personas que utilizan lectores de pantalla o tienen discapacidades visuales.
         </p>
 
-        <div class="links">
-          <a href="https://optimizatusitioweb.vercel.app/" target="_blank" rel="noreferrer" class="link link-1">
-            <span data-key="projectBtn1">Ver Proyecto</span>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-              <path
-                d="M10 6V8H5V19H16V14H18V20C18 20.5523 17.5523 21 17 21H4C3.44772 21 3 20.5523 3 20V7C3 6.44772 3.44772 6 4 6H10ZM21 3V12L17.206 8.207L11.2071 14.2071L9.79289 12.7929L15.792 6.793L12 3H21Z">
-              </path>
-            </svg>
-          </a>
-          <a href="https://github.com/LucianoTreachi/Optimizacion-Web" target="_blank" rel="noreferrer"
-            class="link link-2">
-            <span data-key="projectBtn2">Ver Repositorio</span>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-              <path
-                d="M12.001 2C6.47598 2 2.00098 6.475 2.00098 12C2.00098 16.425 4.86348 20.1625 8.83848 21.4875C9.33848 21.575 9.52598 21.275 9.52598 21.0125C9.52598 20.775 9.51348 19.9875 9.51348 19.15C7.00098 19.6125 6.35098 18.5375 6.15098 17.975C6.03848 17.6875 5.55098 16.8 5.12598 16.5625C4.77598 16.375 4.27598 15.9125 5.11348 15.9C5.90098 15.8875 6.46348 16.625 6.65098 16.925C7.55098 18.4375 8.98848 18.0125 9.56348 17.75C9.65098 17.1 9.91348 16.6625 10.201 16.4125C7.97598 16.1625 5.65098 15.3 5.65098 11.475C5.65098 10.3875 6.03848 9.4875 6.67598 8.7875C6.57598 8.5375 6.22598 7.5125 6.77598 6.1375C6.77598 6.1375 7.61348 5.875 9.52598 7.1625C10.326 6.9375 11.176 6.825 12.026 6.825C12.876 6.825 13.726 6.9375 14.526 7.1625C16.4385 5.8625 17.276 6.1375 17.276 6.1375C17.826 7.5125 17.476 8.5375 17.376 8.7875C18.0135 9.4875 18.401 10.375 18.401 11.475C18.401 15.3125 16.0635 16.1625 13.8385 16.4125C14.201 16.725 14.5135 17.325 14.5135 18.2625C14.5135 19.6 14.501 20.675 14.501 21.0125C14.501 21.275 14.6885 21.5875 15.1885 21.4875C19.259 20.1133 21.9999 16.2963 22.001 12C22.001 6.475 17.526 2 12.001 2Z">
-              </path>
-            </svg>
-          </a>
-        </div>
+        <p data-key="blog2Paragraph2">
+          <strong>2. Desarrolla un diseño responsivo.</strong> Un sitio web responsivo se adapta a diferentes tamaños de
+          pantalla, lo que facilita la navegación para aquellos que usan dispositivos móviles o tablets.
+        </p>
 
-        <img class="mockup"
-          src="https://res.cloudinary.com/dwqk2mkgh/image/upload/f_auto,q_auto/v1712164289/Portfolio-Personal/proyecto-optimizacion-web_sgqzz2.png"
-          alt="Un mockup de celular mostrando el proyecto personal Optimización Web">
+        <p data-key="blog2Paragraph3">
+          <strong>3. Utiliza fuentes legibles.</strong> Es importante elegir fuentes legibles y de tamaño adecuado para
+          facilitar la lectura.
+        </p>
 
+        <p data-key="blog2Paragraph4">
+          <strong>4. Evita el uso excesivo de color.</strong> Asegúrate de que el color no sea la única forma de
+          transmitir información importante. Por ejemplo, si utilizas colores para indicar errores, también debes
+          proporcionar un mensaje de texto para aquellos que no pueden distinguir los colores.
+        </p>
+
+        <p data-key="blog2Paragraph5">
+          <strong>5. Utiliza subtítulos cuando sea necesario.</strong> Los subtítulos son útiles para aquellas personas
+          con discapacidades auditivas. Asegúrate de proporcionar subtítulos para cualquier contenido multimedia, como
+          videos o podcasts.
+        </p>
+
+        <p data-key="blog2Paragraph6">
+          <strong>6. Asegúrate de que tu sitio web se pueda navegar usando solo el teclado.</strong> Algunas personas
+          pueden tener dificultades para usar un ratón o un dispositivo de puntero.
+        </p>
+
+        <p data-key="blog2Paragraph7">
+          <strong>7. Utiliza herramientas de asistencia.</strong> Asegúrate de que tu sitio web sea compatible con
+          herramientas de asistencia, como lectores de pantalla y teclados alternativos.
+        </p>
+
+        <p data-key="blog2Paragraph8">
+          <strong>8. La accesibilidad web es importante no solo por razones éticas, sino también por razones
+            legales.</strong> Algunos países tienen leyes que exigen que los sitios web sean accesibles para todas las
+          personas. Además, un sitio web accesible puede mejorar la experiencia del usuario para todos los visitantes.
+        </p>
       </div>
 
     </section>
+
   </main>
 
   <footer class="footer">
