@@ -162,11 +162,8 @@ button {
   opacity: 0.9;
   text-transform: capitalize;
   line-height: 1.2;
-  width: 80%;
-}
-
-.marker {
-  transform: translateY(-1rem);
+  text-align: center;
+  margin-bottom: 6rem;
 }
 
 .modal-background {
@@ -497,7 +494,7 @@ SECTION 2: HOME
 .home-paragraph {
   font-size: 2.6rem;
   line-height: 1.4;
-  width: 80%;
+  width: 60%;
   margin: 1rem auto 0;
   text-align: center;
   animation: fadeIn 1s backwards 0.4s;
@@ -518,7 +515,7 @@ SECTION 3: ABOUT
 .about .row-1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 10rem;
+  gap: 6rem;
 }
 
 .about .row-1 .col-1 .container-img {
@@ -578,6 +575,7 @@ SECTION 3: ABOUT
   font-size: 3rem;
   font-weight: 500;
   line-height: 1.6;
+  text-align: center;
 }
 
 /* MODAL CURRICULUM */
@@ -740,16 +738,12 @@ SECTION 5: PROJECTS
 }
 
 .more-projects-button {
-  display: inline-block;
+  display: block;
   margin-top: 6rem;
-  white-space: nowrap;
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 500;
   color: var(--accent-color-2);
-  border: 0;
-  background: none;
-  padding-bottom: 0.5rem;
-  border-bottom: 2px solid var(--accent-color-2);
+  text-align: center;
 }
 
 .more-projects-button svg {
@@ -775,7 +769,7 @@ SECTION 6: FAQS
 }
 
 .faqs .container {
-  max-width: 1200px;
+  max-width: 1000px;
 }
 
 .article {
@@ -821,7 +815,7 @@ SECTION 7: BLOGS
 }
 
 .blogs .container {
-  max-width: 1200px;
+  max-width: 1000px;
 }
 
 .blogs .row {
@@ -886,7 +880,6 @@ SECTION 7: BLOGS
   font-size: 1.8rem;
   font-weight: 600;
   color: var(--accent-color-2);
-  border-bottom: 1px solid var(--accent-color-2);
   z-index: 1;
 }
 
@@ -917,6 +910,7 @@ SECTION 8: ACTION
   max-width: 1200px;
   display: flex;
   align-items: center;
+  justify-content: center;
   height: 100%;
   position: relative;
   z-index: 1;
@@ -927,6 +921,7 @@ SECTION 8: ACTION
   font-weight: 700;
   color: #f0f0f0;
   line-height: 1.4;
+  text-align: center;
 }
 
 /*=============================== 
@@ -946,13 +941,14 @@ SECTION 9: CONTACT
 }
 
 .contact-paragraph {
-  margin: 1rem 0 2rem 0;
+  margin: 1rem auto;
   width: 60%;
+  text-align: center;
 }
 
 .form {
-  margin-top: 3rem;
   width: 60%;
+  margin: 6rem auto 0;
 }
 
 .container-input {
@@ -1286,13 +1282,30 @@ RESPONSIVE DESIGN
     gap: 4rem;
   }
 
+  .services .container {
+    max-width: 800px;
+  }
+
   .services .row-1 {
     grid-template-columns: 1fr;
     gap: 4rem;
   }
+
+  .faqs .container {
+    max-width: 800px;
+  }
+
+  .blogs .container {
+    max-width: 800px;
+  }
 }
 
 @media screen and (max-width: 820px) {
+  .title-section {
+    text-align: left;
+    margin-bottom: 4rem;
+  }
+
   .home {
     min-height: auto;
   }
@@ -1310,24 +1323,35 @@ RESPONSIVE DESIGN
     width: 100%;
   }
 
+  .about .row-2 h2 {
+    width: 100%;
+    text-align: left;
+  }
+
   .projects .row {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .more-projects-button {
+    text-align: left;
+  }
+
+  .action .container h2 {
+    text-align: left;
+  }
+
   .contact-paragraph {
     width: 100%;
+    text-align: left;
   }
 
   .form {
     width: 100%;
+    margin-top: 4rem;
   }
 }
 
 @media screen and (max-width: 746px) {
-  .section {
-    padding: 6rem 2rem;
-  }
-
   .about .row-1 {
     grid-template-columns: 1fr;
     gap: 5rem;
@@ -1341,12 +1365,20 @@ RESPONSIVE DESIGN
     order: 1;
   }
 
+  .about .row-2 {
+    margin-top: 4rem;
+  }
+
   .footer {
     padding: 6rem 2rem;
   }
 }
 
 @media screen and (max-width: 600px) {
+  .section {
+    padding: 6rem 2rem;
+  }
+
   .title-section {
     font-size: 3rem;
     width: 100%;
@@ -1404,16 +1436,13 @@ RESPONSIVE DESIGN
     font-size: 2.8rem;
   }
 
-  .about .row-2 {
-    margin-top: 4rem;
-  }
-
   .about .row-2 h2 {
     font-size: 2.5rem;
   }
 
   .more-projects-button {
     margin-top: 4.2rem;
+    font-size: 2rem;
   }
 
   .question {
