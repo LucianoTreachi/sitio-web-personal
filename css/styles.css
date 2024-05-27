@@ -6,11 +6,14 @@
   --black: #1d1d1d;
   --white: #f8f5f8;
   --grey: #b9babc;
+  --accent-color-1: #625eab;
+  --accent-color-2: #625ead;
+  --text-weight: 400;
+  --border: 2px solid hsl(0, 0%, 86%);
+  --shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
   --background-1: #eff3f6;
   --background-2: #ffffff;
   --background-3: #eff3f6;
-  --accent-color-1: #625eab;
-  --accent-color-2: #625ead;
   --alert: #fd4d6b;
   --blurred-circle-1: #7fffd4;
   --blurred-circle-2: #f6ff7f;
@@ -22,10 +25,13 @@
   --header: rgb(18, 18, 18);
   --navbar: rgb(18, 18, 18);
   --black: #fdfdfd;
+  --accent-color-2: #a198e2;
+  --text-weight: 300;
+  --border: 2px solid hsl(0, 0%, 20%);
+  --shadow: 0px 10px 15px -3px rgba(200, 200, 200, 0.1);
   --background-1: #121212;
   --background-2: #202020;
   --background-3: #23272f;
-  --accent-color-2: #a198e2;
 }
 
 * {
@@ -47,7 +53,8 @@ body {
 
 p {
   font-size: 1.8rem;
-  opacity: 0.85;
+  font-weight: var(--text-weight);
+  opacity: 0.70;
   line-height: 1.6;
   text-wrap: pretty;
 }
@@ -348,7 +355,7 @@ nav {
 
 .nav-link {
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 500;
   opacity: 0.7;
   transition: opacity 0.3s ease;
 }
@@ -493,6 +500,8 @@ SECTION 2: HOME
 
 .home-paragraph {
   font-size: 2.6rem;
+  color: var(--black);
+  opacity: 0.75;
   line-height: 1.4;
   width: 60%;
   margin: 1rem auto 0;
@@ -545,13 +554,11 @@ SECTION 3: ABOUT
 .curriculum-btn {
   margin-top: 1rem;
   white-space: nowrap;
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 500;
   color: var(--accent-color-2);
   border: 0;
   background: none;
-  padding-bottom: 0.5rem;
-  border-bottom: 2px solid var(--accent-color-2);
 }
 
 .curriculum-btn svg {
@@ -673,25 +680,11 @@ SECTION 4: SERVICES
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  border-radius: 0.5rem;
-  border: 2px solid var(--accent-color-1);
   padding: 2rem;
-  box-shadow: 0px 10px 59px -3px rgba(0, 0, 0, 0.1);
-}
-
-.service::before {
-  content: "";
-  position: absolute;
-  top: -50px;
-  left: -50px;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  filter: blur(70px);
-  opacity: 0.5;
-  pointer-events: none;
-  z-index: 999;
-  background-color: var(--blurred-circle-3);
+  border-radius: 0.5rem;
+  border: var(--border);
+  box-shadow: var(--shadow);
+  background-color: var(--background-1);
 }
 
 .service svg {
@@ -773,7 +766,7 @@ SECTION 6: FAQS
 }
 
 .article {
-  border-bottom: 2px solid var(--accent-color-1);
+  border-bottom: var(--border);
   transition: padding 0.3s;
 }
 
@@ -783,7 +776,7 @@ SECTION 6: FAQS
 
 .question {
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.4;
   opacity: 0.9;
   display: flex;
@@ -825,8 +818,9 @@ SECTION 7: BLOGS
 }
 
 .blog {
-  border: 2px solid var(--accent-color-1);
+  border: var(--border);
   border-radius: 1rem;
+  box-shadow: var(--shadow);
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -835,34 +829,10 @@ SECTION 7: BLOGS
   overflow: hidden;
 }
 
-.blog::before {
-  content: "";
-  position: absolute;
-  top: -50px;
-  left: -50px;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  filter: blur(70px);
-  opacity: 0.5;
-  pointer-events: none;
-}
-
-.blog-1::before {
-  background-color: var(--blurred-circle-1);
-}
-
-.blog-2::before {
-  background-color: var(--blurred-circle-3);
-}
-
-.blog-3::before {
-  background-color: var(--blurred-circle-4);
-}
-
 .blog-title {
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 500;
+  opacity: 0.9;
   line-height: 1.4;
   z-index: 1;
 }
@@ -969,8 +939,9 @@ SECTION 9: CONTACT
   font-size: 1.8rem;
   opacity: 0.85;
   outline: none;
-  border: 2px solid var(--accent-color-1);
+  border: var(--border);
   border-radius: 0.5rem;
+  box-shadow: var(--shadow);
   background: transparent;
   transition: border 0.4s;
 }
@@ -985,8 +956,9 @@ SECTION 9: CONTACT
   opacity: 0.85;
   resize: none;
   outline: none;
-  border: 2px solid var(--accent-color-1);
+  border: var(--border);
   border-radius: 0.5rem;
+  box-shadow: var(--shadow);
   background: transparent;
   transition: border 0.4s;
 }
@@ -1000,7 +972,6 @@ SECTION 9: CONTACT
 .input:focus,
 .textarea:focus {
   border: 2px solid var(--accent-color-1);
-  box-shadow: 0 0 10px 0 var(--accent-color-1);
 }
 
 .alert {
@@ -1440,12 +1411,20 @@ RESPONSIVE DESIGN
     font-size: 2.5rem;
   }
 
+  .curriculum-btn {
+    font-size: 1.8rem;
+  }
+
   .more-projects-button {
     margin-top: 4.2rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .question {
+    font-size: 1.8rem;
+  }
+
+  .blog-title {
     font-size: 1.8rem;
   }
 
