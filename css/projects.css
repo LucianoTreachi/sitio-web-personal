@@ -5,11 +5,12 @@
   --black: #1d1d1d;
   --white: #f8f5f8;
   --grey: #b9babc;
+  --accent-color-1: #625eab;
+  --accent-color-2: #625ead;
+  --text-weight: 400;
   --background-1: #eff3f6;
   --background-2: #ffffff;
   --background-3: #eff3f6;
-  --accent-color-1: #625eab;
-  --accent-color-2: #625ead;
   --alert: #fd4d6b;
   --blurred-circle-1: #7fffd4;
   --blurred-circle-2: #f6ff7f;
@@ -20,10 +21,11 @@
 .dark-theme {
   --navbar: rgb(18, 18, 18);
   --black: #fdfdfd;
+  --accent-color-2: #a198e2;
+  --text-weight: 300;
   --background-1: #121212;
   --background-2: #202020;
   --background-3: #23272f;
-  --accent-color-2: #a198e2;
 }
 
 * {
@@ -45,7 +47,8 @@ body {
 
 p {
   font-size: 1.8rem;
-  opacity: .85;
+  font-weight: var(--text-weight);
+  opacity: 0.70;
   line-height: 1.6em;
   text-wrap: pretty;
 }
