@@ -490,9 +490,8 @@ SECTION 2: HOME
 .home-title {
   color: var(--title-color);
   text-align: center;
-  font-size: clamp(4rem, 10vw, 10rem);
+  font-size: clamp(3rem, 10vw, 10rem);
   line-height: 1;
-  text-shadow: 0 5px 10px rgba(0, 87, 255, .15), 0 -5px 10px rgba(255, 90, 0, .1), 0 -5px 25px rgba(255, 255, 255, .3);
   animation: fadeIn 1s backwards 0.4s;
   margin-bottom: 2rem;
 }
@@ -1390,6 +1389,7 @@ RESPONSIVE DESIGN
 
   .home-title {
     line-height: 1.2;
+    margin-bottom: 1rem;
   }
 
   .home-container-image {
