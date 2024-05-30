@@ -10,8 +10,8 @@ const indexTranslations = {
     navLink7: "Contacto",
 
     /* Home */
-    homeTitle: "Desarrollador Frontend",
-    homeParagraph: "Quiero crear soluciones digitales que ofrezcan la mejor experiencia para el usuario.",
+    homeTitle: "Desarrollo Sitios y Aplicaciones Web",
+    homeParagraph: "Mi enfoque se centra en desarrollar soluciones digitales que garanticen la mejor experiencia para el usuario.",
 
     /* Modal CV */
     modalCvTitle: "¿En qué idioma te gustaría ver mi Curriculum?",
@@ -22,7 +22,7 @@ const indexTranslations = {
     aboutParagraph2: "Mi objetivo principal es crear soluciones digitales funcionales, eficientes y fáciles de usar.",
     aboutParagraph3: "Estoy aquí para ayudarte a llevar tu proyecto al siguiente nivel con mi creatividad y compromiso.",
     curriculumBtn: "Mi Curriculum",
-    aboutPhrase: "Mi enfoque está en crear soluciones digitales funcionales, eficientes y fáciles de usar, que ofrezcan la mejor experiencia para el usuario.",
+    aboutPhrase: "Mi enfoque se centra en crear soluciones digitales funcionales, eficientes y fáciles de usar, que ofrezcan la mejor experiencia para el usuario.",
 
     /* Services */
     servicesTitle: "Servicios personalizados",
@@ -90,8 +90,8 @@ const indexTranslations = {
     navLink7: "Contact",
 
     /* Home */
-    homeTitle: "Frontend Developer",
-    homeParagraph: "I want to create digital solutions that provide the best user experience.",
+    homeTitle: "I Develop Websites and Web Applications",
+    homeParagraph: "My focus is on developing digital solutions that guarantee the best user experience.",
 
     /* Modal CV */
     modalCvTitle: "In which language would you like to see my Resume?",
@@ -170,8 +170,8 @@ const indexTranslations = {
     navLink7: "Contato",
 
     /* Home */
-    homeTitle: "Desenvolvedor Frontend",
-    homeParagraph: "Quero criar soluções digitais que ofereçam a melhor experiência para o usuário.",
+    homeTitle: "Desenvolvo Sites e Aplicações Web",
+    homeParagraph: "Meu foco é desenvolver soluções digitais que garantam a melhor experiência do usuário.",
 
     /* Modal CV */
     modalCvTitle: "Em que idioma você gostaria de ver meu Currículo?",
@@ -182,7 +182,7 @@ const indexTranslations = {
     aboutParagraph2: "Meu objetivo principal é criar soluções digitais funcionais, eficientes e fáceis de usar.",
     aboutParagraph3: "Estou aqui para ajudar a levar o seu projeto para o próximo nível com a minha criatividade e compromisso.",
     curriculumBtn: "Meu Currículo",
-    aboutPhrase: "Meu foco está em criar soluções digitais funcionais, eficientes e fáceis de usar, que ofereçam a melhor experiência para o usuário.",
+    aboutPhrase: "Meu foco é criar soluções digitais funcionais, eficientes e fáceis de usar, que ofereçam a melhor experiência para o usuário.",
 
     /* Services */
     servicesTitle: "Serviços personalizados",

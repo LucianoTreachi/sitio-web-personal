@@ -9,6 +9,7 @@
   --accent-color-1: #625eab;
   --accent-color-2: #625ead;
   --text-weight: 400;
+  --title-color: #383a41;
   --border: 2px solid hsl(0, 0%, 86%);
   --shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
   --background-1: #eff3f6;
@@ -27,6 +28,7 @@
   --black: #fdfdfd;
   --accent-color-2: #a198e2;
   --text-weight: 300;
+  --title-color: #e8e8e8;
   --border: 2px solid hsl(0, 0%, 20%);
   --shadow: 0px 10px 15px -3px rgba(200, 200, 200, 0.1);
   --background-1: #121212;
@@ -470,7 +472,7 @@ SECTION 2: HOME
 ================================*/
 
 .home {
-  min-height: 100vh;
+  min-height: 90vh;
   background-color: var(--background-1);
   display: flex;
   justify-content: center;
@@ -480,18 +482,19 @@ SECTION 2: HOME
 }
 
 .home .container {
-  max-width: 1000px;
+  max-width: 1200px;
   padding-top: 8rem;
   z-index: 1;
 }
 
 .home-title {
-  text-transform: uppercase;
+  color: var(--title-color);
   text-align: center;
   font-size: clamp(4rem, 10vw, 10rem);
-  line-height: 1.1;
-  opacity: 0.85;
+  line-height: 1;
+  text-shadow: 0 5px 10px rgba(0, 87, 255, .15), 0 -5px 10px rgba(255, 90, 0, .1), 0 -5px 25px rgba(255, 255, 255, .3);
   animation: fadeIn 1s backwards 0.4s;
+  margin-bottom: 2rem;
 }
 
 .home-container-image {
@@ -583,6 +586,9 @@ SECTION 3: ABOUT
   font-weight: 500;
   line-height: 1.6;
   text-align: center;
+  text-wrap: balance;
+  width: 70%;
+  margin: 0 auto;
 }
 
 /* MODAL CURRICULUM */
@@ -776,7 +782,7 @@ SECTION 6: FAQS
 
 .question {
   font-size: 2rem;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.4;
   opacity: 0.9;
   display: flex;
@@ -831,7 +837,7 @@ SECTION 7: BLOGS
 
 .blog-title {
   font-size: 2rem;
-  font-weight: 500;
+  font-weight: 600;
   opacity: 0.9;
   line-height: 1.4;
   z-index: 1;
@@ -1383,7 +1389,7 @@ RESPONSIVE DESIGN
   }
 
   .home-title {
-    text-transform: none;
+    line-height: 1.2;
   }
 
   .home-container-image {
