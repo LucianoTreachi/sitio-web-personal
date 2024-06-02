@@ -1358,6 +1358,10 @@ RESPONSIVE DESIGN
     height: 35px;
   }
 
+  .nav-link {
+    font-size: 1.8rem;
+  }
+
   .dropdown-button {
     width: initial;
   }
