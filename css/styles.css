@@ -1,11 +1,11 @@
 /* GLOBAL STYLES */
 
 :root {
-  --header: rgb(239, 243, 246);
-  --navbar: rgb(245, 245, 245);
+  --header: #eff3f6;
+  --navbar: #f5f5f5;
   --black: #1d1d1d;
   --white: #f8f5f8;
-  --grey: #b9babc;
+  --grey: #e0e2e4;
   --accent-color-1: #625eab;
   --accent-color-2: #625ead;
   --text-weight: 400;
@@ -23,9 +23,10 @@
 }
 
 .dark-theme {
-  --header: rgb(18, 18, 18);
-  --navbar: rgb(18, 18, 18);
+  --header: #121212;
+  --navbar: #121212;
   --black: #fdfdfd;
+  --grey: #202020;
   --accent-color-2: #a198e2;
   --text-weight: 300;
   --title-color: #e8e8e8;
@@ -384,30 +385,17 @@ nav {
   animation: fadeInTranslate 1s backwards 0.2s;
 }
 
-.navbar-networks {
-  margin-top: 2rem;
-  display: flex;
-  gap: 2rem;
-}
+/* THEME */
 
-.navbar-networks svg {
-  width: 30px;
-  height: 30px;
+.theme-toggle-svg {
+  width: 24px;
+  height: 24px;
   fill: var(--black);
-  opacity: 0.75;
+  display: block;
+  cursor: pointer;
 }
 
-.navbar-overlay.active .navbar-networks {
-  animation: fadeInTranslate 1s backwards 0.2s;
-}
-
-.menu-icons {
-  display: flex;
-  align-items: center;
-  gap: 1.6rem;
-}
-
-/* DROPDOWN */
+/* LANGUAGES */
 
 .dropdown-container {
   position: relative;
@@ -417,25 +405,26 @@ nav {
 .dropdown-button {
   font-size: 1.6rem;
   font-weight: 500;
+  opacity: 0.7;
+  width: 100%;
+  text-align: center;
   background: none;
   border: none;
-  transform: translateY(1px);
+  transition: opacity 0.3s ease;
 }
 
-.chevron-down {
-  width: 25px;
-  height: 25px;
-  vertical-align: middle;
-  fill: var(--black);
+.dropdown-button:hover {
+  opacity: 1;
 }
 
 .dropdown-menu {
-  position: absolute;
-  left: -30%;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
   border-radius: 0.5rem;
-  background: var(--accent-color-1);
+  background: var(--grey);
   padding: 1rem 2rem;
-  z-index: 1;
   opacity: 0;
   visibility: hidden;
   transition: all 0.3s ease;
@@ -450,21 +439,11 @@ nav {
   display: inline-block;
   font-size: 1.5rem;
   font-weight: 500;
-  color: var(--white);
+  color: var(--black);
 }
 
 .dropdown-menu a:not(:first-child) {
   margin-top: 1.5rem;
-}
-
-/* THEME */
-
-.theme-toggle-svg {
-  width: 24px;
-  height: 24px;
-  fill: var(--black);
-  display: block;
-  cursor: pointer;
 }
 
 /*=============================== 
@@ -1379,8 +1358,12 @@ RESPONSIVE DESIGN
     height: 35px;
   }
 
-  .menu-icons {
-    gap: 1rem;
+  .dropdown-button {
+    width: initial;
+  }
+
+  .dropdown-menu {
+    text-align: initial;
   }
 
   .home .container {

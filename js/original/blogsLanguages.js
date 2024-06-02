@@ -1,5 +1,5 @@
 const blogsTranslations = {
-  es: {
+  Español: {
     backBtn: "Volver",
     /* Blog 1 */
     blog1Title: "¿Cuáles son las mejores prácticas para el Desarrollo Web?",
@@ -36,7 +36,7 @@ const blogsTranslations = {
     blog3Paragraph6: "<strong>6. Realiza pruebas de velocidad y rendimiento.</strong> Es importante realizar pruebas de velocidad y rendimiento para evaluar el tiempo de carga y detectar cualquier problema. Puedes utilizar herramientas de prueba de velocidad y rendimiento para medir el tiempo de carga y detectar cualquier problema.",
   },
 
-  en: {
+  English: {
     backBtn: "Back",
     /* Blog 1 */
     blog1Title: "What are the best practices for Web Development?",
@@ -73,7 +73,7 @@ const blogsTranslations = {
     blog3Paragraph6: "<strong>6. Conduct speed and performance tests.</strong> It's important to carry out speed and performance tests to assess loading times and identify any issues. You can use speed and performance testing tools to measure loading times and identify any problems.",
   },
 
-  pt: {
+  Portugues: {
     backBtn: "Voltar",
     /* Blog 1 */
     blog1Title: "Quais são as melhores práticas para o Desenvolvimento Web?",
@@ -128,5 +128,5 @@ function changeLanguagePages(lang) {
 const storedLanguage = localStorage.getItem("selectedLanguage");
 
 // If there's no language stored in LocalStorage, use a default language
-const initialLanguage = storedLanguage || "es";
+const initialLanguage = storedLanguage || "Español";
 changeLanguagePages(initialLanguage); // Change the language when the page loads

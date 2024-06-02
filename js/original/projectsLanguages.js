@@ -1,5 +1,5 @@
 const projectsTranslations = {
-  es: {
+  Español: {
     /* Links */
     backBtn: "Volver",
     projectBtn1: "Ver Proyecto",
@@ -81,7 +81,7 @@ const projectsTranslations = {
     project13Paragraph2: "<b>Tecnologías utilizadas:</b> HTML, CSS, JavaScript",
   },
 
-  en: {
+  English: {
     /* Links */
     backBtn: "Back",
     projectBtn1: "View Project",
@@ -163,7 +163,7 @@ const projectsTranslations = {
     project13Paragraph2: "<b>Technologies Used:</b> HTML, CSS, JavaScript",
   },
 
-  pt: {
+  Portugues: {
     /* Links */
     backBtn: "Voltar",
     projectBtn1: "Ver Projeto",
@@ -263,5 +263,5 @@ function changeLanguagePages(lang) {
 const storedLanguage = localStorage.getItem("selectedLanguage");
 
 // If there's no language stored in LocalStorage, use a default language
-const initialLanguage = storedLanguage || "es";
+const initialLanguage = storedLanguage || "Español";
 changeLanguagePages(initialLanguage); // Change the language when the page loads

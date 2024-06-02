@@ -19,10 +19,6 @@ closeMenu.addEventListener('click', () => {
   navbarOverlay.classList.remove("active")
 });
 
-navbarOverlay.addEventListener('click', () => {
-  navbarOverlay.classList.remove("active")
-});
-
 navLinks.forEach((link) => link.addEventListener('click', () => {
   navbarOverlay.classList.remove("active")
 }));

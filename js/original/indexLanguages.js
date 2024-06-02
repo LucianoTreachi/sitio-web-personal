@@ -1,5 +1,5 @@
 const indexTranslations = {
-  es: {
+  Español: {
     /* Nav */
     navLink1: "Inicio",
     navLink2: "Sobre Mí",
@@ -79,7 +79,7 @@ const indexTranslations = {
     errorParagraph: "Disculpa, no se pudo enviar el mensaje. Inténtalo más tarde",
   },
 
-  en: {
+  English: {
     /* Nav */
     navLink1: "Home",
     navLink2: "About Me",
@@ -159,7 +159,7 @@ const indexTranslations = {
     errorParagraph: "I'm sorry, the message could not be sent. Please try again later.",
   },
 
-  pt: {
+  Portugues: {
     /* Nav */
     navLink1: "Início",
     navLink2: "Sobre Mim",
@@ -250,7 +250,7 @@ function changeLanguage(lang) {
   });
 
   // Update the language button value
-  dropdownButton.innerHTML = lang.toUpperCase() + '<svg class="chevron-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 15.0006L7.75732 10.758L9.17154 9.34375L12 12.1722L14.8284 9.34375L16.2426 10.758L12 15.0006Z"></path></svg>';
+  dropdownButton.innerHTML = lang;
 
   // Store the selected language in localStorage
   localStorage.setItem("selectedLanguage", lang);
@@ -275,16 +275,16 @@ dropdownButton.addEventListener("click", () => {
 const storedLanguage = localStorage.getItem("selectedLanguage");
 
 // If there's no language stored in localStorage, use a default language
-const initialLanguage = storedLanguage || "es";
+const initialLanguage = storedLanguage || "Español";
 
 const languageLinks = document.querySelectorAll(".dropdown-menu a");
 languageLinks.forEach(link => {
   link.addEventListener("click", (event) => {
     event.preventDefault();
-    const selectedLang = event.target.dataset.lang.toLowerCase(); // Get the language from the data-lang attribute
+    const selectedLang = event.target.dataset.lang; // Get the language from the data-lang attribute
     changeLanguage(selectedLang);
     dropdownMenu.classList.remove("active");
-    dropdownButton.innerHTML = event.target.innerHTML + '<svg class="chevron-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 15.0006L7.75732 10.758L9.17154 9.34375L12 12.1722L14.8284 9.34375L16.2426 10.758L12 15.0006Z"></path></svg>';
+    dropdownButton.innerHTML = event.target.innerHTML;
   });
 });
 
