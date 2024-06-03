@@ -282,7 +282,6 @@ header {
   z-index: 3;
   padding: 1.5rem 4rem;
   transition: all 0.3s ease;
-  animation: fadeIn 1s backwards 0.4s;
 }
 
 header.active {
@@ -457,7 +456,6 @@ SECTION 2: HOME
   justify-content: center;
   align-items: center;
   position: relative;
-  animation: fadeIn 0.4s linear;
 }
 
 .home .container {
@@ -471,7 +469,6 @@ SECTION 2: HOME
   text-align: center;
   font-size: clamp(3rem, 10vw, 10rem);
   line-height: 1;
-  animation: fadeIn 1s backwards 0.4s;
   margin-bottom: 2rem;
 }
 
@@ -483,7 +480,6 @@ SECTION 2: HOME
   width: 60%;
   margin: 1rem auto 0;
   text-align: center;
-  animation: fadeIn 1s backwards 0.4s;
 }
 
 /*=============================== 
