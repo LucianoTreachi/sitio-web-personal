@@ -5,8 +5,8 @@ const indexTranslations = {
     navLink2: "Sobre Mí",
     navLink3: "Servicios",
     navLink4: "Proyectos",
-    navLink5: "FAQs",
-    navLink6: "Blogs",
+    navLink5: "Metodología",
+    navLink6: "FAQs",
     navLink7: "Contacto",
 
     /* Home */
@@ -38,6 +38,13 @@ const indexTranslations = {
     projectsTitle: "Explora alguno de mis proyectos",
     moreProjectsBtn: "Ver más proyectos",
 
+    /* Methodology */
+    methodologyTitle: "Mi Metodología de Trabajo",
+    article1: "¿Cuáles son las mejores prácticas que aplico para el Desarrollo Web?",
+    article2: "¿Cómo garantizo la Accesibilidad Web?",
+    article3: "¿Cómo optimizo un sitio web?",
+    articleButton: "Conocer más",
+
     /* FAQs */
     faqsTitle: "Preguntas Frecuentes",
     question1: "¿Cuánto tiempo se demora en completar un proyecto?",
@@ -46,16 +53,6 @@ const indexTranslations = {
     answer1: "Trato de proporcionar plazos realistas. Trabajo para completar los proyectos en el menor tiempo posible sin comprometer la calidad. Estableceré un plazo específico al inicio del proyecto y comunicaré las actualizaciones del progreso durante todo el proceso.",
     answer2: "¡Sí! Una vez que el proyecto ha sido entregado, aún puedes solicitar actualizaciones y mejoras adicionales.",
     answer3: "Los costos varían según el tipo y la complejidad del proyecto. Si estás interesado en mis servicios, por favor ponte en contacto conmigo para hablar sobre tus necesidades y obtener un presupuesto detallado.",
-
-    /* Blogs */
-    blogsTitle: "Artículos Valiosos Sobre El Fascinante Mundo Del Desarrollo Web",
-    blog1: "¿Cuáles son las mejores prácticas para el Desarrollo Web?",
-    blog2: "¿Cómo garantizar la Accesibilidad Web?",
-    blog3: "¿Cómo optimizar un sitio web?",
-    blog1Date: "12 enero 2023",
-    blog2Date: "11 enero 2023",
-    blog3Date: "10 enero 2023",
-    blogButton: "Leer el artículo",
 
     /* Action */
     actionTitle: "¿Interesado en trabajar conmigo?",
@@ -85,8 +82,8 @@ const indexTranslations = {
     navLink2: "About Me",
     navLink3: "Services",
     navLink4: "Projects",
-    navLink5: "FAQs",
-    navLink6: "Blogs",
+    navLink5: "Methodology",
+    navLink6: "FAQs",
     navLink7: "Contact",
 
     /* Home */
@@ -118,6 +115,13 @@ const indexTranslations = {
     projectsTitle: "Discover Some of My Projects",
     moreProjectsBtn: "View more projects",
 
+    /* Methodology */
+    methodologyTitle: "My Work Methodology",
+    article1: "What are the best practices I apply for Web Development?",
+    article2: "How do I ensure Web Accessibility?",
+    article3: "How do I optimize a website?",
+    articleButton: "Learn more",
+
     /* FAQs */
     faqsTitle: "Frequently Asked Questions",
     question1: "How long does it take to complete a project?",
@@ -126,16 +130,6 @@ const indexTranslations = {
     answer1: "I strive to provide realistic timelines. I work to complete projects in the shortest time possible without compromising quality. I will set a specific deadline at the beginning of the project and communicate progress updates throughout the process.",
     answer2: "Yes! Once the project has been delivered, you can still request additional updates and improvements.",
     answer3: "The costs vary based on the type and complexity of the project. If you are interested in my services, please get in touch with me to discuss your needs and receive a detailed quote.",
-
-    /* Blogs */
-    blogsTitle: "Valuable Articles About the Fascinating World of Web Development",
-    blog1: "What are the best practices for Web Development?",
-    blog2: "How to Ensure Web Accessibility?",
-    blog3: "How to Optimize a Website?",
-    blog1Date: "January 12, 2023",
-    blog2Date: "January 11, 2023",
-    blog3Date: "January 10, 2023",
-    blogButton: "Read the article",
 
     /* Action */
     actionTitle: "Interested in working with me?",
@@ -165,8 +159,8 @@ const indexTranslations = {
     navLink2: "Sobre Mim",
     navLink3: "Serviços",
     navLink4: "Projetos",
-    navLink5: "FAQs",
-    navLink6: "Blogs",
+    navLink5: "Metodologia",
+    navLink6: "FAQs",
     navLink7: "Contato",
 
     /* Home */
@@ -198,6 +192,13 @@ const indexTranslations = {
     projectsTitle: "Explora algum dos meus projetos",
     moreProjectsBtn: "Ver mais projetos",
 
+    /* Methodology */
+    methodologyTitle: "Minha Metodologia de Trabalho",
+    article1: "Quais são as melhores práticas que aplico para o Desenvolvimento Web?",
+    article2: "Como garanto a Acessibilidade Web?",
+    article3: "Como otimizo um site?",
+    articleButton: "Saiba mais",
+
     /* FAQs */
     faqsTitle: "Perguntas Frequentes",
     question1: "Quanto tempo leva para concluir um projeto?",
@@ -206,16 +207,6 @@ const indexTranslations = {
     answer1: "Tento fornecer prazos realistas. Trabalho para completar os projetos no menor tempo possível sem comprometer a qualidade. Vou estabelecer um prazo específico no início do projeto e comunicar as atualizações do progresso durante todo o processo.",
     answer2: "Sim! Uma vez que o projeto tenha sido entregue, ainda é possível solicitar atualizações e melhorias adicionais.",
     answer3: "Os custos variam conforme o tipo e a complexidade do projeto. Se você estiver interessado nos meus serviços, por favor, entre em contato comigo para discutir suas necessidades e obter um orçamento detalhado.",
-
-    /* Blogs */
-    blogsTitle: "Artigos Valiosos Sobre o Fascinante Mundo do Desenvolvimento Web",
-    blog1: "Quais são as melhores práticas para o Desenvolvimento Web?",
-    blog2: "Como garantir a Acessibilidade Web?",
-    blog3: "Como otimizar um site?",
-    blog1Date: "12 de janeiro de 2023",
-    blog2Date: "11 de janeiro de 2023",
-    blog3Date: "10 de janeiro de 2023",
-    blogButton: "Ler o artigo",
 
     /* Action */
     actionTitle: "Interessado em trabalhar comigo?",

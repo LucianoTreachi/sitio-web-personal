@@ -67,12 +67,6 @@ navLinks.forEach(link => {
   });
 });
 
-// WHATSAPP FLOAT BUTTON
-window.addEventListener("scroll", () => {
-  const whatsappBtn = document.querySelector(".whatsapp-float-btn");
-  whatsappBtn.classList.toggle("active", window.scrollY > 200);
-});
-
 // MODAL CURRICULUM
 const openModalCv = document.querySelector(".curriculum-btn");
 const closeModalCv = document.querySelector(".close-modal-cv");

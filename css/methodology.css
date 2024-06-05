@@ -67,7 +67,7 @@ a {
 BLOG
 ================================*/
 
-.page-hero-blog {
+.page-hero-methodology {
   background-color: var(--background-1);
   padding: 6rem 4rem;
   position: relative;
@@ -81,7 +81,7 @@ BLOG
   }
 }
 
-.page-hero-blog .container {
+.page-hero-methodology .container {
   width: 50%;
   position: relative;
   z-index: 1;
@@ -205,22 +205,22 @@ BLOG
   fill: var(--background-2);
 }
 
-.page-content-blog {
+.page-content-methodology {
   background-color: var(--background-2);
   padding: 6rem 4rem;
   animation: fadeIn .4s linear;
 }
 
-.page-content-blog .container {
+.page-content-methodology .container {
   width: 50%;
 }
 
-.page-content-blog strong,
-.page-content-blog b {
+.page-content-methodology strong,
+.page-content-methodology b {
   font-weight: 600;
 }
 
-.page-content-blog p:not(:last-child) {
+.page-content-methodology p:not(:last-child) {
   margin-bottom: 4rem;
 }
 
@@ -265,11 +265,11 @@ RESPONSIVE DESIGN
 ================================*/
 
 @media screen and (max-width: 1080px) {
-  .page-hero-blog .container {
+  .page-hero-methodology .container {
     width: 100%;
   }
 
-  .page-content-blog .container {
+  .page-content-methodology .container {
     width: 100%;
   }
 }
@@ -279,8 +279,8 @@ RESPONSIVE DESIGN
     padding: 6rem 2rem;
   }
 
-  .page-hero-blog,
-  .page-content-blog {
+  .page-hero-methodology,
+  .page-content-methodology {
     padding: 6rem 2rem;
   }
 }
