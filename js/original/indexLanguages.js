@@ -20,9 +20,9 @@ const indexTranslations = {
     aboutTitle: "Soy Luciano Treachi",
     aboutParagraph1: "Desarrollador Frontend enfocado en la experiencia de usuario y diseño de interfaz.",
     aboutParagraph2: "Mi objetivo principal es crear soluciones digitales funcionales, eficientes y fáciles de usar.",
-    aboutParagraph3: "Estoy aquí para ayudarte a llevar tu proyecto al siguiente nivel con mi creatividad y compromiso.",
+    aboutParagraph3: "Estoy listo para ayudarte a diseñar y desarrollar tu próximo proyecto web.",
     curriculumBtn: "Mi Curriculum",
-    aboutPhrase: "Mi enfoque se centra en crear soluciones digitales funcionales, eficientes y fáciles de usar, que ofrezcan la mejor experiencia para el usuario.",
+    aboutPhrase: '"Un diseño estratégico y un desarrollo eficiente pueden marcar una gran diferencia en la conversión y la satisfacción del usuario".',
 
     /* Services */
     servicesTitle: "Servicios personalizados",
@@ -47,12 +47,12 @@ const indexTranslations = {
 
     /* FAQs */
     faqsTitle: "Preguntas Frecuentes",
-    question1: "¿Cuánto tiempo se demora en completar un proyecto?",
-    question2: "¿Puedo solicitar actualizaciones luego de haberse completado un proyecto?",
-    question3: "¿Cuáles son los costos para realizar un proyecto?",
-    answer1: "Trato de proporcionar plazos realistas. Trabajo para completar los proyectos en el menor tiempo posible sin comprometer la calidad. Estableceré un plazo específico al inicio del proyecto y comunicaré las actualizaciones del progreso durante todo el proceso.",
-    answer2: "¡Sí! Una vez que el proyecto ha sido entregado, aún puedes solicitar actualizaciones y mejoras adicionales.",
-    answer3: "Los costos varían según el tipo y la complejidad del proyecto. Si estás interesado en mis servicios, por favor ponte en contacto conmigo para hablar sobre tus necesidades y obtener un presupuesto detallado.",
+    question1: "¿Cuál es el tiempo de entrega para un proyecto?",
+    question2: "¿Ofreces soporte y actualizaciones después de la entrega del proyecto?",
+    question3: "¿Cuál es el costo de un proyecto?",
+    answer1: "Trabajo para completar los proyectos en el menor tiempo posible sin comprometer la calidad. Estableceré un plazo específico al inicio del proyecto y comunicaré las actualizaciones del progreso durante todo el proceso.",
+    answer2: "¡Claro que sí! Después de la entrega del proyecto, puedes solicitar actualizaciones y mejoras adicionales.",
+    answer3: "Los costos dependen del tipo y la complejidad del proyecto. Contáctame para discutir tus necesidades específicas y obtener un presupuesto detallado.",
 
     /* Action */
     actionTitle: "¿Interesado en trabajar conmigo?",
@@ -97,9 +97,9 @@ const indexTranslations = {
     aboutTitle: "I'm Luciano Treachi",
     aboutParagraph1: "Frontend Developer focused on User Experience and Interface Design.",
     aboutParagraph2: "My main goal is to create functional, efficient, and user-friendly digital solutions.",
-    aboutParagraph3: "I'm here to help take your project to the next level with my creativity and dedication.",
+    aboutParagraph3: "I am ready to help you design and develop your next web project.",
     curriculumBtn: "My Resume",
-    aboutPhrase: "My focus is on creating functional, efficient, and user-friendly digital solutions that offer the best user experience.",
+    aboutPhrase: '"Strategic design and efficient development can make a significant difference in conversion rates and user satisfaction."',
 
     /* Services */
     servicesTitle: "Personalized services",
@@ -124,12 +124,12 @@ const indexTranslations = {
 
     /* FAQs */
     faqsTitle: "Frequently Asked Questions",
-    question1: "How long does it take to complete a project?",
-    question2: "Can I request updates after a project has been completed?",
+    question1: "What is the delivery time for a project?",
+    question2: "Do you offer support and updates after the project delivery?",
     question3: "What are the costs for completing a project?",
-    answer1: "I strive to provide realistic timelines. I work to complete projects in the shortest time possible without compromising quality. I will set a specific deadline at the beginning of the project and communicate progress updates throughout the process.",
-    answer2: "Yes! Once the project has been delivered, you can still request additional updates and improvements.",
-    answer3: "The costs vary based on the type and complexity of the project. If you are interested in my services, please get in touch with me to discuss your needs and receive a detailed quote.",
+    answer1: "I work to complete projects in the shortest time possible without compromising quality. I will set a specific deadline at the beginning of the project and communicate progress updates throughout the process.",
+    answer2: "Absolutely! After the project is delivered, you can request additional updates and improvements.",
+    answer3: "Costs depend on the type and complexity of the project. Contact me to discuss your specific needs and get a detailed quote.",
 
     /* Action */
     actionTitle: "Interested in working with me?",
@@ -174,9 +174,9 @@ const indexTranslations = {
     aboutTitle: "Eu sou Luciano Treachi",
     aboutParagraph1: "Desenvolvedor Frontend focado na experiência do usuário e design de interface.",
     aboutParagraph2: "Meu objetivo principal é criar soluções digitais funcionais, eficientes e fáceis de usar.",
-    aboutParagraph3: "Estou aqui para ajudar a levar o seu projeto para o próximo nível com a minha criatividade e compromisso.",
+    aboutParagraph3: "Estou pronto para te ajudar a projetar e desenvolver seu próximo projeto web.",
     curriculumBtn: "Meu Currículo",
-    aboutPhrase: "Meu foco é criar soluções digitais funcionais, eficientes e fáceis de usar, que ofereçam a melhor experiência para o usuário.",
+    aboutPhrase: '"Um design estratégico e um desenvolvimento eficiente podem fazer uma grande diferença na conversão e na satisfação do usuário."',
 
     /* Services */
     servicesTitle: "Serviços personalizados",
@@ -201,12 +201,12 @@ const indexTranslations = {
 
     /* FAQs */
     faqsTitle: "Perguntas Frequentes",
-    question1: "Quanto tempo leva para concluir um projeto?",
-    question2: "Posso solicitar atualizações depois que o projeto estiver concluído?",
+    question1: "Qual é o prazo de entrega para um projeto?",
+    question2: "Você oferece suporte e atualizações após a entrega do projeto?",
     question3: "Quais são os custos para realizar um projeto?",
-    answer1: "Tento fornecer prazos realistas. Trabalho para completar os projetos no menor tempo possível sem comprometer a qualidade. Vou estabelecer um prazo específico no início do projeto e comunicar as atualizações do progresso durante todo o processo.",
-    answer2: "Sim! Uma vez que o projeto tenha sido entregue, ainda é possível solicitar atualizações e melhorias adicionais.",
-    answer3: "Os custos variam conforme o tipo e a complexidade do projeto. Se você estiver interessado nos meus serviços, por favor, entre em contato comigo para discutir suas necessidades e obter um orçamento detalhado.",
+    answer1: "Trabalho para completar os projetos no menor tempo possível sem comprometer a qualidade. Vou estabelecer um prazo específico no início do projeto e comunicar as atualizações do progresso durante todo o processo.",
+    answer2: "Claro que sim! Após a entrega do projeto, você pode solicitar atualizações e melhorias adicionais.",
+    answer3: "Os custos dependem do tipo e da complexidade do projeto. Entre em contato comigo para discutir suas necessidades específicas e obter um orçamento detalhado.",
 
     /* Action */
     actionTitle: "Interessado em trabalhar comigo?",
