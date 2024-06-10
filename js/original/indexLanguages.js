@@ -268,7 +268,9 @@ const storedLanguage = localStorage.getItem("selectedLanguage");
 // If there's no language stored in localStorage, use a default language
 const initialLanguage = storedLanguage || "Español";
 
+// Select all <a> tags of the dropdown-menu
 const languageLinks = document.querySelectorAll(".dropdown-menu a");
+
 languageLinks.forEach(link => {
   link.addEventListener("click", (event) => {
     event.preventDefault();
