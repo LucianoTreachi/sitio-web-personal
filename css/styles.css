@@ -1216,7 +1216,7 @@ RESPONSIVE DESIGN
   }
 
   .home {
-    min-height: auto;
+    min-height: 100vh;
   }
 
   .home .container {
