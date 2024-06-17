@@ -18,7 +18,7 @@ const indexTranslations = {
 
     /* About */
     aboutTitle: "Soy Luciano Treachi",
-    aboutParagraph1: "Desarrollador Frontend enfocado en la experiencia de usuario y diseño de interfaz.",
+    aboutParagraph1: "Desarrollador Frontend enfocado en UX/UI.",
     aboutParagraph2: "Mi objetivo principal es crear soluciones digitales funcionales, eficientes y fáciles de usar.",
     aboutParagraph3: "Estoy listo para ayudarte a diseñar y desarrollar tu próximo proyecto web.",
     curriculumBtn: "Mi Curriculum",
@@ -95,7 +95,7 @@ const indexTranslations = {
 
     /* About */
     aboutTitle: "I'm Luciano Treachi",
-    aboutParagraph1: "Frontend Developer focused on User Experience and Interface Design.",
+    aboutParagraph1: "Frontend Developer focused on UX/UI.",
     aboutParagraph2: "My main goal is to create functional, efficient, and user-friendly digital solutions.",
     aboutParagraph3: "I am ready to help you design and develop your next web project.",
     curriculumBtn: "My Resume",
@@ -172,7 +172,7 @@ const indexTranslations = {
 
     /* About */
     aboutTitle: "Eu sou Luciano Treachi",
-    aboutParagraph1: "Desenvolvedor Frontend focado na experiência do usuário e design de interface.",
+    aboutParagraph1: "Desenvolvedor Frontend focado em UX/UI.",
     aboutParagraph2: "Meu objetivo principal é criar soluções digitais funcionais, eficientes e fáceis de usar.",
     aboutParagraph3: "Estou pronto para te ajudar a projetar e desenvolver seu próximo projeto web.",
     curriculumBtn: "Meu Currículo",
