@@ -58,7 +58,7 @@ p {
   font-size: 1.8rem;
   font-weight: var(--text-weight);
   opacity: 0.70;
-  line-height: 1.6;
+  line-height: 1.5;
   text-wrap: pretty;
 }
 
@@ -523,7 +523,7 @@ SECTION: ABOUT
 .about .row-2 h2 {
   font-size: 3rem;
   font-weight: 500;
-  line-height: 1.6;
+  line-height: 1.5;
   text-align: center;
   text-wrap: balance;
   width: 70%;
