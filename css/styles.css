@@ -1384,6 +1384,7 @@ RESPONSIVE DESIGN
 
   .button-submit {
     padding: 1.5rem 6rem;
+    width: 100%;
   }
 }
 
