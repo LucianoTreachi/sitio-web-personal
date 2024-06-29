@@ -41,7 +41,6 @@ html {
 
 body {
   font-family: 'Inter', sans-serif;
-  letter-spacing: 0.2px;
   color: var(--black);
 }
 
@@ -64,7 +63,7 @@ a {
 }
 
 /*=============================== 
-BLOG
+METHODOLOGY
 ================================*/
 
 .page-hero-methodology {
@@ -113,6 +112,7 @@ BLOG
 
 .page-title {
   font-size: 3rem;
+  letter-spacing: -.02em;
 }
 
 .author {
