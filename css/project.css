@@ -200,6 +200,7 @@ PAGE INDIVIDUAL PROJECT
 .links {
   display: flex;
   gap: 2rem;
+  max-width: 500px;
 }
 
 .link {
@@ -210,36 +211,26 @@ PAGE INDIVIDUAL PROJECT
   justify-content: center;
   align-items: center;
   gap: 1rem;
-}
-
-.link svg {
-  width: 18px;
-  height: 18px;
+  flex: 1;
 }
 
 .link-1 {
   padding: 1.5rem 4rem;
   color: var(--white);
   background-color: var(--accent-color-1);
+  border: 2px solid var(--accent-color-1);
   transition: .4s;
-}
-
-.link-1:hover {
-  opacity: .85;
-}
-
-.link-1 svg {
-  fill: var(--white);
 }
 
 .link-2 {
   padding: 1.5rem 3rem;
   color: var(--accent-color-2);
-  border: 1px solid var(--accent-color-2);
+  border: 2px solid var(--accent-color-2);
 }
 
-.link-2 svg {
-  fill: var(--accent-color-2);
+.link-1:hover,
+.link-2:hover {
+  opacity: .85;
 }
 
 .mockup {
