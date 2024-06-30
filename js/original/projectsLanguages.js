@@ -2,8 +2,8 @@ const projectsTranslations = {
   Español: {
     /* Links */
     backBtn: "Volver",
-    projectBtn1: "Ver Proyecto",
-    projectBtn2: "Ver Repositorio",
+    projectBtn1: "Ver proyecto",
+    projectBtn2: "Ver repositorio",
 
     /* Main Title */
     projectTitle: "Proyectos",
@@ -71,8 +71,8 @@ const projectsTranslations = {
   English: {
     /* Links */
     backBtn: "Back",
-    projectBtn1: "View Project",
-    projectBtn2: "View Repository",
+    projectBtn1: "View project",
+    projectBtn2: "View repository",
 
     /* Main Title */
     projectTitle: "Projects",
@@ -140,8 +140,8 @@ const projectsTranslations = {
   Portugues: {
     /* Links */
     backBtn: "Voltar",
-    projectBtn1: "Ver Projeto",
-    projectBtn2: "Ver Repositório",
+    projectBtn1: "Ver projeto",
+    projectBtn2: "Ver repositório",
 
     /* Main Title */
     projectTitle: "Projetos",
