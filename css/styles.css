@@ -1357,6 +1357,10 @@ RESPONSIVE DESIGN
     font-size: 1.8rem;
   }
 
+  .about .row-1 .col-2 h2 {
+    font-size: 2.6rem;
+  }
+
   .about .row-2 h2 {
     font-size: 2.4rem;
   }
