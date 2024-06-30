@@ -18,9 +18,7 @@ const indexTranslations = {
 
     /* About */
     aboutTitle: "Soy Luciano Treachi",
-    aboutParagraph1: "Desarrollador Frontend enfocado en UX/UI.",
-    aboutParagraph2: "Mi objetivo principal es crear soluciones digitales funcionales, eficientes y fáciles de usar.",
-    aboutParagraph3: "Estoy listo para ayudarte a diseñar y desarrollar tu próximo proyecto web.",
+    aboutParagraph: "Desarrollador Frontend enfocado en UX/UI. Me dedico a crear soluciones digitales eficientes y fáciles de usar que potencian la experiencia del usuario. Estoy listo para ayudarte a diseñar y desarrollar tu  próximo proyecto web.",
     curriculumBtn: "Mi Curriculum",
     aboutPhrase: '"Un diseño estratégico y un desarrollo eficiente pueden marcar una gran diferencia en la conversión y la satisfacción del usuario".',
 
@@ -95,9 +93,7 @@ const indexTranslations = {
 
     /* About */
     aboutTitle: "I'm Luciano Treachi",
-    aboutParagraph1: "Frontend Developer focused on UX/UI.",
-    aboutParagraph2: "My main goal is to create functional, efficient, and user-friendly digital solutions.",
-    aboutParagraph3: "I am ready to help you design and develop your next web project.",
+    aboutParagraph: "Frontend Developer focused on UX/UI. I specialize in creating efficient and user-friendly digital solutions that enhance the user experience. I'm ready to help you design and develop your next web project.",
     curriculumBtn: "My Resume",
     aboutPhrase: '"Strategic design and efficient development can make a significant difference in conversion rates and user satisfaction."',
 
@@ -172,9 +168,7 @@ const indexTranslations = {
 
     /* About */
     aboutTitle: "Eu sou Luciano Treachi",
-    aboutParagraph1: "Desenvolvedor Frontend focado em UX/UI.",
-    aboutParagraph2: "Meu objetivo principal é criar soluções digitais funcionais, eficientes e fáceis de usar.",
-    aboutParagraph3: "Estou pronto para te ajudar a projetar e desenvolver seu próximo projeto web.",
+    aboutParagraph: "Desenvolvedor Frontend focado em UX/UI. Especializo-me em criar soluções digitais eficientes e fáceis de usar que melhoram a experiência do usuário. Estou pronto para ajudá-lo a projetar e desenvolver seu próximo projeto web.",
     curriculumBtn: "Meu Currículo",
     aboutPhrase: '"Um design estratégico e um desenvolvimento eficiente podem fazer uma grande diferença na conversão e na satisfação do usuário."',
 
