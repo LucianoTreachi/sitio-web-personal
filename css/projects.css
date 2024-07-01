@@ -215,7 +215,7 @@ PROJECTS
   outline: none;
   background-color: var(--background-2);
   border: 2px solid var(--accent-color-1);
-  border-radius: 10px;
+  border-radius: 1rem;
   padding: 1rem;
   font-size: 1.8rem;
   font-weight: 500;
