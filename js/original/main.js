@@ -5,9 +5,6 @@ window.onpageshow = function (event) {
   }
 };
 
-// WOW Library js
-new WOW().init();
-
 // NAVBAR
 const hamburgerMenu = document.querySelector(".hamburger-menu");
 const closeMenu = document.querySelector(".close-menu");
