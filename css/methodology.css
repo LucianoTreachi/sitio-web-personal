@@ -1,31 +1,21 @@
 /* GLOBAL STYLES */
 
 :root {
-  --navbar: rgb(245, 245, 245);
   --black: #1d1d1d;
-  --white: #f8f5f8;
-  --grey: #b9babc;
-  --accent-color-1: #625eab;
-  --accent-color-2: #625ead;
-  --text-weight: 400;
-  --background-1: #eff3f6;
-  --background-2: #ffffff;
-  --background-3: #eff3f6;
-  --alert: #fd4d6b;
+  --bg: #fdfdfd;
+  --footer: #eff3f6;
   --blurred-circle-1: #7fffd4;
   --blurred-circle-2: #f6ff7f;
   --blurred-circle-3: #7f92ff;
   --blurred-circle-4: #b07fff;
+  --text-weight: 400;
 }
 
 .dark-theme {
-  --navbar: rgb(18, 18, 18);
   --black: #fdfdfd;
+  --bg: #0b1215;
+  --footer: #000000;
   --text-weight: 300;
-  --accent-color-2: #a198e2;
-  --background-1: #121212;
-  --background-2: #202020;
-  --background-3: #23272f;
 }
 
 * {
@@ -67,7 +57,7 @@ METHODOLOGY
 ================================*/
 
 .page-hero-methodology {
-  background-color: var(--background-1);
+  background-color: var(--bg);
   padding: 6rem 4rem;
   position: relative;
   overflow: hidden;
@@ -182,7 +172,7 @@ METHODOLOGY
 }
 
 .wave-top .shape-fill {
-  fill: var(--background-2);
+  fill: var(--bg);
 }
 
 .wave-bottom {
@@ -202,11 +192,11 @@ METHODOLOGY
 }
 
 .wave-bottom .shape-fill {
-  fill: var(--background-2);
+  fill: var(--bg);
 }
 
 .page-content-methodology {
-  background-color: var(--background-2);
+  background-color: var(--bg);
   padding: 6rem 4rem;
   animation: fadeIn .4s linear;
 }
@@ -229,7 +219,7 @@ FOOTER
 ================================*/
 
 .footer {
-  background-color: var(--background-1);
+  background-color: var(--footer);
   padding: 6rem 4rem;
   text-align: center;
   position: relative;
