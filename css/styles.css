@@ -526,6 +526,7 @@ SECTION: ABOUT
 .about .row-2 h2 {
   font-size: 3rem;
   font-weight: 500;
+  opacity: 0.78;
   line-height: 1.5;
   text-align: center;
   text-wrap: balance;
