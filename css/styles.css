@@ -1225,10 +1225,6 @@ RESPONSIVE DESIGN
     margin-bottom: 4rem;
   }
 
-  .home {
-    min-height: 100vh;
-  }
-
   .home .container {
     padding: 14rem 0 10rem;
   }
@@ -1295,6 +1291,10 @@ RESPONSIVE DESIGN
 }
 
 @media screen and (max-width: 600px) {
+  p {
+    font-size: 1.6rem;
+  }
+
   .section {
     padding: 6rem 2rem;
   }
@@ -1333,6 +1333,10 @@ RESPONSIVE DESIGN
 
   .dropdown-menu {
     text-align: initial;
+  }
+
+  .home {
+    min-height: 80vh;
   }
 
   .home .container {
