@@ -116,19 +116,9 @@ METHODOLOGY
   width: 85px;
 }
 
-.date {
-  display: flex;
-  flex-direction: column;
-  gap: .5rem;
-}
-
 .date h2 {
   font-weight: 500;
-}
-
-.date h3 {
-  font-weight: 400;
-  opacity: .85;
+  opacity: 0.78;
 }
 
 .blurred-circle {
