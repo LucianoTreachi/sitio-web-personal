@@ -36,16 +36,22 @@ window.addEventListener("scroll", () => {
 // ACTIVE LINK
 const sections = document.querySelectorAll('section')
 
-function setActiveLinks() {
-  let len = sections.length;
+function setActiveLink() {
+  let index = sections.length;
 
-  while (--len && window.scrollY + 97 < sections[len].offsetTop) { }
-  navLinks.forEach(link => link.classList.remove("active"));
-  navLinks[len].classList.add("active");
+  while (--index && window.scrollY + 50 < sections[index].offsetTop) {}
+
+  navLinks.forEach((link) => link.classList.remove('active'));
+  if (index > 0) {
+    navLinks.forEach((link) => {
+      if (link.getAttribute('href') === '#' + sections[index].id) {
+        link.classList.add('active');
+      }
+    });
+  }
 }
 
-setActiveLinks();
-window.addEventListener("scroll", setActiveLinks);
+window.addEventListener('scroll', setActiveLink);
 
 // SCROLL TO SECTION
 navLinks.forEach(link => {
