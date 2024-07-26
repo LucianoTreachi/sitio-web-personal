@@ -971,7 +971,7 @@ SECTION: CONTACT
   font-size: 1.7rem;
   font-weight: 600;
   color: var(--white);
-  border: 0;
+  border: 2px solid var(--accent-color-1);
   border-radius: 1rem;
   background-color: var(--accent-color-1);
   transition: opacity 0.4s;
