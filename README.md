@@ -1,20 +1,20 @@
 <div align="center">
-  <img src="https://res.cloudinary.com/dwqk2mkgh/image/upload/v1712505262/Portfolio-Personal/banner_vihx0v.jpg" width="100%" alt="Banner"/>
+  <img src="https://res.cloudinary.com/dwqk2mkgh/image/upload/v1722102339/Portfolio-Personal/banner_otnon0.jpg" width="100%" alt="Banner"/>
 </div>
 
 ## Descripción
 
 #### ES
 
-> <p>Soy Luciano Treachi, Desarrollador Frontend enfocado en la experiencia de usuario y diseño de interfaz. Mi objetivo principal es crear soluciones digitales funcionales, eficientes y fáciles de usar.</p>
+> <p>Soy Luciano Treachi, Desarrollador Frontend enfocado en UX/UI. Me dedico a crear soluciones web eficientes, intuitivas y fáciles de usar que potencian la experiencia del usuario.</p>
 
 #### EN
 
-> <p>I'm Luciano Treachi, a Frontend Developer with a focus on user experience and interface design. My main goal is to create functional, efficient, and user-friendly digital solutions.</p>
+> <p>I'm Luciano Treachi, Frontend Developer focused on UX/UI. I am dedicated to creating efficient, intuitive, and user-friendly web solutions that enhance the user experience.</p>
 
 #### PT
 
-> <p>Eu sou Luciano Treachi, um Desenvolvedor Frontend com foco em experiência do usuário e design de interface. Meu objetivo principal é criar soluções digitais funcionais, eficientes e fáceis de usar.</p>
+> <p>Eu sou Luciano Treachi, Desenvolvedor Frontend focado em UX/UI. Dedico-me a criar soluções web eficientes, intuitivas e fáceis de usar que potencializam a experiência do usuário.</p>
 
 #### Sitio Web
 
