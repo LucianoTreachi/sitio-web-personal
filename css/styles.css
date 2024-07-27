@@ -290,13 +290,13 @@ nav {
 .navbar-content {
   position: fixed;
   top: 0;
-  left: -100%;
+  right: -100%;
   display: flex;
   flex-direction: column;
   gap: 3rem;
   width: 50%;
   height: 100vh;
-  padding: 10rem;
+  padding: 12rem 10rem;
   background-color: var(--navbar);
   overflow-y: auto;
   transition: 0.5s ease-in-out;
@@ -314,8 +314,8 @@ nav {
 .close-menu {
   display: block;
   position: absolute;
-  top: 0.9rem;
-  right: 2rem;
+  top: 1rem;
+  left: 2rem;
   width: 55px;
   height: 55px;
   opacity: 0.85;
@@ -345,7 +345,7 @@ nav {
 }
 
 .navbar-overlay.active .navbar-content {
-  left: 0;
+  right: 0;
 }
 
 .navbar-overlay.active .nav-link {
@@ -1270,7 +1270,7 @@ RESPONSIVE DESIGN
 
 @media screen and (max-width: 746px) {
   .navbar-content {
-    padding: 8rem 4rem;
+    padding: 10rem 8rem;
   }
 
   .about .row-1 {
@@ -1329,7 +1329,7 @@ RESPONSIVE DESIGN
   }
 
   .nav-link {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
   .theme-toggle-svg {
