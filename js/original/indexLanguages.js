@@ -26,11 +26,10 @@ const indexTranslations = {
     servicesTitle: "Servicios personalizados",
     serviceTitle1: "Diseño Web",
     serviceTitle2: "Desarrollo Web",
-    serviceTitle3: "Copywriting",
+    serviceTitle3: "Optimización Web",
     serviceParagraph1: "Puedo diseñar sitios web modernos y profesionales, que transmitan de manera efectiva el mensaje de tu marca.",
     serviceParagraph2: "Puedo desarrollar sitios web de manera optimizada y adaptada 100% a todos los dispositivos para maximizar tu presencia en línea.",
-    serviceParagraph3: "Puedo crear textos atractivos y persuasivos que aporten valor a tu audiencia, aumenten la conversión, y hagan crecer tu negocio.",
-    technologiesTitle: "Tecnologías y herramientas",
+    serviceParagraph3: "Puedo optimizar sitios web para mejorar significativamente su velocidad, rendimiento y posicionamiento en buscadores.",
 
     /* Projects */
     projectsTitle: "Explora alguno de mis proyectos",
@@ -101,11 +100,10 @@ const indexTranslations = {
     servicesTitle: "Personalized services",
     serviceTitle1: "Web Design",
     serviceTitle2: "Web Development",
-    serviceTitle3: "Copywriting",
+    serviceTitle3: "Web Optimization",
     serviceParagraph1: "I can design modern and professional websites that effectively convey your brand's message.",
     serviceParagraph2: "I can develop websites in an optimized manner, fully responsive and tailored to all devices to maximize your online presence.",
-    serviceParagraph3: "I can create compelling and persuasive texts that add value to your audience, increase conversion, and grow your business.",
-    technologiesTitle: "Technologies and Tools",
+    serviceParagraph3: "I can optimize websites to significantly improve their speed, performance, and search engine ranking.",
 
     /* Projects */
     projectsTitle: "Discover Some of My Projects",
@@ -176,11 +174,10 @@ const indexTranslations = {
     servicesTitle: "Serviços personalizados",
     serviceTitle1: "Design Web",
     serviceTitle2: "Desenvolvimento Web",
-    serviceTitle3: "Copywriting",
+    serviceTitle3: "Otimização de Sites",
     serviceParagraph1: "Posso criar sites modernos e profissionais que transmitam a mensagem da sua marca de forma eficaz.",
     serviceParagraph2: "Posso desenvolver sites de maneira otimizada e adaptada 100% a todos os dispositivos para maximizar sua presença online.",
-    serviceParagraph3: "Posso criar textos atrativos e persuasivos que agreguem valor à sua audiência, aumentem a conversão e impulsionem o crescimento do seu negócio.",
-    technologiesTitle: "Tecnologias e Ferramentas",
+    serviceParagraph3: "Posso otimizar sites para melhorar sua velocidade, desempenho e posicionamento nos motores de busca.",
 
     /* Projects */
     projectsTitle: "Explora algum dos meus projetos",
