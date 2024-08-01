@@ -348,10 +348,6 @@ nav {
   right: 0;
 }
 
-.navbar-overlay.active .nav-link {
-  animation: fadeInTranslate 1s backwards 0.2s;
-}
-
 /* THEME */
 
 .theme-toggle-svg {
