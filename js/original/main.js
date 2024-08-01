@@ -70,30 +70,6 @@ navLinks.forEach(link => {
   });
 });
 
-// MODAL CURRICULUM
-const openModalCv = document.querySelector(".curriculum-btn");
-const closeModalCv = document.querySelector(".close-modal-cv");
-const modalCv = document.getElementById("modal-cv");
-const buttonsDownloadCv = document.querySelectorAll(".button-download-cv");
-
-openModalCv.addEventListener("click", () => {
-  modalCv.classList.add("active");
-})
-
-closeModalCv.addEventListener("click", () => {
-  modalCv.classList.remove("active");
-})
-
-modalCv.addEventListener("click", () => {
-  modalCv.classList.remove("active");
-})
-
-buttonsDownloadCv.forEach((btn) => {
-  btn.addEventListener("click", () => {
-    modalCv.classList.remove("active");
-  })
-})
-
 // FAQS
 const questions = document.querySelectorAll('.question');
 

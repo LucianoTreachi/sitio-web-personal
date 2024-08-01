@@ -13,13 +13,9 @@ const indexTranslations = {
     homeTitle: "Desarrollo Sitios y Aplicaciones Web",
     homeParagraph: "Puedo crear soluciones web eficientes, intuitivas y fáciles de usar.",
 
-    /* Modal CV */
-    modalCvTitle: "¿En qué idioma te gustaría ver mi Curriculum?",
-
     /* About */
     aboutTitle: "Soy Luciano Treachi",
     aboutParagraph: "Desarrollador Frontend enfocado en UX/UI. Me dedico a crear soluciones web eficientes, intuitivas y fáciles de usar que potencian la experiencia del usuario. Estoy listo para ayudarte a diseñar y desarrollar tu  próximo proyecto web.",
-    curriculumBtn: "Mi Curriculum",
     aboutPhrase: '"Un diseño estratégico y un desarrollo eficiente pueden marcar una gran diferencia en la conversión y la satisfacción del usuario".',
 
     /* Services */
@@ -87,13 +83,9 @@ const indexTranslations = {
     homeTitle: "I Develop Websites and Web Applications",
     homeParagraph: "I can create efficient, intuitive, and user-friendly web solutions.",
 
-    /* Modal CV */
-    modalCvTitle: "In which language would you like to see my Resume?",
-
     /* About */
     aboutTitle: "I'm Luciano Treachi",
     aboutParagraph: "Frontend Developer focused on UX/UI. I am dedicated to creating efficient, intuitive, and user-friendly web solutions that enhance the user experience. I'm ready to help you design and develop your next web project.",
-    curriculumBtn: "My Resume",
     aboutPhrase: '"Strategic design and efficient development can make a significant difference in conversion rates and user satisfaction."',
 
     /* Services */
@@ -161,13 +153,9 @@ const indexTranslations = {
     homeTitle: "Desenvolvo Sites e Aplicações Web",
     homeParagraph: "Posso criar soluções web eficientes, intuitivas e fáceis de usar.",
 
-    /* Modal CV */
-    modalCvTitle: "Em que idioma você gostaria de ver meu Currículo?",
-
     /* About */
     aboutTitle: "Eu sou Luciano Treachi",
     aboutParagraph: "Desenvolvedor Frontend focado em UX/UI. Dedico-me a criar soluções web eficientes, intuitivas e fáceis de usar que potencializam a experiência do usuário. Estou pronto para ajudá-lo a projetar e desenvolver seu próximo projeto web.",
-    curriculumBtn: "Meu Currículo",
     aboutPhrase: '"Um design estratégico e um desenvolvimento eficiente podem fazer uma grande diferença na conversão e na satisfação do usuário."',
 
     /* Services */
