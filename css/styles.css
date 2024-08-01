@@ -628,7 +628,6 @@ SECTION: SERVICES
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
   padding: 2rem;
   border-radius: 1rem;
   border: var(--border);
@@ -644,6 +643,7 @@ SECTION: SERVICES
 }
 
 .service h3 {
+  margin: 2rem 0 1rem;
   font-size: 2.4rem;
   font-weight: 600;
   letter-spacing: var(--title-letter-spacing);
