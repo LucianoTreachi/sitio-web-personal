@@ -12,7 +12,7 @@ const projectsTranslations = {
     projectOption1: "Todos",
     projectOption2: "Sitios Web",
     projectOption3: "Blogs",
-    projectOption4: "E-commerce",
+    projectOption4: "Comercio electrónico",
     projectOption5: "Herramientas",
 
     /* Project 1 */
