@@ -20,8 +20,8 @@ const projectsTranslations = {
     project1Paragraph1: "<b>Descripción del proyecto:</b> diseñé y desarrollé un Curriculum Vitae Web.",
 
     /* Project 2 */
-    project2Title: "Landing Page para Emmanuel Mansilla",
-    project2Paragraph1: "<b>Descripción del proyecto:</b> landing page para Emmanuel Mansilla, propietario de una Consultora de Negocios.",
+    project2Title: "Consultora de negocios",
+    project2Paragraph1: "<b>Descripción del proyecto:</b> sitio web para Emmanuel Mansilla, propietario de una Consultora de Negocios.",
 
     /* Project 3 */
     project3Title: "Contador de Texto",
@@ -44,16 +44,16 @@ const projectsTranslations = {
     project7Paragraph1: "<b>Descripción del proyecto:</b> diseñé y desarrollé un sitio web de venta de composiciones musicales.",
 
     /* Project 8 */
-    project8Title: "Sitio Web para la provincia de Córdoba",
+    project8Title: "Conociendo Córdoba",
     project8Paragraph1: "<b>Descripción del proyecto:</b> diseñé y desarrollé un sitio web para la provincia de Córdoba, ubicada en Argentina. El sitio muestra 80 lugares turísticos para visitar.",
 
     /* Project 9 */
-    project9Title: "E-commerce Dedicado a la Venta De Guitarras",
-    project9Paragraph1: "<b>Descripción del proyecto:</b> diseñé y desarrollé un pequeño e-commerce que vende guitarras.",
+    project9Title: "Tienda de Guitarras",
+    project9Paragraph1: "<b>Descripción del proyecto:</b> diseñé y desarrollé una tienda online que vende guitarras.",
 
     /* Project 10 */
-    project10Title: "E-commerce Dedicado a la Venta De Libros",
-    project10Paragraph1: "<b>Descripción del proyecto:</b> diseñé y desarrollé un pequeño e-commerce que vende libros de Desarrollo Frontend.",
+    project10Title: "Tienda de Libros de Desarrollo Frontend",
+    project10Paragraph1: "<b>Descripción del proyecto:</b> diseñé y desarrollé una tienda online que vende libros de Desarrollo Frontend.",
 
     /* Project 11 */
     project11Title: "Blog sobre estrategias UX/UI",
