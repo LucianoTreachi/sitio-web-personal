@@ -116,11 +116,6 @@ METHODOLOGY
   width: 85px;
 }
 
-.date h2 {
-  font-weight: 500;
-  opacity: 0.78;
-}
-
 .blurred-circle {
   position: absolute;
   border-radius: 50%;
