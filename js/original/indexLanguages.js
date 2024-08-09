@@ -19,7 +19,7 @@ const indexTranslations = {
     aboutPhrase: '"Un diseño estratégico y un desarrollo eficiente pueden marcar una gran diferencia en la conversión y la satisfacción del usuario".',
 
     /* Services */
-    servicesTitle: "Servicios personalizados",
+    servicesTitle: "Brindo Servicios Personalizados",
     serviceTitle1: "Diseño Web",
     serviceTitle2: "Desarrollo Web",
     serviceTitle3: "Optimización Web",
@@ -89,7 +89,7 @@ const indexTranslations = {
     aboutPhrase: '"Strategic design and efficient development can make a significant difference in conversion rates and user satisfaction."',
 
     /* Services */
-    servicesTitle: "Personalized services",
+    servicesTitle: "I Provide Personalized Services",
     serviceTitle1: "Web Design",
     serviceTitle2: "Web Development",
     serviceTitle3: "Web Optimization",
@@ -159,7 +159,7 @@ const indexTranslations = {
     aboutPhrase: '"Um design estratégico e um desenvolvimento eficiente podem fazer uma grande diferença na conversão e na satisfação do usuário."',
 
     /* Services */
-    servicesTitle: "Serviços personalizados",
+    servicesTitle: "Ofereço Serviços Personalizados",
     serviceTitle1: "Design Web",
     serviceTitle2: "Desenvolvimento Web",
     serviceTitle3: "Otimização de Sites",
