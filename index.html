@@ -49,46 +49,53 @@
     <div class="container">
       <nav>
         <!-- Logo -->
-        <a href="./index.html" class="nav-logo" aria-label="Logo.">
+        <a href="./index.html" class="nav-logo" aria-label="Logo: Luciano Treachi" tabindex="1">
           Luciano Treachi
         </a>
         <!-- Navbar -->
-        <div class="navbar-overlay">
-          <div class="navbar-content">
-            <svg class="close-menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <div class="navbar">
+          <button class="close-menu-button" tabindex="3" aria-label="Cerrar menú">
+            <svg class="close-menu-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
               <path
                 d="M12.0007 10.5865L16.9504 5.63672L18.3646 7.05093L13.4149 12.0007L18.3646 16.9504L16.9504 18.3646L12.0007 13.4149L7.05093 18.3646L5.63672 16.9504L10.5865 12.0007L5.63672 7.05093L7.05093 5.63672L12.0007 10.5865Z">
               </path>
             </svg>
-            <a href="#about" class="nav-link" data-key="navLink2">Sobre Mí</a>
-            <a href="#services" class="nav-link" data-key="navLink3">Servicios</a>
-            <a href="#projects" class="nav-link" data-key="navLink4">Proyectos</a>
-            <a href="#contact" class="nav-link" data-key="navLink7">Contacto</a>
-            <!-- Theme  -->
-            <div class="theme-container">
-              <a href="#" class="nav-link" aria-label="Cambiar el modo de visualización: claro, oscuro.">
-                <svg class="theme-toggle-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                </svg>
-              </a>
-            </div>
-            <!-- Languages -->
-            <div class="dropdown-container">
-              <button class="dropdown-button">
-                Español
-              </button>
-              <div class="dropdown-menu">
-                <a href="#" class="nav-link" data-lang="Español">Español</a>
-                <a href="#" class="nav-link" data-lang="English">English</a>
-                <a href="#" class="nav-link" data-lang="Portugues">Português</a>
-              </div>
-            </div>
+          </button>
+          <a href="#about" class="nav-link" data-key="navLink2">Sobre mí</a>
+          <a href="#services" class="nav-link" data-key="navLink3">Servicios</a>
+          <a href="#projects" class="nav-link" data-key="navLink4">Proyectos</a>
+          <a href="#contact" class="nav-link" data-key="navLink7">Contacto</a>
+          <!-- Theme  -->
+          <div>
+            <button class="theme-button" aria-label="Cambiar el modo de visualización: claro, oscuro.">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              </svg>
+            </button>
+          </div>
+          <!-- Languages -->
+          <div>
+            <button class="languages-button" aria-label="Seleccionar idioma">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path
+                  d="M2.04932 12.9999H7.52725C7.70624 16.2688 8.7574 19.3053 10.452 21.8809C5.98761 21.1871 2.5001 17.5402 2.04932 12.9999ZM2.04932 10.9999C2.5001 6.45968 5.98761 2.81276 10.452 2.11902C8.7574 4.69456 7.70624 7.73111 7.52725 10.9999H2.04932ZM21.9506 10.9999H16.4726C16.2936 7.73111 15.2425 4.69456 13.5479 2.11902C18.0123 2.81276 21.4998 6.45968 21.9506 10.9999ZM21.9506 12.9999C21.4998 17.5402 18.0123 21.1871 13.5479 21.8809C15.2425 19.3053 16.2936 16.2688 16.4726 12.9999H21.9506ZM9.53068 12.9999H14.4692C14.2976 15.7828 13.4146 18.3732 11.9999 20.5915C10.5852 18.3732 9.70229 15.7828 9.53068 12.9999ZM9.53068 10.9999C9.70229 8.21709 10.5852 5.62672 11.9999 3.40841C13.4146 5.62672 14.2976 8.21709 14.4692 10.9999H9.53068Z">
+                </path>
+              </svg>
+            </button>
+            <select id="select" class="select-languages">
+              <option value="Español" data-lang="Español">Español</option>
+              <option value="English" data-lang="English">English</option>
+              <option value="Portugues" data-lang="Portugues">Português</option>
+            </select>
           </div>
         </div>
         <!-- Hamburger menu -->
-        <svg class="hamburger-menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-          <path d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"></path>
-        </svg>
+        <button class="hamburger-button" tabindex="2" aria-label="Abrir menú">
+          <svg class="hamburger-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"></path>
+          </svg>
+        </button>
       </nav>
+      <div class="overlay"></div>
     </div>
   </header>
 
@@ -415,7 +422,8 @@
         <form class="form" id="form">
           <div class="container-input">
             <label class="label-input" for="input-name" data-key="contactLabel1">Nombre</label>
-            <input type="text" name="name" class="input" id="input-name" autocomplete="name">
+            <input type="text" name="name" class="input" id="input-name" autocomplete="name"
+              aria-label="Ingresa un nombre válido">
             <div class="alert" id="alert-name">
               <svg class="alert-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                 <path
@@ -428,7 +436,8 @@
           </div>
           <div class="container-input">
             <label class="label-input" for="input-email" data-key="contactLabel2">Correo electrónico</label>
-            <input type="text" name="email" class="input" id="input-email" autocomplete="email">
+            <input type="text" name="email" class="input" id="input-email" autocomplete="email"
+              aria-label="Ingresa un email válido">
             <div class="alert" id="alert-email">
               <svg class="alert-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                 <path
@@ -441,7 +450,8 @@
           </div>
           <div class="container-input">
             <label class="label-input" for="textarea" data-key="contactLabel3">Mensaje</label>
-            <textarea name="textarea" class="textarea" id="textarea" maxlength="500"></textarea>
+            <textarea name="textarea" class="textarea" id="textarea" maxlength="500"
+              aria-label="Escribe un mensaje que contenga como mínimo 10 caracteres."></textarea>
             <div class="alert" id="alert-textarea">
               <svg class="alert-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                 <path

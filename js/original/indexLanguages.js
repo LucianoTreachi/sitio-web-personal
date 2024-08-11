@@ -2,7 +2,7 @@ const indexTranslations = {
   Español: {
     /* Nav */
     navLink1: "Inicio",
-    navLink2: "Sobre Mí",
+    navLink2: "Sobre mí",
     navLink3: "Servicios",
     navLink4: "Proyectos",
     navLink5: "Metodología",
@@ -72,7 +72,7 @@ const indexTranslations = {
   English: {
     /* Nav */
     navLink1: "Home",
-    navLink2: "About Me",
+    navLink2: "About me",
     navLink3: "Services",
     navLink4: "Projects",
     navLink5: "Methodology",
@@ -142,7 +142,7 @@ const indexTranslations = {
   Portugues: {
     /* Nav */
     navLink1: "Início",
-    navLink2: "Sobre Mim",
+    navLink2: "Sobre mim",
     navLink3: "Serviços",
     navLink4: "Projetos",
     navLink5: "Metodologia",
@@ -219,26 +219,43 @@ function changeLanguage(lang) {
     element.innerHTML = translation;
   });
 
-  // Update the language button value
-  dropdownButton.innerHTML = lang;
-
   // Store the selected language in localStorage
   localStorage.setItem("selectedLanguage", lang);
 }
 
 // Dropdown
-const dropdownButton = document.querySelector(".dropdown-button");
-const dropdownMenu = document.querySelector(".dropdown-menu");
+const languagesButton = document.querySelector(".languages-button");
+const languagesOptions = document.querySelector("#select");
+
+// Reference to the navbar to close the menu
+// const navbar = document.querySelector(".navbar");
 
 // Close the menu when clicked outside
 document.addEventListener("click", (event) => {
-  if (!dropdownMenu.contains(event.target) && !dropdownButton.contains(event.target)) {
-    dropdownMenu.classList.remove("active");
+  if (!languagesOptions.contains(event.target) && !languagesButton.contains(event.target)) {
+    languagesOptions.classList.remove("active");
+    languagesOptions.blur(); // Hide the select menu visually
   }
 });
 
-dropdownButton.addEventListener("click", () => {
-  dropdownMenu.classList.toggle("active");
+languagesButton.addEventListener("click", () => {
+  languagesOptions.classList.toggle("active");
+
+  // Focus on the select menu to show options
+  if (languagesOptions.classList.contains("active")) {
+    languagesOptions.focus();
+  }
+});
+
+// Add event listener to the select element
+languagesOptions.addEventListener("change", (event) => {
+  const selectedLang = event.target.options[event.target.selectedIndex].dataset.lang; // Get the language from the data-lang attribute
+  changeLanguage(selectedLang);
+  languagesOptions.classList.remove("active");
+  languagesOptions.size = 0; // Reset the size of the select
+
+  // Close the navbar menu if it's open
+  // navbar.classList.remove("active");
 });
 
 // Get the language stored in localStorage (if it exists)
@@ -246,19 +263,6 @@ const storedLanguage = localStorage.getItem("selectedLanguage");
 
 // If there's no language stored in localStorage, use a default language
 const initialLanguage = storedLanguage || "Español";
-
-// Select all <a> tags of the dropdown-menu
-const languageLinks = document.querySelectorAll(".dropdown-menu a");
-
-languageLinks.forEach(link => {
-  link.addEventListener("click", (event) => {
-    event.preventDefault();
-    const selectedLang = event.target.dataset.lang; // Get the language from the data-lang attribute
-    changeLanguage(selectedLang);
-    dropdownMenu.classList.remove("active");
-    dropdownButton.innerHTML = event.target.innerHTML;
-  });
-});
 
 // On page load, set the initial language
 changeLanguage(initialLanguage);

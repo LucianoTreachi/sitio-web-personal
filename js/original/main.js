@@ -6,25 +6,43 @@ window.onpageshow = function (event) {
 };
 
 // NAVBAR
-const hamburgerMenu = document.querySelector(".hamburger-menu");
-const closeMenu = document.querySelector(".close-menu");
-const navbarOverlay = document.querySelector(".navbar-overlay");
+const hamburgerButton = document.querySelector(".hamburger-button");
+const closeMenuButton = document.querySelector(".close-menu-button");
+const navbar = document.querySelector(".navbar");
 const navLinks = document.querySelectorAll(".nav-link");
+const overlay = document.querySelector(".overlay");
 
-hamburgerMenu.addEventListener('click', () => {
-  navbarOverlay.classList.add("active")
+hamburgerButton.addEventListener('click', () => {
+  navbar.classList.add("active")
+  overlay.classList.add("active");
 });
 
-closeMenu.addEventListener('click', () => {
-  navbarOverlay.classList.remove("active")
+closeMenuButton.addEventListener('click', () => {
+  navbar.classList.remove("active")
+  overlay.classList.remove("active");
 });
 
-navLinks.forEach((link) => link.addEventListener('click', () => {
-  navbarOverlay.classList.remove("active")
-}));
+overlay.addEventListener('click', () => {
+  navbar.classList.remove("active")
+  overlay.classList.remove("active");
+});
+
+navLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    navbar.classList.remove("active");
+    overlay.classList.remove("active");
+  });
+
+  link.addEventListener('keydown', (event) => {
+    if (event.key === "Enter") {
+      link.click();
+    }
+  });
+});
 
 window.addEventListener("scroll", () => {
-  navbarOverlay.classList.remove('active');
+  navbar.classList.remove('active');
+  overlay.classList.remove('active');
 })
 
 // HEADER ACTIVE
@@ -39,7 +57,7 @@ const sections = document.querySelectorAll('section')
 function setActiveLink() {
   let index = sections.length;
 
-  while (--index && window.scrollY + 50 < sections[index].offsetTop) {}
+  while (--index && window.scrollY + 50 < sections[index].offsetTop) { }
 
   navLinks.forEach((link) => link.classList.remove('active'));
   if (index > 0) {
@@ -66,6 +84,22 @@ navLinks.forEach(link => {
         behavior: 'smooth',
         block: 'start'
       });
+    }
+  });
+
+  link.addEventListener('keydown', (event) => {
+    if (event.key === "Enter") {
+      event.preventDefault();
+
+      const sectionId = link.getAttribute('href').substring(1);
+      const targetSection = document.getElementById(sectionId);
+
+      if (targetSection) {
+        targetSection.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
+      }
     }
   });
 });
