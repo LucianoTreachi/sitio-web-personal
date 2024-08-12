@@ -1,4 +1,3 @@
-//////// THEME ////////// 
 function changeTheme() {
   const body = document.body;
   const darkTheme = "dark-theme";
@@ -22,20 +21,24 @@ function changeTheme() {
   // Set initial theme
   const selectedTheme = localStorage.getItem("selected-theme") || "light";
   body.classList[selectedTheme === "dark" ? "add" : "remove"](darkTheme);
-  themeIcon.innerHTML = selectedTheme === "dark" ? moonIcon : sunIcon;
-  themeButton.setAttribute("aria-label", `Cambiar al modo ${selectedTheme === "dark" ? "claro" : "oscuro"}`);
 
-  // Add click event listener to the button
-  themeButton.addEventListener("click", () => {
-    body.classList.toggle(darkTheme);
-    const currentTheme = getCurrentTheme();
+  // If the button exists, update the icon and label
+  if (themeButton && themeIcon) {
+    themeIcon.innerHTML = selectedTheme === "dark" ? moonIcon : sunIcon;
+    themeButton.setAttribute("aria-label", `Cambiar al modo ${selectedTheme === "dark" ? "claro" : "oscuro"}`);
 
-    // Update the icon and aria-label based on the current theme
-    themeIcon.innerHTML = currentTheme === "dark" ? moonIcon : sunIcon;
-    themeButton.setAttribute("aria-label", `Cambiar al modo ${currentTheme === "dark" ? "claro" : "oscuro"}`);
+    // Add click event listener to the button
+    themeButton.addEventListener("click", () => {
+      body.classList.toggle(darkTheme);
+      const currentTheme = getCurrentTheme();
 
-    localStorage.setItem("selected-theme", currentTheme);
-  });
+      // Update the icon and aria-label based on the current theme
+      themeIcon.innerHTML = currentTheme === "dark" ? moonIcon : sunIcon;
+      themeButton.setAttribute("aria-label", `Cambiar al modo ${currentTheme === "dark" ? "claro" : "oscuro"}`);
+
+      localStorage.setItem("selected-theme", currentTheme);
+    });
+  }
 }
 
 document.addEventListener("DOMContentLoaded", changeTheme);

@@ -60,8 +60,8 @@ const indexTranslations = {
     contactAlert1: "Ingresa un nombre válido",
     contactAlert2: "Ingresa un email válido",
     contactAlert3: "Escribe como mínimo 10 caracteres",
-    contactBTN: "Enviar",
-    contactParagraph3: "¡Envíame un email y te responderé lo antes posible!",
+    contactBTN: "Enviar mensaje",
+    contactParagraph3: "¡Envíame un mensaje y te responderé lo antes posible!",
     modalContactTitle1: "Enviando el mensaje...",
     modalContactTitle2: "¡Mensaje enviado!",
     modalContactParagraph: "Te responderé a la brevedad",
@@ -130,8 +130,8 @@ const indexTranslations = {
     contactAlert1: "Enter a valid name",
     contactAlert2: "Enter a valid email",
     contactAlert3: "Write at least 10 characters",
-    contactBTN: "Submit",
-    contactParagraph3: "Send me an email, and I'll get back to you as soon as possible!",
+    contactBTN: "Send message",
+    contactParagraph3: "Send me a message, and I'll get back to you as soon as possible!",
     modalContactTitle1: "Sending the message...",
     modalContactTitle2: "Message sent successfully!",
     modalContactParagraph: "I will get back to you soon.",
@@ -200,8 +200,8 @@ const indexTranslations = {
     contactAlert1: "Insira um nome válido",
     contactAlert2: "Insira um e-mail válido",
     contactAlert3: "Escreva pelo menos 10 caracteres",
-    contactBTN: "Enviar",
-    contactParagraph3: "Envie-me um e-mail e responderei o mais breve possível!",
+    contactBTN: "Enviar mensagem",
+    contactParagraph3: "Envie-me um mensagem e responderei o mais breve possível!",
     modalContactTitle1: "Enviando a mensagem...",
     modalContactTitle2: "Mensaje enviado!",
     modalContactParagraph: "Responderei em breve.",
@@ -227,10 +227,7 @@ function changeLanguage(lang) {
 const languagesButton = document.querySelector(".languages-button");
 const languagesOptions = document.querySelector("#select");
 
-// Reference to the navbar to close the menu
-// const navbar = document.querySelector(".navbar");
-
-// Close the menu when clicked outside
+// Close the menu options when clicked outside
 document.addEventListener("click", (event) => {
   if (!languagesOptions.contains(event.target) && !languagesButton.contains(event.target)) {
     languagesOptions.classList.remove("active");
@@ -238,24 +235,21 @@ document.addEventListener("click", (event) => {
   }
 });
 
+// Close the menu options when scroll
+window.addEventListener("scroll", () => {
+  languagesOptions.classList.remove('active');
+})
+
+// Open the menu options when clicked
 languagesButton.addEventListener("click", () => {
   languagesOptions.classList.toggle("active");
-
-  // Focus on the select menu to show options
-  if (languagesOptions.classList.contains("active")) {
-    languagesOptions.focus();
-  }
 });
 
 // Add event listener to the select element
 languagesOptions.addEventListener("change", (event) => {
-  const selectedLang = event.target.options[event.target.selectedIndex].dataset.lang; // Get the language from the data-lang attribute
+  const selectedLang = event.target.options[event.target.selectedIndex].dataset.lang;
   changeLanguage(selectedLang);
   languagesOptions.classList.remove("active");
-  languagesOptions.size = 0; // Reset the size of the select
-
-  // Close the navbar menu if it's open
-  // navbar.classList.remove("active");
 });
 
 // Get the language stored in localStorage (if it exists)

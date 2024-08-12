@@ -271,82 +271,16 @@ nav {
 .nav-logo {
   font-size: 2.5rem;
   font-weight: 500;
-  margin-right: auto;
 }
 
 .navbar {
-  display: none;
-  position: fixed;
-  top: 0;
-  right: -100%;
-  width: 50%;
-  height: 100vh;
-  overflow-y: auto;
-  background-color: var(--navbar);
-  backdrop-filter: blur(10px);
-  padding: 12rem 10rem;
-  z-index: 3;
-}
-
-.overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(10px);
-  opacity: 0;
-  visibility: hidden;
-  z-index: 2;
-  pointer-events: none;
-  transition: opacity 0.5s cubic-bezier(.4, 0, .2, 1), visibility 0.5s cubic-bezier(.4, 0, .2, 1);
-}
-
-.navbar.active {
-  right: 0;
   display: flex;
-  flex-direction: column;
+  align-items: center;
   gap: 3rem;
 }
 
-.overlay.active {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: all;
-}
-
-.hamburger-button {
-  border: 0;
-  background: none;
-}
-
-.hamburger-icon {
-  width: 32px;
-  height: 32px;
-  fill: var(--black);
-  vertical-align: middle;
-}
-
-.close-menu-button {
-  border: 0;
-  background: none;
-  display: block;
-  position: absolute;
-  top: 1rem;
-  left: 2rem;
-}
-
-.close-menu-icon {
-  width: 55px;
-  height: 55px;
-  fill: var(--black);
-  opacity: 0.85;
-  vertical-align: middle;
-}
-
 .nav-link {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 500;
   opacity: 0.7;
   transition: opacity 0.3s ease;
@@ -361,7 +295,37 @@ nav {
   color: var(--accent-color-2);
 }
 
-/* THEME */
+.hamburger-button {
+  display: none;
+  border: 0;
+  background: none;
+}
+
+.hamburger-icon {
+  width: 32px;
+  height: 32px;
+  fill: var(--black);
+  vertical-align: middle;
+}
+
+.close-menu-button {
+  display: none;
+  border: 0;
+  background: none;
+  position: absolute;
+  top: 1rem;
+  left: 2rem;
+}
+
+.close-menu-icon {
+  width: 55px;
+  height: 55px;
+  fill: var(--black);
+  opacity: 0.85;
+  vertical-align: middle;
+}
+
+/* Theme */
 
 .theme-button {
   border: none;
@@ -380,7 +344,11 @@ nav {
   fill: var(--black);
 }
 
-/* LANGUAGES */
+/* Languages */
+
+.languages-container {
+  position: relative;
+}
 
 .languages-button {
   background: none;
@@ -400,9 +368,12 @@ nav {
 }
 
 .select-languages {
+  position: absolute;
+  top: 3rem;
+  right: 0;
   margin-top: 1rem;
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   border-radius: 0.5rem;
   background: var(--grey);
   padding: 1rem 2rem;
@@ -1146,6 +1117,57 @@ RESPONSIVE DESIGN
     margin-bottom: 4rem;
   }
 
+  .hamburger-button {
+    display: block;
+  }
+
+  .close-menu-button {
+    display: block;
+  }
+
+  .navbar {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 50%;
+    height: 100vh;
+    overflow-y: auto;
+    background-color: var(--navbar);
+    backdrop-filter: blur(10px);
+    padding: 10rem 8rem;
+    align-items: initial;
+    z-index: 3;
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 2;
+    pointer-events: none;
+    transition: opacity 0.5s cubic-bezier(.4, 0, .2, 1), visibility 0.5s cubic-bezier(.4, 0, .2, 1);
+  }
+
+  .navbar.active {
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .overlay.active {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+  }
+
   .home .container {
     padding: 14rem 0 10rem;
   }
@@ -1189,10 +1211,6 @@ RESPONSIVE DESIGN
 }
 
 @media screen and (max-width: 746px) {
-  .navbar {
-    padding: 10rem 8rem;
-  }
-
   .about .row-1 {
     grid-template-columns: 1fr;
     gap: 5rem;
@@ -1239,7 +1257,6 @@ RESPONSIVE DESIGN
   }
 
   .navbar {
-    align-items: initial;
     width: 85%;
   }
 
