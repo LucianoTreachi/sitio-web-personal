@@ -260,3 +260,6 @@ const initialLanguage = storedLanguage || "Español";
 
 // On page load, set the initial language
 changeLanguage(initialLanguage);
+
+// Synchronize the select element with the stored language
+languagesOptions.value = initialLanguage;
