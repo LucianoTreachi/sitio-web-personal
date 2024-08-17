@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://res.cloudinary.com/dwqk2mkgh/image/upload/v1722102339/Portfolio-Personal/banner_otnon0.jpg" width="100%" alt="Banner"/>
+  <img src="https://res.cloudinary.com/dwqk2mkgh/image/upload/v1723924855/Portfolio-Personal/banner_fzbnz5.jpg" width="100%" alt="Banner"/>
 </div>
 
 ## Descripción
