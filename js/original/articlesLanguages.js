@@ -14,7 +14,7 @@ const articlesTranslations = {
     article1Paragraph2: "<strong>✅ Utilizo un diseño adaptable.</strong> Logro que el diseño se ajuste automáticamente a cualquier tamaño de pantalla, ya sea en escritorio, tablet o móvil, para garantizar una experiencia consistente en todos los dispositivos.",
     article1Paragraph3: "<strong>✅ Optimizo la velocidad de carga.</strong> Reduzco el tamaño de los recursos, como imágenes, videos y fuentes, para asegurar que el sitio cargue rápidamente y los usuarios no experimenten tiempos de espera innecesarios.",
     article1Paragraph4: "<strong>✅ Escribo código limpio y mantenible.</strong> Adopto buenas prácticas de codificación para asegurar que el código sea fácil de entender y modificar, lo que facilita su mantenimiento y escalabilidad a largo plazo.",
-    article1Paragraph5: "<strong>✅ Documento el código.</strong> Documento el código para facilitar el mantenimiento y la actualización del sitio web. Esto incluye comentarios en el código, guías de estilo y funcionalidad de componentes web.",
+    article1Paragraph5: "<strong>✅ Documento el código.</strong> Documento el código para facilitar el mantenimiento y la actualización del sitio web.",
     article1Paragraph6: "<strong>✅ Compruebo la compatibilidad con distintos navegadores.</strong> Verifico que el sitio web funcione correctamente en una variedad de navegadores populares, como Google Chrome, Mozilla Firefox, Safari y Microsoft Edge.",
 
     /* Article 2 */
@@ -65,7 +65,7 @@ const articlesTranslations = {
     article1Paragraph2: "<strong>✅ I utilize responsive design.</strong> I reduce the size of resources such as images, videos, and fonts to ensure the site loads quickly and users don't experience unnecessary wait times.",
     article1Paragraph3: "<strong>✅ I optimize loading speed.</strong> I adhere to coding best practices to ensure the code is easy to understand and modify, facilitating long-term maintenance and scalability.",
     article1Paragraph4: "<strong>✅ I write clean and maintainable code.</strong> I adhere to coding best practices to ensure the code is easy to understand and modify, facilitating long-term maintenance and scalability.",
-    article1Paragraph5: "<strong>✅ I document the code.</strong> I document the code to facilitate website maintenance and updates. This includes comments in the code, style guides, and functionality of web components.",
+    article1Paragraph5: "<strong>✅ I document the code.</strong> I document the code to facilitate website maintenance and updates.",
     article1Paragraph6: "<strong>✅ I check compatibility with different browsers.</strong> I verify that the website works properly on a variety of popular browsers such as Google Chrome, Mozilla Firefox, Safari, and Microsoft Edge.",
 
     /* Article 2 */
@@ -116,7 +116,7 @@ const articlesTranslations = {
     article1Paragraph2: "<strong>✅ Emprego um design adaptável. </strong> Garanto que o design se ajuste automaticamente a qualquer tamanho de tela, seja em desktop, tablet ou celular, para assegurar uma experiência consistente em todos os dispositivos.",
     article1Paragraph3: "<strong>✅ Otimizo a velocidade de carregamento.</strong> Reduzo o tamanho dos recursos, como imagens, vídeos e fontes, para garantir que o site carregue rapidamente e os usuários não enfrentem tempos de espera desnecessários.",
     article1Paragraph4: "<strong>✅ Escrevo código limpo e mantível.</strong> Adoto boas práticas de codificação para garantir que o código seja fácil de entender e modificar, facilitando seu manuseio e escalabilidade a longo prazo.",
-    article1Paragraph5: "<strong>✅ Documento o código.</strong> Faço documentação do código para facilitar a manutenção e a atualização do site. Isso inclui comentários no código, guias de estilo e funcionalidade dos componentes web.",
+    article1Paragraph5: "<strong>✅ Documento o código.</strong> Faço documentação do código para facilitar a manutenção e a atualização do site.",
     article1Paragraph6: "<strong>✅ Verifico a compatibilidade com diferentes navegadores.</strong> Certifico-me de que o site funcione corretamente em uma variedade de navegadores populares, como Google Chrome, Mozilla Firefox, Safari e Microsoft Edge.",
 
     /* Article 2 */
