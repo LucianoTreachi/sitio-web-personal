@@ -161,14 +161,19 @@ function changeLanguagePages(lang) {
     const translation = articlesTranslations[lang][key];
     
     // Check if the element is a meta tag with property or name attributes
-    if (element.tagName === "META") {
-      if (element.getAttribute("property") || element.getAttribute("name")) {
-        element.setAttribute("content", translation);
+    if (translation) {
+      if (element.tagName === "META") {
+        if (element.getAttribute("property") || element.getAttribute("name")) {
+          element.setAttribute("content", translation);
+        }
+      } else {
+        element.innerHTML = translation;
       }
-    } else {
-      element.innerHTML = translation;
     }
   });
+
+  // Change title dynamically
+  document.title = indexTranslations[lang].title;
 
   // Store the selected language in LocalStorage
   localStorage.setItem("selectedLanguage", lang);
