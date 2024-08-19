@@ -205,7 +205,6 @@ PROJECTS
 }
 
 .select {
-  outline: none;
   background-color: var(--bg);
   border: 2px solid var(--accent-color-1);
   border-radius: 1rem;
@@ -215,7 +214,6 @@ PROJECTS
   color: var(--accent-color-2);
   cursor: pointer;
   width: 100%;
-  transition: 0.4s;
 
   /* All */
   appearance: none;
@@ -223,6 +221,11 @@ PROJECTS
   -webkit-appearance: none;
   /* Firefox */
   -moz-appearance: none;
+}
+
+.select:focus {
+	outline: none;
+  border: 2px solid var(--black);
 }
 
 /* Add "hide" class with JavaScript for the project filter functionality */
