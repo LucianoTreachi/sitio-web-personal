@@ -372,8 +372,6 @@ nav {
   top: 3rem;
   right: 0;
   margin-top: 1rem;
-  /* display: flex;
-  flex-direction: column; */
   border-radius: 0.5rem;
   background: var(--grey);
   padding: 1rem 2rem;
