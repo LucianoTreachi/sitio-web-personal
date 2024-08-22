@@ -1,13 +1,5 @@
 const indexTranslations = {
   Español: {
-    /* head */
-    title: "Luciano Treachi | Desarrollador Frontend",
-    description: "Creo soluciones web eficientes, intuitivas y fáciles de usar que potencian la experiencia de usuario.",
-    ogTitle: "Luciano Treachi | Desarrollador Frontend",
-    ogDescription: "Creo soluciones web eficientes, intuitivas y fáciles de usar que potencian la experiencia de usuario.",
-    twitterTitle: "Luciano Treachi | Desarrollador Frontend",
-    twitterDescription: "Creo soluciones web eficientes, intuitivas y fáciles de usar que potencian la experiencia de usuario.",
-
     /* Nav */
     navLink1: "Inicio",
     navLink2: "Sobre mí",
@@ -78,14 +70,6 @@ const indexTranslations = {
   },
 
   English: {
-    /* head */
-    title: "Luciano Treachi | Frontend Developer",
-    description: "I create efficient, intuitive and user-friendly web solutions that enhance the user experience.",
-    ogTitle: "Luciano Treachi | Frontend Developer",
-    ogDescription: "I create efficient, intuitive and user-friendly web solutions that enhance the user experience.",
-    twitterTitle: "Luciano Treachi | Frontend Developer",
-    twitterDescription: "I create efficient, intuitive and user-friendly web solutions that enhance the user experience.",
-
     /* Nav */
     navLink1: "Home",
     navLink2: "About me",
@@ -156,14 +140,6 @@ const indexTranslations = {
   },
 
   Portugues: {
-    /* head */
-    title: "Luciano Treachi | Desenvolvedor Frontend",
-    description: "Crio soluções web eficientes, intuitivas e fáceis de usar que melhoram a experiência do usuário.",
-    ogTitle: "Luciano Treachi | Desenvolvedor Frontend",
-    ogDescription: "Crio soluções web eficientes, intuitivas e fáceis de usar que melhoram a experiência do usuário.",
-    twitterTitle: "Luciano Treachi | Desenvolvedor Frontend",
-    twitterDescription: "Crio soluções web eficientes, intuitivas e fáceis de usar que melhoram a experiência do usuário.",
-
     /* Nav */
     navLink1: "Início",
     navLink2: "Sobre mim",
@@ -240,21 +216,8 @@ function changeLanguage(lang) {
   translationElements.forEach(element => {
     const key = element.dataset.key;
     const translation = indexTranslations[lang][key];
-
-    // Check if the element is a meta tag with property or name attributes
-    if (translation) {
-      if (element.tagName === "META") {
-        if (element.getAttribute("property") || element.getAttribute("name")) {
-          element.setAttribute("content", translation);
-        }
-      } else {
-        element.innerHTML = translation;
-      }
-    }
+    element.innerHTML = translation;
   });
-
-  // Change title dynamically
-  document.title = indexTranslations[lang].title;
 
   // Store the selected language in localStorage
   localStorage.setItem("selectedLanguage", lang);

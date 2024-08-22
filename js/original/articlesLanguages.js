@@ -2,12 +2,6 @@ const articlesTranslations = {
   Español: {
     backBtn: "Volver",
     /* Article 1 */
-    article1HeadTitle: "¿Cuáles son las mejores prácticas que aplico para el Desarrollo Web?",
-    article1HeadDescription: "Descubre cuáles son las mejores prácticas que aplico para el Desarrollo Web.",
-    article1OgTitle: "¿Cuáles son las mejores prácticas que aplico para el Desarrollo Web?",
-    article1OgDescription: "Descubre cuáles son las mejores prácticas que aplico para el Desarrollo Web.",
-    article1TwitterTitle: "¿Cuáles son las mejores prácticas que aplico para el Desarrollo Web?",
-    article1TwitterDescription: "Descubre cuáles son las mejores prácticas que aplico para el Desarrollo Web.",
     article1Title: "¿Cuáles son las mejores prácticas que aplico para el Desarrollo Web?",
     article1Intro: "Te compartiré algunas de las mejores prácticas que aplico para el Desarrollo Web:",
     article1Paragraph1: "<strong>✅ Utilizo un enfoque centrado en el usuario.</strong> Creo una experiencia de usuario intuitiva y fácil de usar que responda a las expectativas de los visitantes.",
@@ -18,12 +12,6 @@ const articlesTranslations = {
     article1Paragraph6: "<strong>✅ Compruebo la compatibilidad con distintos navegadores.</strong> Verifico que el sitio web funcione correctamente en una variedad de navegadores populares, como Google Chrome, Mozilla Firefox, Safari y Microsoft Edge.",
 
     /* Article 2 */
-    article2HeadTitle: "¿Cómo garantizo la Accesibilidad Web?",
-    article2HeadDescription: "Descubre cómo implemento las mejores prácticas para que tu sitio sea inclusivo y accesible para todos los usuarios.",
-    article2OgTitle: "¿Cómo garantizo la Accesibilidad Web?",
-    article2OgDescription: "Descubre cómo implemento las mejores prácticas para que tu sitio sea inclusivo y accesible para todos los usuarios.",
-    article2TwitterTitle: "¿Cómo garantizo la Accesibilidad Web?",
-    article2TwitterDescription: "Descubre cómo implemento las mejores prácticas para que tu sitio sea inclusivo y accesible para todos los usuarios.",
     article2Title: "¿Cómo garantizo la Accesibilidad Web?",
     article2Intro: "Te compartiré algunas de las mejores prácticas que aplico para garantizar la Accesibilidad Web:",
     article2Paragraph1: "<strong>✅ Utilizo etiquetas alt en las imágenes.</strong> Las etiquetas alt describen imágenes y gráficos para aquellas personas que utilizan lectores de pantalla o tienen discapacidades visuales.",
@@ -34,12 +22,6 @@ const articlesTranslations = {
     article2Paragraph6: "<strong>✅ Cuido el contraste y el color.</strong> Cuido el contraste entre el texto y el fondo para asegurar una buena legibilidad, incluso para personas con daltonismo u otras dificultades visuales.",
 
     /* Article 3 */
-    article3HeadTitle: "¿Cómo optimizo un sitio web?",
-    article3HeadDescription: "Descubre cómo mejoro el rendimiento de tu sitio web para que cargue más rápido.",
-    article3OgTitle: "¿Cómo optimizo un sitio web?",
-    article3OgDescription: "Descubre cómo mejoro el rendimiento de tu sitio web para que cargue más rápido.",
-    article3TwitterTitle: "¿Cómo optimizo un sitio web?",
-    article3TwitterDescription: "Descubre cómo mejoro el rendimiento de tu sitio web para que cargue más rápido.",
     article3Title: "¿Cómo optimizo un sitio web?",
     article3Intro: "Te compartiré algunas de las mejores prácticas que aplico para optimizar un sitio web:",
     article3Paragraph1: "<strong>✅ Optimizo el tamaño de las imágenes.</strong> Utilizo herramientas de compresión como iLoveIMG y formatos ligeros y modernos como WebP y AVIF.",
@@ -53,12 +35,6 @@ const articlesTranslations = {
   English: {
     backBtn: "Back",
     /* Article 1 */
-    article1HeadTitle: "What are the best practices I apply for Web Development?",
-    article1HeadDescription: "Discover the best practices I apply for Web Development.",
-    article1OgTitle: "What are the best practices I apply for Web Development?",
-    article1OgDescription: "Discover the best practices I apply for Web Development.",
-    article1TwitterTitle: "What are the best practices I apply for Web Development?",
-    article1TwitterDescription: "Discover the best practices I apply for Web Development.",
     article1Title: "What are the best practices I apply for Web Development?",
     article1Intro: "I'll share with you some of the best practices I apply for Web Development:",
     article1Paragraph1: "<strong>✅ I employ a user-centered approach.</strong> I create an intuitive and easy-to-use user experience that meets visitors expectations.",
@@ -69,12 +45,6 @@ const articlesTranslations = {
     article1Paragraph6: "<strong>✅ I check compatibility with different browsers.</strong> I verify that the website works properly on a variety of popular browsers such as Google Chrome, Mozilla Firefox, Safari, and Microsoft Edge.",
 
     /* Article 2 */
-    article2HeadTitle: "How do I ensure Web Accessibility?",
-    article2HeadDescription: "Discover how I implement best practices to make your website inclusive and accessible for all users.",
-    article2OgTitle: "How do I ensure Web Accessibility?",
-    article2OgDescription: "Discover how I implement best practices to make your website inclusive and accessible for all users.",
-    article2TwitterTitle: "How do I ensure Web Accessibility?",
-    article2TwitterDescription: "Discover how I implement best practices to make your website inclusive and accessible for all users.",
     article2Title: "How do I ensure Web Accessibility?",
     article2Intro: "I'll share some of the best practices I apply to ensure Web Accessibility:",
     article2Paragraph1: "<strong>✅ I use alt tags for images.</strong> Alt tags describe images and graphics for people who use screen readers or have visual impairments.",
@@ -85,12 +55,6 @@ const articlesTranslations = {
     article2Paragraph6: "<strong>✅ I pay attention to contrast and color.</strong> I maintain contrast between text and background to ensure readability, even for people with color blindness or other visual difficulties.",
 
     /* Article 3 */
-    article3HeadTitle: "How do I optimize a website?",
-    article3HeadDescription: "Discover how I improve your website's performance to make it load faster.",
-    article3OgTitle: "How do I optimize a website?",
-    article3OgDescription: "Discover how I improve your website's performance to make it load faster.",
-    article3TwitterTitle: "How do I optimize a website?",
-    article3TwitterDescription: "Discover how I improve your website's performance to make it load faster.",
     article3Title: "How do I optimize a website?",
     article3Intro: "I'll share some of the best practices I apply to optimize a website:",
     article3Paragraph1: "<strong>✅ I optimize image sizes.</strong> I use compression tools like iLoveIMG and lightweight, modern formats like WebP and AVIF.",
@@ -104,12 +68,6 @@ const articlesTranslations = {
   Portugues: {
     backBtn: "Voltar",
     /* Article 1 */
-    article1HeadTitle: "Quais são as melhores práticas que aplico para o Desenvolvimento Web?",
-    article1HeadDescription: "Descubra quais são as melhores práticas que aplico para o Desenvolvimento Web.",
-    article1OgTitle: "Quais são as melhores práticas que aplico para o Desenvolvimento Web?",
-    article1OgDescription: "Descubra quais são as melhores práticas que aplico para o Desenvolvimento Web.",
-    article1TwitterTitle: "Quais são as melhores práticas que aplico para o Desenvolvimento Web?",
-    article1TwitterDescription: "Descubra quais são as melhores práticas que aplico para o Desenvolvimento Web.",
     article1Title: "Quais são as melhores práticas que aplico para o Desenvolvimento Web?",
     article1Intro: "Vou compartilhar algumas das melhores práticas que aplico para o Desenvolvimento Web:",
     article1Paragraph1: "<strong>✅ Utilizo uma abordagem centrada no usuário.</strong> Crio uma experiência de usuário intuitiva e fácil de usar que atenda às expectativas dos visitantes.",
@@ -120,12 +78,6 @@ const articlesTranslations = {
     article1Paragraph6: "<strong>✅ Verifico a compatibilidade com diferentes navegadores.</strong> Certifico-me de que o site funcione corretamente em uma variedade de navegadores populares, como Google Chrome, Mozilla Firefox, Safari e Microsoft Edge.",
 
     /* Article 2 */
-    article2HeadTitle: "Como garanto a Acessibilidade Web?",
-    article2HeadDescription: "Descubra como implemento as melhores práticas para que seu site seja inclusivo e acessível para todos os usuários.",
-    article2OgTitle: "Como garanto a Acessibilidade Web?",
-    article2OgDescription: "Descubra como implemento as melhores práticas para que seu site seja inclusivo e acessível para todos os usuários.",
-    article2TwitterTitle: "Como garanto a Acessibilidade Web?",
-    article2TwitterDescription: "Descubra como implemento as melhores práticas para que seu site seja inclusivo e acessível para todos os usuários.",
     article2Title: "Como garanto a Acessibilidade Web?",
     article2Intro: "Vou compartilhar algumas das melhores práticas que aplico para garantir a Acessibilidade na Web:",
     article2Paragraph1: "<strong>✅ Uso tags alt para imagens.</strong> As tags alt descrevem imagens e gráficos para pessoas que usam leitores de tela ou têm deficiências visuais.",
@@ -136,12 +88,6 @@ const articlesTranslations = {
     article2Paragraph6: "<strong>✅ Cuido do contraste e da cor.</strong> Mantenho o contraste entre texto e fundo para garantir legibilidade, mesmo para pessoas com daltonismo ou outras dificuldades visuais.",
 
     /* Article 3 */
-    article3HeadTitle: "Como otimizo um site?",
-    article3HeadDescription: "Descubra como melhoro o desempenho do seu site para que ele carregue mais rápido.",
-    article3OgTitle: "Como otimizo um site?",
-    article3OgDescription: "Descubra como melhoro o desempenho do seu site para que ele carregue mais rápido.",
-    article3TwitterTitle: "Como otimizo um site?",
-    article3TwitterDescription: "Descubra como melhoro o desempenho do seu site para que ele carregue mais rápido.",
     article3Title: "Como otimizo um site?",
     article3Intro: "Vou compartilhar algumas das melhores práticas que aplico para otimizar um site:",
     article3Paragraph1: "<strong>✅ Otimizo o tamanho das imagens.</strong> Utilizo ferramentas de compressão como iLoveIMG e formatos leves e modernos como WebP e AVIF.",
@@ -159,21 +105,8 @@ function changeLanguagePages(lang) {
   translationElements.forEach(element => {
     const key = element.dataset.key;
     const translation = articlesTranslations[lang][key];
-    
-    // Check if the element is a meta tag with property or name attributes
-    if (translation) {
-      if (element.tagName === "META") {
-        if (element.getAttribute("property") || element.getAttribute("name")) {
-          element.setAttribute("content", translation);
-        }
-      } else {
-        element.innerHTML = translation;
-      }
-    }
+    element.innerHTML = translation;
   });
-
-  // Change title dynamically
-  document.title = indexTranslations[lang].title;
 
   // Store the selected language in LocalStorage
   localStorage.setItem("selectedLanguage", lang);
