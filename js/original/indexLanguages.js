@@ -24,7 +24,7 @@ const indexTranslations = {
     serviceTitle2: "Desarrollo Web",
     serviceTitle3: "Optimización Web",
     serviceParagraph1: "Puedo diseñar sitios web modernos y profesionales, que transmitan de manera efectiva el mensaje de tu marca.",
-    serviceParagraph2: "Puedo desarrollar sitios web de manera optimizada y adaptada 100% a todos los dispositivos para maximizar tu presencia en línea.",
+    serviceParagraph2: "Puedo desarrollar sitios web optimizados y adaptados a cualquier dispositivo para maximizar tu presencia en línea.",
     serviceParagraph3: "Puedo optimizar sitios web para mejorar significativamente su velocidad, rendimiento y posicionamiento en buscadores.",
 
     /* Projects */
@@ -94,7 +94,7 @@ const indexTranslations = {
     serviceTitle2: "Web Development",
     serviceTitle3: "Web Optimization",
     serviceParagraph1: "I can design modern and professional websites that effectively convey your brand's message.",
-    serviceParagraph2: "I can develop websites in an optimized manner, fully responsive and tailored to all devices to maximize your online presence.",
+    serviceParagraph2: "I can create fully optimized websites that look great on any device, helping you enhance your online presence.",
     serviceParagraph3: "I can optimize websites to significantly improve their speed, performance, and search engine ranking.",
 
     /* Projects */
@@ -164,7 +164,7 @@ const indexTranslations = {
     serviceTitle2: "Desenvolvimento Web",
     serviceTitle3: "Otimização de Sites",
     serviceParagraph1: "Posso criar sites modernos e profissionais que transmitam a mensagem da sua marca de forma eficaz.",
-    serviceParagraph2: "Posso desenvolver sites de maneira otimizada e adaptada 100% a todos os dispositivos para maximizar sua presença online.",
+    serviceParagraph2: "Posso criar sites totalmente otimizados que se adaptam perfeitamente a qualquer dispositivo, aumentando sua presença online.",
     serviceParagraph3: "Posso otimizar sites para melhorar sua velocidade, desempenho e posicionamento nos motores de busca.",
 
     /* Projects */
