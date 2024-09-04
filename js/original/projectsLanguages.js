@@ -66,6 +66,10 @@ const projectsTranslations = {
     /* Project 13 */
     project13Title: "Optimización Web",
     project13Paragraph1: "<b>Descripción del proyecto:</b> diseñé y desarrollé un sitio web que ofrece una lista de verificaciones para optimizar el Desarrollo Web y lograr una presencia en línea impecable.",
+
+    /* Project 14 */
+    project14Title: "Congelados Buchys",
+    project14Paragraph1: "<b>Descripción del proyecto:</b> diseñé y desarrollé un sitio web para un negocio que vende productos congelados en Córdoba Capital.",
   },
 
   English: {
@@ -135,6 +139,10 @@ const projectsTranslations = {
     /* Project 13 */
     project13Title: "Web Optimization",
     project13Paragraph1: "<b>Project Description:</b> I designed and developed a website that offers a checklist to optimize Web Development and achieve impeccable online presence. ",
+
+    /* Project 14 */
+    project14Title: "Congelados Buchys",
+    project14Paragraph1: "<b>Project Description:</b> I designed and developed a website for a business that sells frozen products in Córdoba Capital.",
   },
 
   Portugues: {
@@ -204,6 +212,10 @@ const projectsTranslations = {
     /* Project 13 */
     project13Title: "Otimização Web",
     project13Paragraph1: "<b>Descrição do projeto:</b> criei e desenvolvi um site que oferece uma lista de verificação para otimizar o Desenvolvimento Web e alcançar uma presença online impecável.",
+
+    /* Project 14 */
+    project14Title: "Congelados Buchys",
+    project14Paragraph1: "<b>Descrição do projeto:</b> criei e desenvolvi um site para um negócio que vende produtos congelados em Córdoba Capital.",
   }
 };
 
