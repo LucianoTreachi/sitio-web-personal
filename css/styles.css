@@ -292,7 +292,6 @@ nav {
 
 .nav-link.active {
   opacity: 1;
-  color: var(--accent-color-2);
 }
 
 .hamburger-button {
