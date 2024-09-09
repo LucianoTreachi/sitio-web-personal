@@ -243,6 +243,11 @@ PROJECTS
 .gallery img {
   width: 100%;
   height: auto;
+  transition: filter 0.2s ease;
+}
+
+.gallery img:hover {
+  filter: contrast(80%);
 }
 
 /*=============================== 
