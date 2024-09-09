@@ -561,7 +561,7 @@ SECTION: PROJECTS
   width: 100%;
   height: auto;
   cursor: pointer;
-  transition: filter 0.4s ease;
+  transition: filter 0.2s ease;
 }
 
 .project-img:hover {
