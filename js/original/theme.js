@@ -14,14 +14,24 @@ function changeTheme() {
 
   const getCurrentTheme = () => body.classList.contains(darkTheme) ? "dark" : "light";
 
-  // Set initial theme
-  const selectedTheme = localStorage.getItem("selected-theme") || "light";
-  body.classList[selectedTheme === "dark" ? "add" : "remove"](darkTheme);
+  // Check if there's a theme saved in localStorage
+  const savedTheme = localStorage.getItem("selected-theme");
 
-  // If the button exists, update the icon and label
+  // Set initial theme if saved, otherwise use system preference
+  const preferredTheme = savedTheme || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+
+  // Apply the preferred or saved theme
+  body.classList[preferredTheme === "dark" ? "add" : "remove"](darkTheme);
+
+  // ** Store the theme in localStorage when the page loads if it's not already stored **
+  if (!savedTheme) {
+    localStorage.setItem("selected-theme", preferredTheme);
+  }
+
+  // Update icon and aria-label on load
   if (themeButton && themeIcon) {
-    themeIcon.innerHTML = selectedTheme === "dark" ? moonIcon : sunIcon;
-    themeButton.setAttribute("aria-label", `Cambiar al modo ${selectedTheme === "dark" ? "claro" : "oscuro"}`);
+    themeIcon.innerHTML = preferredTheme === "dark" ? moonIcon : sunIcon;
+    themeButton.setAttribute("aria-label", `Cambiar al modo ${preferredTheme === "dark" ? "claro" : "oscuro"}`);
 
     // Add click event listener to the button
     themeButton.addEventListener("click", () => {
