@@ -5,7 +5,7 @@
   --white: #f8f5f8;
   --grey: #e0e2e4;
   --header: #eff3f6;
-  --navbar: rgba(239, 243, 246, 0.8);
+  --navbar: #eff3f6;
   --footer: #eff3f6;
   --accent-color-1: #625eab;
   --accent-color-2: #625ead;
@@ -28,7 +28,7 @@
   --black: #fdfdfd;
   --grey: #202020;
   --header: #000000;
-  --navbar: rgba(0, 0, 0, 0.8);
+  --navbar: #000000;
   --footer: #000000;
   --accent-color-2: #a198e2;
   --title-color: #e8e8e8;
@@ -1131,7 +1131,6 @@ RESPONSIVE DESIGN
     height: 100vh;
     overflow-y: auto;
     background-color: var(--navbar);
-    backdrop-filter: blur(10px);
     padding: 10rem 8rem;
     align-items: initial;
     z-index: 3;
@@ -1143,8 +1142,7 @@ RESPONSIVE DESIGN
     left: 0;
     width: 100%;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.5);
     opacity: 0;
     visibility: hidden;
     z-index: 2;
