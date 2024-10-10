@@ -30,5 +30,10 @@ window.addEventListener("pageshow", function (event) {
   if (event.persisted || (window.performance && window.performance.getEntriesByType("navigation")[0]?.type === "back_forward")) {
     // Reset the select value to "All"
     select.value = "all";
+
+    // Reset the visibility of all projects
+    projects.forEach((project) => {
+      project.classList.remove("hide");
+    });
   }
 });
