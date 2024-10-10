@@ -25,11 +25,11 @@
 .dark-theme {
   --black: #fdfdfd;
   --grey: #202020;
-  --header: #000000;
+  --header: #0d0f12;
   --navbar: #000000;
-  --hero: #000000;
-  --body: #0d0f12;
-  --footer: #000000;
+  --hero: #0d0f12;
+  --body: #171a1e;
+  --footer: #0d0f12;
   --accent-color-2: #a198e2;
   --title-color: #e8e8e8;
   --modal: #0d0f12;
