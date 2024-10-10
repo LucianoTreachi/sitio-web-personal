@@ -2,22 +2,18 @@
 
 :root {
   --black: #1d1d1d;
-  --footer: #eff3f6;
+  --body: #f1f5f8;
+  --footer: #e2e6e9;
   --accent-color-1: #625eab;
   --accent-color-2: #625ead;
-  --bg: #fdfdfd;
-  --blurred-circle-1: #7fffd4;
-  --blurred-circle-2: #f6ff7f;
-  --blurred-circle-3: #7f92ff;
-  --blurred-circle-4: #b07fff;
   --text-weight: 400;
 }
 
 .dark-theme {
   --black: #fdfdfd;
+  --body: #0d0f12;
   --footer: #000000;
   --accent-color-2: #a198e2;
-  --bg: #0b1215;
   --text-weight: 300;
 }
 
@@ -28,12 +24,13 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 10px;
   scroll-padding-top: 4rem;
 }
 
 body {
   font-family: 'Inter', sans-serif;
+  background-color: var(--body);
   color: var(--black);
 }
 
@@ -65,7 +62,7 @@ PROJECTS
 ================================*/
 
 .page-hero-projects {
-  background-color: var(--bg);
+  background-color: var(--footer);
   padding: 6rem 4rem;
   position: relative;
   overflow: hidden;
@@ -86,6 +83,7 @@ PROJECTS
 
 .page-back-btn {
   display: inline-block;
+  padding: 1rem 0;
   font-size: 1.4rem;
   font-weight: 500;
   margin-bottom: 2rem;
@@ -112,72 +110,7 @@ PROJECTS
   font-size: 3rem;
 }
 
-.blurred-circle {
-  position: absolute;
-  border-radius: 50%;
-  filter: blur(100px);
-  width: 200px;
-  height: 200px;
-  opacity: 0.5;
-  max-width: 100%;
-  pointer-events: none;
-}
-
-.blurred-circle-1 {
-  top: 0;
-  left: -50px;
-  background-color: var(--blurred-circle-1);
-}
-
-.blurred-circle-4 {
-  bottom: 0;
-  right: -50px;
-  background-color: var(--blurred-circle-4);
-}
-
-.wave-top {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.wave-top svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 15px;
-}
-
-.wave-top .shape-fill {
-  fill: var(--bg);
-}
-
-.wave-bottom {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-}
-
-.wave-bottom svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 15px;
-}
-
-.wave-bottom .shape-fill {
-  fill: var(--bg);
-}
-
 .page-content-projects {
-  background-color: var(--bg);
   padding: 6rem 4rem;
   animation: fadeIn .4s linear;
 }
@@ -205,7 +138,7 @@ PROJECTS
 }
 
 .select {
-  background-color: var(--bg);
+  background-color: var(--body);
   border: 2px solid var(--accent-color-1);
   border-radius: 1rem;
   padding: 1rem;
