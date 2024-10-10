@@ -359,6 +359,10 @@ SECTION: HOME
 SECTION: ABOUT
 ================================*/
 
+.about {
+  position: relative;
+}
+
 .about .container {
   max-width: 1200px;
 }
@@ -406,6 +410,15 @@ SECTION: ABOUT
   text-wrap: balance;
   width: 70%;
   margin: 0 auto;
+}
+
+.wave {
+  position: absolute;
+  bottom: 53%;
+  left: 0;
+  right: 0;
+  fill: var(--body);
+  display: none;
 }
 
 /*=============================== 
@@ -1082,7 +1095,7 @@ RESPONSIVE DESIGN
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 574px) {
   p {
     font-size: 1.6rem;
   }
@@ -1153,6 +1166,10 @@ RESPONSIVE DESIGN
 
   .about .row-2 p {
     font-size: 2.4rem;
+  }
+
+  .wave {
+    display: block;
   }
 
   .more-projects-button {
