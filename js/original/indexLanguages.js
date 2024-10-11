@@ -47,26 +47,9 @@ const indexTranslations = {
     answer2: "¡Claro que sí! Después de la entrega del proyecto, puedes solicitar actualizaciones y mejoras adicionales.",
     answer3: "Los costos dependen del tipo y la complejidad del proyecto. Contáctame para discutir tus necesidades específicas y obtener un presupuesto detallado.",
 
-    /* Action */
-    actionTitle: "¿Interesado en trabajar conmigo?",
-
     /* Contact */
-    contactTitle: "¡Trabajemos Juntos!",
-    contactParagraph1: "Sería muy interesante hablar sobre cómo podríamos desarrollar un próximo proyecto juntos. Puedes contactarme por este medio, WhatsApp, Email o LinkedIn.",
-    contactParagraph2: "¡Te responderé lo antes posible!",
-    contactLabel1: "Nombre",
-    contactLabel2: "Correo electrónico",
-    contactLabel3: "Mensaje",
-    contactAlert1: "Ingresa un nombre válido",
-    contactAlert2: "Ingresa un email válido",
-    contactAlert3: "Escribe como mínimo 10 caracteres",
-    contactBTN: "Enviar mensaje",
-    contactParagraph3: "¡Envíame un mensaje y te responderé lo antes posible!",
-    modalContactTitle1: "Enviando el mensaje...",
-    modalContactTitle2: "¡Mensaje enviado!",
-    modalContactParagraph: "Te responderé a la brevedad",
-    closeBtn: "Cerrar",
-    errorParagraph: "Disculpa, no se pudo enviar el mensaje. Inténtalo más tarde",
+    contactTitle: "Contacto",
+    contactParagraph: "Sería muy interesante hablar sobre cómo podríamos desarrollar un próximo proyecto juntos. Puedes contactarme por Email, WhatsApp o LinkedIn.",
   },
 
   English: {
@@ -121,22 +104,8 @@ const indexTranslations = {
     actionTitle: "Interested in working with me?",
 
     /* Contact */
-    contactTitle: "Let's Work Together",
-    contactParagraph1: "It would be very interesting to discuss how we could develop an upcoming project together. You can reach me through this platform, WhatsApp, Email, or LinkedIn.",
-    contactParagraph2: "I will respond as soon as possible!",
-    contactLabel1: "Name",
-    contactLabel2: "Email",
-    contactLabel3: "Message",
-    contactAlert1: "Enter a valid name",
-    contactAlert2: "Enter a valid email",
-    contactAlert3: "Write at least 10 characters",
-    contactBTN: "Send message",
-    contactParagraph3: "Send me a message, and I'll get back to you as soon as possible!",
-    modalContactTitle1: "Sending the message...",
-    modalContactTitle2: "Message sent successfully!",
-    modalContactParagraph: "I will get back to you soon.",
-    closeBtn: "Close",
-    errorParagraph: "I'm sorry, the message could not be sent. Please try again later.",
+    contactTitle: "Contact",
+    contactParagraph: "It would be very interesting to discuss how we could develop an upcoming project together. You can reach me through Email, WhatsApp, or LinkedIn.",
   },
 
   Portugues: {
@@ -191,22 +160,8 @@ const indexTranslations = {
     actionTitle: "Interessado em trabalhar comigo?",
 
     /* Contact */
-    contactTitle: "Vamos trabalhar juntos!",
-    contactParagraph1: "Seria muito interessante conversar sobre como poderíamos desenvolver um próximo projeto juntos. Você pode entrar em contato comigo por este meio, WhatsApp, e-mail ou LinkedIn",
-    contactParagraph2: "Vou responder o mais breve possível!",
-    contactLabel1: "Nome",
-    contactLabel2: "E-mail",
-    contactLabel3: "Mensagem",
-    contactAlert1: "Insira um nome válido",
-    contactAlert2: "Insira um e-mail válido",
-    contactAlert3: "Escreva pelo menos 10 caracteres",
-    contactBTN: "Enviar mensagem",
-    contactParagraph3: "Envie-me um mensagem e responderei o mais breve possível!",
-    modalContactTitle1: "Enviando a mensagem...",
-    modalContactTitle2: "Mensaje enviado!",
-    modalContactParagraph: "Responderei em breve.",
-    closeBtn: "Fechar",
-    errorParagraph: "Desculpa, a mensagem não pôde ser enviada. Tente novamente mais tarde.",
+    contactTitle: "Contato",
+    contactParagraph: "Seria muito interessante conversar sobre como poderíamos desenvolver um próximo projeto juntos. Você pode entrar em contato comigo por e-mail, WhatsApp ou LinkedIn",
   }
 };
 
