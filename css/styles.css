@@ -838,6 +838,11 @@ RESPONSIVE DESIGN
   .article-title {
     font-size: 1.8rem;
   }
+
+  .socials a:hover {
+    opacity: 0.75;
+    transform: scale(1);
+  }
 }
 
 @media screen and (max-width: 350px) {
