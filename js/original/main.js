@@ -1,10 +1,3 @@
-// avoid modal contact reload
-window.onpageshow = function (event) {
-  if (event.persisted) {
-    window.location.reload();
-  }
-};
-
 // NAVBAR
 const hamburgerButton = document.querySelector(".hamburger-button");
 const closeMenuButton = document.querySelector(".close-menu-button");
