@@ -310,52 +310,43 @@ SECTION: ABOUT
 ================================*/
 
 .about .container {
-  max-width: 1200px;
+  max-width: 1000px;
 }
 
 .about .row-1 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10rem;
-  align-items: center;
+  margin-bottom: 8rem;
 }
 
-.container-img-about {
-  width: 100%;
-  height: 100%;
-  border-radius: 1rem;
-  overflow: hidden;
-}
-
-.container-img-about img {
-  width: 100%;
-  height: 100%;
-  display: block;
-  object-fit: cover;
-  mask-image: linear-gradient(#ffffff 60%, transparent);
-}
-
-.about .row-1 .col-2 h2 {
-  font-size: 3rem;
-  font-weight: 500;
-  letter-spacing: var(--title-letter-spacing);
-  opacity: 0.78;
-  margin-bottom: 1.5rem;
+.about .row-1 p {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2rem;
 }
 
 .about .row-2 {
-  margin-top: 9rem;
+  display: grid;
+  place-items: center;
+  margin-bottom: 8rem;
 }
 
-.about .row-2 p {
+.about .row-2 img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 1rem;
+  mask-image: linear-gradient(#ffffff 60%, transparent);
+}
+
+.about .row-3 p {
   font-size: 3rem;
   font-weight: 500;
   opacity: 0.78;
   line-height: 1.5;
   text-align: center;
+  margin: 0 auto;
   text-wrap: balance;
   width: 70%;
-  margin: 0 auto;
 }
 
 /*=============================== 
@@ -367,7 +358,7 @@ SECTION: SERVICES
 }
 
 .services .row-1 {
-  margin-top: 2rem;
+  margin-top: 4rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 6rem;
@@ -406,10 +397,10 @@ SECTION: PROJECTS
 }
 
 .projects .row {
-  margin-top: 2rem;
+  margin-top: 4rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 4rem;
+  gap: 2rem;
 }
 
 .project-img {
@@ -455,7 +446,7 @@ SECTION: MY WORK METHODOLOGY
 }
 
 .methodology .row {
-  margin-top: 2rem;
+  margin-top: 4rem;
   display: grid;
   gap: 4rem;
 }
@@ -605,11 +596,7 @@ RESPONSIVE DESIGN
 
 @media screen and (max-width: 1080px) {
   header {
-    padding: 1.5rem 2rem;
-  }
-
-  .about .row-1 {
-    gap: 4rem;
+    padding: 1.5rem 4rem;
   }
 
   .services .container {
@@ -630,19 +617,19 @@ RESPONSIVE DESIGN
   }
 }
 
-@media screen and (max-width: 890px) {
+@media screen and (max-width: 912px) {
   .container-shape {
     text-align: initial;
   }
 
   .container-shape svg {
-    width: 8rem;
-    height: 8rem;
+    width: 7rem;
+    height: 7rem;
   }
 
   .title-section {
     text-align: left;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
   }
 
   .hamburger-button {
@@ -713,9 +700,24 @@ RESPONSIVE DESIGN
     width: 80%;
   }
 
-  .about .row-2 p {
-    width: 100%;
-    text-align: left;
+  .about .row-1 {
+    margin-bottom: 4rem;
+  }
+
+  .about .row-1 p {
+    text-align: initial;
+    margin: initial;
+  }
+
+  .about .row-2 {
+    place-items: initial;
+    margin-bottom: 4rem;
+  }
+
+  .about .row-3 p {
+    text-align: initial;
+    margin: initial;
+    width: initial;
   }
 
   .projects .row {
@@ -729,6 +731,7 @@ RESPONSIVE DESIGN
   .contact-paragraph {
     width: 100%;
     text-align: left;
+    margin: initial;
   }
 
   .socials {
@@ -741,41 +744,22 @@ RESPONSIVE DESIGN
   }
 }
 
-@media screen and (max-width: 746px) {
-  .about .row-1 {
-    grid-template-columns: 1fr;
-    gap: 5rem;
-  }
-
-  .about .row-1 .col-1 {
-    order: 2;
-  }
-
-  .about .row-1 .col-2 {
-    order: 1;
-  }
-
-  .about .row-2 {
-    margin-top: 4rem;
-  }
-
-  .footer {
-    padding: 6rem 2rem;
-  }
-}
-
 @media screen and (max-width: 574px) {
   p {
     font-size: 1.6rem;
   }
 
   .section {
-    padding: 6rem 2rem;
+    padding: 6rem 1.6rem;
   }
 
   .title-section {
     font-size: 3rem;
     width: 100%;
+  }
+
+  header {
+    padding: 1.5rem 1.6rem;
   }
 
   .nav-logo {
@@ -818,11 +802,12 @@ RESPONSIVE DESIGN
     font-size: 1.8rem;
   }
 
-  .about .row-1 .col-2 h2 {
-    font-size: 2.4rem;
+  .about .row-1 p {
+    font-size: initial;
+    width: 100%;
   }
 
-  .about .row-2 p {
+  .about .row-3 p {
     font-size: 2.4rem;
   }
 
@@ -842,6 +827,10 @@ RESPONSIVE DESIGN
   .socials a:hover {
     opacity: 0.75;
     transform: scale(1);
+  }
+
+  .footer {
+    padding: 6rem 1.6rem;
   }
 }
 
