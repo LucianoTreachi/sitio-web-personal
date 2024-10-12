@@ -170,7 +170,7 @@ PROJECTS
   margin-top: 6rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 4rem;
+  gap: 2rem;
 }
 
 .gallery img {
@@ -244,7 +244,7 @@ RESPONSIVE DESIGN
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 574px) {
   .gallery {
     grid-template-columns: 1fr 1fr;
   }
