@@ -106,6 +106,7 @@ button {
 
 .title-section {
   font-size: 6rem;
+  font-weight: 500;
   opacity: 0.9;
   text-transform: capitalize;
   line-height: 1.2;
@@ -383,7 +384,7 @@ SECTION: SERVICES
 .service h3 {
   margin: 2rem 0 1rem;
   font-size: 2.4rem;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: var(--title-letter-spacing);
   opacity: 0.78;
 }
@@ -625,6 +626,10 @@ RESPONSIVE DESIGN
   .container-shape svg {
     width: 7rem;
     height: 7rem;
+  }
+
+  .container-shape-about {
+    display: none;
   }
 
   .title-section {
