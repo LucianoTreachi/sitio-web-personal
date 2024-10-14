@@ -178,7 +178,7 @@ function changeLanguage(lang) {
   localStorage.setItem("selectedLanguage", lang);
 }
 
-// Dropdown
+// Button dropdown
 const languagesButton = document.querySelector(".languages-button");
 const languagesOptions = document.querySelector("#select");
 
@@ -187,17 +187,27 @@ document.addEventListener("click", (event) => {
   if (!languagesOptions.contains(event.target) && !languagesButton.contains(event.target)) {
     languagesOptions.classList.remove("active");
     languagesOptions.blur(); // Hide the select menu visually
+    languagesButton.setAttribute("aria-expanded", "false")
   }
 });
 
 // Close the menu options when scroll
 window.addEventListener("scroll", () => {
   languagesOptions.classList.remove('active');
+  languagesButton.setAttribute("aria-expanded", "false")
 })
 
-// Open the menu options when clicked
+// Open the menu options when click the button
 languagesButton.addEventListener("click", () => {
-  languagesOptions.classList.toggle("active");
+  const isExpanded = languagesButton.getAttribute("aria-expanded") === "true";
+
+  if (isExpanded) {
+    languagesButton.setAttribute("aria-expanded", "false");
+    languagesOptions.classList.remove("active");
+  } else {
+    languagesButton.setAttribute("aria-expanded", "true");
+    languagesOptions.classList.add("active");
+  }
 });
 
 // Add event listener to the select element
