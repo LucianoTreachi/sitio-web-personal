@@ -180,24 +180,24 @@ function changeLanguage(lang) {
 
 // Button dropdown
 const languagesButton = document.querySelector(".languages-button");
-const languagesOptions = document.querySelector("#select");
+const languagesOptions = document.querySelector(".language-options");
+const languageButtons = languagesOptions.querySelectorAll("button");
 
 // Close the menu options when clicked outside
 document.addEventListener("click", (event) => {
   if (!languagesOptions.contains(event.target) && !languagesButton.contains(event.target)) {
     languagesOptions.classList.remove("active");
-    languagesOptions.blur(); // Hide the select menu visually
-    languagesButton.setAttribute("aria-expanded", "false")
+    languagesButton.setAttribute("aria-expanded", "false");
   }
 });
 
-// Close the menu options when scroll
+// Close the menu options when scrolling
 window.addEventListener("scroll", () => {
   languagesOptions.classList.remove('active');
-  languagesButton.setAttribute("aria-expanded", "false")
-})
+  languagesButton.setAttribute("aria-expanded", "false");
+});
 
-// Open the menu options when click the button
+// Open the menu options when clicking the button
 languagesButton.addEventListener("click", () => {
   const isExpanded = languagesButton.getAttribute("aria-expanded") === "true";
 
@@ -210,11 +210,14 @@ languagesButton.addEventListener("click", () => {
   }
 });
 
-// Add event listener to the select element
-languagesOptions.addEventListener("change", (event) => {
-  const selectedLang = event.target.options[event.target.selectedIndex].dataset.lang;
-  changeLanguage(selectedLang);
-  languagesOptions.classList.remove("active");
+// Add event listener to each language button
+languageButtons.forEach(button => {
+  button.addEventListener("click", (event) => {
+    const selectedLang = event.target.getAttribute("data-lang");
+    changeLanguage(selectedLang);
+    languagesOptions.classList.remove("active");
+    languagesButton.setAttribute("aria-expanded", "false");
+  });
 });
 
 // Get the language stored in localStorage (if it exists)
@@ -225,6 +228,3 @@ const initialLanguage = storedLanguage || "Español";
 
 // On page load, set the initial language
 changeLanguage(initialLanguage);
-
-// Synchronize the select element with the stored language
-languagesOptions.value = initialLanguage;

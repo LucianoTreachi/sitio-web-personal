@@ -4,6 +4,7 @@
   --black: #1d1d1d;
   --white: #f8f5f8;
   --grey: #e0e2e4;
+  --grey-2: #d5d8da;
   --header: #f1f5f8;
   --navbar: #e2e6e9;
   --hero: #e2e6e9;
@@ -12,7 +13,6 @@
   --accent-color-1: #625eab;
   --accent-color-2: #625ead;
   --title-color: #383a41;
-  --modal: #eff3f6;
   --alert: #bd1e2d;
   --success: #006927;
 
@@ -26,6 +26,7 @@
 .dark-theme {
   --black: #fdfdfd;
   --grey: #202020;
+  --grey-2: #404040;
   --header: #0d0f12;
   --navbar: #000000;
   --hero: #0d0f12;
@@ -33,7 +34,6 @@
   --footer: #0d0f12;
   --accent-color-2: #a198e2;
   --title-color: #e8e8e8;
-  --modal: #0d0f12;
   --alert: #bd787f;
   --success: #21cf62;
 
@@ -83,6 +83,10 @@ button {
 
 button {
   cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
 }
 
 /* COMMON CLASSES */
@@ -243,33 +247,41 @@ nav {
   fill: var(--black);
 }
 
-.select-languages {
+.language-options {
   position: absolute;
   top: 3rem;
   right: 0;
   margin-top: 1rem;
   border-radius: 0.5rem;
+  border: var(--border);
   background: var(--grey);
-  padding: 1rem 2rem;
+  padding: 0.5rem;
   opacity: 0;
   visibility: hidden;
   transition: all 0.3s ease;
 }
 
-.select-languages.active {
+.language-options.active {
   opacity: 1;
   visibility: visible;
 }
 
-.select-languages a {
-  display: inline-block;
-  font-size: 1.5rem;
-  font-weight: 500;
-  color: var(--black);
+.language-options li {
+  border-radius: 0.5rem;
 }
 
-.select-languages a:not(:first-child) {
-  margin-top: 1.5rem;
+.language-options li:hover {
+  background-color: var(--grey-2);
+}
+
+.language-options button {
+  border: none;
+  border-radius: 0.5rem;
+  background: transparent;
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  text-align: left;
+  width: 100%;
 }
 
 /*=============================== 
@@ -645,6 +657,11 @@ RESPONSIVE DESIGN
 
   .close-menu-button {
     display: block;
+  }
+
+  .language-options {
+    right: auto;
+    left: 0;
   }
 
   .navbar {
