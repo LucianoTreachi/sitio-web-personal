@@ -9,6 +9,7 @@ const projectsTranslations = {
     projectTitle: "Proyectos",
 
     /* Project Filter Options */
+    label: "Selecciona una categoría de proyectos",
     projectOption1: "Todos",
     projectOption2: "Sitios Web",
     projectOption3: "Blogs",
@@ -82,6 +83,7 @@ const projectsTranslations = {
     projectTitle: "Projects",
 
     /* Project Filter Options */
+    label: "Select a project category",
     projectOption1: "All",
     projectOption2: "Websites",
     projectOption3: "Blogs",
@@ -155,6 +157,7 @@ const projectsTranslations = {
     projectTitle: "Projetos",
 
     /* Project Filter Options */
+    label: "Selecione uma categoria de projetos",
     projectOption1: "Todos",
     projectOption2: "Websites",
     projectOption3: "Blogs",
