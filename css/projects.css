@@ -254,6 +254,10 @@ RESPONSIVE DESIGN
 }
 
 @media screen and (max-width: 574px) {
+  .container-select {
+    width: 100%;
+  }
+  
   .gallery {
     grid-template-columns: 1fr 1fr;
   }
