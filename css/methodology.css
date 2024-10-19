@@ -4,6 +4,7 @@
   --black: #1d1d1d;
   --body: #f1f5f8;
   --footer: #e2e6e9;
+  --title-weight: 600;
   --text-weight: 400;
 }
 
@@ -11,6 +12,7 @@
   --black: #fdfdfd;
   --body: #171a1e;
   --footer: #0d0f12;
+  --title-weight: 500;
   --text-weight: 300;
 }
 
@@ -100,7 +102,7 @@ METHODOLOGY
 
 .page-title {
   font-size: 3rem;
-  font-weight: 500;
+  font-weight: var(--title-weight);
   letter-spacing: -.02em;
 }
 

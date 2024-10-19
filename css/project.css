@@ -7,6 +7,7 @@
   --footer: #e2e6e9;
   --accent-color-1: #625eab;
   --accent-color-2: #625ead;
+  --title-weight: 600;
   --text-weight: 400;
 }
 
@@ -15,6 +16,7 @@
   --body: #171a1e;
   --footer: #0d0f12;
   --accent-color-2: #a198e2;
+  --title-weight: 500;
   --text-weight: 300;
 }
 
@@ -104,7 +106,7 @@ PAGE INDIVIDUAL PROJECT
 
 .page-title {
   font-size: 3rem;
-  font-weight: 500;
+  font-weight: var(--title-weight);
 }
 
 .page-content-project {
