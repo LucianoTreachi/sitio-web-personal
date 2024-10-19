@@ -1,13 +1,10 @@
 const indexTranslations = {
   Español: {
     /* Nav */
-    navLink1: "Inicio",
-    navLink2: "Sobre mí",
-    navLink3: "Servicios",
-    navLink4: "Proyectos",
-    navLink5: "Metodología",
-    navLink6: "FAQs",
-    navLink7: "Contacto",
+    navLink1: "Sobre mí",
+    navLink2: "Servicios",
+    navLink3: "Proyectos",
+    navLink4: "Contacto",
 
     /* Home */
     homeTitle: "Desarrollo Sitios y Aplicaciones Web",
@@ -54,13 +51,10 @@ const indexTranslations = {
 
   English: {
     /* Nav */
-    navLink1: "Home",
-    navLink2: "About me",
-    navLink3: "Services",
-    navLink4: "Projects",
-    navLink5: "Methodology",
-    navLink6: "FAQs",
-    navLink7: "Contact",
+    navLink1: "About me",
+    navLink2: "Services",
+    navLink3: "Projects",
+    navLink4: "Contact",
 
     /* Home */
     homeTitle: "I Develop Websites and Web Applications",
@@ -110,13 +104,10 @@ const indexTranslations = {
 
   Portugues: {
     /* Nav */
-    navLink1: "Início",
-    navLink2: "Sobre mim",
-    navLink3: "Serviços",
-    navLink4: "Projetos",
-    navLink5: "Metodologia",
-    navLink6: "FAQs",
-    navLink7: "Contato",
+    navLink1: "Sobre mim",
+    navLink2: "Serviços",
+    navLink3: "Projetos",
+    navLink4: "Contato",
 
     /* Home */
     homeTitle: "Desenvolvo Sites e Aplicações Web",
