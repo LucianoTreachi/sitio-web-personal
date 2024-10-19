@@ -14,12 +14,12 @@ const articlesTranslations = {
     /* Article 2 */
     article2Title: "¿Cómo garantizo la Accesibilidad Web?",
     article2Intro: "Te compartiré algunas de las mejores prácticas que aplico para garantizar la Accesibilidad Web:",
-    article2Paragraph1: "<strong>✅ Utilizo etiquetas alt en las imágenes.</strong> Las etiquetas alt describen imágenes y gráficos para aquellas personas que utilizan lectores de pantalla o tienen discapacidades visuales.",
-    article2Paragraph2: "<strong>✅ Utilizo un diseño adaptable.</strong> Logro que el diseño se ajuste automáticamente a cualquier tamaño de pantalla, ya sea en escritorio, tablet o móvil, para garantizar una experiencia consistente en todos los dispositivos.",
+    article2Paragraph1: "<strong>✅ Escribo código semántico.</strong> Estructuro el contenido del sitio web de manera correcta, para que los lectores de pantalla y otros asistentes de navegación puedan comprender mejor la estructura y el significado de la página.",
+    article2Paragraph2: "<strong>✅ Utilizo etiquetas alt en las imágenes.</strong> Las etiquetas alt describen imágenes y gráficos para aquellas personas que utilizan lectores de pantalla o tienen discapacidades visuales.",
     article2Paragraph3: "<strong>✅ Utilizo fuentes legibles.</strong> Elijo cuidadosamente el tipo de fuente y el tamaño para facilitar la lectura.",
-    article2Paragraph4: "<strong>✅ Escribo código semántico.</strong> Estructuro el contenido del sitio web de manera correcta, para que los lectores de pantalla y otros asistentes de navegación puedan comprender mejor la estructura y el significado de la página.",
+    article2Paragraph4: "<strong>✅ Cuido el contraste y el color.</strong> Cuido el contraste entre el texto y el fondo para asegurar una buena legibilidad, incluso para personas con daltonismo u otras dificultades visuales.",
     article2Paragraph5: "<strong>✅ Implemento foco visible.</strong> Me aseguro de que los elementos que reciben el foco del teclado sean visibles y tengan un buen contraste con el fondo.",
-    article2Paragraph6: "<strong>✅ Cuido el contraste y el color.</strong> Cuido el contraste entre el texto y el fondo para asegurar una buena legibilidad, incluso para personas con daltonismo u otras dificultades visuales.",
+    article2Paragraph6: "<strong>✅ Realizo pruebas con distintos lectores de pantalla.</strong> Testeo el sitio y las aplicaciones web con herramientas como NVDA, el Narrador de Windows y diferentes extensiones de Google Chrome.",
 
     /* Article 3 */
     article3Title: "¿Cómo optimizo un sitio web?",
@@ -47,12 +47,12 @@ const articlesTranslations = {
     /* Article 2 */
     article2Title: "How do I ensure Web Accessibility?",
     article2Intro: "I'll share some of the best practices I apply to ensure Web Accessibility:",
-    article2Paragraph1: "<strong>✅ I use alt tags for images.</strong> Alt tags describe images and graphics for people who use screen readers or have visual impairments.",
-    article2Paragraph2: "<strong>✅ I use responsive design.</strong> I make sure the design automatically adjusts to any screen size, whether it's desktop, tablet, or mobile, to ensure a consistent experience across all devices.",
+    article2Paragraph1: "<strong>✅ I write semantic code.</strong>I structure website content correctly so that screen readers and other assistive navigation tools can better understand the page's structure and meaning.",
+    article2Paragraph2: "<strong>✅ I use alt tags for images.</strong> Alt tags describe images and graphics for people who use screen readers or have visual impairments.",
     article2Paragraph3: "<strong>✅ I choose legible fonts.</strong>I carefully select font type and size to facilitate readability.",
-    article2Paragraph4: "<strong>✅ I write semantic code.</strong>I structure website content correctly so that screen readers and other assistive navigation tools can better understand the page's structure and meaning.",
+    article2Paragraph4: "<strong>✅ I pay attention to contrast and color.</strong> I maintain contrast between text and background to ensure readability, even for people with color blindness or other visual difficulties.",
     article2Paragraph5: "<strong>✅ I implement visible focus.</strong> I ensure that keyboard-focused elements are visible and have good contrast with the background.",
-    article2Paragraph6: "<strong>✅ I pay attention to contrast and color.</strong> I maintain contrast between text and background to ensure readability, even for people with color blindness or other visual difficulties.",
+    article2Paragraph6: "<strong>✅ I conduct tests with various screen readers.</strong> I test websites and web applications using tools like NVDA, Windows Narrator, and different Google Chrome extensions.",
 
     /* Article 3 */
     article3Title: "How do I optimize a website?",
@@ -80,12 +80,12 @@ const articlesTranslations = {
     /* Article 2 */
     article2Title: "Como garanto a Acessibilidade Web?",
     article2Intro: "Vou compartilhar algumas das melhores práticas que aplico para garantir a Acessibilidade na Web:",
-    article2Paragraph1: "<strong>✅ Uso tags alt para imagens.</strong> As tags alt descrevem imagens e gráficos para pessoas que usam leitores de tela ou têm deficiências visuais.",
-    article2Paragraph2: "<strong>✅ Utilizo design responsivo.</strong> Certifico-me de que o design se ajuste automaticamente a qualquer tamanho de tela, seja em desktop, tablet ou celular, para garantir uma experiência consistente em todos os dispositivos.",
+    article2Paragraph1: "<strong>✅ Escrevo código semântico.</strong> Estruturo o conteúdo do site corretamente para que leitores de tela e outras ferramentas de navegação assistiva possam entender melhor a estrutura e o significado da página.",
+    article2Paragraph2: "<strong>✅ Uso tags alt para imagens.</strong> As tags alt descrevem imagens e gráficos para pessoas que usam leitores de tela ou têm deficiências visuais.",
     article2Paragraph3: "<strong>✅ Escolho fontes legíveis.</strong> Seleciono cuidadosamente o tipo de fonte e o tamanho para facilitar a leitura.",
-    article2Paragraph4: "<strong>✅ Escrevo código semântico.</strong> Estruturo o conteúdo do site corretamente para que leitores de tela e outras ferramentas de navegação assistiva possam entender melhor a estrutura e o significado da página.",
+    article2Paragraph4: "<strong>✅ Cuido do contraste e da cor.</strong> Mantenho o contraste entre texto e fundo para garantir legibilidade, mesmo para pessoas com daltonismo ou outras dificuldades visuais.",
     article2Paragraph5: "<strong>✅ Implemento foco visível.</strong> Garanto que os elementos com foco do teclado sejam visíveis e tenham bom contraste com o fundo.",
-    article2Paragraph6: "<strong>✅ Cuido do contraste e da cor.</strong> Mantenho o contraste entre texto e fundo para garantir legibilidade, mesmo para pessoas com daltonismo ou outras dificuldades visuais.",
+    article2Paragraph6: "<strong>✅ Realizo testes com vários leitores de tela.</strong> Testo sites e aplicativos web utilizando ferramentas como NVDA, o Narrador do Windows e diferentes extensões do Google Chrome.",
 
     /* Article 3 */
     article3Title: "Como otimizo um site?",
