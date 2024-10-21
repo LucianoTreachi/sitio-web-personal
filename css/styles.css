@@ -515,13 +515,22 @@ SECTION: FAQS
   max-width: 800px;
 }
 
-.faqs .container article {
-  border-bottom: var(--border);
-  transition: padding 0.3s;
+.faqs .row {
+  display: grid;
+  gap: 4rem;
 }
 
-.container-question {
-  overflow: hidden;
+.details {
+  border-radius: 1rem;
+  border: var(--border);
+  box-shadow: var(--shadow);
+}
+
+.question-container {
+  padding: 4rem 2rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
 }
 
 .question {
@@ -529,24 +538,18 @@ SECTION: FAQS
   font-weight: 600;
   line-height: 1.4;
   opacity: 0.78;
-  display: flex;
-  justify-content: space-between;
-  margin: 3rem 0;
-  cursor: pointer;
+}
+
+.question-icon {
+  transition: transform .3s ease;
+}
+
+.details[open] .question-icon {
+  transform: rotate(180deg);
 }
 
 .answer {
-  height: 0;
-  transition: 0.3s;
-}
-
-/* Javascript  */
-.add-padding {
-  padding-bottom: 30px;
-}
-
-.rotate-arrow {
-  transform: rotate(180deg);
+  padding: 0 2rem 4rem;
 }
 
 /*=============================== 
@@ -621,10 +624,6 @@ RESPONSIVE DESIGN
   .services .row-1 {
     grid-template-columns: 1fr;
     gap: 4rem;
-  }
-
-  .faqs .container {
-    max-width: 800px;
   }
 
   .methodology .container {
@@ -840,12 +839,20 @@ RESPONSIVE DESIGN
     font-size: 1.8rem;
   }
 
+  .article-title {
+    font-size: 1.8rem;
+  }
+
+  .question-container {
+    padding: 2rem;
+  }
+
   .question {
     font-size: 1.8rem;
   }
 
-  .article-title {
-    font-size: 1.8rem;
+  .answer {
+    padding: 0 2rem 2rem;
   }
 
   .socials a:hover {

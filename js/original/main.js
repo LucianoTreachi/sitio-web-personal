@@ -96,23 +96,3 @@ navLinks.forEach(link => {
     }
   });
 });
-
-// FAQS
-const questions = document.querySelectorAll('.question');
-
-questions.forEach(question => {
-  question.addEventListener('click', () => {
-    let height = 0;
-    let showAnswer = question.nextElementSibling;
-    let addPadding = question.parentElement.parentElement;
-
-    addPadding.classList.toggle('add-padding');
-    question.children[1].classList.toggle('rotate-arrow');
-
-    if (showAnswer.clientHeight === 0) {
-      height = showAnswer.scrollHeight;
-    }
-
-    showAnswer.style.height = `${height}px`;
-  });
-})
