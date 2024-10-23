@@ -8,22 +8,26 @@ const overlay = document.querySelector(".overlay");
 hamburgerButton.addEventListener('click', () => {
   navbar.classList.add("active")
   overlay.classList.add("active");
+  hamburgerButton.setAttribute("aria-expanded", "true");
 });
 
 closeMenuButton.addEventListener('click', () => {
   navbar.classList.remove("active")
   overlay.classList.remove("active");
+  hamburgerButton.setAttribute("aria-expanded", "false");
 });
 
 overlay.addEventListener('click', () => {
   navbar.classList.remove("active")
   overlay.classList.remove("active");
+  hamburgerButton.setAttribute("aria-expanded", "false");
 });
 
 navLinks.forEach(link => {
   link.addEventListener('click', () => {
     navbar.classList.remove("active");
     overlay.classList.remove("active");
+    hamburgerButton.setAttribute("aria-expanded", "false");
   });
 
   link.addEventListener('keydown', (event) => {
@@ -36,6 +40,7 @@ navLinks.forEach(link => {
 window.addEventListener("scroll", () => {
   navbar.classList.remove('active');
   overlay.classList.remove('active');
+  hamburgerButton.setAttribute("aria-expanded", "false");
 })
 
 // HEADER ACTIVE
