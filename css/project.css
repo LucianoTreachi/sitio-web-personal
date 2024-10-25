@@ -237,7 +237,11 @@ RESPONSIVE DESIGN
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 574px) {
+  p {
+    font-size: 1.6rem;
+  }
+  
   .links {
     flex-direction: column;
   }
