@@ -104,9 +104,15 @@ PAGE INDIVIDUAL PROJECT
   transform: translateX(-4px);
 }
 
-.page-title {
+.page-title-1 {
   font-size: 3rem;
   font-weight: var(--title-weight);
+}
+
+.page-title-2 {
+  font-size: 2rem;
+  font-weight: var(--title-weight);
+  margin-bottom: 2rem;
 }
 
 .page-content-project {
