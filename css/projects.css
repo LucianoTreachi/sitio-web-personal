@@ -263,6 +263,15 @@ RESPONSIVE DESIGN
   .gallery {
     grid-template-columns: 1fr 1fr;
   }
+
+  .gallery img:hover {
+    filter: contrast(100%);
+  }
+
+  .socials a:hover {
+    opacity: 0.75;
+    transform: scale(1);
+  }
 }
 
 @media screen and (max-width: 350px) {
