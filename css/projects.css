@@ -152,7 +152,7 @@ PROJECTS
   background-color: var(--body);
   border: 2px solid var(--accent-color-1);
   border-radius: 1rem;
-  padding: 1rem;
+  padding: 1.5rem 1rem;
   font-size: 1.8rem;
   font-weight: 500;
   color: var(--accent-color-2);
