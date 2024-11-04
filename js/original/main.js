@@ -1,10 +1,14 @@
-// NAVBAR
+// DOM ELEMENTS
+const header = document.querySelector("header");
+const sections = document.querySelectorAll('section');
 const hamburgerButton = document.querySelector(".hamburger-button");
 const closeMenuButton = document.querySelector(".close-menu-button");
 const navbar = document.querySelector(".navbar");
 const navLinks = document.querySelectorAll(".nav-link");
 const overlay = document.querySelector(".overlay");
+const details = document.querySelectorAll('details');
 
+// NAVBAR: Toggle mobile navbar visibility, overlay, and aria-expanded attribute on button and overlay click
 hamburgerButton.addEventListener('click', () => {
   navbar.classList.add("active")
   overlay.classList.add("active");
@@ -43,15 +47,12 @@ window.addEventListener("scroll", () => {
   hamburgerButton.setAttribute("aria-expanded", "false");
 })
 
-// HEADER ACTIVE
+// HEADER ACTIVE: Add 'active' class to header on scroll to create a sticky header effect
 window.addEventListener("scroll", () => {
-  const header = document.querySelector("header");
   header.classList.toggle("active", window.scrollY > 0)
 })
 
-// ACTIVE LINK
-const sections = document.querySelectorAll('section')
-
+// ACTIVE LINK: Highlight the current section's link in the navbar based on scroll position
 function setActiveLink() {
   let index = sections.length;
 
@@ -69,7 +70,7 @@ function setActiveLink() {
 
 window.addEventListener('scroll', setActiveLink);
 
-// SCROLL TO SECTION
+// SCROLL TO SECTION: Smooth scroll to target section on link click or Enter key press
 navLinks.forEach(link => {
   link.addEventListener('click', (event) => {
     event.preventDefault();
@@ -99,5 +100,15 @@ navLinks.forEach(link => {
         });
       }
     }
+  });
+});
+
+// FAQS: Updates aria-expanded for screen readers and sets focus on expanded answer
+details.forEach(detail => {
+  detail.addEventListener('toggle', function () {
+    const summary = detail.querySelector('summary');
+    const answer = detail.querySelector('.answer');
+    if (summary) summary.setAttribute('aria-expanded', detail.open);
+    if (detail.open && answer) answer.focus();
   });
 });
