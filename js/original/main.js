@@ -105,10 +105,10 @@ navLinks.forEach(link => {
 
 // FAQS: Updates aria-expanded for screen readers and sets focus on expanded answer
 details.forEach(detail => {
-  detail.addEventListener('toggle', function () {
-    const summary = detail.querySelector('summary');
-    const answer = detail.querySelector('.answer');
-    if (summary) summary.setAttribute('aria-expanded', detail.open);
-    if (detail.open && answer) answer.focus();
+  detail.addEventListener('toggle', function (event) {
+    if (event.target.open) {
+      const answer = detail.querySelector('.answer');
+      if (answer) answer.focus();
+    }
   });
 });
