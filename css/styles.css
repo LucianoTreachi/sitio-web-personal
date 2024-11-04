@@ -353,7 +353,7 @@ SECTION: ABOUT
   mask-image: linear-gradient(#ffffff 60%, transparent);
 }
 
-.about .row-3 p {
+.about .row-3 blockquote {
   font-size: 3rem;
   font-weight: 500;
   opacity: 0.78;
@@ -737,7 +737,7 @@ RESPONSIVE DESIGN
     margin-bottom: 4rem;
   }
 
-  .about .row-3 p {
+  .about .row-3 blockquote {
     text-align: initial;
     margin: initial;
     width: initial;
@@ -830,7 +830,7 @@ RESPONSIVE DESIGN
     width: 100%;
   }
 
-  .about .row-3 p {
+  .about .row-3 blockquote {
     font-size: 2.4rem;
   }
 
