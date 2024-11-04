@@ -834,6 +834,10 @@ RESPONSIVE DESIGN
     font-size: 2.4rem;
   }
 
+  .project-img:hover {
+    filter: contrast(100%);
+  }
+
   .more-projects-button {
     margin-top: 4.2rem;
     font-size: 1.8rem;
