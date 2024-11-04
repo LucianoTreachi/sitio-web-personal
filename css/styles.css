@@ -10,8 +10,7 @@
   --hero: #e2e6e9;
   --body: #f1f5f8;
   --footer: #e2e6e9;
-  --accent-color-1: #625eab;
-  --accent-color-2: #625ead;
+  --accent-color: #3547b7;
   --title-color: #383a41;
   --alert: #bd1e2d;
   --success: #006927;
@@ -32,7 +31,7 @@
   --hero: #0d0f12;
   --body: #171a1e;
   --footer: #0d0f12;
-  --accent-color-2: #a198e2;
+  --accent-color: #87e2d5;
   --title-color: #e8e8e8;
   --alert: #bd787f;
   --success: #21cf62;
@@ -434,8 +433,8 @@ SECTION: PROJECTS
   padding: 1rem;
   margin-top: 6rem;
   font-size: 2.2rem;
-  font-weight: 500;
-  color: var(--accent-color-2);
+  font-weight: 600;
+  color: var(--accent-color);
   text-align: center;
 }
 
@@ -444,7 +443,7 @@ SECTION: PROJECTS
   vertical-align: middle;
   width: 20px;
   width: 20px;
-  fill: var(--accent-color-2);
+  fill: var(--accent-color);
   transition: transform 0.3s ease;
 }
 
@@ -490,14 +489,14 @@ SECTION: MY WORK METHODOLOGY
   width: max-content;
   font-size: 1.8rem;
   font-weight: 600;
-  color: var(--accent-color-2);
+  color: var(--accent-color);
   z-index: 1;
 }
 
 .article-button svg {
   width: 20px;
   height: 20px;
-  fill: var(--accent-color-2);
+  fill: var(--accent-color);
   vertical-align: middle;
   transition: transform 0.3s;
   z-index: 1;

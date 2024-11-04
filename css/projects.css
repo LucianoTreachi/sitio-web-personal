@@ -4,8 +4,7 @@
   --black: #1d1d1d;
   --body: #f1f5f8;
   --footer: #e2e6e9;
-  --accent-color-1: #625eab;
-  --accent-color-2: #625ead;
+  --accent-color: #3547b7;
   --title-weight: 600;
   --text-weight: 400;
 }
@@ -14,7 +13,7 @@
   --black: #fdfdfd;
   --body: #171a1e;
   --footer: #0d0f12;
-  --accent-color-2: #a198e2;
+  --accent-color: #87e2d5;
   --title-weight: 500;
   --text-weight: 300;
 }
@@ -144,18 +143,18 @@ PROJECTS
   right: .5rem;
   width: 30px;
   height: 30px;
-  fill: var(--accent-color-2);
+  fill: var(--accent-color);
   pointer-events: none;
 }
 
 .select {
   background-color: var(--body);
-  border: 2px solid var(--accent-color-1);
+  border: 2px solid var(--accent-color);
   border-radius: 1rem;
   padding: 1.5rem 1rem;
   font-size: 1.8rem;
   font-weight: 500;
-  color: var(--accent-color-2);
+  color: var(--accent-color);
   cursor: pointer;
   width: 100%;
 
