@@ -10,19 +10,24 @@ const details = document.querySelectorAll('details');
 
 // NAVBAR: Toggle mobile navbar visibility, overlay, and aria-expanded attribute on button and overlay click
 hamburgerButton.addEventListener('click', () => {
-  navbar.classList.add("active")
+  navbar.classList.add("active");
+  navbar.setAttribute('aria-hidden', 'false');
   overlay.classList.add("active");
   hamburgerButton.setAttribute("aria-expanded", "true");
+  navLinks[0].focus();
 });
 
 closeMenuButton.addEventListener('click', () => {
-  navbar.classList.remove("active")
+  navbar.classList.remove("active");
+  navbar.setAttribute('aria-hidden', 'true');
   overlay.classList.remove("active");
   hamburgerButton.setAttribute("aria-expanded", "false");
+  hamburgerButton.focus();
 });
 
 overlay.addEventListener('click', () => {
-  navbar.classList.remove("active")
+  navbar.classList.remove("active");
+  navbar.setAttribute('aria-hidden', 'true');
   overlay.classList.remove("active");
   hamburgerButton.setAttribute("aria-expanded", "false");
 });
@@ -30,6 +35,7 @@ overlay.addEventListener('click', () => {
 navLinks.forEach(link => {
   link.addEventListener('click', () => {
     navbar.classList.remove("active");
+    navbar.setAttribute('aria-hidden', 'true');
     overlay.classList.remove("active");
     hamburgerButton.setAttribute("aria-expanded", "false");
   });
@@ -43,6 +49,7 @@ navLinks.forEach(link => {
 
 window.addEventListener("scroll", () => {
   navbar.classList.remove('active');
+  navbar.setAttribute('aria-hidden', 'true');
   overlay.classList.remove('active');
   hamburgerButton.setAttribute("aria-expanded", "false");
 })
