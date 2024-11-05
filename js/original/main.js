@@ -1,14 +1,14 @@
 // DOM ELEMENTS
 const header = document.querySelector("header");
-const sections = document.querySelectorAll('section');
 const hamburgerButton = document.querySelector(".hamburger-button");
 const closeMenuButton = document.querySelector(".close-menu-button");
 const navbar = document.querySelector(".navbar");
-const navLinks = document.querySelectorAll(".nav-link");
 const overlay = document.querySelector(".overlay");
+const navLinks = document.querySelectorAll(".nav-link");
+const sections = document.querySelectorAll('section');
 const details = document.querySelectorAll('details');
 
-// NAVBAR: Toggle mobile navbar visibility, overlay, and aria attributes
+// NAVBAR: Toggle mobile navbar visibility, overlay, aria attributes and focus
 function openNavbar() {
   navbar.classList.add("active");
   overlay.classList.add("active");
