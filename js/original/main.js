@@ -8,37 +8,37 @@ const navLinks = document.querySelectorAll(".nav-link");
 const overlay = document.querySelector(".overlay");
 const details = document.querySelectorAll('details');
 
-// NAVBAR: Toggle mobile navbar visibility, overlay, and aria-expanded attribute on button and overlay click
-hamburgerButton.addEventListener('click', () => {
+// NAVBAR: Toggle mobile navbar visibility, overlay, and aria attributes
+function openNavbar() {
   navbar.classList.add("active");
   overlay.classList.add("active");
   hamburgerButton.setAttribute("aria-expanded", "true");
   hamburgerButton.setAttribute("aria-hidden", "true");
   navLinks[0].focus();
-});
+}
 
-closeMenuButton.addEventListener('click', () => {
+function closeNavbarWithFocus() {
   navbar.classList.remove("active");
   overlay.classList.remove("active");
   hamburgerButton.setAttribute("aria-expanded", "false");
   hamburgerButton.setAttribute("aria-hidden", "false");
   hamburgerButton.focus();
-});
+}
 
-overlay.addEventListener('click', () => {
+function closeNavbar() {
   navbar.classList.remove("active");
   overlay.classList.remove("active");
   hamburgerButton.setAttribute("aria-expanded", "false");
   hamburgerButton.setAttribute("aria-hidden", "false");
-});
+}
+
+hamburgerButton.addEventListener('click', openNavbar);
+closeMenuButton.addEventListener('click', closeNavbarWithFocus);
+overlay.addEventListener('click', closeNavbarWithFocus);
+window.addEventListener("scroll", closeNavbar)
 
 navLinks.forEach(link => {
-  link.addEventListener('click', () => {
-    navbar.classList.remove("active");
-    overlay.classList.remove("active");
-    hamburgerButton.setAttribute("aria-expanded", "false");
-    hamburgerButton.setAttribute("aria-hidden", "false");
-  });
+  link.addEventListener('click', closeNavbar);
 
   link.addEventListener('keydown', (event) => {
     if (event.key === "Enter") {
@@ -46,13 +46,6 @@ navLinks.forEach(link => {
     }
   });
 });
-
-window.addEventListener("scroll", () => {
-  navbar.classList.remove('active');
-  overlay.classList.remove('active');
-  hamburgerButton.setAttribute("aria-expanded", "false");
-  hamburgerButton.setAttribute("aria-hidden", "false");
-})
 
 // HEADER ACTIVE: Add 'active' class to header on scroll to create a sticky header effect
 window.addEventListener("scroll", () => {
