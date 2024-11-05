@@ -169,45 +169,45 @@ function changeLanguage(lang) {
   localStorage.setItem("selectedLanguage", lang);
 }
 
-// Button dropdown
-const languagesButton = document.querySelector(".languages-button");
-const languagesOptions = document.querySelector(".language-options");
-const languageButtons = languagesOptions.querySelectorAll("button");
+// Language button
+const languageButton = document.querySelector(".language-button");
+const languageMenu = document.querySelector(".language-menu");
+const menuLanguageButtons = languageMenu.querySelectorAll("button");
 
-// Close the menu options when clicked outside
+// Close the language menu when clicked outside
 document.addEventListener("click", (event) => {
-  if (!languagesOptions.contains(event.target) && !languagesButton.contains(event.target)) {
-    languagesOptions.classList.remove("active");
-    languagesButton.setAttribute("aria-expanded", "false");
+  if (!languageMenu.contains(event.target) && !languageButton.contains(event.target)) {
+    languageMenu.classList.remove("active");
+    languageButton.setAttribute("aria-expanded", "false");
   }
 });
 
-// Close the menu options when scrolling
+// Close the language menu when scrolling
 window.addEventListener("scroll", () => {
-  languagesOptions.classList.remove('active');
-  languagesButton.setAttribute("aria-expanded", "false");
+  languageMenu.classList.remove('active');
+  languageButton.setAttribute("aria-expanded", "false");
 });
 
-// Open the menu options when clicking the button
-languagesButton.addEventListener("click", () => {
-  const isExpanded = languagesButton.getAttribute("aria-expanded") === "true";
+// Open the language menu when clicking the button
+languageButton.addEventListener("click", () => {
+  const isExpanded = languageButton.getAttribute("aria-expanded") === "true";
 
   if (isExpanded) {
-    languagesButton.setAttribute("aria-expanded", "false");
-    languagesOptions.classList.remove("active");
+    languageButton.setAttribute("aria-expanded", "false");
+    languageMenu.classList.remove("active");
   } else {
-    languagesButton.setAttribute("aria-expanded", "true");
-    languagesOptions.classList.add("active");
+    languageButton.setAttribute("aria-expanded", "true");
+    languageMenu.classList.add("active");
   }
 });
 
-// Add event listener to each language button
-languageButtons.forEach(button => {
+// Add event listener to each menu language button
+menuLanguageButtons.forEach(button => {
   button.addEventListener("click", (event) => {
     const selectedLang = event.target.getAttribute("data-lang");
     changeLanguage(selectedLang);
-    languagesOptions.classList.remove("active");
-    languagesButton.setAttribute("aria-expanded", "false");
+    languageMenu.classList.remove("active");
+    languageButton.setAttribute("aria-expanded", "false");
   });
 });
 
