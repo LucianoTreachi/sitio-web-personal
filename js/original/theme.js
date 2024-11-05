@@ -1,7 +1,6 @@
 function changeTheme() {
   const body = document.body;
   const darkTheme = "dark-theme";
-
   const themeButton = document.querySelector(".theme-button");
   const themeIcon = document.querySelector(".theme-button svg");
 
