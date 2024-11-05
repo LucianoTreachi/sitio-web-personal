@@ -64,7 +64,7 @@ function setActiveLink() {
 
 window.addEventListener('scroll', setActiveLink);
 
-// SCROLL TO SECTION: Smooth scroll to target section on link click or Enter key press
+// SCROLL TO SECTION: Smooth scroll to target section on link click and Announce the section title
 navLinks.forEach(link => {
   link.addEventListener('click', (event) => {
     event.preventDefault();
@@ -78,14 +78,20 @@ navLinks.forEach(link => {
         block: 'start'
       });
 
-      setTimeout(() => {
-        targetSection.setAttribute('tabindex', '-1');
-        targetSection.focus();
+      // For the screen reader
+      let liveRegion = document.getElementById('live-region');
+      if (!liveRegion) {
+        liveRegion = document.createElement('div');
+        liveRegion.id = 'live-region';
+        liveRegion.setAttribute('aria-live', 'polite');
+        liveRegion.setAttribute('style', 'position: absolute; left: -9999px;');
+        document.body.appendChild(liveRegion);
+      }
 
-        targetSection.addEventListener('blur', () => {
-          targetSection.removeAttribute('tabindex');
-        }, { once: true });
-      }, 1000);
+      // Announce the section title
+      setTimeout(() => {
+        liveRegion.textContent = targetSection.querySelector('.title-section').textContent;
+      }, 100);
     }
   });
 });
