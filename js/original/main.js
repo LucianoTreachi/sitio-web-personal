@@ -13,6 +13,7 @@ hamburgerButton.addEventListener('click', () => {
   navbar.classList.add("active");
   overlay.classList.add("active");
   hamburgerButton.setAttribute("aria-expanded", "true");
+  hamburgerButton.setAttribute("aria-hidden", "true");
   navLinks[0].focus();
 });
 
@@ -20,6 +21,7 @@ closeMenuButton.addEventListener('click', () => {
   navbar.classList.remove("active");
   overlay.classList.remove("active");
   hamburgerButton.setAttribute("aria-expanded", "false");
+  hamburgerButton.setAttribute("aria-hidden", "false");
   hamburgerButton.focus();
 });
 
@@ -27,6 +29,7 @@ overlay.addEventListener('click', () => {
   navbar.classList.remove("active");
   overlay.classList.remove("active");
   hamburgerButton.setAttribute("aria-expanded", "false");
+  hamburgerButton.setAttribute("aria-hidden", "false");
 });
 
 navLinks.forEach(link => {
@@ -34,6 +37,7 @@ navLinks.forEach(link => {
     navbar.classList.remove("active");
     overlay.classList.remove("active");
     hamburgerButton.setAttribute("aria-expanded", "false");
+    hamburgerButton.setAttribute("aria-hidden", "false");
   });
 
   link.addEventListener('keydown', (event) => {
@@ -47,6 +51,7 @@ window.addEventListener("scroll", () => {
   navbar.classList.remove('active');
   overlay.classList.remove('active');
   hamburgerButton.setAttribute("aria-expanded", "false");
+  hamburgerButton.setAttribute("aria-hidden", "false");
 })
 
 // HEADER ACTIVE: Add 'active' class to header on scroll to create a sticky header effect
