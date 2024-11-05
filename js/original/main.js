@@ -85,6 +85,15 @@ navLinks.forEach(link => {
         behavior: 'smooth',
         block: 'start'
       });
+
+      setTimeout(() => {
+        targetSection.setAttribute('tabindex', '-1');
+        targetSection.focus();
+
+        targetSection.addEventListener('blur', () => {
+          targetSection.removeAttribute('tabindex');
+        }, { once: true });
+      }, 1000);
     }
   });
 
@@ -100,6 +109,15 @@ navLinks.forEach(link => {
           behavior: 'smooth',
           block: 'start'
         });
+
+        setTimeout(() => {
+          targetSection.setAttribute('tabindex', '-1');
+          targetSection.focus();
+
+          targetSection.addEventListener('blur', () => {
+            targetSection.removeAttribute('tabindex');
+          }, { once: true });
+        }, 1000);
       }
     }
   });
