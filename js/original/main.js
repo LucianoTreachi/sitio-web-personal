@@ -39,12 +39,6 @@ window.addEventListener("scroll", closeNavbar)
 
 navLinks.forEach(link => {
   link.addEventListener('click', closeNavbar);
-
-  link.addEventListener('keydown', (event) => {
-    if (event.key === "Enter") {
-      link.click();
-    }
-  });
 });
 
 // HEADER ACTIVE: Add 'active' class to header on scroll to create a sticky header effect
@@ -92,31 +86,6 @@ navLinks.forEach(link => {
           targetSection.removeAttribute('tabindex');
         }, { once: true });
       }, 1000);
-    }
-  });
-
-  link.addEventListener('keydown', (event) => {
-    if (event.key === "Enter") {
-      event.preventDefault();
-
-      const sectionId = link.getAttribute('href').substring(1);
-      const targetSection = document.getElementById(sectionId);
-
-      if (targetSection) {
-        targetSection.scrollIntoView({
-          behavior: 'smooth',
-          block: 'start'
-        });
-
-        setTimeout(() => {
-          targetSection.setAttribute('tabindex', '-1');
-          targetSection.focus();
-
-          targetSection.addEventListener('blur', () => {
-            targetSection.removeAttribute('tabindex');
-          }, { once: true });
-        }, 1000);
-      }
     }
   });
 });
