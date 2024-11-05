@@ -161,17 +161,19 @@ nav {
 
 .nav-link {
   font-size: 2rem;
-  font-weight: 500;
+  font-weight: 600;
   opacity: 0.7;
   transition: opacity 0.3s ease;
 }
 
 .nav-link:hover {
   opacity: 1;
+  color: var(--accent-color);
 }
 
 .nav-link.active {
   opacity: 1;
+  color: var(--accent-color);
 }
 
 .hamburger-button {
