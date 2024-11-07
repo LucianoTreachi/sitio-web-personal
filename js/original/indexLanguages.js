@@ -174,40 +174,45 @@ const languageButton = document.querySelector(".language-button");
 const languageMenu = document.querySelector(".language-menu");
 const menuLanguageButtons = languageMenu.querySelectorAll("button");
 
-// Close the language menu when clicked outside
-document.addEventListener("click", (event) => {
-  if (!languageMenu.contains(event.target) && !languageButton.contains(event.target)) {
-    languageMenu.classList.remove("active");
-    languageButton.setAttribute("aria-expanded", "false");
-  }
-});
-
-// Close the language menu when scrolling
-window.addEventListener("scroll", () => {
-  languageMenu.classList.remove('active');
-  languageButton.setAttribute("aria-expanded", "false");
-});
-
 // Open the language menu when clicking the button
 languageButton.addEventListener("click", () => {
   const isExpanded = languageButton.getAttribute("aria-expanded") === "true";
 
   if (isExpanded) {
-    languageButton.setAttribute("aria-expanded", "false");
-    languageMenu.classList.remove("active");
+    closeMenu();
   } else {
-    languageButton.setAttribute("aria-expanded", "true");
-    languageMenu.classList.add("active");
+    openMenu();
   }
 });
+
+// Close the language menu when clicked outside
+document.addEventListener("click", (event) => {
+  if (!languageMenu.contains(event.target) && !languageButton.contains(event.target)) {
+    closeMenu();
+  }
+});
+
+// Close the language menu when scrolling
+window.addEventListener("scroll", closeMenu);
+
+// Open Menu
+function openMenu() {
+  languageButton.setAttribute("aria-expanded", "true");
+  languageMenu.classList.add("active");
+}
+
+// Close Menu
+function closeMenu() {
+  languageButton.setAttribute("aria-expanded", "false");
+  languageMenu.classList.remove("active");
+}
 
 // Add event listener to each menu language button
 menuLanguageButtons.forEach(button => {
   button.addEventListener("click", (event) => {
     const selectedLang = event.target.getAttribute("data-lang");
     changeLanguage(selectedLang);
-    languageMenu.classList.remove("active");
-    languageButton.setAttribute("aria-expanded", "false");
+    closeMenu();
   });
 });
 
