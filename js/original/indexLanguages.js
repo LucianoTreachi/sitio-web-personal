@@ -172,7 +172,7 @@ function changeLanguage(lang) {
 // Language button
 const languageButton = document.querySelector(".language-button");
 const languageMenu = document.querySelector(".language-menu");
-const menuLanguageButtons = languageMenu.querySelectorAll("button");
+const menuLanguageButtons = Array.from(languageMenu.querySelectorAll("button"));
 
 // Open the language menu when clicking the button
 languageButton.addEventListener("click", () => {
@@ -182,6 +182,13 @@ languageButton.addEventListener("click", () => {
     closeMenu();
   } else {
     openMenu();
+  }
+});
+
+// Allow the "Esc" Key for close the menu
+languageButton.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") {
+    closeMenu();
   }
 });
 
@@ -207,8 +214,24 @@ function closeMenu() {
   languageMenu.classList.remove("active");
 }
 
-// Add event listener to each menu language button
-menuLanguageButtons.forEach(button => {
+// Menu language button
+menuLanguageButtons.forEach((button, index) => {
+  // Keyboard navigation
+  button.addEventListener("keydown", (event) => {
+    if (event.key === "ArrowDown") {
+      event.preventDefault();
+      menuLanguageButtons[(index + 1) % menuLanguageButtons.length].focus();
+    }
+    if (event.key === "ArrowUp") {
+      event.preventDefault();
+      menuLanguageButtons[(index - 1 + menuLanguageButtons.length) % menuLanguageButtons.length].focus();
+    }
+    if (event.key === "Escape") {
+      closeMenu();
+    }
+  });
+
+  // Each menu language button change the language and close the menu
   button.addEventListener("click", (event) => {
     const selectedLang = event.target.getAttribute("data-lang");
     changeLanguage(selectedLang);
