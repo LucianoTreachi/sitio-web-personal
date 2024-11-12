@@ -6,7 +6,6 @@ const navbar = document.querySelector(".navbar");
 const overlay = document.querySelector(".overlay");
 const navLinks = document.querySelectorAll(".nav-link");
 const sections = document.querySelectorAll('section');
-const details = document.querySelectorAll('details');
 
 // NAVBAR: Toggle mobile navbar visibility, overlay, aria attributes and focus
 function openNavbar() {
@@ -92,16 +91,6 @@ navLinks.forEach(link => {
       setTimeout(() => {
         liveRegion.textContent = targetSection.querySelector('.title-section').textContent;
       }, 100);
-    }
-  });
-});
-
-// FAQS: Updates aria-expanded for screen readers and sets focus on expanded answer
-details.forEach(detail => {
-  detail.addEventListener('toggle', function (event) {
-    if (event.target.open) {
-      const answer = detail.querySelector('.answer');
-      if (answer) answer.focus();
     }
   });
 });

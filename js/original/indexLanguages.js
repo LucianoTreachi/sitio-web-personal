@@ -35,15 +35,6 @@ const indexTranslations = {
     article3: "¿Cómo optimizo un sitio web?",
     articleButton: "Conocer más",
 
-    /* FAQs */
-    faqsTitle: "Preguntas Frecuentes",
-    question1: "¿Cuál es el tiempo de entrega para un proyecto?",
-    question2: "¿Ofreces soporte y actualizaciones después de la entrega del proyecto?",
-    question3: "¿Cuál es el costo de un proyecto?",
-    answer1: "Trabajo para completar los proyectos en el menor tiempo posible sin comprometer la calidad. Estableceré un plazo específico al inicio del proyecto y comunicaré las actualizaciones del progreso durante todo el proceso.",
-    answer2: "¡Claro que sí! Después de la entrega del proyecto, puedes solicitar actualizaciones y mejoras adicionales.",
-    answer3: "Los costos dependen del tipo y la complejidad del proyecto. Contáctame para discutir tus necesidades específicas y obtener un presupuesto detallado.",
-
     /* Contact */
     contactTitle: "Contacto",
     contactParagraph: "Sería muy interesante hablar sobre cómo podríamos desarrollar un próximo proyecto juntos. Puedes contactarme por Email, WhatsApp o LinkedIn.",
@@ -85,18 +76,6 @@ const indexTranslations = {
     article3: "How do I optimize a website?",
     articleButton: "Learn more",
 
-    /* FAQs */
-    faqsTitle: "Frequently Asked Questions",
-    question1: "What is the delivery time for a project?",
-    question2: "Do you offer support and updates after the project delivery?",
-    question3: "What are the costs for completing a project?",
-    answer1: "I work to complete projects in the shortest time possible without compromising quality. I will set a specific deadline at the beginning of the project and communicate progress updates throughout the process.",
-    answer2: "Absolutely! After the project is delivered, you can request additional updates and improvements.",
-    answer3: "Costs depend on the type and complexity of the project. Contact me to discuss your specific needs and get a detailed quote.",
-
-    /* Action */
-    actionTitle: "Interested in working with me?",
-
     /* Contact */
     contactTitle: "Contact",
     contactParagraph: "It would be very interesting to discuss how we could develop an upcoming project together. You can reach me through Email, WhatsApp, or LinkedIn.",
@@ -137,18 +116,6 @@ const indexTranslations = {
     article2: "Como garanto a Acessibilidade Web?",
     article3: "Como otimizo um site?",
     articleButton: "Saiba mais",
-
-    /* FAQs */
-    faqsTitle: "Perguntas Frequentes",
-    question1: "Qual é o prazo de entrega para um projeto?",
-    question2: "Você oferece suporte e atualizações após a entrega do projeto?",
-    question3: "Quais são os custos para realizar um projeto?",
-    answer1: "Trabalho para completar os projetos no menor tempo possível sem comprometer a qualidade. Vou estabelecer um prazo específico no início do projeto e comunicar as atualizações do progresso durante todo o processo.",
-    answer2: "Claro que sim! Após a entrega do projeto, você pode solicitar atualizações e melhorias adicionais.",
-    answer3: "Os custos dependem do tipo e da complexidade do projeto. Entre em contato comigo para discutir suas necessidades específicas e obter um orçamento detalhado.",
-
-    /* Action */
-    actionTitle: "Interessado em trabalhar comigo?",
 
     /* Contact */
     contactTitle: "Contato",
