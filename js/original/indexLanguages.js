@@ -2,7 +2,7 @@ const indexTranslations = {
   Español: {
     /* Nav */
     navLink1: "Sobre mí",
-    navLink2: "Servicios",
+    navLink2: "Soluciones",
     navLink3: "Proyectos",
     navLink4: "Contacto",
 
@@ -12,11 +12,11 @@ const indexTranslations = {
 
     /* About */
     aboutTitle: "Soy Luciano Treachi",
-    aboutParagraph: "Desarrollador Frontend enfocado en UX/UI. Me dedico a crear soluciones web eficientes, intuitivas y fáciles de usar que potencian la experiencia del usuario. Estoy listo para ayudarte a diseñar y desarrollar tu  próximo proyecto web.",
+    aboutParagraph: "Desarrollador Frontend enfocado en UX/UI. Me dedico a crear soluciones web eficientes, intuitivas y fáciles de usar que potencian la experiencia del usuario.",
     aboutPhrase: '"Un diseño estratégico y un desarrollo eficiente pueden marcar una gran diferencia en la conversión y la satisfacción del usuario".',
 
     /* Services */
-    servicesTitle: "Brindo Servicios Personalizados",
+    servicesTitle: "Soluciones en las que puedo ayudar",
     serviceTitle1: "Diseño Web",
     serviceTitle2: "Desarrollo Web",
     serviceTitle3: "Optimización Web",
@@ -52,7 +52,7 @@ const indexTranslations = {
   English: {
     /* Nav */
     navLink1: "About me",
-    navLink2: "Services",
+    navLink2: "Solutions",
     navLink3: "Projects",
     navLink4: "Contact",
 
@@ -62,11 +62,11 @@ const indexTranslations = {
 
     /* About */
     aboutTitle: "I'm Luciano Treachi",
-    aboutParagraph: "Frontend Developer focused on UX/UI. I am dedicated to creating efficient, intuitive, and user-friendly web solutions that enhance the user experience. I'm ready to help you design and develop your next web project.",
+    aboutParagraph: "Frontend Developer focused on UX/UI. I am dedicated to creating efficient, intuitive, and user-friendly web solutions that enhance the user experience.",
     aboutPhrase: '"Strategic design and efficient development can make a significant difference in conversion rates and user satisfaction."',
 
     /* Services */
-    servicesTitle: "I Provide Personalized Services",
+    servicesTitle: "Solutions I Can Help With",
     serviceTitle1: "Web Design",
     serviceTitle2: "Web Development",
     serviceTitle3: "Web Optimization",
@@ -105,7 +105,7 @@ const indexTranslations = {
   Portugues: {
     /* Nav */
     navLink1: "Sobre mim",
-    navLink2: "Serviços",
+    navLink2: "Soluções",
     navLink3: "Projetos",
     navLink4: "Contato",
 
@@ -115,11 +115,11 @@ const indexTranslations = {
 
     /* About */
     aboutTitle: "Eu sou Luciano Treachi",
-    aboutParagraph: "Desenvolvedor Frontend focado em UX/UI. Dedico-me a criar soluções web eficientes, intuitivas e fáceis de usar que potencializam a experiência do usuário. Estou pronto para ajudá-lo a projetar e desenvolver seu próximo projeto web.",
+    aboutParagraph: "Desenvolvedor Frontend focado em UX/UI. Dedico-me a criar soluções web eficientes, intuitivas e fáceis de usar que potencializam a experiência do usuário.",
     aboutPhrase: '"Um design estratégico e um desenvolvimento eficiente podem fazer uma grande diferença na conversão e na satisfação do usuário."',
 
     /* Services */
-    servicesTitle: "Ofereço Serviços Personalizados",
+    servicesTitle: "Soluções em que posso ajudar",
     serviceTitle1: "Design Web",
     serviceTitle2: "Desenvolvimento Web",
     serviceTitle3: "Otimização de Sites",

@@ -15,7 +15,7 @@
   --alert: #bd1e2d;
   --success: #006927;
 
-  --title-letter-spacing: -.04em;
+  --title-letter-spacing: -.01em;
   --title-section-weight: 600;
   --text-weight: 400;
   --border: 2px solid hsl(0, 0%, 86%);
@@ -113,7 +113,6 @@ ul {
   font-size: 6rem;
   font-weight: var(--title-section-weight);
   opacity: 0.9;
-  text-transform: capitalize;
   line-height: 1.2;
   letter-spacing: var(--title-letter-spacing);
   text-align: center;
@@ -366,14 +365,14 @@ SECTION: ABOUT
 }
 
 /*=============================== 
-SECTION: SERVICES
+SECTION: SOLUTIONS
 ================================*/
 
-.services .container {
+.solutions .container {
   max-width: 1200px;
 }
 
-.services .row-1 {
+.solutions .row-1 {
   margin-top: 4rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -623,11 +622,11 @@ RESPONSIVE DESIGN
     padding: 1.5rem 4rem;
   }
 
-  .services .container {
+  .solutions .container {
     max-width: 800px;
   }
 
-  .services .row-1 {
+  .solutions .row-1 {
     grid-template-columns: 1fr;
     gap: 4rem;
   }
