@@ -37,7 +37,7 @@ const indexTranslations = {
 
     /* Contact */
     contactTitle: "Contacto",
-    contactParagraph: "Sería muy interesante hablar sobre cómo podríamos desarrollar un próximo proyecto juntos. Puedes contactarme por Email, WhatsApp o LinkedIn.",
+    contactParagraph: "Sería muy interesante hablar sobre cómo podríamos trabajar juntos. Puedes contactarme por Email, WhatsApp o LinkedIn.",
   },
 
   English: {
@@ -78,7 +78,7 @@ const indexTranslations = {
 
     /* Contact */
     contactTitle: "Contact",
-    contactParagraph: "It would be very interesting to discuss how we could develop an upcoming project together. You can reach me through Email, WhatsApp, or LinkedIn.",
+    contactParagraph: "It would be very interesting to discuss how we work together. You can reach me through Email, WhatsApp, or LinkedIn.",
   },
 
   Portugues: {
@@ -119,7 +119,7 @@ const indexTranslations = {
 
     /* Contact */
     contactTitle: "Contato",
-    contactParagraph: "Seria muito interessante conversar sobre como poderíamos desenvolver um próximo projeto juntos. Você pode entrar em contato comigo por e-mail, WhatsApp ou LinkedIn",
+    contactParagraph: "Seria muito interessante conversar sobre como poderíamos trabalhar juntos. Você pode me contatar por e-mail, WhatsApp ou LinkedIn",
   }
 };
 
