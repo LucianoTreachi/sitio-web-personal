@@ -15,14 +15,14 @@ const indexTranslations = {
     aboutParagraph: "Desarrollador Frontend enfocado en UX/UI. Me dedico a crear soluciones web eficientes, intuitivas y fáciles de usar que potencian la experiencia del usuario.",
     aboutPhrase: '"Un diseño estratégico y un desarrollo eficiente pueden marcar una gran diferencia en la conversión y la satisfacción del usuario".',
 
-    /* Services */
+    /* Solutions */
     servicesTitle: "Soluciones en las que puedo ayudar",
-    serviceTitle1: "Diseño Web",
-    serviceTitle2: "Desarrollo Web",
-    serviceTitle3: "Optimización Web",
-    serviceParagraph1: "Puedo diseñar sitios web modernos y profesionales, que transmitan de manera efectiva el mensaje de tu marca.",
-    serviceParagraph2: "Puedo desarrollar sitios web optimizados y adaptados a cualquier dispositivo para maximizar tu presencia en línea.",
-    serviceParagraph3: "Puedo optimizar sitios web para mejorar significativamente su velocidad, rendimiento y posicionamiento en buscadores.",
+    serviceTitle1: "Desarrollo Web",
+    serviceTitle2: "Optimización Web",
+    serviceTitle3: "Accesibilidad Web",
+    serviceParagraph1: "Puedo desarrollar sitios web optimizados y adaptados a cualquier dispositivo, mejorando la experiencia en línea.",
+    serviceParagraph2: "Puedo optimizar sitios web para mejorar significativamente su velocidad, rendimiento y posicionamiento en buscadores.",
+    serviceParagraph3: "Puedo adaptar sitios web para que sean accesibles, mejorando la experiencia de usuarios con diversas necesidades.",
 
     /* Projects */
     projectsTitle: "Explora alguno de mis proyectos",
@@ -65,14 +65,14 @@ const indexTranslations = {
     aboutParagraph: "Frontend Developer focused on UX/UI. I am dedicated to creating efficient, intuitive, and user-friendly web solutions that enhance the user experience.",
     aboutPhrase: '"Strategic design and efficient development can make a significant difference in conversion rates and user satisfaction."',
 
-    /* Services */
+    /* Solutions */
     servicesTitle: "Solutions I Can Help With",
-    serviceTitle1: "Web Design",
-    serviceTitle2: "Web Development",
-    serviceTitle3: "Web Optimization",
-    serviceParagraph1: "I can design modern and professional websites that effectively convey your brand's message.",
-    serviceParagraph2: "I can create fully optimized websites that look great on any device, helping you enhance your online presence.",
-    serviceParagraph3: "I can optimize websites to significantly improve their speed, performance, and search engine ranking.",
+    serviceTitle1: "Web Development",
+    serviceTitle2: "Web Optimization",
+    serviceTitle3: "Web Accessibility",
+    serviceParagraph1: "I can develop optimized websites that are adaptable to any device, enhancing the online experience.",
+    serviceParagraph2: "I can optimize websites to significantly improve their speed, performance, and search engine ranking.",
+    serviceParagraph3: "I can adapt websites to be accessible, enhancing the user experience for individuals with diverse needs.",
 
     /* Projects */
     projectsTitle: "Discover Some of My Projects",
@@ -118,14 +118,14 @@ const indexTranslations = {
     aboutParagraph: "Desenvolvedor Frontend focado em UX/UI. Dedico-me a criar soluções web eficientes, intuitivas e fáceis de usar que potencializam a experiência do usuário.",
     aboutPhrase: '"Um design estratégico e um desenvolvimento eficiente podem fazer uma grande diferença na conversão e na satisfação do usuário."',
 
-    /* Services */
+    /* Solutions */
     servicesTitle: "Soluções em que posso ajudar",
-    serviceTitle1: "Design Web",
-    serviceTitle2: "Desenvolvimento Web",
-    serviceTitle3: "Otimização de Sites",
-    serviceParagraph1: "Posso criar sites modernos e profissionais que transmitam a mensagem da sua marca de forma eficaz.",
-    serviceParagraph2: "Posso criar sites totalmente otimizados que se adaptam perfeitamente a qualquer dispositivo, aumentando sua presença online.",
-    serviceParagraph3: "Posso otimizar sites para melhorar sua velocidade, desempenho e posicionamento nos motores de busca.",
+    serviceTitle1: "Desenvolvimento Web",
+    serviceTitle2: "Otimização de Sites",
+    serviceTitle3: "Acessibilidade Web",
+    serviceParagraph1: "Posso desenvolver sites otimizados e adaptados a qualquer dispositivo, melhorando a experiência online.",
+    serviceParagraph2: "Posso otimizar sites para melhorar sua velocidade, desempenho e posicionamento nos motores de busca.",
+    serviceParagraph3: "Posso adaptar sites para torná-los acessíveis, melhorando a experiência do usuário com diversas necessidades.",
 
     /* Projects */
     projectsTitle: "Explora algum dos meus projetos",
