@@ -31,8 +31,8 @@ const indexTranslations = {
     /* Methodology */
     methodologyTitle: "Mi Metodología de Trabajo",
     article1: "¿Cuáles son las mejores prácticas que aplico para el Desarrollo Web?",
-    article2: "¿Cómo garantizo la Accesibilidad Web?",
-    article3: "¿Cómo optimizo un sitio web?",
+    article2: "¿Cómo optimizo un sitio web?",
+    article3: "¿Cómo garantizo la Accesibilidad Web?",
     articleButton: "Conocer más",
 
     /* Contact */
@@ -72,8 +72,8 @@ const indexTranslations = {
     /* Methodology */
     methodologyTitle: "My Work Methodology",
     article1: "What are the best practices I apply for Web Development?",
-    article2: "How do I ensure Web Accessibility?",
-    article3: "How do I optimize a website?",
+    article2: "How do I optimize a website?",
+    article3: "How do I ensure Web Accessibility?",
     articleButton: "Learn more",
 
     /* Contact */
@@ -113,8 +113,8 @@ const indexTranslations = {
     /* Methodology */
     methodologyTitle: "Minha Metodologia de Trabalho",
     article1: "Quais são as melhores práticas que aplico para o Desenvolvimento Web?",
-    article2: "Como garanto a Acessibilidade Web?",
-    article3: "Como otimizo um site?",
+    article2: "Como otimizo um site?",
+    article3: "Como garanto a Acessibilidade Web?",
     articleButton: "Saiba mais",
 
     /* Contact */
