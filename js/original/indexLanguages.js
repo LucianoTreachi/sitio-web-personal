@@ -16,7 +16,7 @@ const indexTranslations = {
     aboutPhrase: '"Un diseño estratégico y un desarrollo eficiente pueden marcar una gran diferencia en la conversión y la satisfacción del usuario".',
 
     /* Solutions */
-    servicesTitle: "Soluciones en las que puedo ayudar",
+    servicesTitle: "Así puedo ayudar",
     serviceTitle1: "Desarrollo Web",
     serviceTitle2: "Optimización Web",
     serviceTitle3: "Accesibilidad Web",
@@ -25,7 +25,7 @@ const indexTranslations = {
     serviceParagraph3: "Puedo adaptar sitios web para que sean accesibles, mejorando la experiencia de usuarios con diversas necesidades.",
 
     /* Projects */
-    projectsTitle: "Explora alguno de mis proyectos",
+    projectsTitle: "Alguno de mis proyectos",
     moreProjectsBtn: "Ver más proyectos",
 
     /* Methodology */
@@ -57,7 +57,7 @@ const indexTranslations = {
     aboutPhrase: '"Strategic design and efficient development can make a significant difference in conversion rates and user satisfaction."',
 
     /* Solutions */
-    servicesTitle: "Solutions I Can Help With",
+    servicesTitle: "How I Can Help",
     serviceTitle1: "Web Development",
     serviceTitle2: "Web Optimization",
     serviceTitle3: "Web Accessibility",
@@ -66,7 +66,7 @@ const indexTranslations = {
     serviceParagraph3: "I can adapt websites to be accessible, enhancing the user experience for individuals with diverse needs.",
 
     /* Projects */
-    projectsTitle: "Discover Some of My Projects",
+    projectsTitle: "Some of My Projects",
     moreProjectsBtn: "View more projects",
 
     /* Methodology */
@@ -98,7 +98,7 @@ const indexTranslations = {
     aboutPhrase: '"Um design estratégico e um desenvolvimento eficiente podem fazer uma grande diferença na conversão e na satisfação do usuário."',
 
     /* Solutions */
-    servicesTitle: "Soluções em que posso ajudar",
+    servicesTitle: "Como Posso Ajudar",
     serviceTitle1: "Desenvolvimento Web",
     serviceTitle2: "Otimização de Sites",
     serviceTitle3: "Acessibilidade Web",
@@ -107,7 +107,7 @@ const indexTranslations = {
     serviceParagraph3: "Posso adaptar sites para torná-los acessíveis, melhorando a experiência do usuário com diversas necessidades.",
 
     /* Projects */
-    projectsTitle: "Explora algum dos meus projetos",
+    projectsTitle: "Alguns dos Meus Projetos",
     moreProjectsBtn: "Ver mais projetos",
 
     /* Methodology */
