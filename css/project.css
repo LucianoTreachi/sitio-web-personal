@@ -28,7 +28,7 @@
 }
 
 html {
-  font-size: 10px;
+  font-size: 62.5%;
   scroll-padding-top: 4rem;
 }
 
@@ -52,7 +52,7 @@ a {
 }
 
 .container {
-  max-width: 1400px;
+  max-width: 140rem;
   margin: auto;
 }
 
@@ -94,15 +94,15 @@ PAGE INDIVIDUAL PROJECT
 }
 
 .page-back-btn svg {
-  width: 18px;
-  height: 18px;
+  width: 1.8rem;
+  height: 1.8rem;
   fill: var(--black);
   vertical-align: middle;
   transition: transform .4s;
 }
 
 .page-back-btn:hover svg {
-  transform: translateX(-4px);
+  transform: translateX(-0.4rem);
 }
 
 .page-title-1 {
@@ -137,7 +137,7 @@ PAGE INDIVIDUAL PROJECT
 .links {
   display: flex;
   gap: 2rem;
-  max-width: 500px;
+  max-width: 50rem;
 }
 
 .link {
@@ -149,6 +149,7 @@ PAGE INDIVIDUAL PROJECT
   align-items: center;
   gap: 1rem;
   flex: 1;
+  white-space: nowrap;
 }
 
 .link-1 {
@@ -208,8 +209,8 @@ FOOTER
 }
 
 .socials svg {
-  width: 30px;
-  height: 30px;
+  width: 3rem;
+  height: 3rem;
   fill: var(--black);
 }
 
@@ -217,7 +218,8 @@ FOOTER
 RESPONSIVE DESIGN
 ================================*/
 
-@media screen and (max-width: 1080px) {
+/* 820 px */
+@media screen and (max-width: 51.25rem) {
   .page-hero-project .container {
     width: 100%;
   }
@@ -225,9 +227,7 @@ RESPONSIVE DESIGN
   .page-content-project .container {
     width: 100%;
   }
-}
 
-@media screen and (max-width: 746px) {
   .footer {
     padding: 6rem 2rem;
   }
@@ -238,7 +238,8 @@ RESPONSIVE DESIGN
   }
 }
 
-@media screen and (max-width: 574px) {
+/* 576 px */
+@media screen and (max-width: 36rem) {
   p {
     font-size: 1.6rem;
   }
@@ -252,7 +253,8 @@ RESPONSIVE DESIGN
   }
 }
 
-@media screen and (max-width: 350px) {
+/* 340 px */
+@media screen and (max-width: 21.25rem) {
   html {
     font-size: 50%;
   }

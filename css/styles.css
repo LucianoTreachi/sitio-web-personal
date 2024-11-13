@@ -49,7 +49,7 @@
 }
 
 html {
-  font-size: 10px;
+  font-size: 62.5%;
   scroll-padding-top: 4rem;
 }
 
@@ -95,7 +95,7 @@ ul {
 }
 
 .container {
-  max-width: 1400px;
+  max-width: 140rem;
   margin: auto;
 }
 
@@ -138,7 +138,7 @@ header.active {
 }
 
 header .container {
-  max-width: 1400px;
+  max-width: 140rem;
 }
 
 nav {
@@ -182,8 +182,8 @@ nav {
 }
 
 .hamburger-icon {
-  width: 32px;
-  height: 32px;
+  width: 3.2rem;
+  height: 3.2rem;
   fill: var(--black);
   vertical-align: middle;
 }
@@ -198,8 +198,8 @@ nav {
 }
 
 .close-menu-icon {
-  width: 55px;
-  height: 55px;
+  width: 5.5rem;
+  height: 5.5rem;
   fill: var(--black);
   opacity: 0.85;
   vertical-align: middle;
@@ -297,7 +297,7 @@ SECTION: HOME
 }
 
 .home .container {
-  max-width: 1200px;
+  max-width: 120rem;
   padding-top: 8rem;
   z-index: 1;
 }
@@ -325,7 +325,7 @@ SECTION: ABOUT
 ================================*/
 
 .about .container {
-  max-width: 1000px;
+  max-width: 100rem;
 }
 
 .about .row-1 {
@@ -369,7 +369,7 @@ SECTION: SOLUTIONS
 ================================*/
 
 .solutions .container {
-  max-width: 1200px;
+  max-width: 120rem;
 }
 
 .solutions .row-1 {
@@ -389,8 +389,8 @@ SECTION: SOLUTIONS
 }
 
 .service svg {
-  width: 50px;
-  height: 50px;
+  width: 5rem;
+  height: 5rem;
   fill: var(--black);
   opacity: 0.85;
 }
@@ -408,7 +408,7 @@ SECTION: PROJECTS
 ================================*/
 
 .projects .container {
-  max-width: 1200px;
+  max-width: 120rem;
 }
 
 .projects .row {
@@ -442,14 +442,14 @@ SECTION: PROJECTS
 .more-projects-button svg {
   display: inline-block;
   vertical-align: middle;
-  width: 20px;
-  width: 20px;
+  width: 2rem;
+  width: 2rem;
   fill: var(--accent-color);
   transition: transform 0.3s ease;
 }
 
 .more-projects-button:hover svg {
-  transform: translateX(8px);
+  transform: translateX(0.8rem);
 }
 
 /*=============================== 
@@ -457,7 +457,7 @@ SECTION: MY WORK METHODOLOGY
 ================================*/
 
 .methodology .container {
-  max-width: 800px;
+  max-width: 80rem;
 }
 
 .methodology .row {
@@ -495,8 +495,8 @@ SECTION: MY WORK METHODOLOGY
 }
 
 .article-button svg {
-  width: 20px;
-  height: 20px;
+  width: 2rem;
+  height: 2rem;
   fill: var(--accent-color);
   vertical-align: middle;
   transition: transform 0.3s;
@@ -504,7 +504,7 @@ SECTION: MY WORK METHODOLOGY
 }
 
 .article-button:hover svg {
-  transform: translateX(5px);
+  transform: translateX(0.5rem);
 }
 
 /*=============================== 
@@ -512,7 +512,7 @@ SECTION: CONTACT
 ================================*/
 
 .contact .container {
-  max-width: 1200px;
+  max-width: 120rem;
 }
 
 .contact .title-section {
@@ -567,13 +567,14 @@ SECTION: FOOTER
 RESPONSIVE DESIGN
 ================================*/
 
-@media screen and (max-width: 1080px) {
+/* 1080 px */
+@media screen and (max-width: 67.5rem) {
   header {
     padding: 1.5rem 4rem;
   }
 
   .solutions .container {
-    max-width: 800px;
+    max-width: 80rem;
   }
 
   .solutions .row-1 {
@@ -582,11 +583,12 @@ RESPONSIVE DESIGN
   }
 
   .methodology .container {
-    max-width: 800px;
+    max-width: 80rem;
   }
 }
 
-@media screen and (max-width: 912px) {
+/* 912 px */
+@media screen and (max-width: 57rem) {
   .container-shape {
     text-align: initial;
   }
@@ -722,7 +724,8 @@ RESPONSIVE DESIGN
   }
 }
 
-@media screen and (max-width: 574px) {
+/* 576 px */
+@media screen and (max-width: 36rem) {
   p {
     font-size: 1.6rem;
   }
@@ -749,8 +752,8 @@ RESPONSIVE DESIGN
   }
 
   .close-menu-icon {
-    width: 35px;
-    height: 35px;
+    width: 4rem;
+    height: 4rem;
   }
 
   .nav-link {
@@ -812,7 +815,8 @@ RESPONSIVE DESIGN
   }
 }
 
-@media screen and (max-width: 350px) {
+/* 340 px */
+@media screen and (max-width: 21.25rem) {
   html {
     font-size: 50%;
   }

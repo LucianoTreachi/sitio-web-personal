@@ -2,6 +2,7 @@
 
 :root {
   --black: #1d1d1d;
+  --grey: #b3b4b6;
   --body: #f1f5f8;
   --footer: #e2e6e9;
   --accent-color: #3547b7;
@@ -11,6 +12,7 @@
 
 .dark-theme {
   --black: #fdfdfd;
+  --grey: #606060;
   --body: #171a1e;
   --footer: #0d0f12;
   --accent-color: #87e2d5;
@@ -25,7 +27,7 @@
 }
 
 html {
-  font-size: 10px;
+  font-size: 62.5%;
   scroll-padding-top: 4rem;
 }
 
@@ -54,7 +56,7 @@ select {
 }
 
 .container {
-  max-width: 1400px;
+  max-width: 140rem;
   margin: auto;
 }
 
@@ -96,15 +98,15 @@ PROJECTS
 }
 
 .page-back-btn svg {
-  width: 18px;
-  height: 18px;
+  width: 1.8rem;
+  height: 1.8rem;
   fill: var(--black);
   vertical-align: middle;
   transition: transform .4s;
 }
 
 .page-back-btn:hover svg {
-  transform: translateX(-4px);
+  transform: translateX(-0.4rem);
 }
 
 .page-title {
@@ -131,7 +133,7 @@ PROJECTS
 
 .container-select {
   margin-bottom: 3rem;
-  width: 240px;
+  width: 24rem;
   position: relative;
   overflow: hidden;
 }
@@ -141,20 +143,20 @@ PROJECTS
   top: 50%;
   transform: translateY(-50%);
   right: .5rem;
-  width: 30px;
-  height: 30px;
-  fill: var(--accent-color);
+  width: 3rem;
+  height: 3rem;
+  fill: var(--grey);
   pointer-events: none;
 }
 
 .select {
   background-color: var(--body);
-  border: 2px solid var(--accent-color);
+  border: 2px solid var(--grey);
   border-radius: 1rem;
-  padding: 1.5rem 1rem;
+  padding: 1.2rem 1rem;
   font-size: 1.8rem;
   font-weight: 500;
-  color: var(--accent-color);
+  color: var(--black);
   cursor: pointer;
   width: 100%;
 
@@ -224,8 +226,8 @@ FOOTER
 }
 
 .socials svg {
-  width: 30px;
-  height: 30px;
+  width: 3rem;
+  height: 3rem;
   fill: var(--black);
 }
 
@@ -233,7 +235,8 @@ FOOTER
 RESPONSIVE DESIGN
 ================================*/
 
-@media screen and (max-width: 1080px) {
+/* 820 px */
+@media screen and (max-width: 51.25rem) {
   .page-hero-projects .container {
     width: 100%;
   }
@@ -241,9 +244,7 @@ RESPONSIVE DESIGN
   .page-content-projects .container {
     width: 100%;
   }
-}
 
-@media screen and (max-width: 746px) {
   .footer {
     padding: 6rem 2rem;
   }
@@ -254,7 +255,8 @@ RESPONSIVE DESIGN
   }
 }
 
-@media screen and (max-width: 574px) {
+/* 576 px */
+@media screen and (max-width: 36rem) {
   .container-select {
     width: 100%;
   }
@@ -273,7 +275,8 @@ RESPONSIVE DESIGN
   }
 }
 
-@media screen and (max-width: 350px) {
+/* 340 px */
+@media screen and (max-width: 21.25rem) {
   html {
     font-size: 50%;
   }
