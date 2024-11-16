@@ -1,6 +1,6 @@
 // DOM ELEMENTS
 const header = document.querySelector("header");
-const hamburgerButton = document.querySelector(".hamburger-button");
+const openMenuButton = document.querySelector(".open-menu-button");
 const closeMenuButton = document.querySelector(".close-menu-button");
 const navbar = document.querySelector(".navbar");
 const overlay = document.querySelector(".overlay");
@@ -11,27 +11,27 @@ const sections = document.querySelectorAll('section');
 function openNavbar() {
   navbar.classList.add("active");
   overlay.classList.add("active");
-  hamburgerButton.setAttribute("aria-expanded", "true");
-  hamburgerButton.setAttribute("aria-hidden", "true");
+  openMenuButton.setAttribute("aria-expanded", "true");
+  openMenuButton.setAttribute("aria-hidden", "true");
   navLinks[0].focus();
 }
 
 function closeNavbarWithFocus() {
   navbar.classList.remove("active");
   overlay.classList.remove("active");
-  hamburgerButton.setAttribute("aria-expanded", "false");
-  hamburgerButton.setAttribute("aria-hidden", "false");
-  hamburgerButton.focus();
+  openMenuButton.setAttribute("aria-expanded", "false");
+  openMenuButton.setAttribute("aria-hidden", "false");
+  openMenuButton.focus();
 }
 
 function closeNavbar() {
   navbar.classList.remove("active");
   overlay.classList.remove("active");
-  hamburgerButton.setAttribute("aria-expanded", "false");
-  hamburgerButton.setAttribute("aria-hidden", "false");
+  openMenuButton.setAttribute("aria-expanded", "false");
+  openMenuButton.setAttribute("aria-hidden", "false");
 }
 
-hamburgerButton.addEventListener('click', openNavbar);
+openMenuButton.addEventListener('click', openNavbar);
 closeMenuButton.addEventListener('click', closeNavbarWithFocus);
 overlay.addEventListener('click', closeNavbarWithFocus);
 window.addEventListener("scroll", closeNavbar)

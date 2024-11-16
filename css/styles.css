@@ -175,7 +175,7 @@ nav {
   color: var(--accent-color);
 }
 
-.hamburger-button {
+.open-menu-button {
   display: none;
   border: 0;
   background: none;
@@ -608,7 +608,7 @@ RESPONSIVE DESIGN
     margin-bottom: 2rem;
   }
 
-  .hamburger-button {
+  .open-menu-button {
     display: block;
   }
 
