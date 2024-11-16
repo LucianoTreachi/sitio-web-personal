@@ -311,8 +311,9 @@ SECTION: HERO
   margin-bottom: 2rem;
 }
 
-.hero-paragraph {
+.hero-subtitle {
   font-size: 2.6rem;
+  font-weight: var(--text-weight);
   color: var(--black);
   opacity: 0.75;
   line-height: 1.4;
@@ -674,7 +675,7 @@ RESPONSIVE DESIGN
     text-align: initial;
   }
 
-  .hero-paragraph {
+  .hero-subtitle {
     text-align: initial;
     margin: 1rem 0 0;
     width: 80%;
@@ -779,7 +780,7 @@ RESPONSIVE DESIGN
     margin-bottom: 1rem;
   }
 
-  .hero-paragraph {
+  .hero-subtitle {
     font-size: 1.8rem;
   }
 

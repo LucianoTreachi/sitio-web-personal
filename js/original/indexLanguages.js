@@ -8,7 +8,7 @@ const indexTranslations = {
 
     /* Home */
     homeTitle: "Desarrollo Sitios y Aplicaciones Web",
-    homeParagraph: "Puedo crear soluciones web eficientes, intuitivas y fáciles de usar.",
+    heroSubtitle: "Puedo crear soluciones web eficientes, intuitivas y fáciles de usar.",
 
     /* About */
     aboutTitle: "Soy Luciano Treachi",
@@ -49,7 +49,7 @@ const indexTranslations = {
 
     /* Home */
     homeTitle: "I Develop Websites and Web Applications",
-    homeParagraph: "I can create efficient, intuitive, and user-friendly web solutions.",
+    heroSubtitle: "I can create efficient, intuitive, and user-friendly web solutions.",
 
     /* About */
     aboutTitle: "I'm Luciano Treachi",
@@ -90,7 +90,7 @@ const indexTranslations = {
 
     /* Home */
     homeTitle: "Desenvolvo Sites e Aplicações Web",
-    homeParagraph: "Posso criar soluções web eficientes, intuitivas e fáceis de usar.",
+    heroSubtitle: "Posso criar soluções web eficientes, intuitivas e fáceis de usar.",
 
     /* About */
     aboutTitle: "Eu sou Luciano Treachi",
