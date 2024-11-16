@@ -89,7 +89,7 @@ navLinks.forEach(link => {
 
       // Announce the section title
       setTimeout(() => {
-        liveRegion.textContent = targetSection.querySelector('.title-section').textContent;
+        liveRegion.textContent = targetSection.querySelector('.section-title').textContent;
       }, 100);
     }
   });

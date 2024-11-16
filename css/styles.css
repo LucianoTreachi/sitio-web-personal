@@ -16,7 +16,7 @@
   --success: #006927;
 
   --title-letter-spacing: -.02em;
-  --title-section-weight: 600;
+  --section-title-weight: 600;
   --text-weight: 400;
   --border: 2px solid hsl(0, 0%, 86%);
   --shadow: 0px 10px 15px -3px rgba(100, 100, 100, 0.1);
@@ -36,7 +36,7 @@
   --alert: #bd787f;
   --success: #21cf62;
 
-  --title-section-weight: 500;
+  --section-title-weight: 500;
   --text-weight: 300;
   --border: 2px solid hsl(0, 0%, 20%);
   --shadow: 0px 10px 15px -3px rgba(200, 200, 200, 0.1);
@@ -109,9 +109,9 @@ ul {
   height: 10rem;
 }
 
-.title-section {
+.section-title {
   font-size: 6rem;
-  font-weight: var(--title-section-weight);
+  font-weight: var(--section-title-weight);
   opacity: 0.9;
   line-height: 1.2;
   letter-spacing: var(--title-letter-spacing);
@@ -516,7 +516,7 @@ SECTION: CONTACT
   max-width: 120rem;
 }
 
-.contact .title-section {
+.contact .section-title {
   width: 100%;
 }
 
@@ -603,7 +603,7 @@ RESPONSIVE DESIGN
     display: none;
   }
 
-  .title-section {
+  .section-title {
     text-align: left;
     margin-bottom: 2rem;
   }
@@ -735,7 +735,7 @@ RESPONSIVE DESIGN
     padding: 6rem 1.6rem;
   }
 
-  .title-section {
+  .section-title {
     font-size: 3rem;
     width: 100%;
   }
@@ -822,7 +822,7 @@ RESPONSIVE DESIGN
     font-size: 50%;
   }
 
-  .title-section {
+  .section-title {
     font-size: 3rem;
   }
 }
