@@ -285,10 +285,10 @@ nav {
 }
 
 /*=============================== 
-SECTION: HOME
+SECTION: HERO
 ================================*/
 
-.home {
+.hero {
   min-height: 90vh;
   display: flex;
   justify-content: center;
@@ -296,13 +296,13 @@ SECTION: HOME
   position: relative;
 }
 
-.home .container {
+.hero .container {
   max-width: 120rem;
   padding-top: 8rem;
   z-index: 1;
 }
 
-.home-title {
+.hero-title {
   color: var(--title-color);
   text-align: center;
   font-size: clamp(3rem, 10vw, 10rem);
@@ -311,7 +311,7 @@ SECTION: HOME
   margin-bottom: 2rem;
 }
 
-.home-paragraph {
+.hero-paragraph {
   font-size: 2.6rem;
   color: var(--black);
   opacity: 0.75;
@@ -661,20 +661,20 @@ RESPONSIVE DESIGN
     pointer-events: all;
   }
 
-  .home {
+  .hero {
     min-height: 60vh;
     background-color: var(--hero);
   }
 
-  .home .container {
+  .hero .container {
     padding: 14rem 0 10rem;
   }
 
-  .home-title {
+  .hero-title {
     text-align: initial;
   }
 
-  .home-paragraph {
+  .hero-paragraph {
     text-align: initial;
     margin: 1rem 0 0;
     width: 80%;
@@ -770,16 +770,16 @@ RESPONSIVE DESIGN
     height: 2.4rem;
   }
 
-  .home .container {
+  .hero .container {
     padding: 10rem 0 6rem;
   }
 
-  .home-title {
+  .hero-title {
     line-height: 1.2;
     margin-bottom: 1rem;
   }
 
-  .home-paragraph {
+  .hero-paragraph {
     font-size: 1.8rem;
   }
 
