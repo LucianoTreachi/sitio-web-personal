@@ -13,7 +13,7 @@ function openNavbar() {
   overlay.classList.add("active");
   openMenuButton.setAttribute("aria-expanded", "true");
   openMenuButton.setAttribute("aria-hidden", "true");
-  navLinks[0].focus();
+  closeMenuButton.focus();
 }
 
 function closeNavbarWithFocus() {
