@@ -1,5 +1,5 @@
 const articlesTranslations = {
-  Español: {
+  en: {
     backBtn: "Volver",
     /* Article 1 */
     article1Title: "¿Cuáles son las mejores prácticas que aplico para el Desarrollo Web?",
@@ -32,7 +32,7 @@ const articlesTranslations = {
     article3Paragraph6: "<strong>✅ Realizo pruebas de velocidad y rendimiento.</strong> Utilizo herramientas como PageSpeed Insights o WebPageTest para medir el tiempo de carga y detectar cualquier problema.",
   },
 
-  English: {
+  en: {
     backBtn: "Back",
     /* Article 1 */
     article1Title: "What are the best practices I apply for Web Development?",
@@ -65,7 +65,7 @@ const articlesTranslations = {
     article3Paragraph6: "<strong>✅ I perform speed and performance tests.</strong> I use tools like PageSpeed Insights or WebPageTest to measure loading time and identify any issues.",
   },
 
-  Portugues: {
+  pt: {
     backBtn: "Voltar",
     /* Article 1 */
     article1Title: "Quais são as melhores práticas que aplico para o Desenvolvimento Web?",
@@ -116,5 +116,5 @@ function changeLanguagePages(lang) {
 const storedLanguage = localStorage.getItem("selectedLanguage");
 
 // If there's no language stored in LocalStorage, use a default language
-const initialLanguage = storedLanguage || "Español";
+const initialLanguage = storedLanguage || "es";
 changeLanguagePages(initialLanguage); // Change the language when the page loads

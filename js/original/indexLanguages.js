@@ -1,5 +1,5 @@
 const indexTranslations = {
-  Español: {
+  es: {
     /* Nav */
     navLink1: "Sobre mí",
     navLink2: "Soluciones",
@@ -40,7 +40,7 @@ const indexTranslations = {
     contactParagraph: "Sería muy interesante hablar sobre cómo podríamos trabajar juntos. Puedes contactarme por Email, WhatsApp o LinkedIn.",
   },
 
-  English: {
+  en: {
     /* Nav */
     navLink1: "About me",
     navLink2: "Solutions",
@@ -81,7 +81,7 @@ const indexTranslations = {
     contactParagraph: "It would be very interesting to discuss how we work together. You can reach me through Email, WhatsApp, or LinkedIn.",
   },
 
-  Portugues: {
+  pt: {
     /* Nav */
     navLink1: "Sobre mim",
     navLink2: "Soluções",
@@ -210,7 +210,7 @@ menuLanguageButtons.forEach((button, index) => {
 const storedLanguage = localStorage.getItem("selectedLanguage");
 
 // If there's no language stored in localStorage, use a default language
-const initialLanguage = storedLanguage || "Español";
+const initialLanguage = storedLanguage || "es";
 
 // On page load, set the initial language
 changeLanguage(initialLanguage);
