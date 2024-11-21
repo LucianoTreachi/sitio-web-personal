@@ -147,13 +147,17 @@ FOOTER
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .socials a {
   font-size: 2.5rem;
   opacity: .75;
-  transition: all .4s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  transition: transform 0.4s;
 }
 
 .socials a:hover {
@@ -162,8 +166,8 @@ FOOTER
 }
 
 .socials svg {
-  width: 3rem;
-  height: 3rem;
+  width: 3.4rem;
+  height: 3.4rem;
   fill: var(--black);
 }
 

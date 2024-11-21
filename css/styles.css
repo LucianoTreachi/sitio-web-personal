@@ -531,13 +531,17 @@ SECTION: CONTACT
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .socials a {
   font-size: 2.5rem;
   opacity: 0.75;
-  transition: all 0.4s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  transition: transform .4s;
 }
 
 .socials a:hover {
