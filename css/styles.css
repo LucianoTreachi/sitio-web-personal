@@ -155,13 +155,14 @@ header .container {
   padding: 1.5rem 4rem;
   z-index: 4;
   font-size: 2rem;
+  font-weight: 600;
   translate: 0 -150%;
   transition: translate 150ms ease-in-out;
 }
 
 .skip-link:focus {
   translate: 0;
-  outline: 2px solid #fff;
+  outline: 2px solid var(--title-color);
   outline-offset: 2px;
 }
 
@@ -329,7 +330,7 @@ SECTION: HERO
 .hero-title {
   color: var(--title-color);
   background: var(--title-gradient);
-   background-clip: text;
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
