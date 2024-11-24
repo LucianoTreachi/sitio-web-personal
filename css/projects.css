@@ -55,6 +55,11 @@ select {
   color: inherit;
 }
 
+a:focus,
+button:focus {
+  outline-offset: 1rem;
+}
+
 .container {
   max-width: 140rem;
   margin: auto;
