@@ -88,7 +88,7 @@ function setActiveLink() {
   }
 }
 
-// SCROLL TO SECTION: Smooth scroll to target section on link click and Announce the al the content
+// SCROLL TO SECTION: Smooth scroll to target section on link click and Announce the content for the screen readers
 navLinks.forEach(link => {
   link.addEventListener('click', (event) => {
     event.preventDefault();
@@ -97,13 +97,23 @@ navLinks.forEach(link => {
     const targetSection = document.getElementById(sectionId);
 
     if (targetSection) {
-      // Force screen readers to announce the section's content by momentarily clearing and restoring it
-      const originalContent = targetSection.innerHTML;
-      targetSection.innerHTML = ''; //
+      // Smooth scroll to the target section
+      targetSection.scrollIntoView({ behavior: 'smooth' });
+
+      // For the screen reader
+      let liveRegion = document.getElementById('live-region');
+      if (!liveRegion) {
+        liveRegion = document.createElement('div');
+        liveRegion.id = 'live-region';
+        liveRegion.setAttribute('aria-live', 'polite');
+        liveRegion.setAttribute('style', 'position: absolute; left: -9999px;');
+        document.body.appendChild(liveRegion);
+      }
+
+      // Announce the full content of the section
       setTimeout(() => {
-        targetSection.innerHTML = originalContent;
-        targetSection.scrollIntoView({ behavior: 'smooth' });
-      }, 50);
+        liveRegion.innerHTML = targetSection.innerHTML;
+      }, 100);
     }
   });
 });
