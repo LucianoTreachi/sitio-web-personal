@@ -1,5 +1,8 @@
 const indexTranslations = {
   es: {
+    /* Skip link */
+    skipLink: "Ir al contenido principal",
+
     /* Nav */
     navLink1: "Sobre mí",
     navLink2: "Soluciones",
@@ -41,6 +44,9 @@ const indexTranslations = {
   },
 
   en: {
+    /* Skip link */
+    skipLink: "Skip to main content",
+
     /* Nav */
     navLink1: "About me",
     navLink2: "Solutions",
@@ -82,6 +88,9 @@ const indexTranslations = {
   },
 
   pt: {
+    /* Skip link */
+    skipLink: "Ir para o conteúdo principal",
+
     /* Nav */
     navLink1: "Sobre mim",
     navLink2: "Soluções",

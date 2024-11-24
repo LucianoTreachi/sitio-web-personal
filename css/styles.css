@@ -139,6 +139,28 @@ header.active {
 
 header .container {
   max-width: 140rem;
+  position: relative;
+}
+
+.skip-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  background-color: var(--body);
+  padding: 1.5rem 4rem;
+  z-index: 4;
+  font-size: 2rem;
+  translate: 0 -150%;
+  transition: translate 150ms ease-in-out;
+}
+
+.skip-link:focus {
+  translate: 0;
+  outline: 2px solid #fff;
+  outline-offset: 2px;
 }
 
 nav {

@@ -1,4 +1,7 @@
 // DOM ELEMENTS
+const skipLink = document.querySelector(".skip-link");
+const heroTitle = document.querySelector(".hero-title");
+const navLogo = document.querySelector(".nav-logo");
 const header = document.querySelector("header");
 const openMenuButton = document.querySelector(".open-menu-button");
 const closeMenuButton = document.querySelector(".close-menu-button");
@@ -6,6 +9,25 @@ const navbar = document.querySelector(".navbar");
 const overlay = document.querySelector(".overlay");
 const navLinks = document.querySelectorAll(".nav-link");
 const sections = document.querySelectorAll('section');
+
+// SKIP TO MAIN CONTENT: Prevent default action, focus on the main title, and manage Escape key interaction 
+skipLink.addEventListener("click", (event) => {
+  event.preventDefault();
+
+  if (heroTitle) {
+    heroTitle.setAttribute("tabindex", "-1");
+    heroTitle.focus();
+  }
+
+  skipLink.blur();
+});
+
+skipLink.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") {
+    skipLink.blur();
+    navLogo.focus();
+  }
+});
 
 // NAVBAR: Toggle mobile navbar visibility, overlay, aria attributes and focus
 function openNavbar() {
@@ -34,15 +56,20 @@ function closeNavbar() {
 openMenuButton.addEventListener('click', openNavbar);
 closeMenuButton.addEventListener('click', closeNavbarWithFocus);
 overlay.addEventListener('click', closeNavbarWithFocus);
-window.addEventListener("scroll", closeNavbar)
 
 navLinks.forEach(link => {
   link.addEventListener('click', closeNavbar);
 });
 
-// HEADER ACTIVE: Add 'active' class to header on scroll to create a sticky header effect
+// SCROLL: Toggle 'active' class on the header, blur the skip link, highlight active link, and close navbar if open
 window.addEventListener("scroll", () => {
   header.classList.toggle("active", window.scrollY > 0)
+  skipLink.blur();
+  setActiveLink();
+
+  if (navbar.classList.contains("active")) {
+    closeNavbar();
+  }
 })
 
 // ACTIVE LINK: Highlight the current section's link in the navbar based on scroll position
@@ -60,8 +87,6 @@ function setActiveLink() {
     });
   }
 }
-
-window.addEventListener('scroll', setActiveLink);
 
 // SCROLL TO SECTION: Smooth scroll to target section on link click and Announce the section title
 navLinks.forEach(link => {
