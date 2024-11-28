@@ -68,7 +68,7 @@ const projectsTranslations = {
     project12Paragraph: "Diseñé y desarrollé un sitio web que reúne los mejores cursos online de programación, clasificados por Frontend, Backend y Aplicaciones Móviles.",
 
     /* Project 13 */
-    project13MainTitle: "Optimización Web",
+    project13MainTitle: "Optimizador Web",
     project13Paragraph: "Diseñé y desarrollé un sitio web que ofrece una lista de verificaciones para optimizar el Desarrollo Web y lograr una presencia en línea impecable.",
 
     /* Project 14 */
@@ -145,7 +145,7 @@ const projectsTranslations = {
     project12Paragraph: "I designed and developed a website that brings together the best online programming courses, classified by Frontend, Backend, and Mobile Applications.",
 
     /* Project 13 */
-    project13MainTitle: "Web Optimization",
+    project13MainTitle: "Web Optimizer",
     project13Paragraph: "I designed and developed a website that offers a checklist to optimize Web Development and achieve impeccable online presence. ",
 
     /* Project 14 */
@@ -222,7 +222,7 @@ const projectsTranslations = {
     project12Paragraph: "Criei e desenvolvi um site que reúne os melhores cursos online de programação, classificados por Frontend, Backend e Aplicações Móveis.",
 
     /* Project 13 */
-    project13MainTitle: "Otimização Web",
+    project13MainTitle: "Otimizador Web",
     project13Paragraph: "Criei e desenvolvi um site que oferece uma lista de verificação para otimizar o Desenvolvimento Web e alcançar uma presença online impecável.",
 
     /* Project 14 */
