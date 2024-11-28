@@ -368,7 +368,7 @@ SECTION: ABOUT
 }
 
 .about .row-1 p {
-  width: 80%;
+  max-width: 50rem;
   margin: 0 auto;
   text-align: center;
   font-size: 2rem;
@@ -556,7 +556,7 @@ SECTION: CONTACT
 
 .contact-paragraph {
   margin: 1rem auto;
-  width: 60%;
+  max-width: 48rem;
   text-align: center;
 }
 
@@ -748,7 +748,6 @@ RESPONSIVE DESIGN
   }
 
   .contact-paragraph {
-    width: 100%;
     text-align: left;
     margin: initial;
   }
@@ -824,7 +823,6 @@ RESPONSIVE DESIGN
 
   .about .row-1 p {
     font-size: initial;
-    width: 100%;
   }
 
   .about .row-3 blockquote {
