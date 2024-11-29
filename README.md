@@ -1,11 +1,10 @@
-<div align="center">
-  <img src="https://res.cloudinary.com/dwqk2mkgh/image/upload/v1723926862/Portfolio-Personal/banner_lkkr0e.jpg" width="100%" alt="Banner"/>
-</div>
+# Sitio Web Personal
 
-# Luciano Treachi - Desarrollador Frontend
+[![banner.jpg](https://i.postimg.cc/R0QhhNY7/banner.jpg)](https://postimg.cc/wtMgbTgM)
 
-### Creo soluciones web eficientes, intuitivas y fáciles de usar que potencian la experiencia de usuario.
+**Luciano Treachi**
 
-#### Sitio Web
+Soy un Desarrollador Frontend dedicado a crear soluciones web eficientes, accesibles, intuitivas y fáciles de usar que potencian la experiencia del usuario.
 
-[https://lucianotreachi.vercel.app/](https://lucianotreachi.vercel.app/)
+[![Sitio Web](https://img.shields.io/badge/Sitio_Web-black?style=for-the-badge&logoColor=white)](https://lucianotreachi.vercel.app/)
+[![linkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logoColor=white)](https://www.linkedin.com/in/luciano-treachi/)
