@@ -23,9 +23,9 @@ const indexTranslations = {
     serviceTitle1: "Desarrollo Web",
     serviceTitle2: "Optimización Web",
     serviceTitle3: "Accesibilidad Web",
-    serviceParagraph1: "Puedo desarrollar sitios web optimizados y adaptados a cualquier dispositivo, mejorando la experiencia en línea.",
-    serviceParagraph2: "Puedo optimizar sitios web para mejorar significativamente su velocidad, rendimiento y posicionamiento en buscadores.",
-    serviceParagraph3: "Puedo adaptar sitios web para que sean accesibles, mejorando la experiencia de usuarios con diversas necesidades.",
+    serviceParagraph1: "Puedo desarrollar sitios web optimizados y adaptados a cualquier dispositivo.",
+    serviceParagraph2: "Puedo optimizar sitios web para mejorar significativamente su velocidad y rendimiento.",
+    serviceParagraph3: "Puedo adaptar sitios web para que sean accesibles para todos los usuarios.",
 
     /* Projects */
     projectsTitle: "Alguno de mis proyectos",
@@ -67,9 +67,9 @@ const indexTranslations = {
     serviceTitle1: "Web Development",
     serviceTitle2: "Web Optimization",
     serviceTitle3: "Web Accessibility",
-    serviceParagraph1: "I can develop optimized websites that are adaptable to any device, enhancing the online experience.",
-    serviceParagraph2: "I can optimize websites to significantly improve their speed, performance, and search engine ranking.",
-    serviceParagraph3: "I can adapt websites to be accessible, enhancing the user experience for individuals with diverse needs.",
+    serviceParagraph1: "I can develop optimized websites adapted to any device.",
+    serviceParagraph2: "I can optimize websites to significantly improve their speed and performance.",
+    serviceParagraph3: "I can adapt websites to make them accessible to all users.",
 
     /* Projects */
     projectsTitle: "Some of My Projects",
@@ -111,9 +111,9 @@ const indexTranslations = {
     serviceTitle1: "Desenvolvimento Web",
     serviceTitle2: "Otimização de Sites",
     serviceTitle3: "Acessibilidade Web",
-    serviceParagraph1: "Posso desenvolver sites otimizados e adaptados a qualquer dispositivo, melhorando a experiência online.",
-    serviceParagraph2: "Posso otimizar sites para melhorar sua velocidade, desempenho e posicionamento nos motores de busca.",
-    serviceParagraph3: "Posso adaptar sites para torná-los acessíveis, melhorando a experiência do usuário com diversas necessidades.",
+    serviceParagraph1: "Posso desenvolver sites otimizados e adaptados para qualquer dispositivo.",
+    serviceParagraph2: "Posso otimizar sites para melhorar significativamente sua velocidade e desempenho.",
+    serviceParagraph3: "Posso adaptar sites para torná-los acessíveis a todos os usuários.",
 
     /* Projects */
     projectsTitle: "Alguns dos Meus Projetos",
