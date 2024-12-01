@@ -27,11 +27,6 @@
   box-sizing: border-box;
 }
 
-html {
-  font-size: 62.5%;
-  scroll-padding-top: 4rem;
-}
-
 body {
   font-family: system-ui;
   background-color: var(--body);
@@ -46,10 +41,10 @@ h3 {
 }
 
 p {
-  font-size: 1.9rem;
+  font-size: 1.25rem;
   font-weight: var(--text-weight);
   opacity: 0.70;
-  line-height: 1.6em;
+  line-height: 1.5;
   text-wrap: pretty;
 }
 
@@ -60,11 +55,11 @@ a {
 
 a:focus,
 button:focus {
-  outline-offset: 1rem;
+  outline-offset: 0.5rem;
 }
 
 .container {
-  max-width: 140rem;
+  max-width: 87.5rem;
   margin: auto;
 }
 
@@ -74,7 +69,7 @@ PAGE INDIVIDUAL PROJECT
 
 .page-hero-project {
   background-color: var(--footer);
-  padding: 6rem 4rem;
+  padding: 3.75rem 2.5rem;
   position: relative;
   overflow: hidden;
   animation: fadeIn .4s linear;
@@ -94,10 +89,10 @@ PAGE INDIVIDUAL PROJECT
 
 .page-back-btn {
   display: inline-block;
-  padding: 1rem 0;
-  font-size: 1.6rem;
+  padding: 0.625rem 0;
+  font-size: 1rem;
   font-weight: 500;
-  margin-bottom: 2rem;
+  margin-bottom: 1.25rem;
   transition: opacity .3s;
 }
 
@@ -106,31 +101,31 @@ PAGE INDIVIDUAL PROJECT
 }
 
 .page-back-btn svg {
-  width: 1.8rem;
-  height: 1.8rem;
+  width: 1.125rem;
+  height: 1.125rem;
   fill: var(--black);
   vertical-align: middle;
   transition: transform .4s;
 }
 
 .page-back-btn:hover svg {
-  transform: translateX(-0.4rem);
+  transform: translateX(-0.25rem);
 }
 
 .page-title-1 {
-  font-size: 3rem;
+  font-size: 1.875rem;
   font-weight: var(--title-weight);
 }
 
 .page-title-2 {
-  font-size: 2.2rem;
+  font-size: 1.375rem;
   font-weight: var(--title-weight);
   opacity: 0.9;
-  margin-bottom: 2rem;
+  margin-bottom: 1.25rem;
 }
 
 .page-content-project {
-  padding: 6rem 4rem;
+  padding: 3.75rem 2.5rem;
   animation: fadeIn .4s linear;
 }
 
@@ -144,17 +139,17 @@ PAGE INDIVIDUAL PROJECT
 }
 
 .page-content-project p:not(:last-child) {
-  margin-bottom: 4rem;
+  margin-bottom: 2.5rem;
 }
 
 .links {
   display: flex;
   gap: 2rem;
-  max-width: 50rem;
+  max-width: 31.25rem;
 }
 
 .link {
-  font-size: 1.8rem;
+  font-size: 1.125rem;
   font-weight: 600;
   border-radius: 1rem;
   display: flex;
@@ -167,14 +162,14 @@ PAGE INDIVIDUAL PROJECT
 }
 
 .link-1 {
-  padding: 1.5rem 4rem;
+  padding: 1rem 2.5rem;
   color: var(--link-text-color);
   background-color: var(--accent-color);
   border: 2px solid var(--accent-color);
 }
 
 .link-2 {
-  padding: 1.5rem 3rem;
+  padding: 1rem 1.875rem;
   color: var(--accent-color);
   border: 2px solid var(--accent-color);
 }
@@ -185,7 +180,7 @@ PAGE INDIVIDUAL PROJECT
 }
 
 .mockup {
-  margin-top: 6rem;
+  margin-top: 3.75rem;
   display: block;
   max-width: 50%;
   height: auto;
@@ -197,13 +192,13 @@ FOOTER
 
 .footer {
   background-color: var(--footer);
-  padding: 6rem 4rem;
+  padding: 3.75rem 2.5rem;
   text-align: center;
   position: relative;
 }
 
 .socials {
-  margin-top: 2rem;
+  margin-top: 1.25rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -211,12 +206,11 @@ FOOTER
 }
 
 .socials a {
-  font-size: 2.5rem;
+  font-size: 1.625rem;
   opacity: .75;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0.5rem;
   transition: transform .4s;
 }
 
@@ -226,8 +220,8 @@ FOOTER
 }
 
 .socials svg {
-  width: 3.4rem;
-  height: 3.4rem;
+  width: 2rem;
+  height: 2rem;
   fill: var(--black);
 }
 
@@ -245,20 +239,20 @@ RESPONSIVE DESIGN
     width: 100%;
   }
 
-  .footer {
-    padding: 6rem 2rem;
-  }
-
   .page-hero-project,
   .page-content-project {
-    padding: 6rem 2rem;
+    padding: 3.75rem 1.25rem;
+  }
+
+  .footer {
+    padding: 3.75rem 1.25rem;
   }
 }
 
 /* 576 px */
 @media screen and (max-width: 36rem) {
   p {
-    font-size: 1.7rem;
+    font-size: 1.125rem;
   }
 
   .links {
@@ -268,11 +262,20 @@ RESPONSIVE DESIGN
   .mockup {
     max-width: 100%;
   }
+
+  .page-hero-project,
+  .page-content-project {
+    padding: 3.75rem 1rem;
+  }
+
+  .footer {
+    padding: 3.75rem 1rem;
+  }
 }
 
 /* 340 px */
 @media screen and (max-width: 21.25rem) {
   html {
-    font-size: 50%;
+    font-size: 90%;
   }
 }

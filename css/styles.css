@@ -51,7 +51,6 @@
 }
 
 html {
-  font-size: 62.5%;
   scroll-padding-top: 4rem;
 }
 
@@ -69,7 +68,7 @@ h3 {
 }
 
 p {
-  font-size: 2rem;
+  font-size: 1.25rem;
   font-weight: var(--text-weight);
   opacity: 0.70;
   line-height: 1.5;
@@ -99,38 +98,38 @@ ul {
 
 a:focus,
 button:focus {
-  outline-offset: 1rem;
+  outline-offset: 0.5rem;
 }
 
 /* COMMON CLASSES */
 
 .section {
-  padding: 10rem 4rem;
+  padding: 6.25rem 2.5rem;
 }
 
 .container {
-  max-width: 140rem;
+  max-width: 87.5rem;
   margin: auto;
 }
 
 .container-shape {
-  margin-bottom: 4rem;
+  margin-bottom: 2.5rem;
   text-align: center;
 }
 
 .container-shape svg {
-  width: 10rem;
-  height: 10rem;
+  width: 6.25rem;
+  height: 6.25rem;
 }
 
 .section-title {
-  font-size: 6rem;
+  font-size: 3.75rem;
   font-weight: var(--section-title-weight);
   opacity: 0.9;
   line-height: 1.2;
   letter-spacing: var(--title-letter-spacing);
   text-align: center;
-  margin-bottom: 6rem;
+  margin-bottom: 3.75rem;
 }
 
 /*=============================== 
@@ -143,7 +142,7 @@ header {
   left: 0;
   right: 0;
   z-index: 3;
-  padding: 1.5rem 4rem;
+  padding: 1rem 2.5rem;
 }
 
 header.active {
@@ -152,7 +151,7 @@ header.active {
 }
 
 header .container {
-  max-width: 140rem;
+  max-width: 87.5rem;
   position: relative;
 }
 
@@ -164,9 +163,9 @@ header .container {
   width: 100%;
   text-align: center;
   background-color: var(--body);
-  padding: 1.5rem 4rem;
+  padding: 1rem 2.5rem;
   z-index: 4;
-  font-size: 2rem;
+  font-size: 1.25rem;
   font-weight: 600;
   translate: 0 -150%;
   transition: translate 150ms ease-in-out;
@@ -185,18 +184,18 @@ nav {
 }
 
 .nav-logo {
-  font-size: 2.5rem;
+  font-size: 1.625rem;
   font-weight: 500;
 }
 
 .navbar {
   display: flex;
   align-items: center;
-  gap: 3rem;
+  gap: 1.875rem;
 }
 
 .nav-link {
-  font-size: 2rem;
+  font-size: 1.25rem;
   font-weight: 600;
   opacity: 0.7;
   transition: opacity 0.3s ease;
@@ -219,8 +218,8 @@ nav {
 }
 
 .hamburger-icon {
-  width: 3.2rem;
-  height: 3.2rem;
+  width: 2rem;
+  height: 2rem;
   fill: var(--black);
   vertical-align: middle;
 }
@@ -230,13 +229,13 @@ nav {
   border: 0;
   background: none;
   position: absolute;
-  top: 1rem;
-  left: 2rem;
+  top: 0.625rem;
+  left: 1.25rem;
 }
 
 .close-menu-icon {
-  width: 5.5rem;
-  height: 5.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
   fill: var(--black);
   opacity: 0.85;
   vertical-align: middle;
@@ -256,8 +255,8 @@ nav {
 }
 
 .theme-button svg {
-  width: 3rem;
-  height: 3rem;
+  width: 1.875rem;
+  height: 1.875rem;
   fill: var(--black);
 }
 
@@ -279,17 +278,17 @@ nav {
 }
 
 .language-button svg {
-  width: 3rem;
-  height: 3rem;
+  width: 1.875rem;
+  height: 1.875rem;
   fill: var(--black);
 }
 
 .language-menu {
   position: absolute;
-  top: 3rem;
+  top: 1.875rem;
   right: 0;
-  margin-top: 1rem;
-  border-radius: 0.5rem;
+  margin-top: 0.625rem;
+  border-radius: 1rem;
   border: var(--border);
   background: var(--grey);
   padding: 0.5rem;
@@ -304,7 +303,7 @@ nav {
 }
 
 .language-menu li {
-  border-radius: 0.5rem;
+  border-radius: 0.8rem;
 }
 
 .language-menu li:hover {
@@ -313,10 +312,10 @@ nav {
 
 .language-menu button {
   border: none;
-  border-radius: 0.5rem;
+  border-radius: 0.8rem;
   background: transparent;
-  padding: 1rem 2rem;
-  font-size: 1.6rem;
+  padding: 0.625rem 1.25rem;
+  font-size: 1rem;
   font-weight: 500;
   opacity: 0.7;
   text-align: left;
@@ -336,8 +335,8 @@ SECTION: HERO
 }
 
 .hero .container {
-  max-width: 120rem;
-  padding-top: 8rem;
+  max-width: 75rem;
+  padding-top: 5rem;
   z-index: 1;
 }
 
@@ -348,14 +347,14 @@ SECTION: HERO
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
-  font-size: clamp(5rem, 10vw, 10rem);
+  font-size: clamp(2.5rem, 10.25vw, 6.25rem);
   line-height: 1;
   letter-spacing: var(--title-letter-spacing);
-  margin-bottom: 2rem;
+  margin-bottom: 1.25rem;
 }
 
 .hero-subtitle {
-  font-size: 2.6rem;
+  font-size: 1.625rem;
   font-weight: var(--text-weight);
   color: var(--black);
   opacity: 0.75;
@@ -369,15 +368,15 @@ SECTION: ABOUT
 ================================*/
 
 .about .container {
-  max-width: 100rem;
+  max-width: 62.5rem;
 }
 
 .about .row-1 {
-  margin-bottom: 8rem;
+  margin-bottom: 5rem;
 }
 
 .about .row-1 p {
-  max-width: 50rem;
+  max-width: 31.25rem;
   margin: 0 auto;
   text-align: center;
 }
@@ -385,7 +384,7 @@ SECTION: ABOUT
 .about .row-2 {
   display: grid;
   place-items: center;
-  margin-bottom: 8rem;
+  margin-bottom: 5rem;
 }
 
 .about .row-2 img {
@@ -397,7 +396,7 @@ SECTION: ABOUT
 }
 
 .about .row-3 blockquote {
-  font-size: 3rem;
+  font-size: 1.875rem;
   font-weight: 500;
   opacity: 0.78;
   line-height: 1.5;
@@ -412,35 +411,35 @@ SECTION: SOLUTIONS
 ================================*/
 
 .solutions .container {
-  max-width: 120rem;
+  max-width: 75rem;
 }
 
 .solutions .row-1 {
-  margin-top: 4rem;
+  margin-top: 2.5rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 6rem;
+  gap: 3.75rem;
 }
 
 .service {
   display: flex;
   flex-direction: column;
-  padding: 2rem;
+  padding: 1.25rem;
   border-radius: 1rem;
   border: var(--border);
   box-shadow: var(--shadow);
 }
 
 .service svg {
-  width: 5rem;
-  height: 5rem;
+  width: 3.75rem;
+  height: 3.75rem;
   fill: var(--black);
   opacity: 0.85;
 }
 
 .service h3 {
-  margin: 2rem 0 1rem;
-  font-size: 2.4rem;
+  margin: 1.25rem 0 0.625rem;
+  font-size: 1.5rem;
   font-weight: 500;
   letter-spacing: var(--title-letter-spacing);
   opacity: 0.78;
@@ -451,14 +450,15 @@ SECTION: PROJECTS
 ================================*/
 
 .projects .container {
-  max-width: 120rem;
+  max-width: 75rem;
 }
 
 .projects .row {
-  margin-top: 4rem;
+  margin-top: 2.5rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 2rem;
+  row-gap: 1rem;
+  column-gap: 0.5rem;
 }
 
 .project-img {
@@ -475,8 +475,8 @@ SECTION: PROJECTS
 .more-projects-button {
   display: block;
   padding: 1rem;
-  margin-top: 6rem;
-  font-size: 2.2rem;
+  margin-top: 3.75rem;
+  font-size: 1.5rem;
   font-weight: 600;
   color: var(--accent-color);
   text-align: center;
@@ -485,8 +485,8 @@ SECTION: PROJECTS
 .more-projects-button svg {
   display: inline-block;
   vertical-align: middle;
-  width: 2rem;
-  width: 2rem;
+  width: 1.25rem;
+  width: 1.25rem;
   fill: var(--accent-color);
   transition: transform 0.3s ease;
 }
@@ -500,27 +500,27 @@ SECTION: MY WORK METHODOLOGY
 ================================*/
 
 .methodology .container {
-  max-width: 80rem;
+  max-width: 50rem;
 }
 
 .methodology .row {
-  margin-top: 4rem;
+  margin-top: 2.5rem;
   display: grid;
-  gap: 4rem;
+  gap: 2.5rem;
 }
 
 .article {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  padding: 2rem;
+  padding: 1.25rem;
   border-radius: 1rem;
   border: var(--border);
   box-shadow: var(--shadow);
 }
 
 .article-title {
-  font-size: 2.4rem;
+  font-size: 1.5rem;
   font-weight: 600;
   opacity: 0.78;
   line-height: 1.4;
@@ -528,18 +528,17 @@ SECTION: MY WORK METHODOLOGY
 }
 
 .article-button {
-  margin-top: 1rem;
-  padding: 1rem 0;
+  padding: 0.625rem 0;
   width: max-content;
-  font-size: 2rem;
+  font-size: 1.25rem;
   font-weight: 600;
   color: var(--accent-color);
   z-index: 1;
 }
 
 .article-button svg {
-  width: 2rem;
-  height: 2rem;
+  width: 1.25rem;
+  height: 1.25rem;
   fill: var(--accent-color);
   vertical-align: middle;
   transition: transform 0.3s;
@@ -555,7 +554,7 @@ SECTION: CONTACT
 ================================*/
 
 .contact .container {
-  max-width: 120rem;
+  max-width: 75rem;
 }
 
 .contact .section-title {
@@ -563,13 +562,13 @@ SECTION: CONTACT
 }
 
 .contact-paragraph {
-  margin: 1rem auto;
-  max-width: 48rem;
+  margin: 0.625rem auto;
+  max-width: 30rem;
   text-align: center;
 }
 
 .socials {
-  margin-top: 6rem;
+  margin-top: 3.75rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -577,12 +576,11 @@ SECTION: CONTACT
 }
 
 .socials a {
-  font-size: 2.5rem;
+  font-size: 1.625rem;
   opacity: 0.75;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0.5rem;
   transition: transform .4s;
 }
 
@@ -592,8 +590,8 @@ SECTION: CONTACT
 }
 
 .socials svg {
-  width: 4rem;
-  height: 4rem;
+  width: 2.5rem;
+  height: 2.5rem;
   fill: var(--black);
 }
 
@@ -603,7 +601,7 @@ SECTION: FOOTER
 
 .footer {
   background-color: var(--footer);
-  padding: 6rem 4rem;
+  padding: 3.75rem 2.5rem;
 }
 
 .footer-paragraph {
@@ -616,21 +614,21 @@ RESPONSIVE DESIGN
 
 /* 1080 px */
 @media screen and (max-width: 67.5rem) {
-  header {
+  /* header {
     padding: 1.5rem 4rem;
-  }
+  } */
 
   .solutions .container {
-    max-width: 80rem;
+    max-width: 50rem;
   }
 
   .solutions .row-1 {
     grid-template-columns: 1fr;
-    gap: 4rem;
+    gap: 2.5rem;
   }
 
   .methodology .container {
-    max-width: 80rem;
+    max-width: 50rem;
   }
 }
 
@@ -641,8 +639,8 @@ RESPONSIVE DESIGN
   }
 
   .container-shape svg {
-    width: 7rem;
-    height: 7rem;
+    width: 5rem;
+    height: 5rem;
   }
 
   .container-shape-about {
@@ -651,7 +649,7 @@ RESPONSIVE DESIGN
 
   .section-title {
     text-align: left;
-    margin-bottom: 2rem;
+    margin-bottom: 1.25rem;
   }
 
   .open-menu-button {
@@ -676,7 +674,7 @@ RESPONSIVE DESIGN
     height: 100vh;
     overflow-y: auto;
     background-color: var(--navbar);
-    padding: 10rem 8rem;
+    padding: 6.25rem 5rem;
     align-items: initial;
     z-index: 3;
   }
@@ -699,7 +697,7 @@ RESPONSIVE DESIGN
     right: 0;
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 1.875rem;
   }
 
   .overlay.active {
@@ -714,7 +712,7 @@ RESPONSIVE DESIGN
   }
 
   .hero .container {
-    padding: 14rem 0 10rem;
+    padding: 8.75rem 0 6.25rem;
   }
 
   .hero-title {
@@ -723,12 +721,12 @@ RESPONSIVE DESIGN
 
   .hero-subtitle {
     text-align: initial;
-    margin: 1rem 0 0;
+    margin: 0.625rem 0 0;
     width: 80%;
   }
 
   .about .row-1 {
-    margin-bottom: 4rem;
+    margin-bottom: 2.5rem;
   }
 
   .about .row-1 p {
@@ -738,7 +736,7 @@ RESPONSIVE DESIGN
 
   .about .row-2 {
     place-items: initial;
-    margin-bottom: 4rem;
+    margin-bottom: 2.5rem;
   }
 
   .about .row-3 blockquote {
@@ -761,7 +759,7 @@ RESPONSIVE DESIGN
   }
 
   .socials {
-    margin-top: 4rem;
+    margin-top: 2.5rem;
     justify-content: initial;
   }
 
@@ -773,24 +771,24 @@ RESPONSIVE DESIGN
 /* 576 px */
 @media screen and (max-width: 36rem) {
   p {
-    font-size: 1.8rem;
+    font-size: 1.125rem;
   }
 
   .section {
-    padding: 6rem 1.6rem;
+    padding: 3.75rem 1rem;
   }
 
   .section-title {
-    font-size: 4rem;
+    font-size: 1.875rem;
     width: 100%;
   }
 
   header {
-    padding: 1.5rem 1.6rem;
+    padding: 1rem;
   }
 
   .nav-logo {
-    font-size: 1.8rem;
+    font-size: 1.125rem;
   }
 
   .navbar {
@@ -798,39 +796,39 @@ RESPONSIVE DESIGN
   }
 
   .close-menu-icon {
-    width: 4rem;
-    height: 4rem;
+    width: 2.5rem;
+    height: 2.5rem;
   }
 
   .nav-link {
-    font-size: 2rem;
+    font-size: 1.25rem;
   }
 
   .theme-button svg {
-    width: 2.4rem;
-    height: 2.4rem;
+    width: 1.5rem;
+    height: 1.5rem;
   }
 
   .language-button svg {
-    width: 2.4rem;
-    height: 2.4rem;
+    width: 1.5rem;
+    height: 1.5rem;
   }
 
   .hero .container {
-    padding: 10rem 0 6rem;
+    padding: 6.25rem 0 3.75rem;
   }
 
   .hero-title {
     line-height: 1.2;
-    margin-bottom: 1rem;
+    margin-bottom: 0.625rem;
   }
 
   .hero-subtitle {
-    font-size: 2rem;
+    font-size: 1.25rem;
   }
 
   .about .row-3 blockquote {
-    font-size: 2.6rem;
+    font-size: 1.625rem;
   }
 
   .project-img:hover {
@@ -838,12 +836,12 @@ RESPONSIVE DESIGN
   }
 
   .more-projects-button {
-    margin-top: 4.2rem;
-    font-size: 2rem;
+    margin-top: 1.25rem;
+    font-size: 1.25rem;
   }
 
   .article-title {
-    font-size: 2.2rem;
+    font-size: 1.375rem;
   }
 
   .socials a:hover {
@@ -852,17 +850,13 @@ RESPONSIVE DESIGN
   }
 
   .footer {
-    padding: 6rem 1.6rem;
+    padding: 3.75rem 1rem;
   }
 }
 
 /* 340 px */
 @media screen and (max-width: 21.25rem) {
   html {
-    font-size: 50%;
-  }
-
-  .section-title {
-    font-size: 3rem;
+    font-size: 80%;
   }
 }
