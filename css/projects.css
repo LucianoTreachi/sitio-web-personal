@@ -37,8 +37,15 @@ body {
   color: var(--black);
 }
 
+h1,
+h2,
+h3 {
+  text-wrap: balance;
+  overflow-wrap: break-word;
+}
+
 p {
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   font-weight: var(--text-weight);
   opacity: 0.70;
   line-height: 1.6em;
@@ -92,7 +99,7 @@ PROJECTS
 .page-back-btn {
   display: inline-block;
   padding: 1rem 0;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 500;
   margin-bottom: 2rem;
   transition: opacity .3s;
@@ -130,7 +137,7 @@ PROJECTS
 
 .label {
   display: block;
-  font-size: 1.6rem;
+  font-size: 1.9rem;
   line-height: 1.4;
   opacity: 0.8;
   margin-bottom: 2rem;
@@ -266,6 +273,14 @@ RESPONSIVE DESIGN
 
 /* 576 px */
 @media screen and (max-width: 36rem) {
+  p {
+    font-size: 1.7rem;
+  }
+
+  .label {
+    font-size: 1.7rem;
+  }
+
   .container-select {
     width: 100%;
   }
