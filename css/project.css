@@ -2,7 +2,6 @@
 
 :root {
   --black: #1d1d1d;
-  --grey: #f2f2f2;
   --white: #f8f5f8;
   --body: #f1f5f8;
   --footer: #e2e6e9;
@@ -14,7 +13,6 @@
 
 .dark-theme {
   --black: #fdfdfd;
-  --grey: #c2c2c2;
   --body: #171a1e;
   --footer: #0d0f12;
   --accent-color: #87e2d5;
@@ -94,7 +92,6 @@ PAGE INDIVIDUAL PROJECT
   padding: 0.75rem 0;
   font-size: 1rem;
   font-weight: 500;
-  color: var(--grey);
   margin-bottom: 1.25rem;
   transition: opacity .3s;
 }
