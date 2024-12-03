@@ -33,10 +33,10 @@ const indexTranslations = {
 
     /* Methodology */
     methodologyTitle: "Mi Metodología de Trabajo",
-    article1: "¿Cuáles son las mejores prácticas que aplico para el Desarrollo Web?",
-    article2: "¿Cómo optimizo un sitio web?",
-    article3: "¿Cómo garantizo la Accesibilidad Web?",
-    articleButton: "Conocer más",
+    methodology1Heading: "¿Cuáles son las mejores prácticas que aplico para el Desarrollo Web?",
+    methodology2Heading: "¿Cómo optimizo un sitio web?",
+    methodology3Heading: "¿Cómo garantizo la Accesibilidad Web?",
+    methodologyText: "Conocer más",
 
     /* Contact */
     contactTitle: "Contacto",
@@ -77,10 +77,10 @@ const indexTranslations = {
 
     /* Methodology */
     methodologyTitle: "My Work Methodology",
-    article1: "What are the best practices I apply for Web Development?",
-    article2: "How do I optimize a website?",
-    article3: "How do I ensure Web Accessibility?",
-    articleButton: "Learn more",
+    methodology1Heading: "What are the best practices I apply for Web Development?",
+    methodology2Heading: "How do I optimize a website?",
+    methodology3Heading: "How do I ensure Web Accessibility?",
+    methodologyText: "Learn more",
 
     /* Contact */
     contactTitle: "Contact",
@@ -121,10 +121,10 @@ const indexTranslations = {
 
     /* Methodology */
     methodologyTitle: "Minha Metodologia de Trabalho",
-    article1: "Quais são as melhores práticas que aplico para o Desenvolvimento Web?",
-    article2: "Como otimizo um site?",
-    article3: "Como garanto a Acessibilidade Web?",
-    articleButton: "Saiba mais",
+    methodology1Heading: "Quais são as melhores práticas que aplico para o Desenvolvimento Web?",
+    methodology2Heading: "Como otimizo um site?",
+    methodology3Heading: "Como garanto a Acessibilidade Web?",
+    methodologyText: "Saiba mais",
 
     /* Contact */
     contactTitle: "Contato",
