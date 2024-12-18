@@ -74,6 +74,10 @@ const projectsTranslations = {
     /* Project 14 */
     project14MainTitle: "Congelados Buchys",
     project14Paragraph: "Diseñé y desarrollé un sitio web para un negocio que vende productos congelados en Córdoba Capital.",
+
+    /* Project 15 */
+    project15MainTitle: "Pruebas Accesibles",
+    project15Paragraph: "Sitio web diseñado para evaluar cómo distintos lectores de pantalla anuncian la información, cuando se incluyen etiquetas, atributos y roles específicos que mejoran la accesibilidad web."
   },
 
   en: {
@@ -151,6 +155,10 @@ const projectsTranslations = {
     /* Project 14 */
     project14MainTitle: "Congelados Buchys",
     project14Paragraph: "I designed and developed a website for a business that sells frozen products in Córdoba Capital.",
+
+    /* Project 15 */
+    project15MainTitle: "Accessible Tests",
+    project15Paragraph: "Website designed to evaluate how different screen readers announce information when specific labels, attributes, and roles that enhance web accessibility are included."
   },
 
   pt: {
@@ -228,6 +236,10 @@ const projectsTranslations = {
     /* Project 14 */
     project14MainTitle: "Congelados Buchys",
     project14Paragraph: "Criei e desenvolvi um site para um negócio que vende produtos congelados em Córdoba Capital.",
+
+    /* Project 15 */
+    project15MainTitle: "Testes Acessíveis",
+    project15Paragraph: "Site desenvolvido para avaliar como diferentes leitores de tela anunciam as informações quando são incluídas etiquetas, atributos e funções específicas que melhoram a acessibilidade na web."
   }
 };
 
