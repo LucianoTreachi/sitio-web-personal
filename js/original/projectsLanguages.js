@@ -21,7 +21,7 @@ const projectsTranslations = {
 
     /* Project 1 */
     project1MainTitle: "Curriculum Vitae Web",
-    project1Paragraph: "Diseñé y desarrollé un Curriculum Vitae Web.",
+    project1Paragraph: "Curriculum Vitae Web que presenta mi experiencia profesional, habilidades y datos personales.",
 
     /* Project 2 */
     project2MainTitle: "Consultora de negocios",
@@ -29,51 +29,51 @@ const projectsTranslations = {
 
     /* Project 3 */
     project3MainTitle: "Contador de Texto",
-    project3Paragraph: "Diseñé y desarrollé una herramienta online que permite obtener rápidamente el número de caracteres, palabras, oraciones y párrafos de un texto.",
+    project3Paragraph: "Herramienta online que analiza texto y obtiene rápidamente el número de caracteres, palabras, oraciones y párrafos.",
 
     /* Project 4 */
     project4MainTitle: "Conversor de Letras",
-    project4Paragraph: "Diseñé y desarrollé un conversor de letras que transforma texto plano en caracteres UNICODE en tiempo real, permitiendo a los usuarios copiar y pegar el texto convertido en diversas redes sociales.",
+    project4Paragraph: "Herramienta online que convierte texto plano en estilos de letras UNICODE en tiempo real.",
 
     /* Project 5 */
     project5MainTitle: "Academia Online",
-    project5Paragraph: "Diseñé y desarrollé un sitio web para una academia que vende cursos online.",
+    project5Paragraph: "Sitio web para una academia que ofrece cursos online.",
 
     /* Project 6 */
     project6MainTitle: "Academia Online",
-    project6Paragraph: "Diseñé y desarrollé un sitio web para una academia que vende cursos online.",
+    project6Paragraph: "Sitio web para una academia que ofrece cursos online.",
 
     /* Project 7 */
     project7MainTitle: "Luciano Guitar Beats",
-    project7Paragraph: "Diseñé y desarrollé un sitio web de venta de composiciones musicales.",
+    project7Paragraph: "Sitio web dedicado a la promoción y venta de composiciones musicales propias.",
 
     /* Project 8 */
     project8MainTitle: "Conociendo Córdoba",
-    project8Paragraph: "Diseñé y desarrollé un sitio web para la provincia de Córdoba, ubicada en Argentina. El sitio muestra 80 lugares turísticos para visitar.",
+    project8Paragraph: "Sitio web que presenta 80 lugares turísticos para visitar en la ciudad de Córdoba, Argentina.",
 
     /* Project 9 */
-    project9MainTitle: "Tienda de Guitarras",
-    project9Paragraph: "Diseñé y desarrollé una tienda online que vende guitarras.",
+    project9MainTitle: "Solo Guitarras",
+    project9Paragraph: "Tienda Online de Guitarras.",
 
     /* Project 10 */
-    project10MainTitle: "Tienda de Libros de Desarrollo Frontend",
-    project10Paragraph: "Diseñé y desarrollé una tienda online que vende libros de Desarrollo Frontend.",
+    project10MainTitle: "FrontLibros",
+    project10Paragraph: "Tienda online que ofrece libros digitales sobre Desarrollo Frontend.",
 
     /* Project 11 */
-    project11MainTitle: "Blog sobre estrategias UX/UI",
-    project11Paragraph: "Diseñé y desarrollé un Blog sobre consejos, técnicas y estrategias UX/UI para un diseño atractivo, intuitivo y funcional.",
+    project11MainTitle: "Blog UX/UI",
+    project11Paragraph: "Blog sobre consejos, técnicas y estrategias UX/UI para un diseño atractivo, intuitivo y funcional.",
 
     /* Project 12 */
     project12MainTitle: "Cursos Online de Programación",
-    project12Paragraph: "Diseñé y desarrollé un sitio web que reúne los mejores cursos online de programación, clasificados por Frontend, Backend y Aplicaciones Móviles.",
+    project12Paragraph: "Sitio web que reúne los mejores cursos online de programación, clasificados por Frontend, Backend y Aplicaciones Móviles.",
 
     /* Project 13 */
     project13MainTitle: "Optimizador Web",
-    project13Paragraph: "Diseñé y desarrollé un sitio web que ofrece una lista de verificaciones para optimizar el Desarrollo Web y lograr una presencia en línea impecable.",
+    project13Paragraph: "Sitio web con listas de verificación, herramientas online y extensiones útiles para lograr un desarrollo web óptimo.",
 
     /* Project 14 */
     project14MainTitle: "Congelados Buchys",
-    project14Paragraph: "Diseñé y desarrollé un sitio web para un negocio que vende productos congelados en Córdoba Capital.",
+    project14Paragraph: "Página web para un comercio que vende productos congelados en la ciudad de Córdoba, Argentina.",
 
     /* Project 15 */
     project15MainTitle: "Pruebas Accesibles",
@@ -101,60 +101,60 @@ const projectsTranslations = {
     projectGenericTitle: "Project Description",
 
     /* Project 1 */
-    project1MainTitle: "Web Curriculum Vitae",
-    project1Paragraph: "I designed and developed a Web Curriculum Vitae.",
+    project1MainTitle: "Online Resume",
+    project1Paragraph: "Online resume that presents my professional experience, skills, and personal information.",
 
     /* Project 2 */
-    project2MainTitle: "Landing Page for Emmanuel Mansilla",
-    project2Paragraph: "landing page for Emmanuel Mansilla, owner of a Business Consulting Firm.",
+    project2MainTitle: "Business consulting services.",
+    project2Paragraph: "Website for Emmanuel Mansilla, owner of a Business Consulting services.",
 
     /* Project 3 */
     project3MainTitle: "Text Counter",
-    project3Paragraph: "I designed and developed an online tool that allows quickly obtaining the number of characters, words, sentences, and paragraphs in a text.",
+    project3Paragraph: "An online tool that analyzes text and quickly provides the number of characters, words, sentences, and paragraphs.",
 
     /* Project 4 */
     project4MainTitle: "Letter Converter",
-    project4Paragraph: "I designed and developed a letter converter that transforms plain text into UNICODE characters in real-time, allowing users to copy and paste the converted text on various social media platforms.",
+    project4Paragraph: "An online tool that converts plain text into Unicode letter styles in real time.",
 
     /* Project 5 */
     project5MainTitle: "Online Academy",
-    project5Paragraph: "I designed and developed a website for an online academy that offers courses.",
+    project5Paragraph: "Website for an academy that offers online courses.",
 
     /* Project 6 */
     project6MainTitle: "Online Academy",
-    project6Paragraph: "I designed and developed a website for an online academy that offers courses.",
+    project6Paragraph: "Website for an academy that offers online courses.",
 
     /* Project 7 */
     project7MainTitle: "Luciano Guitar Beats",
-    project7Paragraph: "I designed and developed a website for the sale of musical compositions.",
+    project7Paragraph: "Website dedicated to promoting and selling original music compositions.",
 
     /* Project 8 */
     project8MainTitle: "Website for the province of Córdoba",
-    project8Paragraph: "I designed and developed a website for the province of Córdoba, located in Argentina. The site showcases 80 tourist destinations to visit.",
+    project8Paragraph: "Website showcasing 80 tourist spots to visit in Córdoba, Argentina.",
 
     /* Project 9 */
-    project9MainTitle: "Dedicated Guitar Sales E-commerce",
-    project9Paragraph: "I designed and developed a small e-commerce website that sells guitars.",
+    project9MainTitle: "Solo Guitarras",
+    project9Paragraph: "Small e-commerce website that sells guitars.",
 
     /* Project 10 */
-    project10MainTitle: "Dedicated Book Sales E-commerce",
-    project10Paragraph: "I designed and developed a small e-commerce website that sells Frontend Development books.",
+    project10MainTitle: "FrontLibros",
+    project10Paragraph: "Small e-commerce website that sells Frontend Development books.",
 
     /* Project 11 */
-    project11MainTitle: "Blog about UX/UI strategies",
-    project11Paragraph: "I designed and developed a blog about tips, techniques, and UX/UI strategies for an attractive, intuitive, and functional design.",
+    project11MainTitle: "Blog UX/UI",
+    project11Paragraph: "Blog focused on tips, techniques, and strategies for creating attractive, intuitive, and functional designs.",
 
     /* Project 12 */
     project12MainTitle: "Online Programming Courses",
-    project12Paragraph: "I designed and developed a website that brings together the best online programming courses, classified by Frontend, Backend, and Mobile Applications.",
+    project12Paragraph: "Website that brings together the best online programming courses, classified by Frontend, Backend, and Mobile Applications.",
 
     /* Project 13 */
     project13MainTitle: "Web Optimizer",
-    project13Paragraph: "I designed and developed a website that offers a checklist to optimize Web Development and achieve impeccable online presence. ",
+    project13Paragraph: "Website featuring checklists, online tools, and useful extensions to achieve optimal web development.",
 
     /* Project 14 */
     project14MainTitle: "Congelados Buchys",
-    project14Paragraph: "I designed and developed a website for a business that sells frozen products in Córdoba Capital.",
+    project14Paragraph: "Website for a business that sells frozen products in Córdoba, Argentina.",
 
     /* Project 15 */
     project15MainTitle: "Accessible Tests",
@@ -183,59 +183,59 @@ const projectsTranslations = {
 
     /* Project 1 */
     project1MainTitle: "Currículo Online",
-    project1Paragraph: "Criei e desenvolvi um Curriculum Vitae Web.",
+    project1Paragraph: "Currículo online que apresenta minha experiência profissional, habilidades e informações pessoais.",
 
     /* Project 2 */
-    project2MainTitle: "Página de Destino para Emmanuel Mansilla",
-    project2Paragraph: "Página de destino para Emmanuel Mansilla, proprietário de uma Consultoria de Negócios.",
+    project2MainTitle: "Consultoria de Negócios",
+    project2Paragraph: "Site para Emmanuel Mansilla, proprietário de uma Consultoria de Negócios.",
 
     /* Project 3 */
     project3MainTitle: "Contador de Texto",
-    project3Paragraph: "Criei e desenvolvi uma ferramenta online que permite obter rapidamente o número de caracteres, palavras, frases e parágrafos de um texto.",
+    project3Paragraph: "Ferramenta online que analisa o texto e fornece rapidamente o número de caracteres, palavras, sentenças e parágrafos.",
 
     /* Project 4 */
     project4MainTitle: "Conversor de Letras",
-    project4Paragraph: "Criei e desenvolvi um conversor de letras que transforma texto simples em caracteres UNICODE em tempo real, permitindo que os usuários copiem e colem o texto convertido em diversas redes sociais.",
+    project4Paragraph: "Ferramenta online que converte texto simples em estilos de letras UNICODE em tempo real.",
 
     /* Project 5 */
-    project5MainTitle: "Academia Online",
-    project5Paragraph: "Criei e desenvolvi um site para uma academia que vende cursos online.",
+    project5MainTitle: "Plataforma de ensino online",
+    project5Paragraph: "Site para uma plataforma de ensino que oferece cursos online.",
 
     /* Project 6 */
-    project6MainTitle: "Academia Online",
-    project6Paragraph: "Criei e desenvolvi um site para uma academia que vende cursos online.",
+    project6MainTitle: "Plataforma de ensino online",
+    project6Paragraph: "Site para uma plataforma de ensino que oferece cursos online.",
 
     /* Project 7 */
     project7MainTitle: "Luciano Guitar Beats",
-    project7Paragraph: "Criei e desenvolvi um site de venda de composições musicais.",
+    project7Paragraph: "Site dedicado à promoção e venda de composições musicais próprias.",
 
     /* Project 8 */
     project8MainTitle: "Site para a província de Córdoba",
-    project8Paragraph: "Criei e desenvolvi um site para a província de Córdoba, localizada na Argentina. O site apresenta 80 locais turísticos para visitar.",
+    project8Paragraph: "Site apresentando 80 locais turísticos para visitar em Córdoba, Argentina.",
 
     /* Project 9 */
-    project9MainTitle: "E-commerce dedicado à venda de guitarras",
-    project9Paragraph: "Criei e desenvolvi um pequeno e-commerce que vende guitarras.",
+    project9MainTitle: "Solo Guitarras",
+    project9Paragraph: "Pequeno e-commerce que vende guitarras.",
 
     /* Project 10 */
-    project10MainTitle: "E-commerce dedicado à venda de livros",
-    project10Paragraph: "Criei e desenvolvi um pequeno e-commerce que vende livros de Desenvolvimento Frontend.",
+    project10MainTitle: "FrontLibros",
+    project10Paragraph: "Pequeno e-commerce que vende livros de Desenvolvimento Frontend.",
 
     /* Project 11 */
-    project11MainTitle: "Blog sobre estratégias de UX/UI",
-    project11Paragraph: "Criei e desenvolvi um blog sobre dicas, técnicas e estratégias de UX/UI para um design atraente, intuitivo e funcional.",
+    project11MainTitle: "Blog UX/UI",
+    project11Paragraph: "Blog focado em dicas, técnicas e estratégias para criar designs atraentes, intuitivos e funcionais.",
 
     /* Project 12 */
     project12MainTitle: "Cursos Online de Programação",
-    project12Paragraph: "Criei e desenvolvi um site que reúne os melhores cursos online de programação, classificados por Frontend, Backend e Aplicações Móveis.",
+    project12Paragraph: "Site que reúne os melhores cursos online de programação, classificados por Frontend, Backend e Aplicações Móveis.",
 
     /* Project 13 */
     project13MainTitle: "Otimizador Web",
-    project13Paragraph: "Criei e desenvolvi um site que oferece uma lista de verificação para otimizar o Desenvolvimento Web e alcançar uma presença online impecável.",
+    project13Paragraph: "Site com listas de verificação, ferramentas online e extensões úteis para alcançar um desenvolvimento web ótimo.",
 
     /* Project 14 */
     project14MainTitle: "Congelados Buchys",
-    project14Paragraph: "Criei e desenvolvi um site para um negócio que vende produtos congelados em Córdoba Capital.",
+    project14Paragraph: "Site para um negócio que vende produtos congelados em Córdoba, Argentina.",
 
     /* Project 15 */
     project15MainTitle: "Testes Acessíveis",
