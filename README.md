@@ -1,6 +1,6 @@
 # Sitio Web Personal
 
-[![banner.jpg](https://i.postimg.cc/R0QhhNY7/banner.jpg)](https://postimg.cc/wtMgbTgM)
+[![Captura de pantalla de mi sitio web personal](https://i.postimg.cc/MpBjZ4X5/preview.png)](https://postimg.cc/rD8pQf1R)
 
 **Luciano Treachi**
 
