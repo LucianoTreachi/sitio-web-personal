@@ -1,10 +1,17 @@
 # Sitio Web Personal
 
+## Vista previa
+
 [![Captura de pantalla de mi sitio web personal](https://i.postimg.cc/MpBjZ4X5/preview.png)](https://postimg.cc/rD8pQf1R)
 
-**Luciano Treachi**
+## Qué vas a encontrar en mi sitio web personal
 
-Soy un Desarrollador Frontend dedicado a crear soluciones web eficientes, accesibles, intuitivas y fáciles de usar que potencian la experiencia del usuario.
+- Mi enfoque en el desarrollo frontend.
+- Mi metodología de trabajo.
+- Proyectos realizados.
+- Enlaces de contacto.
+- Enlaces de redes sociales.
 
-[![Sitio Web](https://img.shields.io/badge/Sitio_Web-black?style=for-the-badge&logoColor=white)](https://lucianotreachi.website/)
-[![linkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logoColor=white)](https://www.linkedin.com/in/luciano-treachi/)
+## Explora mi sitio web
+
+Accede aquí → [Luciano Treachi](https://lucianotreachi.website/)
