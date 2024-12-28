@@ -259,6 +259,11 @@ RESPONSIVE DESIGN
     flex-direction: column;
   }
 
+  .link-1:hover,
+  .link-2:hover {
+    opacity: 1;
+  }
+
   .mockup {
     max-width: 100%;
   }
@@ -270,6 +275,11 @@ RESPONSIVE DESIGN
 
   .footer {
     padding: 3.75rem 1rem;
+  }
+
+  .socials a:hover {
+    opacity: .75;
+    transform: scale(1);
   }
 }
 
