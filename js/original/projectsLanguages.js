@@ -77,7 +77,11 @@ const projectsTranslations = {
 
     /* Project 15 */
     project15MainTitle: "Pruebas Accesibles",
-    project15Paragraph: "Sitio web diseñado para evaluar cómo distintos lectores de pantalla anuncian la información, cuando se incluyen etiquetas, atributos y roles específicos que mejoran la accesibilidad web."
+    project15Paragraph: "Sitio web diseñado para evaluar cómo distintos lectores de pantalla anuncian la información, cuando se incluyen etiquetas, atributos y roles específicos que mejoran la accesibilidad web.",
+
+    /* Project 16 */
+    project16MainTitle: "Generador de colores accesibles",
+    project16Paragraph: "Sitio web para generar combinaciones de colores accesibles que cumplen con las recomendaciones de las Pautas de Accesibilidad para el Contenido Web(WCAG)."
   },
 
   en: {
@@ -158,7 +162,11 @@ const projectsTranslations = {
 
     /* Project 15 */
     project15MainTitle: "Accessible Tests",
-    project15Paragraph: "Website designed to evaluate how different screen readers announce information when specific labels, attributes, and roles that enhance web accessibility are included."
+    project15Paragraph: "Website designed to evaluate how different screen readers announce information when specific labels, attributes, and roles that enhance web accessibility are included.",
+
+    /* Project 16 */
+    project16MainTitle: "Accessible Color Generator",
+    project16Paragraph: "Website designed to generate accessible color combinations that comply with the Web Content Accessibility Guidelines (WCAG)."
   },
 
   pt: {
@@ -239,7 +247,11 @@ const projectsTranslations = {
 
     /* Project 15 */
     project15MainTitle: "Testes Acessíveis",
-    project15Paragraph: "Site desenvolvido para avaliar como diferentes leitores de tela anunciam as informações quando são incluídas etiquetas, atributos e funções específicas que melhoram a acessibilidade na web."
+    project15Paragraph: "Site desenvolvido para avaliar como diferentes leitores de tela anunciam as informações quando são incluídas etiquetas, atributos e funções específicas que melhoram a acessibilidade na web.",
+
+    /* Project 16 */
+    project16MainTitle: "Gerador de Cores Acessíveis",
+    project16Paragraph: "Site desenvolvido para gerar combinações de cores acessíveis que seguem as Diretrizes de Acessibilidade para Conteúdo da Web (WCAG)."
   }
 };
 
