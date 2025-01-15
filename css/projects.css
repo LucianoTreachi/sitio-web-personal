@@ -188,7 +188,7 @@ PROJECTS
 .gallery {
   margin-top: 3.75rem;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   row-gap: 1rem;
   column-gap: 0.5rem;
 }
