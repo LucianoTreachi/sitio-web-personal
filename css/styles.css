@@ -46,10 +46,6 @@
   box-sizing: border-box;
 }
 
-html {
-  scroll-padding-top: 2rem;
-}
-
 body {
   font-family: system-ui;
   background-color: var(--body);
@@ -608,10 +604,6 @@ RESPONSIVE DESIGN
 
 /* 1080 px */
 @media screen and (max-width: 67.5rem) {
-  /* header {
-    padding: 1.5rem 4rem;
-  } */
-
   .solutions .container {
     max-width: 50rem;
   }
@@ -764,6 +756,10 @@ RESPONSIVE DESIGN
 
 /* 576 px */
 @media screen and (max-width: 36rem) {
+  html {
+    scroll-padding-top: 2rem;
+  }
+
   p {
     font-size: 1.125rem;
   }
