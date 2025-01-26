@@ -2,7 +2,7 @@
 
 ## Vista previa
 
-[![Captura de pantalla de mi sitio web personal](https://i.postimg.cc/MpBjZ4X5/preview.png)](https://postimg.cc/rD8pQf1R)
+![Vista previa del sitio](assets/readme/readme-preview1.jpg)
 
 ## Qué vas a encontrar en mi sitio web personal
 
