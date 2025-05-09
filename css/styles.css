@@ -124,9 +124,7 @@ button:focus {
   margin-bottom: 3.75rem;
 }
 
-/*=============================== 
-SECTION: HEADER & NAV
-================================*/
+/* HEADER & NAV */
 
 header {
   position: fixed;
@@ -314,11 +312,9 @@ nav {
   width: 100%;
 }
 
-/*=============================== 
-SECTION: HERO
-================================*/
+/* HERO */
 
-.hero {
+.hero-section {
   min-height: 90vh;
   display: flex;
   justify-content: center;
@@ -326,7 +322,7 @@ SECTION: HERO
   position: relative;
 }
 
-.hero .container {
+.hero-section .container {
   max-width: 75rem;
   padding-top: 5rem;
   z-index: 1;
@@ -355,31 +351,29 @@ SECTION: HERO
   text-align: center;
 }
 
-/*=============================== 
-SECTION: ABOUT
-================================*/
+/* ABOUT */
 
-.about .container {
+.about-section .container {
   max-width: 62.5rem;
 }
 
-.about .row-1 {
+.about-section .row-1 {
   margin-bottom: 5rem;
 }
 
-.about .row-1 p {
+.about-section .row-1 p {
   max-width: 31.25rem;
   margin: 0 auto;
   text-align: center;
 }
 
-.about .row-2 {
+.about-section .row-2 {
   display: grid;
   place-items: center;
   margin-bottom: 5rem;
 }
 
-.about .row-2 img {
+.about-section .row-2 img {
   width: 100%;
   height: 100%;
   display: block;
@@ -387,7 +381,7 @@ SECTION: ABOUT
   mask-image: linear-gradient(#ffffff 60%, transparent);
 }
 
-.about .row-3 blockquote {
+.about-section .row-3 blockquote {
   font-size: 1.875rem;
   font-weight: 500;
   opacity: 0.78;
@@ -398,15 +392,13 @@ SECTION: ABOUT
   width: 70%;
 }
 
-/*=============================== 
-SECTION: SOLUTIONS
-================================*/
+/* SOLUTIONS */
 
-.solutions .container {
+.solutions-section .container {
   max-width: 75rem;
 }
 
-.solutions .row-1 {
+.solutions-section .row-1 {
   margin-top: 2.5rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -437,15 +429,13 @@ SECTION: SOLUTIONS
   opacity: 0.78;
 }
 
-/*=============================== 
-SECTION: PROJECTS
-================================*/
+/* PROJECTS */
 
-.projects .container {
+.projects-section .container {
   max-width: 75rem;
 }
 
-.projects .row {
+.projects-list {
   margin-top: 2.5rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -487,15 +477,13 @@ SECTION: PROJECTS
   transform: translateX(0.8rem);
 }
 
-/*=============================== 
-SECTION: MY WORK METHODOLOGY
-================================*/
+/* METHODOLOGY */
 
-.methodology .container {
+.methodology-section .container {
   max-width: 50rem;
 }
 
-.methodology .row {
+.methodology-section .row {
   margin-top: 2.5rem;
   display: grid;
   gap: 2.5rem;
@@ -539,15 +527,13 @@ SECTION: MY WORK METHODOLOGY
   transition: transform 0.3s;
 }
 
-/*=============================== 
-SECTION: CONTACT
-================================*/
+/* CONTACT */
 
-.contact .container {
+.contact-section .container {
   max-width: 75rem;
 }
 
-.contact .section-title {
+.contact-section .section-title {
   width: 100%;
 }
 
@@ -585,9 +571,7 @@ SECTION: CONTACT
   fill: var(--black);
 }
 
-/*=============================== 
-SECTION: FOOTER
-================================*/
+/* FOOTER */
 
 .footer {
   background-color: var(--footer);
@@ -598,22 +582,20 @@ SECTION: FOOTER
   text-align: center;
 }
 
-/*=============================== 
-RESPONSIVE DESIGN
-================================*/
+/* RESPONSIVE DESIGN */
 
 /* 1080 px */
 @media screen and (max-width: 67.5rem) {
-  .solutions .container {
+  .solutions-section .container {
     max-width: 50rem;
   }
 
-  .solutions .row-1 {
+  .solutions-section .row-1 {
     grid-template-columns: 1fr;
     gap: 2.5rem;
   }
 
-  .methodology .container {
+  .methodology-section .container {
     max-width: 50rem;
   }
 }
@@ -692,12 +674,12 @@ RESPONSIVE DESIGN
     pointer-events: all;
   }
 
-  .hero {
+  .hero-section {
     min-height: 60vh;
     background-color: var(--hero);
   }
 
-  .hero .container {
+  .hero-section .container {
     padding: 8.75rem 0 6.25rem;
   }
 
@@ -711,27 +693,27 @@ RESPONSIVE DESIGN
     width: 80%;
   }
 
-  .about .row-1 {
+  .about-section .row-1 {
     margin-bottom: 2.5rem;
   }
 
-  .about .row-1 p {
+  .about-section .row-1 p {
     text-align: initial;
     margin: initial;
   }
 
-  .about .row-2 {
+  .about-section .row-2 {
     place-items: initial;
     margin-bottom: 2.5rem;
   }
 
-  .about .row-3 blockquote {
+  .about-section .row-3 blockquote {
     text-align: initial;
     margin: initial;
     width: initial;
   }
 
-  .projects .row {
+  .projects-list {
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -804,7 +786,7 @@ RESPONSIVE DESIGN
     height: 1.5rem;
   }
 
-  .hero .container {
+  .hero-section .container {
     padding: 6.25rem 0 3.75rem;
   }
 
@@ -817,7 +799,7 @@ RESPONSIVE DESIGN
     font-size: 1.25rem;
   }
 
-  .about .row-3 blockquote {
+  .about-section .row-3 blockquote {
     font-size: 1.625rem;
   }
 
