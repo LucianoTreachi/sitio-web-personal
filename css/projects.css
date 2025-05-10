@@ -184,11 +184,6 @@ PROJECTS
   border: 2px solid var(--black);
 }
 
-/* Add "hide" class with JavaScript for the project filter functionality */
-.project.hide {
-  display: none;
-}
-
 .projects-list {
   margin-top: 3.75rem;
   display: grid;
