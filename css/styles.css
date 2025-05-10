@@ -6,11 +6,11 @@
   --grey-1: #e0e2e4;
   --grey-2: #d5d8da;
   --grey-3: #e9ecf0;
-  --header: #f1f5f8;
-  --navbar: #e2e6e9;
-  --hero: #e2e6e9;
-  --body: #f1f5f8;
-  --footer: #e2e6e9;
+  --header: #e7e7e7;
+  --navbar: #e7e7e7;
+  --hero: #e7e7e7;
+  --body: #f2f2f2;
+  --footer: #e7e7e7;
   --accent-color: #3547b7;
   --title-color: #383a41;
   --title-gradient: linear-gradient(to right, #3547b7 0%, #383a41 100%);
@@ -27,7 +27,7 @@
   --grey-2: #404040;
   --grey-3: #1f2020;
   --header: #0d0f12;
-  --navbar: #000000;
+  --navbar: #0d0f12;
   --hero: #0d0f12;
   --body: #171a1e;
   --footer: #0d0f12;
