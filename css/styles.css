@@ -803,6 +803,11 @@ nav {
     font-size: 1.625rem;
   }
 
+  .service svg {
+    width: 3rem;
+    height: 3rem;
+  }
+
   .project-img:hover {
     filter: contrast(100%);
   }
