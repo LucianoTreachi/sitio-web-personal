@@ -10,11 +10,11 @@ const projectsTranslations = {
 
     /* Project Filter Options */
     label: "Selecciona una categoría de proyectos",
-    projectOption1: "Todos",
-    projectOption2: "Sitios Web",
-    projectOption3: "Blogs",
-    projectOption4: "Comercio electrónico",
-    projectOption5: "Herramientas",
+    projectOption1: "Todos (16)",
+    projectOption2: "Sitios Web (11)",
+    projectOption3: "Blogs (1)",
+    projectOption4: "Comercio electrónico (2)",
+    projectOption5: "Herramientas (2)",
 
     /* Generic title */
     projectGenericTitle: "Descripción del proyecto",
@@ -95,11 +95,11 @@ const projectsTranslations = {
 
     /* Project Filter Options */
     label: "Select a project category",
-    projectOption1: "All",
-    projectOption2: "Websites",
-    projectOption3: "Blogs",
-    projectOption4: "E-commerce",
-    projectOption5: "Tools",
+    projectOption1: "All (16)",
+    projectOption2: "Websites (11)",
+    projectOption3: "Blogs (1)",
+    projectOption4: "E-commerce (2)",
+    projectOption5: "Tools (2)",
 
     /* Generic title */
     projectGenericTitle: "Project Description",
@@ -180,11 +180,11 @@ const projectsTranslations = {
 
     /* Project Filter Options */
     label: "Selecione uma categoria de projetos",
-    projectOption1: "Todos",
-    projectOption2: "Websites",
-    projectOption3: "Blogs",
-    projectOption4: "E-commerce",
-    projectOption5: "Ferramentas",
+    projectOption1: "Todos (16)",
+    projectOption2: "Websites (11)",
+    projectOption3: "Blogs (1)",
+    projectOption4: "E-commerce (2)",
+    projectOption5: "Ferramentas (2)",
 
     /* Generic title */
     projectGenericTitle: "Descrição do projeto",

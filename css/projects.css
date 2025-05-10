@@ -2,7 +2,7 @@
 
 :root {
   --black: #1d1d1d;
-  --grey: #b3b4b6;
+  --grey: #6b6b6b;
   --body: #f2f2f2;
   --footer: #e7e7e7;
   --accent-color: #3547b7;
@@ -12,7 +12,7 @@
 
 .dark-theme {
   --black: #fdfdfd;
-  --grey: #606060;
+  --grey: #b8b8b8;
   --body: #171a1e;
   --footer: #0d0f12;
   --accent-color: #87e2d5;
@@ -167,7 +167,7 @@ PROJECTS
   padding: 0.75rem 0.625rem;
   font-size: 1.125rem;
   font-weight: 500;
-  color: var(--black);
+  color: var(--grey);
   cursor: pointer;
   width: 100%;
 
