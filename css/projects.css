@@ -62,6 +62,10 @@ button:focus {
   outline-offset: 0.5rem;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .container {
   max-width: 87.5rem;
   margin: auto;
@@ -185,7 +189,7 @@ PROJECTS
   display: none;
 }
 
-.gallery {
+.projects-list {
   margin-top: 3.75rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -193,13 +197,13 @@ PROJECTS
   column-gap: 0.5rem;
 }
 
-.gallery img {
+.project-image {
   width: 100%;
   height: auto;
   transition: filter 0.2s ease;
 }
 
-.gallery img:hover {
+.project-image:hover {
   filter: contrast(80%);
 }
 
@@ -280,11 +284,11 @@ RESPONSIVE DESIGN
     width: 100%;
   }
 
-  .gallery {
+  .projects-list {
     grid-template-columns: 1fr 1fr;
   }
 
-  .gallery img:hover {
+  .project-image:hover {
     filter: contrast(100%);
   }
 
