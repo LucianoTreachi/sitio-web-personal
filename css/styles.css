@@ -602,6 +602,10 @@ nav {
 
 /* 912 px */
 @media screen and (max-width: 57rem) {
+  .section {
+    padding: 3.75rem 2rem;
+  }
+
   .container-shape {
     text-align: initial;
   }
@@ -713,12 +717,20 @@ nav {
     width: initial;
   }
 
+  .solutions-section .container {
+    max-width: 100%;
+  }
+
   .projects-list {
     grid-template-columns: repeat(2, 1fr);
   }
 
   .more-projects-button {
     text-align: left;
+  }
+
+  .methodology-section .container {
+    max-width: 100%;
   }
 
   .contact-paragraph {
