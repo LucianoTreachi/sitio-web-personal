@@ -10,7 +10,7 @@ const overlay = document.querySelector(".overlay");
 const navLinks = document.querySelectorAll(".nav-link");
 const sections = document.querySelectorAll('section');
 
-// SKIP TO MAIN CONTENT: Prevent default action, focus on the main title, and manage Escape key interaction 
+// SKIP TO MAIN CONTENT
 skipLink.addEventListener("click", (event) => {
   event.preventDefault();
 
@@ -29,7 +29,7 @@ skipLink.addEventListener("keydown", (event) => {
   }
 });
 
-// NAVBAR: Toggle mobile navbar visibility, overlay, aria attributes and focus
+// NAVBAR
 function openNavbar() {
   navbar.classList.add("active");
   overlay.classList.add("active");
@@ -61,7 +61,7 @@ navLinks.forEach(link => {
   link.addEventListener('click', closeNavbar);
 });
 
-// SCROLL: Toggle 'active' class on the header, blur the skip link, highlight active link, and close navbar if open
+// SCROLL ON WINDOW
 window.addEventListener("scroll", () => {
   header.classList.toggle("active", window.scrollY > 0)
   skipLink.blur();
@@ -72,7 +72,7 @@ window.addEventListener("scroll", () => {
   }
 })
 
-// ACTIVE LINK: Highlight the current section's link in the navbar based on scroll position
+// ACTIVE LINK
 function setActiveLink() {
   let index = sections.length;
 
@@ -88,7 +88,7 @@ function setActiveLink() {
   }
 }
 
-// SCROLL TO SECTION: Smooth scroll to target section on link click and Announce the content for the screen readers
+// SCROLL TO SECTION
 navLinks.forEach(link => {
   link.addEventListener('click', (event) => {
     event.preventDefault();
