@@ -9,6 +9,7 @@
   --header: #e7e7e7;
   --navbar: #e7e7e7;
   --hero: #e7e7e7;
+  --hero-shape: #6c8cd9;
   --body: #f2f2f2;
   --footer: #e7e7e7;
   --accent-color: #3547b7;
@@ -29,6 +30,7 @@
   --header: #0d0f12;
   --navbar: #0d0f12;
   --hero: #0d0f12;
+  --hero-shape: #00c09a;
   --body: #171a1e;
   --footer: #0d0f12;
   --accent-color: #87e2d5;
@@ -320,6 +322,17 @@ nav {
   justify-content: center;
   align-items: center;
   position: relative;
+}
+
+.hero-shape {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  filter: blur(6.25rem);
+  color: var(--hero-shape);
 }
 
 .hero-section .container {
@@ -684,12 +697,17 @@ nav {
   }
 
   .hero-section {
-    min-height: 60vh;
+    min-height: 68vh;
     background-color: var(--hero);
+    overflow: auto;
+  }
+
+  .hero-shape {
+    filter: blur(5.25rem);
   }
 
   .hero-section .container {
-    padding: 8.75rem 0 6.25rem;
+    padding: 6.75rem 0 6.25rem;
   }
 
   .hero-title {
@@ -700,6 +718,10 @@ nav {
     text-align: initial;
     margin: 0.625rem 0 0;
     width: 80%;
+  }
+
+  .about-section .section-title {
+    font-size: 2.75rem;
   }
 
   .about-section .row-1 {
@@ -768,7 +790,7 @@ nav {
   }
 
   .section-title {
-    font-size: 1.875rem;
+    font-size: 2.5rem;
     width: 100%;
   }
 
@@ -803,12 +825,8 @@ nav {
     height: 1.5rem;
   }
 
-  .hero-section {
-    min-height: 54vh;
-  }
-
   .hero-section .container {
-    padding: 6.25rem 0 1.75rem;
+    padding: 2.25rem 0 1.75rem;
   }
 
   .hero-title {
@@ -818,6 +836,14 @@ nav {
 
   .hero-subtitle {
     font-size: 1.25rem;
+  }
+
+  .hero-shape {
+    filter: blur(2.25rem);
+  }
+
+  .about-section .section-title {
+    font-size: 1.5rem;
   }
 
   .about-section .row-3 blockquote {
@@ -847,7 +873,11 @@ nav {
   }
 
   .methodology-heading {
-    font-size: 1.375rem;
+    font-size: 1.25rem;
+  }
+
+  .methodology-text {
+    font-size: 1.125rem;
   }
 
   .socials-list a:hover {
