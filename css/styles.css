@@ -357,6 +357,10 @@ nav {
   max-width: 62.5rem;
 }
 
+.about-section .section-title {
+  margin-bottom: 1.5rem;
+}
+
 .about-section .row-1 {
   margin-bottom: 5rem;
 }
@@ -535,6 +539,7 @@ nav {
 
 .contact-section .section-title {
   width: 100%;
+  margin-bottom: 1.5rem;
 }
 
 .contact-paragraph {
@@ -759,7 +764,7 @@ nav {
   }
 
   .section {
-    padding: 3.75rem 1rem;
+    padding: 2.75rem 1rem;
   }
 
   .section-title {
@@ -798,8 +803,12 @@ nav {
     height: 1.5rem;
   }
 
+  .hero-section {
+    min-height: 54vh;
+  }
+
   .hero-section .container {
-    padding: 6.25rem 0 3.75rem;
+    padding: 6.25rem 0 1.75rem;
   }
 
   .hero-title {
