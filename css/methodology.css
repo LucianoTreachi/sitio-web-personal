@@ -53,6 +53,10 @@ button:focus {
   outline-offset: 0.5rem;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .container {
   max-width: 87.5rem;
   margin: auto;
@@ -148,7 +152,7 @@ FOOTER
   position: relative;
 }
 
-.socials {
+.socials-list {
   margin-top: 1.25rem;
   display: flex;
   align-items: center;
@@ -156,7 +160,7 @@ FOOTER
   gap: 1rem;
 }
 
-.socials a {
+.socials-list a {
   font-size: 1.625rem;
   opacity: .75;
   display: flex;
@@ -165,12 +169,12 @@ FOOTER
   transition: transform .4s;
 }
 
-.socials a:hover {
+.socials-list a:hover {
   opacity: 1;
   transform: scale(1.2);
 }
 
-.socials svg {
+.socials-list svg {
   width: 2rem;
   height: 2rem;
   fill: var(--black);
@@ -215,7 +219,7 @@ RESPONSIVE DESIGN
     padding: 3.75rem 1rem;
   }
 
-  .socials a:hover {
+  .socials-list a:hover {
     opacity: .75;
     transform: scale(1);
   }

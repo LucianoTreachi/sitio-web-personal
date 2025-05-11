@@ -543,7 +543,7 @@ nav {
   text-align: center;
 }
 
-.socials {
+.socials-list {
   margin-top: 3.75rem;
   display: flex;
   align-items: center;
@@ -551,7 +551,7 @@ nav {
   gap: 1rem;
 }
 
-.socials a {
+.socials-list a {
   font-size: 1.625rem;
   opacity: 0.75;
   display: flex;
@@ -560,12 +560,12 @@ nav {
   transition: transform .4s;
 }
 
-.socials a:hover {
+.socials-list a:hover {
   opacity: 1;
   transform: scale(1.2);
 }
 
-.socials svg {
+.socials-list svg {
   width: 2.5rem;
   height: 2.5rem;
   fill: var(--black);
@@ -726,7 +726,7 @@ nav {
     margin: initial;
   }
 
-  .socials {
+  .socials-list {
     margin-top: 2.5rem;
     justify-content: initial;
   }
@@ -829,7 +829,7 @@ nav {
     font-size: 1.375rem;
   }
 
-  .socials a:hover {
+  .socials-list a:hover {
     opacity: 0.75;
     transform: scale(1);
   }
