@@ -10,7 +10,7 @@ const indexTranslations = {
     navLink4: "Contacto",
 
     /* Home */
-    homeTitle: "Desarrollo Sitios y Aplicaciones Web",
+    heroTitle: "Desarrollo Sitios y Aplicaciones Web",
     heroSubtitle: "Puedo crear soluciones web eficientes, intuitivas y fáciles de usar.",
 
     /* About */
@@ -54,7 +54,7 @@ const indexTranslations = {
     navLink4: "Contact",
 
     /* Home */
-    homeTitle: "I Develop Websites and Web Applications",
+    heroTitle: "I Develop Websites and Web Applications",
     heroSubtitle: "I can create efficient, intuitive, and user-friendly web solutions.",
 
     /* About */
@@ -98,7 +98,7 @@ const indexTranslations = {
     navLink4: "Contato",
 
     /* Home */
-    homeTitle: "Desenvolvo Sites e Aplicações Web",
+    heroTitle: "Desenvolvo Sites e Aplicações Web",
     heroSubtitle: "Posso criar soluções web eficientes, intuitivas e fáceis de usar.",
 
     /* About */
