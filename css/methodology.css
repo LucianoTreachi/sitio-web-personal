@@ -225,8 +225,8 @@ RESPONSIVE DESIGN
   }
 }
 
-/* 340 px */
-@media screen and (max-width: 21.25rem) {
+/* 356 px */
+@media screen and (max-width: 22.25rem) {
   html {
     font-size: 90%;
   }
