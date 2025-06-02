@@ -143,6 +143,9 @@ function changeLanguage(lang) {
 
   // Store the selected language in localStorage
   localStorage.setItem("selectedLanguage", lang);
+
+  // Set the <html lang="..."> attribute dynamically
+  document.documentElement.lang = lang;
 }
 
 // Language button
