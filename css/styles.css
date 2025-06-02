@@ -596,8 +596,9 @@ nav {
   padding: 3.75rem 2.5rem;
 }
 
-.footer-paragraph {
+.footer-copy {
   text-align: center;
+  opacity: 0.80;
 }
 
 /* RESPONSIVE DESIGN */
@@ -770,8 +771,9 @@ nav {
     justify-content: initial;
   }
 
-  .footer-paragraph {
+  .footer-copy {
     text-align: initial;
+    font-size: 1.125rem;
   }
 }
 
