@@ -134,7 +134,7 @@ navLinks.forEach(link => {
         liveRegion = document.createElement('div');
         liveRegion.id = 'live-region';
         liveRegion.setAttribute('aria-live', 'polite');
-        liveRegion.setAttribute('style', 'position: absolute; left: -9999px;');
+        liveRegion.classList.add('aria-live-region-hidden');
         document.body.appendChild(liveRegion);
       }
 
