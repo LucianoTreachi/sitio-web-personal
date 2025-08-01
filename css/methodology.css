@@ -86,7 +86,7 @@ METHODOLOGY
   z-index: 1;
 }
 
-.page-back-btn {
+.back-link {
   display: inline-block;
   padding: 0.8rem 0;
   font-size: 1rem;
@@ -95,11 +95,11 @@ METHODOLOGY
   transition: opacity .3s;
 }
 
-.page-back-btn:hover {
+.back-link:hover {
   opacity: .85;
 }
 
-.page-back-btn svg {
+.back-link svg {
   width: 1.125rem;
   height: 1.125rem;
   fill: var(--black);
@@ -107,7 +107,7 @@ METHODOLOGY
   transition: transform .4s;
 }
 
-.page-back-btn:hover svg {
+.back-link:hover svg {
   transform: translateX(-0.25rem);
 }
 
