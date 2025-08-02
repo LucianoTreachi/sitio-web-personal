@@ -1,5 +1,5 @@
 const articlesTranslations = {
-  en: {
+  es: {
     backBtn: "Volver",
     /* Article 1 */
     article1Title: "¿Cuáles son las mejores prácticas que aplico para el Desarrollo Web?",
