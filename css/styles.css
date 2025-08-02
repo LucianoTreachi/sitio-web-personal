@@ -203,11 +203,6 @@ nav {
   color: var(--accent-color);
 }
 
-.aria-live-region-hidden {
-  position: absolute;
-  left: -9999px;
-}
-
 .open-menu-button {
   display: none;
   border: 0;
