@@ -675,6 +675,7 @@ nav {
     gap: 1.875rem;
     z-index: 3;
     overflow-y: auto;
+    visibility: hidden;
     transition: right 0.4s cubic-bezier(.4, 0, .2, 1)
   }
 
@@ -694,6 +695,7 @@ nav {
 
   .navbar.active {
     right: 0;
+    visibility: visible;
   }
 
   .overlay.active {
