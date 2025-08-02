@@ -8,6 +8,7 @@ const closeMenuButton = document.querySelector(".close-menu-button");
 const navbar = document.querySelector(".navbar");
 const overlay = document.querySelector(".overlay");
 const navLinks = document.querySelectorAll(".nav-link");
+const firstNavLink = navLinks[0];
 const sections = document.querySelectorAll('section');
 
 // SKIP TO MAIN CONTENT
@@ -35,7 +36,7 @@ function openNavbar() {
   overlay.classList.add("active");
   openMenuButton.setAttribute("aria-expanded", "true");
   openMenuButton.setAttribute("aria-hidden", "true");
-  closeMenuButton.focus();
+  firstNavLink.focus();
 }
 
 function closeNavbarWithFocus() {
