@@ -141,7 +141,7 @@ navLinks.forEach(link => {
       // Announce the full content of the section
       setTimeout(() => {
         liveRegion.textContent = targetSection.textContent;
-      }, 100);
+      }, 400);
     }
   });
 });
