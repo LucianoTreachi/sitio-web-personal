@@ -30,7 +30,7 @@
   --header: #0d0f12;
   --navbar: #0d0f12;
   --hero: #0d0f12;
-  --hero-shape: #00c09a;
+  --hero-shape: #05473a;
   --body: #171a1e;
   --footer: #0d0f12;
   --accent-color: #87e2d5;
@@ -336,7 +336,7 @@ nav {
   bottom: 0;
   width: 100%;
   height: auto;
-  filter: blur(6.25rem);
+  filter: blur(12.25rem);
   color: var(--hero-shape);
 }
 
