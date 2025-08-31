@@ -9,11 +9,10 @@
   --header: #e7e7e7;
   --navbar: #e7e7e7;
   --hero: #e7e7e7;
-  --hero-shape: #6c8cd9;
-  --hero-shape-mobile: #6c8cd9;
   --body: #f2f2f2;
   --footer: #e7e7e7;
   --accent-color: #3547b7;
+  --bg-glow: #6c8cd9;
   --title-color: #383a41;
   --title-gradient: linear-gradient(to right, #3547b7 0%, #383a41 100%);
   --title-letter-spacing: -.02em;
@@ -31,11 +30,10 @@
   --header: #0d0f12;
   --navbar: #0d0f12;
   --hero: #0d0f12;
-  --hero-shape: #05473a;
-  --hero-shape-mobile: #00c09a;
   --body: #171a1e;
   --footer: #0d0f12;
   --accent-color: #87e2d5;
+  --bg-glow: #05473a;
   --title-color: #e8e8e8;
   --title-gradient: linear-gradient(to right, #87e2d5 0%, #e8e8e8 100%);
   --section-title-weight: 500;
@@ -126,6 +124,16 @@ button:focus {
   letter-spacing: var(--title-letter-spacing);
   text-align: center;
   margin-bottom: 3.75rem;
+}
+
+.glow-effect {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  border-radius: 50%;
+  background: var(--bg-glow);
+  pointer-events: none;
 }
 
 /* HEADER & NAV */
@@ -331,21 +339,9 @@ nav {
   position: relative;
 }
 
-.hero-shape {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: auto;
-  filter: blur(12.25rem);
-  color: var(--hero-shape);
-}
-
 .hero-section .container {
   max-width: 75rem;
   padding-top: 5rem;
-  z-index: 1;
 }
 
 .hero-title {
@@ -369,6 +365,15 @@ nav {
   line-height: 1.4;
   margin: 1rem auto 0;
   text-align: center;
+}
+
+.glow-hero {
+  width: 100%;
+  height: 160px;
+  bottom: 10rem;
+  filter: blur(100px);
+  opacity: 0.5;
+  z-index: -1;
 }
 
 /* ABOUT */
@@ -553,8 +558,13 @@ nav {
 
 /* CONTACT */
 
+.contact-section {
+  position: relative;
+}
+
 .contact-section .container {
   max-width: 75rem;
+  z-index: 1;
 }
 
 .contact-section .section-title {
@@ -594,6 +604,14 @@ nav {
   width: 2.5rem;
   height: 2.5rem;
   fill: var(--black);
+}
+
+.glow-contact {
+  width: 50%;
+  height: 120px;
+  bottom: -4rem;
+  filter: blur(100px);
+  z-index: -1;
 }
 
 /* FOOTER */
@@ -709,12 +727,7 @@ nav {
   .hero-section {
     min-height: 68vh;
     background-color: var(--hero);
-    overflow: auto;
-  }
-
-  .hero-shape {
-    filter: blur(5.25rem);
-    color: var(--hero-shape-mobile);
+    overflow: hidden;
   }
 
   .hero-section .container {
@@ -729,6 +742,15 @@ nav {
     text-align: initial;
     margin: 0.625rem 0 0;
     width: 80%;
+  }
+
+  .glow-hero {
+    width: 100%;
+    height: 160px;
+    bottom: -6rem;
+    filter: blur(40px);
+    opacity: 1;
+    z-index: 1;
   }
 
   .about-section .section-title {
@@ -779,6 +801,12 @@ nav {
   .socials-list {
     margin-top: 2.5rem;
     justify-content: initial;
+  }
+
+  .glow-contact {
+    width: 100%;
+    height: 120px;
+    filter: blur(140px);
   }
 
   .footer-copy {
@@ -848,10 +876,6 @@ nav {
 
   .hero-subtitle {
     font-size: 1.25rem;
-  }
-
-  .hero-shape {
-    filter: blur(2.25rem);
   }
 
   .about-section .section-title {
