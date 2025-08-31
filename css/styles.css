@@ -12,7 +12,7 @@
   --body: #f2f2f2;
   --footer: #e7e7e7;
   --accent-color: #3547b7;
-  --bg-glow: #92b2ff;
+  --bg-glow: #b7ccff;
   --title-color: #383a41;
   --title-gradient: linear-gradient(to right, #3547b7 0%, #383a41 100%);
   --title-letter-spacing: -.02em;
@@ -804,9 +804,7 @@ nav {
   }
 
   .glow-contact {
-    width: 100%;
-    height: 120px;
-    filter: blur(140px);
+    display: none;
   }
 
   .footer-copy {
