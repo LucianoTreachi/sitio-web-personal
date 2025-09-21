@@ -1,6 +1,6 @@
 const articlesTranslations = {
   es: {
-    backLink: "Volver",
+    backButton: "Volver",
     /* Article 1 */
     article1Title: "¿Cuáles son las mejores prácticas que aplico para el Desarrollo Web?",
     article1Intro: "Te compartiré algunas de las mejores prácticas que aplico para el Desarrollo Web:",
@@ -33,7 +33,7 @@ const articlesTranslations = {
   },
 
   en: {
-    backLink: "Back",
+    backButton: "Back",
     /* Article 1 */
     article1Title: "What are the best practices I apply for Web Development?",
     article1Intro: "I'll share with you some of the best practices I apply for Web Development:",
@@ -66,7 +66,7 @@ const articlesTranslations = {
   },
 
   pt: {
-    backLink: "Voltar",
+    backButton: "Voltar",
     /* Article 1 */
     article1Title: "Quais são as melhores práticas que aplico para o Desenvolvimento Web?",
     article1Intro: "Vou compartilhar algumas das melhores práticas que aplico para o Desenvolvimento Web:",

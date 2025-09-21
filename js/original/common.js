@@ -1,6 +1,5 @@
-const backLink = document.querySelector(".back-link");
+const backButton = document.querySelector(".back-button");
 
-backLink.addEventListener("click", function (e) {
-  e.preventDefault();
+backButton.addEventListener("click", function (e) {
   window.history.back();
 });

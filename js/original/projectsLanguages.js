@@ -1,7 +1,7 @@
 const projectsTranslations = {
   es: {
     /* Links */
-    backLink: "Volver",
+    backButton: "Volver",
     projectBtn1: "Ver proyecto",
     projectBtn2: "Ver repositorio",
 
@@ -86,7 +86,7 @@ const projectsTranslations = {
 
   en: {
     /* Links */
-    backLink: "Back",
+    backButton: "Back",
     projectBtn1: "View project",
     projectBtn2: "View repository",
 
@@ -171,7 +171,7 @@ const projectsTranslations = {
 
   pt: {
     /* Links */
-    backLink: "Voltar",
+    backButton: "Voltar",
     projectBtn1: "Ver projeto",
     projectBtn2: "Ver repositório",
 

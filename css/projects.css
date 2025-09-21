@@ -52,18 +52,26 @@ a {
   color: inherit;
 }
 
-select {
-  font-family: inherit;
-  color: inherit;
-}
-
 a:focus,
 button:focus {
   outline-offset: 0.5rem;
 }
 
+button {
+  cursor: pointer;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  background: none;
+}
+
 ul {
   list-style-type: none;
+}
+
+select {
+  font-family: inherit;
+  color: inherit;
 }
 
 .container {
@@ -95,7 +103,7 @@ PROJECTS
   z-index: 1;
 }
 
-.back-link {
+.back-button {
   display: inline-block;
   padding: 0.8rem 0;
   font-size: 1rem;
@@ -104,11 +112,11 @@ PROJECTS
   transition: opacity .3s;
 }
 
-.back-link:hover {
+.back-button:hover {
   opacity: .85;
 }
 
-.back-link svg {
+.back-button svg {
   width: 1.125rem;
   height: 1.125rem;
   fill: var(--black);
@@ -116,7 +124,7 @@ PROJECTS
   transition: transform .4s;
 }
 
-.back-link:hover svg {
+.back-button:hover svg {
   transform: translateX(-0.25rem);
 }
 

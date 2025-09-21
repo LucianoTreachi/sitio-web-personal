@@ -53,6 +53,14 @@ button:focus {
   outline-offset: 0.5rem;
 }
 
+button {
+  cursor: pointer;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  background: none;
+}
+
 ul {
   list-style-type: none;
 }
@@ -86,7 +94,7 @@ METHODOLOGY
   z-index: 1;
 }
 
-.back-link {
+.back-button {
   display: inline-block;
   padding: 0.8rem 0;
   font-size: 1rem;
@@ -95,11 +103,11 @@ METHODOLOGY
   transition: opacity .3s;
 }
 
-.back-link:hover {
+.back-button:hover {
   opacity: .85;
 }
 
-.back-link svg {
+.back-button svg {
   width: 1.125rem;
   height: 1.125rem;
   fill: var(--black);
@@ -107,7 +115,7 @@ METHODOLOGY
   transition: transform .4s;
 }
 
-.back-link:hover svg {
+.back-button:hover svg {
   transform: translateX(-0.25rem);
 }
 
