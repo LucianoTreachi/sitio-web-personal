@@ -519,9 +519,6 @@ nav {
 }
 
 .methodology-link {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
   padding: 1.25rem;
   border-radius: 1rem;
   border: var(--border);
@@ -533,22 +530,22 @@ nav {
   background-color: var(--grey-3);
 }
 
-.methodology-heading {
+.methodology-link h3 {
   font-size: 1.5rem;
   font-weight: 600;
   opacity: 0.78;
   line-height: 1.4;
   text-wrap: balance;
+  margin-bottom: 2rem;
 }
 
-.methodology-text {
-  width: max-content;
+.methodology-link span {
   font-size: 1.25rem;
   font-weight: 600;
   color: var(--accent-color);
 }
 
-.methodology-icon {
+.methodology-link svg {
   width: 1.25rem;
   height: 1.25rem;
   fill: var(--accent-color);
@@ -898,19 +895,16 @@ nav {
     font-size: 1.25rem;
   }
 
-  .methodology-link {
-    gap: 1rem;
-  }
-
   .methodology-link:hover {
     background-color: transparent;
   }
 
-  .methodology-heading {
+  .methodology-link h3 {
     font-size: 1.25rem;
+    margin-bottom: 1rem;
   }
 
-  .methodology-text {
+  .methodology-link span {
     font-size: 1.125rem;
   }
 
