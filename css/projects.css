@@ -221,32 +221,31 @@ FOOTER
   position: relative;
 }
 
+.footer-copy {
+  font-size: 1.5rem;
+  opacity: 0.80;
+}
+
 .socials-list {
-  margin-top: 1.25rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
+  margin-top: 2rem;
+  display: grid;
+  text-align: center;
+  gap: 1.5rem;
 }
 
 .socials-list a {
-  font-size: 1.625rem;
-  opacity: .75;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: transform .4s;
-}
-
-.socials-list a:hover {
-  opacity: 1;
-  transform: scale(1.2);
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--accent-color);
+  padding: 0.5rem;
+  border-radius: 1rem;
 }
 
 .socials-list svg {
-  width: 2rem;
-  height: 2rem;
-  fill: var(--black);
+  width: 1.25rem;
+  height: 1.25rem;
+  fill: var(--accent-color);
+  vertical-align: middle;
 }
 
 /*=============================== 
@@ -270,6 +269,15 @@ RESPONSIVE DESIGN
 
   .footer {
     padding: 3.75rem 1.25rem;
+  }
+
+  .footer-copy {
+    font-size: 1.125rem;
+    text-align: initial;
+  }
+
+  .socials-list {
+    text-align: initial;
   }
 }
 
@@ -302,11 +310,6 @@ RESPONSIVE DESIGN
 
   .footer {
     padding: 3.75rem 1rem;
-  }
-
-  .socials-list a:hover {
-    opacity: .75;
-    transform: scale(1);
   }
 }
 
