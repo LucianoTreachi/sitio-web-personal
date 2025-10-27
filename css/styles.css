@@ -39,7 +39,7 @@
   --section-title-weight: 500;
   --text-weight: 400;
   --border: 2px solid hsl(0, 0%, 20%);
-  --shadow: 0px 10px 15px -3px rgba(200, 200, 200, 0.1);
+  --shadow: 0px 10px 15px -3px rgba(69, 69, 69, 0.1);
 }
 
 * {
@@ -72,6 +72,10 @@ p {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+a:hover {
+  opacity: 0.8;
 }
 
 input,
@@ -637,6 +641,10 @@ nav {
 
 /* 912 px */
 @media screen and (max-width: 57rem) {
+  a:hover {
+    opacity: 1;
+  }
+
   .section {
     padding: 3.75rem 2rem;
   }

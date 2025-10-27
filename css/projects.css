@@ -52,6 +52,10 @@ a {
   color: inherit;
 }
 
+a:hover {
+  opacity: 0.8;
+}
+
 a:focus,
 button:focus {
   outline-offset: 0.5rem;
@@ -254,6 +258,10 @@ RESPONSIVE DESIGN
 
 /* 820 px */
 @media screen and (max-width: 51.25rem) {
+  a:hover {
+    opacity: 1;
+  }
+
   .page-hero-projects .container {
     width: 100%;
   }

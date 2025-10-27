@@ -53,6 +53,10 @@ a {
   color: inherit;
 }
 
+a:hover {
+  opacity: 0.8;
+}
+
 a:focus,
 button:focus {
   outline-offset: 0.5rem;
@@ -170,7 +174,6 @@ PAGE INDIVIDUAL PROJECT
   gap: 1rem;
   flex: 1;
   white-space: nowrap;
-  transition: opacity 0.4s;
 }
 
 .link-1 {
@@ -242,6 +245,10 @@ RESPONSIVE DESIGN
 
 /* 820 px */
 @media screen and (max-width: 51.25rem) {
+  a:hover {
+    opacity: 1;
+  }
+
   .page-hero-project .container {
     width: 100%;
   }
