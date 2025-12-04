@@ -14,4 +14,4 @@
 
 ## Explora mi sitio web
 
-Accede aquí → [Luciano Treachi](https://lucianotreachi.website/)
+Accede aquí → [Luciano Treachi](https://lucianotreachi.com/)
