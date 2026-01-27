@@ -48,6 +48,7 @@ p {
 a {
   text-decoration: none;
   color: inherit;
+  border-radius: 1rem;
 }
 
 a:hover {
@@ -64,6 +65,7 @@ button {
   font-family: inherit;
   color: inherit;
   border: none;
+  border-radius: 1rem;
   background: none;
 }
 
