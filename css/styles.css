@@ -437,7 +437,7 @@ nav {
   margin-top: 2.5rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 3.75rem;
+  gap: 2rem;
 }
 
 .service {
@@ -521,7 +521,7 @@ nav {
 .methodology-section .row {
   margin-top: 2.5rem;
   display: grid;
-  gap: 2.5rem;
+  gap: 2rem;
 }
 
 .methodology-link {
@@ -633,7 +633,6 @@ nav {
 
   .solutions-section .row-1 {
     grid-template-columns: 1fr;
-    gap: 2.5rem;
   }
 
   .methodology-section .container {
