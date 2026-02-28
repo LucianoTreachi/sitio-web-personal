@@ -12,6 +12,7 @@
   --body: #f2f2f2;
   --footer: #e7e7e7;
   --accent-color: #3547b7;
+  --bg-card: transparent;
   --bg-glow: #b7ccff;
   --title-color: #383a41;
   --title-gradient: linear-gradient(to right, #3547b7 0%, #383a41 100%);
@@ -33,6 +34,7 @@
   --body: #171a1e;
   --footer: #0d0f12;
   --accent-color: #87e2d5;
+  --bg-card: linear-gradient(#1b1e21 50%, #121212 100%);
   --bg-glow: #05473a;
   --title-color: #e8e8e8;
   --title-gradient: linear-gradient(to right, #87e2d5 0%, #e8e8e8 100%);
@@ -446,7 +448,7 @@ nav {
   padding: 1.25rem;
   border-radius: 1rem;
   border: var(--border);
-  box-shadow: var(--shadow);
+  background: var(--bg-card);
 }
 
 .service svg {
@@ -529,6 +531,7 @@ nav {
   border-radius: 1rem;
   border: var(--border);
   box-shadow: var(--shadow);
+  background: var(--bg-card);
   transition: background 0.3s ease;
 }
 
