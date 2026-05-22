@@ -1,5 +1,13 @@
 /* GLOBAL STYLES */
 
+@font-face {
+  font-family: 'Instrument Sans';
+  src: url('../assets/fonts/InstrumentSans-VariableFont.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --black: #1d1d1d;
   --white: #f8f5f8;
@@ -16,8 +24,6 @@
   --bg-glow: #b7ccff;
   --title-color: #383a41;
   --title-gradient: linear-gradient(to right, #3547b7 0%, #383a41 100%);
-  --title-letter-spacing: -.02em;
-  --section-title-weight: 600;
   --text-weight: 500;
   --border: 2px solid hsl(0, 0%, 86%);
   --shadow: 0px 10px 15px -3px rgba(100, 100, 100, 0.1);
@@ -38,7 +44,6 @@
   --bg-glow: #05473a;
   --title-color: #e8e8e8;
   --title-gradient: linear-gradient(to right, #87e2d5 0%, #e8e8e8 100%);
-  --section-title-weight: 500;
   --text-weight: 400;
   --border: 2px solid hsl(0, 0%, 20%);
   --shadow: 0px 10px 15px -3px rgba(69, 69, 69, 0.1);
@@ -52,6 +57,7 @@
 
 body {
   font-family: system-ui;
+  font-family: 'Instrument Sans', sans-serif;
   background-color: var(--body);
   color: var(--black);
 }
@@ -61,6 +67,8 @@ h2,
 h3 {
   text-wrap: balance;
   overflow-wrap: break-word;
+  font-weight: 500;
+  letter-spacing: -0.01em;
 }
 
 p {
@@ -68,6 +76,7 @@ p {
   font-weight: var(--text-weight);
   opacity: 0.70;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   text-wrap: balance;
 }
 
@@ -126,10 +135,8 @@ button:focus {
 
 .section-title {
   font-size: 3.75rem;
-  font-weight: var(--section-title-weight);
   opacity: 0.9;
   line-height: 1.2;
-  letter-spacing: var(--title-letter-spacing);
   text-align: center;
   margin-bottom: 3.75rem;
 }
@@ -152,7 +159,7 @@ header {
   left: 0;
   right: 0;
   z-index: 3;
-  padding: 1rem 2.5rem;
+  padding: 1.5rem 2.5rem;
 }
 
 header.active {
@@ -176,7 +183,7 @@ header .container {
   padding: 1rem 2.5rem;
   z-index: 4;
   font-size: 1.25rem;
-  font-weight: 600;
+  font-weight: 500;
   translate: 0 -150%;
   transition: translate 150ms ease-in-out;
 }
@@ -194,8 +201,7 @@ nav {
 }
 
 .nav-logo {
-  font-size: 1.625rem;
-  font-weight: 500;
+  font-size: 1.4rem;
 }
 
 .navbar {
@@ -206,7 +212,7 @@ nav {
 
 .nav-link {
   font-size: 1.25rem;
-  font-weight: 600;
+  font-weight: 500;
   opacity: 0.7;
   transition: opacity 0.3s ease;
 }
@@ -361,13 +367,11 @@ nav {
   text-align: center;
   font-size: clamp(2.5rem, 10.25vw, 6.25rem);
   line-height: 1;
-  letter-spacing: var(--title-letter-spacing);
   margin-bottom: 1.25rem;
 }
 
 .hero-subtitle {
   font-size: 1.625rem;
-  font-weight: var(--text-weight);
   color: var(--black);
   opacity: 0.75;
   line-height: 1.4;
@@ -459,11 +463,13 @@ nav {
 }
 
 .service h3 {
-  margin: 1.25rem 0 0.625rem;
+  margin: 1.5rem 0;
   font-size: 1.5rem;
-  font-weight: 500;
-  letter-spacing: var(--title-letter-spacing);
   opacity: 0.78;
+}
+
+.service p {
+  font-size: 1.125rem;
 }
 
 /* PROJECTS */
@@ -541,7 +547,6 @@ nav {
 
 .methodology-link h3 {
   font-size: 1.5rem;
-  font-weight: 600;
   opacity: 0.78;
   line-height: 1.4;
   text-wrap: balance;
@@ -828,7 +833,7 @@ nav {
   }
 
   p {
-    font-size: 1.125rem;
+    font-size: 1.063rem;
   }
 
   .section {
@@ -881,7 +886,7 @@ nav {
   }
 
   .hero-subtitle {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
   }
 
   .about-section .section-title {
@@ -895,6 +900,10 @@ nav {
   .service svg {
     width: 3rem;
     height: 3rem;
+  }
+
+  .service p {
+    font-size: 1.063rem;
   }
 
   .project-img:hover {

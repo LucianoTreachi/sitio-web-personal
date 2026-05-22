@@ -1,12 +1,19 @@
 /* GLOBAL STYLES */
 
+@font-face {
+  font-family: 'Instrument Sans';
+  src: url('../assets/fonts/InstrumentSans-Regular.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --black: #1d1d1d;
   --grey: #6b6b6b;
   --body: #f2f2f2;
   --footer: #e7e7e7;
   --accent-color: #3547b7;
-  --title-weight: 600;
   --text-weight: 500;
 }
 
@@ -16,8 +23,7 @@
   --body: #171a1e;
   --footer: #0d0f12;
   --accent-color: #87e2d5;
-  --title-weight: 500;
-  --text-weight: 400;
+  --text-weight: 300;
 }
 
 * {
@@ -28,6 +34,7 @@
 
 body {
   font-family: system-ui;
+  font-family: 'Instrument Sans', sans-serif;
   background-color: var(--body);
   color: var(--black);
 }
@@ -37,6 +44,7 @@ h2,
 h3 {
   text-wrap: balance;
   overflow-wrap: break-word;
+  font-weight: 500;
 }
 
 p {
@@ -44,6 +52,7 @@ p {
   font-weight: var(--text-weight);
   opacity: 0.70;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   text-wrap: pretty;
 }
 
@@ -136,7 +145,6 @@ PROJECTS
 
 .page-title {
   font-size: 1.875rem;
-  font-weight: var(--title-weight);
 }
 
 .page-content-projects {
@@ -294,7 +302,7 @@ RESPONSIVE DESIGN
 /* 576 px */
 @media screen and (max-width: 36rem) {
   p {
-    font-size: 1.125rem;
+    font-size: 1.063rem;
   }
 
   .label {

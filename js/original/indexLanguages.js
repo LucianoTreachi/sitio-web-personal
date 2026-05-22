@@ -10,8 +10,8 @@ const indexTranslations = {
     navLink4: "Contacto",
 
     /* Home */
-    heroTitle: "Desarrollo Sitios Web Optimizados y Accesibles",
-    heroSubtitle: "Puedo crear soluciones web eficientes, intuitivas y fáciles de usar.",
+    heroTitle: "Desarrollo Web Optimizado y Accesible",
+    heroSubtitle: "Soluciones web eficientes, intuitivas y fáciles de usar.",
 
     /* About */
     aboutTitle: "Soy Luciano Treachi",
@@ -54,8 +54,8 @@ const indexTranslations = {
     navLink4: "Contact",
 
     /* Home */
-    heroTitle: "I build optimized and accessible websites",
-    heroSubtitle: "I can create efficient, intuitive, and user-friendly web solutions.",
+    heroTitle: "Optimized and Accessible Web Development",
+    heroSubtitle: "Efficient, intuitive, and user-friendly web solutions.",
 
     /* About */
     aboutTitle: "I'm Luciano Treachi",
@@ -98,8 +98,8 @@ const indexTranslations = {
     navLink4: "Contato",
 
     /* Home */
-    heroTitle: "Desenvolvo sites otimizados e acessíveis",
-    heroSubtitle: "Posso criar soluções web eficientes, intuitivas e fáceis de usar.",
+    heroTitle: "Desenvolvimento Web Otimizado e Acessível",
+    heroSubtitle: "Soluções web eficientes, intuitivas e fáceis de usar.",
 
     /* About */
     aboutTitle: "Eu sou Luciano Treachi",
