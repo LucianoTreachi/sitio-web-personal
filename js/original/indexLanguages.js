@@ -15,8 +15,8 @@ const indexTranslations = {
 
     /* About */
     aboutTitle: "Soy Luciano Treachi",
-    aboutParagraph: "Desarrollador Frontend enfocado en optimización y accesibilidad web. Me dedico a crear soluciones web eficientes, accesibles, intuitivas y fáciles de usar que potencian la experiencia del usuario.",
-    aboutPhrase: '"Un diseño estratégico y un desarrollo eficiente pueden marcar una gran diferencia en la conversión y la satisfacción del usuario".',
+    aboutParagraph: "Me dedico a crear soluciones web eficientes, accesibles, intuitivas y fáciles de usar que potencian la experiencia del usuario.",
+    aboutPhrase: '"Un desarrollo optimizado y accesible puede marcar una gran diferencia en la conversión y la satisfacción del usuario".',
 
     /* Solutions */
     servicesTitle: "Así puedo ayudar",
@@ -59,8 +59,8 @@ const indexTranslations = {
 
     /* About */
     aboutTitle: "I'm Luciano Treachi",
-    aboutParagraph: "Frontend Developer focused on web optimization and accessibility. I specialize in creating efficient, accessible, intuitive, and user-friendly web solutions that enhance the user experience.",
-    aboutPhrase: '"Strategic design and efficient development can make a significant difference in conversion rates and user satisfaction."',
+    aboutParagraph: "I create efficient, accessible, intuitive, and user-friendly web solutions that enhance the user experience.",
+    aboutPhrase: '"Optimized and accessible development can make a significant difference in conversion and user satisfaction."',
 
     /* Solutions */
     servicesTitle: "How I Can Help",
@@ -103,8 +103,8 @@ const indexTranslations = {
 
     /* About */
     aboutTitle: "Eu sou Luciano Treachi",
-    aboutParagraph: "Desenvolvedor Frontend focado em otimização e acessibilidade web. Dedico-me a criar soluções web eficientes, acessíveis, intuitivas e fáceis de usar que potencializam a experiência do usuário.",
-    aboutPhrase: '"Um design estratégico e um desenvolvimento eficiente podem fazer uma grande diferença na conversão e na satisfação do usuário."',
+    aboutParagraph: "Dedico-me a criar soluções web eficientes, acessíveis, intuitivas e fáceis de usar que aprimoram a experiência do usuário",
+    aboutPhrase: '"Um desenvolvimento otimizado e acessível pode fazer uma grande diferença na conversão e na satisfação do usuário."',
 
     /* Solutions */
     servicesTitle: "Como Posso Ajudar",
