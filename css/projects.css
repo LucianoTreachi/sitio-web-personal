@@ -9,21 +9,11 @@
 }
 
 :root {
-  --black: #1d1d1d;
-  --grey: #6b6b6b;
-  --body: #f2f2f2;
-  --footer: #e7e7e7;
-  --accent-color: #3547b7;
-  --text-weight: 500;
-}
-
-.dark-theme {
-  --black: #fdfdfd;
+  --white: #fdfdfd;
   --grey: #b8b8b8;
   --body: #171a1e;
   --footer: #0d0f12;
   --accent-color: #87e2d5;
-  --text-weight: 300;
 }
 
 * {
@@ -36,7 +26,7 @@ body {
   font-family: system-ui;
   font-family: 'Instrument Sans', sans-serif;
   background-color: var(--body);
-  color: var(--black);
+  color: var(--white);
 }
 
 h1,
@@ -49,7 +39,7 @@ h3 {
 
 p {
   font-size: 1.25rem;
-  font-weight: var(--text-weight);
+  font-weight: 300;
   opacity: 0.70;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -134,7 +124,7 @@ PROJECTS
 .back-button svg {
   width: 1.125rem;
   height: 1.125rem;
-  fill: var(--black);
+  fill: var(--white);
   vertical-align: middle;
   transition: transform .4s;
 }
@@ -203,7 +193,7 @@ PROJECTS
 
 .select:focus {
   outline: none;
-  border: 2px solid var(--black);
+  border: 2px solid var(--white);
 }
 
 .projects-list {

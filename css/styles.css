@@ -9,28 +9,7 @@
 }
 
 :root {
-  --black: #1d1d1d;
-  --white: #f8f5f8;
-  --grey-1: #e0e2e4;
-  --grey-2: #d5d8da;
-  --grey-3: #e9ecf0;
-  --header: #e7e7e7;
-  --navbar: #e7e7e7;
-  --hero: #e7e7e7;
-  --body: #f2f2f2;
-  --footer: #e7e7e7;
-  --accent-color: #3547b7;
-  --bg-card: transparent;
-  --bg-glow: #b7ccff;
-  --title-color: #383a41;
-  --title-gradient: linear-gradient(to right, #3547b7 0%, #383a41 100%);
-  --text-weight: 500;
-  --border: 2px solid hsl(0, 0%, 86%);
-  --shadow: 0px 10px 15px -3px rgba(100, 100, 100, 0.1);
-}
-
-.dark-theme {
-  --black: #fdfdfd;
+  --white: #fdfdfd;
   --grey-1: #202020;
   --grey-2: #404040;
   --grey-3: #1f2020;
@@ -40,13 +19,11 @@
   --body: #171a1e;
   --footer: #0d0f12;
   --accent-color: #87e2d5;
-  --bg-card: linear-gradient(#1b1e21 50%, #121212 100%);
+  --bg-card: rgba(255, 255, 255, 0.01);
   --bg-glow: #05473a;
   --title-color: #e8e8e8;
   --title-gradient: linear-gradient(to right, #87e2d5 0%, #e8e8e8 100%);
-  --text-weight: 400;
   --border: 2px solid hsl(0, 0%, 20%);
-  --shadow: 0px 10px 15px -3px rgba(69, 69, 69, 0.1);
 }
 
 * {
@@ -59,7 +36,7 @@ body {
   font-family: system-ui;
   font-family: 'Instrument Sans', sans-serif;
   background-color: var(--body);
-  color: var(--black);
+  color: var(--white);
 }
 
 h1,
@@ -73,7 +50,6 @@ h3 {
 
 p {
   font-size: 1.25rem;
-  font-weight: var(--text-weight);
   opacity: 0.70;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -241,7 +217,7 @@ nav {
 .hamburger-icon {
   width: 2rem;
   height: 2rem;
-  fill: var(--black);
+  fill: var(--white);
   vertical-align: middle;
 }
 
@@ -257,28 +233,9 @@ nav {
 .close-menu-icon {
   width: 2.5rem;
   height: 2.5rem;
-  fill: var(--black);
+  fill: var(--white);
   opacity: 0.85;
   vertical-align: middle;
-}
-
-/* Theme */
-
-.theme-button {
-  border: none;
-  background: none;
-  opacity: 0.7;
-  transition: opacity 0.3s ease;
-}
-
-.theme-button:hover {
-  opacity: 1;
-}
-
-.theme-button svg {
-  width: 1.875rem;
-  height: 1.875rem;
-  fill: var(--black);
 }
 
 /* Languages */
@@ -299,9 +256,9 @@ nav {
 }
 
 .language-button svg {
-  width: 1.875rem;
-  height: 1.875rem;
-  fill: var(--black);
+  width: 1.75rem;
+  height: 1.75rem;
+  fill: var(--white);
 }
 
 .language-menu {
@@ -372,7 +329,7 @@ nav {
 
 .hero-subtitle {
   font-size: 1.625rem;
-  color: var(--black);
+  color: var(--white);
   opacity: 0.75;
   line-height: 1.4;
   margin: 1rem auto 0;
@@ -460,7 +417,7 @@ nav {
 .service svg {
   width: 3.75rem;
   height: 3.75rem;
-  fill: var(--black);
+  fill: var(--white);
   opacity: 0.85;
 }
 
@@ -538,7 +495,6 @@ nav {
   padding: 1.25rem;
   border-radius: 1rem;
   border: var(--border);
-  box-shadow: var(--shadow);
   background: var(--bg-card);
   transition: background 0.3s ease;
 }
@@ -792,9 +748,9 @@ nav {
   }
 
   .service {
-  align-items: initial;
-  text-align: initial;
-}
+    align-items: initial;
+    text-align: initial;
+  }
 
   .projects-list {
     grid-template-columns: repeat(2, 1fr);
@@ -871,11 +827,6 @@ nav {
 
   .nav-link {
     font-size: 1.25rem;
-  }
-
-  .theme-button svg {
-    width: 1.5rem;
-    height: 1.5rem;
   }
 
   .language-button svg {
