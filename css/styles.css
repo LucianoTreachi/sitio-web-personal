@@ -311,8 +311,31 @@ nav {
 }
 
 .hero-section .container {
+  position: relative;
   max-width: 75rem;
   padding-top: 5rem;
+}
+
+.dot-grid-1,
+.dot-grid-2 {
+  position: absolute;
+  width: 9rem;
+  height: 4rem;
+  background-image: radial-gradient(circle, var(--white) 1.5px, transparent 1.5px);
+  background-size: 1rem 1rem;
+  opacity: 0.5;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.dot-grid-1 {
+  top: 6rem;
+  left: 4rem;
+}
+
+.dot-grid-2 {
+  bottom: -2rem;
+  right: 4rem;
 }
 
 .hero-title {
@@ -593,6 +616,12 @@ nav {
 
 /* 1080 px */
 @media screen and (max-width: 67.5rem) {
+
+  .dot-grid-1,
+  .dot-grid-2 {
+    display: none;
+  }
+
   .solutions-section .container {
     max-width: 50rem;
   }
