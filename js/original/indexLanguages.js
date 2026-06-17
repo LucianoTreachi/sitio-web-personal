@@ -15,7 +15,7 @@ const indexTranslations = {
 
     /* About */
     aboutTitle: "Soy Luciano Treachi",
-    aboutParagraph: "Soy desarrollador web enfocado en crear soluciones eficientes, accesibles, intuitivas y fáciles de usar que potencian la experiencia del usuario.",
+    aboutParagraph: "Desarrollador web enfocado en crear soluciones eficientes, accesibles, intuitivas y fáciles de usar que potencian la experiencia del usuario.",
     aboutPhrase: '"Un desarrollo web optimizado y accesible puede marcar una gran diferencia en la conversión y la satisfacción del usuario".',
 
     /* Solutions */
@@ -59,7 +59,7 @@ const indexTranslations = {
 
     /* About */
     aboutTitle: "I'm Luciano Treachi",
-    aboutParagraph: "I'm a web developer focused on creating efficient, accessible, intuitive, and user-friendly solutions that enhance the user experience.",
+    aboutParagraph: "Web developer focused on creating efficient, accessible, intuitive, and user-friendly solutions that enhance the user experience.",
     aboutPhrase: '"Optimized and accessible web development can make a significant difference in conversion and user satisfaction."',
 
     /* Solutions */
@@ -103,7 +103,7 @@ const indexTranslations = {
 
     /* About */
     aboutTitle: "Eu sou Luciano Treachi",
-    aboutParagraph: "Sou desenvolvedor web focado em criar soluções eficientes, acessíveis, intuitivas e fáceis de usar que potencializam a experiência do usuário.",
+    aboutParagraph: "Desenvolvedor web focado em criar soluções eficientes, acessíveis, intuitivas e fáceis de usar que potencializam a experiência do usuário.",
     aboutPhrase: '"Um desenvolvimento web otimizado e acessível pode fazer uma grande diferença na conversão e na satisfação do usuário."',
 
     /* Solutions */
